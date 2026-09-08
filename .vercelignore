@@ -5,6 +5,7 @@ node_modules
 outputs
 work
 snapshots
+SMB3_PROJECT.md
 reference
 *.tsbuildinfo
 .env*

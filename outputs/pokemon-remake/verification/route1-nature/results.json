@@ -1,0 +1,201 @@
+{
+  "passed": true,
+  "samples": {
+    "gameplay-before": {
+      "report": {
+        "status": "candidate-needs-integrated-review",
+        "sourceCellCounts": {
+          "tallGrass": 178,
+          "ledges": 61,
+          "flowers": 25
+        },
+        "grassClumps": 1780,
+        "grassBlades": 12460,
+        "triangles": 340792,
+        "drawCalls": 10,
+        "maxGrassRadiusIncludingWind": 0.39495691522494947,
+        "sourceCellHalfWidth": 0.5,
+        "windFrame": 40715,
+        "windTime": 681.6792934577875,
+        "materials": "Existing scanned dirt maps; vertex-colored curved grass; rough earth, roots and embedded pebble surfaces.",
+        "limitations": [
+          "Local berm relief retains the source ledge cells; global physical elevation is not inferred.",
+          "Instanced plant shapes repeat; no claim of photoreal acceptance.",
+          "No collision or source-state changes."
+        ]
+      },
+      "oldReplacements": 3,
+      "cameraPitch": 30,
+      "environmentIntensity": 0.55,
+      "drawCalls": 74,
+      "triangles": 4276600,
+      "frame": 40715
+    },
+    "gameplay-after": {
+      "report": {
+        "status": "candidate-needs-integrated-review",
+        "sourceCellCounts": {
+          "tallGrass": 178,
+          "ledges": 61,
+          "flowers": 25
+        },
+        "grassClumps": 1780,
+        "grassBlades": 12460,
+        "triangles": 340792,
+        "drawCalls": 10,
+        "maxGrassRadiusIncludingWind": 0.39495691522494947,
+        "sourceCellHalfWidth": 0.5,
+        "windFrame": 40715,
+        "windTime": 681.6792934577875,
+        "materials": "Existing scanned dirt maps; vertex-colored curved grass; rough earth, roots and embedded pebble surfaces.",
+        "limitations": [
+          "Local berm relief retains the source ledge cells; global physical elevation is not inferred.",
+          "Instanced plant shapes repeat; no claim of photoreal acceptance.",
+          "No collision or source-state changes."
+        ]
+      },
+      "oldReplacements": 3,
+      "cameraPitch": 30,
+      "environmentIntensity": 0.55,
+      "drawCalls": 81,
+      "triangles": 4592232,
+      "frame": 40715
+    },
+    "detail-before": {
+      "report": {
+        "status": "candidate-needs-integrated-review",
+        "sourceCellCounts": {
+          "tallGrass": 178,
+          "ledges": 61,
+          "flowers": 25
+        },
+        "grassClumps": 1780,
+        "grassBlades": 12460,
+        "triangles": 340792,
+        "drawCalls": 10,
+        "maxGrassRadiusIncludingWind": 0.39495691522494947,
+        "sourceCellHalfWidth": 0.5,
+        "windFrame": 40715,
+        "windTime": 681.6792934577875,
+        "materials": "Existing scanned dirt maps; vertex-colored curved grass; rough earth, roots and embedded pebble surfaces.",
+        "limitations": [
+          "Local berm relief retains the source ledge cells; global physical elevation is not inferred.",
+          "Instanced plant shapes repeat; no claim of photoreal acceptance.",
+          "No collision or source-state changes."
+        ]
+      },
+      "oldReplacements": 3,
+      "cameraPitch": 30,
+      "environmentIntensity": 0.55,
+      "drawCalls": 42,
+      "triangles": 4275840,
+      "frame": 40715
+    },
+    "detail-after": {
+      "report": {
+        "status": "candidate-needs-integrated-review",
+        "sourceCellCounts": {
+          "tallGrass": 178,
+          "ledges": 61,
+          "flowers": 25
+        },
+        "grassClumps": 1780,
+        "grassBlades": 12460,
+        "triangles": 340792,
+        "drawCalls": 10,
+        "maxGrassRadiusIncludingWind": 0.39495691522494947,
+        "sourceCellHalfWidth": 0.5,
+        "windFrame": 40715,
+        "windTime": 681.6792934577875,
+        "materials": "Existing scanned dirt maps; vertex-colored curved grass; rough earth, roots and embedded pebble surfaces.",
+        "limitations": [
+          "Local berm relief retains the source ledge cells; global physical elevation is not inferred.",
+          "Instanced plant shapes repeat; no claim of photoreal acceptance.",
+          "No collision or source-state changes."
+        ]
+      },
+      "oldReplacements": 3,
+      "cameraPitch": 30,
+      "environmentIntensity": 0.55,
+      "drawCalls": 49,
+      "triangles": 4591472,
+      "frame": 40715
+    },
+    "overview-before": {
+      "report": {
+        "status": "candidate-needs-integrated-review",
+        "sourceCellCounts": {
+          "tallGrass": 178,
+          "ledges": 61,
+          "flowers": 25
+        },
+        "grassClumps": 1780,
+        "grassBlades": 12460,
+        "triangles": 340792,
+        "drawCalls": 10,
+        "maxGrassRadiusIncludingWind": 0.39495691522494947,
+        "sourceCellHalfWidth": 0.5,
+        "windFrame": 40715,
+        "windTime": 681.6792934577875,
+        "materials": "Existing scanned dirt maps; vertex-colored curved grass; rough earth, roots and embedded pebble surfaces.",
+        "limitations": [
+          "Local berm relief retains the source ledge cells; global physical elevation is not inferred.",
+          "Instanced plant shapes repeat; no claim of photoreal acceptance.",
+          "No collision or source-state changes."
+        ]
+      },
+      "oldReplacements": 3,
+      "cameraPitch": 30,
+      "environmentIntensity": 0.55,
+      "drawCalls": 84,
+      "triangles": 4276720,
+      "frame": 40715
+    },
+    "overview-after": {
+      "report": {
+        "status": "candidate-needs-integrated-review",
+        "sourceCellCounts": {
+          "tallGrass": 178,
+          "ledges": 61,
+          "flowers": 25
+        },
+        "grassClumps": 1780,
+        "grassBlades": 12460,
+        "triangles": 340792,
+        "drawCalls": 10,
+        "maxGrassRadiusIncludingWind": 0.39495691522494947,
+        "sourceCellHalfWidth": 0.5,
+        "windFrame": 40715,
+        "windTime": 681.6792934577875,
+        "materials": "Existing scanned dirt maps; vertex-colored curved grass; rough earth, roots and embedded pebble surfaces.",
+        "limitations": [
+          "Local berm relief retains the source ledge cells; global physical elevation is not inferred.",
+          "Instanced plant shapes repeat; no claim of photoreal acceptance.",
+          "No collision or source-state changes."
+        ]
+      },
+      "oldReplacements": 3,
+      "cameraPitch": 30,
+      "environmentIntensity": 0.55,
+      "drawCalls": 91,
+      "triangles": 4592352,
+      "frame": 40715
+    }
+  },
+  "messages": [
+    {
+      "level": 0,
+      "message": "[vite] connecting..."
+    },
+    {
+      "level": 0,
+      "message": "[vite] connected."
+    },
+    {
+      "level": 2,
+      "message": "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged."
+    }
+  ],
+  "pausedRepeat": "identical report",
+  "sourceFrameWind": "pass"
+}
