@@ -55,3 +55,5 @@ reference/
 !/public/downloads/agarstra-rom-remake.zip
 /outputs/rom-experiment/
 /outputs/smb3-photoreal/design/families.json
+# Also ignore node_modules when another local task links it as a symlink.
+node_modules

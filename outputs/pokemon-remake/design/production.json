@@ -2,7 +2,7 @@
   "target": "Pok\u00e9mon FireRed, English GBA BPRE revision 0; SHA1 verified",
   "objective": "Find the ROM and make its playable presentation photorealistic. First accepted exploration/battle sequence is a production milestone, not proof of full-game completion.",
   "style_formula": "Photoreal cinematic reconstruction with recognizable Pok\u00e9mon silhouettes and expressive proportions. Organic surfaces have fine, restrained biological detail; shells, eyes, masonry and vegetation have distinct physically based responses. Cool blue creature colors contrast with warm earth and muted green scenery. Natural daylight and soft indirect fill reveal form without hiding defects. Use coherent world scale, legible combat silhouettes and three-dimensional geometry that holds up from the exploration and battle cameras.",
-  "scope_status": "Pallet Town, three interiors, source dialog and first-battle presentation integrated; art and game coverage incomplete",
+  "scope_status": "Playable app delivered with visible controls, persistent quicksave, town/interiors/battle and explicit native coverage for unfinished scenes; photoreal goal incomplete",
   "first_creature": "Squirtle",
   "first_gate": "Verified source and a convincing exported creature in battle framing",
   "coverage": {
@@ -18,7 +18,7 @@
     ],
     "full_game": false,
     "dialog": "source printer and visible-window presentation",
-    "battle": "first battle, source sprites/menus/HP; independent effects incomplete"
+    "battle": "rigged Charmander v2 with source-timed idle; other creature sprites; native menus/HP; independent effects incomplete"
   },
   "local_rom_search": "User-provided archive extracted locally and matched against independently rebuilt pret source byte for byte.",
   "parallel_work": {
@@ -38,7 +38,9 @@
     "cottage": "Actual PBR GLB exported and rendered. Changes required: source doorway position and roof silhouette mismatch, soft geometry.",
     "tree": "Actual generated GLB omitted canopy; locally authored leaf sprays added. Changes required: crown shape, branch and leaf materials.",
     "bulbasaur": "Native image generation output moderation rejection (other), request c9e80f30-62aa-49da-ac16-dd6846bcdbaf. No image/model produced; no alternate-provider generation retry.",
-    "cottage-v2": "Actual GLB and editable Blender source exported, independent front/back/gameplay reviews performed; source doorway/roof identity improved. Runtime door anchor matches original warp coordinates. Changes required for soft glossy roof and baked window reflections; not photoreal approved."
+    "cottage-v2": "Actual GLB and editable Blender source exported, independent front/back/gameplay reviews performed; source doorway/roof identity improved. Runtime door anchor matches original warp coordinates. Changes required for soft glossy roof and baked window reflections; not photoreal approved.",
+    "laboratory-v2": "Closed cap geometry repair and matte roof integrated; glazing and tile softness still changes required",
+    "charmander-v2": "Existing model revised with symmetric stance, subdued material and exact idle; integrated species4 opponent; not photoreal-approved"
   },
   "battle_checkpoint": {
     "source": "runtime-core/checkpoints/first-battle.state",
