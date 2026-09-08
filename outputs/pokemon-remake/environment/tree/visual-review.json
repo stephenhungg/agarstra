@@ -1,0 +1,46 @@
+{
+  "asset_or_slice": "pallet-boundary-broadleaf-tree",
+  "status": "changes-required",
+  "reviewer": "tree-author-agent",
+  "reviewed_at": "2026-09-08T22:35:19.419650+00:00",
+  "reference_images": [
+    "tree-reference-v1.png"
+  ],
+  "asset_hashes": {
+    "tree.glb": "0488d72b777a728a65c0789d9688a75f125c9a7ba49fb1f402ba07f4a948193b",
+    "tree-review-gameplay.png": "906a7b8fcd54e2e21cf21d8a3cfa73f8b07b2b6130368827432bd3b73e06ac10",
+    "tree-review-front.png": "43c0e58bfa01dbc0ff27e206b597e4dfec7c80023251476eba78b3261b81fb95",
+    "tree.blend": "70dc9b6efbfb508bb090d9f952b2511194847ef75f56b58a4fb886b0be9a0cf7",
+    "tree-review-back.png": "e61e8b73429a8328dcf41897f5aaaf5812b3330455e80aff4d809df3507aab72",
+    "tree-hunyuan-source.glb": "9512daa91957a18bba1ef26fe1341ac5bf5072faa40fc05a08bea7b984991f68",
+    "tree-reference-v1.png": "b9e59e3ba45865df9b7204f5db64f47310a00b242afa88ce303832c0eec06701"
+  },
+  "runtime_build": null,
+  "evidence_images": [
+    "tree-review-front.png",
+    "tree-review-back.png",
+    "tree-review-gameplay.png"
+  ],
+  "evidence_motion": [],
+  "technical_report": "mesh-inspection.json",
+  "checks": {
+    "glb_import_export": "pass",
+    "bottom_center_and_height": "pass; glTF Y-up bounds 0 to 5m",
+    "material_export": "pass; two opaque double-sided primitives; foliage COLOR_0 preserved",
+    "individual_foliage_and_branch_gaps": "pass in Blender; explicit curved leaf geometry",
+    "reference_crown_identity": "changes-required; crown too tufted and lower branch stubs exposed",
+    "photoreal_material_response": "changes-required; leaves lack veins/translucency and generated upper branches are unusually green",
+    "runtime_scene_readability": "pending; Blender elevated view is supporting evidence only",
+    "motion_and_contact": "not-applicable for static authoring; runtime placement pending",
+    "performance": "pending"
+  },
+  "limitations": [
+    "Provider reconstruction omitted foliage; final leaf sprays are deterministic locally authored geometry attached to the generated branch scaffold.",
+    "Crown remains tufted/narrower than the photographic reference; bare lower stubs and mossy green upper bark need art direction review.",
+    "Leaves have modeled curvature and per-leaf color variation, but no individual leaf vein texture or translucency.",
+    "Static geometry; no wind motion.",
+    "61526 triangles and about 43 MB GLB; repeated scene performance has not been measured.",
+    "Three Blender views inspected after actual GLB reimport; runtime integration and runtime visual acceptance remain pending."
+  ],
+  "next_action": "Integrate only as a labeled candidate, inspect repeated trees in the actual town camera; refine crown/branch materials before photoreal acceptance."
+}

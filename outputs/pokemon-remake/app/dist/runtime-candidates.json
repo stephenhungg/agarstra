@@ -1,0 +1,31 @@
+{
+  "profile": "prototype-review",
+  "photorealApproved": false,
+  "cottage": {
+    "file": "cottage-v2.glb",
+    "version": 2,
+    "status": "changes-required",
+    "sha256": "167a28ba963481cd7cd9b003ffc33e6bcace340ea8d7577ebfd1e6c720fa5c00",
+    "doorAnchor": [
+      -0.17857566475868225,
+      7.614494279550854e-08,
+      0.2211020290851593
+    ]
+  },
+  "tree": {
+    "file": "tree.glb",
+    "status": "changes-required",
+    "sha256": "0488d72b777a728a65c0789d9688a75f125c9a7ba49fb1f402ba07f4a948193b"
+  },
+  "laboratory": {
+    "file": "laboratory-v2.glb",
+    "version": 2,
+    "status": "changes-required",
+    "sha256": "fd7fbb06c2fc3b01cc6de169eac9471c3dadd67104cb1d56d268b5d1354a6768",
+    "doorAnchor": [
+      -0.017930665984749794,
+      -8.721854527493633e-08,
+      0.27358004450798035
+    ]
+  }
+}

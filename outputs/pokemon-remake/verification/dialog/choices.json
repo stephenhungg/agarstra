@@ -1,0 +1,83 @@
+{
+  "frame": 22754,
+  "dialog": {
+    "windowId": 0,
+    "rect": {
+      "x": 8,
+      "y": 112,
+      "width": 224,
+      "height": 48
+    },
+    "mode": "text",
+    "text": "Do you want to give a nickname to\nthis BULBASAUR?",
+    "active": false,
+    "printerState": 0,
+    "waiting": false,
+    "complete": true,
+    "reason": null,
+    "source": {
+      "printerAddress": 33685556,
+      "cursor": 33693002,
+      "buffer": "gStringVar4"
+    },
+    "battle": false
+  },
+  "windows": [
+    {
+      "id": 0,
+      "bg": 0,
+      "x": 16,
+      "y": 120,
+      "width": 208,
+      "height": 32,
+      "palette": 15,
+      "baseBlock": 408,
+      "tileData": 33562704,
+      "rect": {
+        "x": 8,
+        "y": 112,
+        "width": 224,
+        "height": 48
+      },
+      "sourceAddress": 33686708
+    },
+    {
+      "id": 1,
+      "bg": 0,
+      "x": 168,
+      "y": 72,
+      "width": 48,
+      "height": 32,
+      "palette": 15,
+      "baseBlock": 293,
+      "tileData": 33566048,
+      "rect": {
+        "x": 160,
+        "y": 64,
+        "width": 64,
+        "height": 48
+      },
+      "sourceAddress": 33686720
+    }
+  ],
+  "auxiliary": [
+    {
+      "id": 1,
+      "bg": 0,
+      "x": 168,
+      "y": 72,
+      "width": 48,
+      "height": 32,
+      "palette": 15,
+      "baseBlock": 293,
+      "tileData": 33566048,
+      "rect": {
+        "x": 160,
+        "y": 64,
+        "width": 64,
+        "height": 48
+      },
+      "sourceAddress": 33686720
+    }
+  ]
+}

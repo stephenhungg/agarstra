@@ -1,0 +1,11 @@
+16:18:56 | INFO: Data are loaded, start creating Blender stuff
+16:18:56 | INFO: Blender create Mesh node material
+16:18:56 | INFO: glTF import finished in 0.13s
+16:18:56 | INFO: Data are loaded, start creating Blender stuff
+16:18:56 | INFO: Blender create Mesh node material
+16:18:56 | INFO: Blender create Mesh node Cube
+16:18:56 | INFO: glTF import finished in 0.05s
+GEOMETRY {"v1Vertices": 35716, "v2BaseVertices": 36403, "maximumOriginalVertexDisplacement": 1.4901161193847656e-07, "allOriginalVerticesPreservedWithin1e-6": true, "baseObjectsV2": ["material", "LaboratoryV2_ClosedRedVentCap"], "v1Bounds": [[-0.49886399507522583, -0.3205990195274353, -3.868204956347654e-08], [0.4623819887638092, 0.38754501938819885, 0.47363805770874023]], "v2Bounds": [[-0.49886399507522583, -0.3205989599227905, -8.721853816950897e-08], [0.4623819887638092, 0.3875448703765869, 0.47363799810409546]]}
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:35:28)
+
+Blender quit

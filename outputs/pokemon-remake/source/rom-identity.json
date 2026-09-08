@@ -1,0 +1,14 @@
+{
+  "archive": "/Users/stephenhung/Downloads/Pokemon - Fire Red Version [a1] (U) (Squirrels).zip",
+  "member": "1636 - Pokemon Fire Red (U)(Squirrels).gba",
+  "bytes": 16777216,
+  "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+  "sha256": "3d0c79f1627022e18765766f6cb5ea067f6b5bf7dca115552189ad65a5c3a8ac",
+  "title": "POKEMON FIRE",
+  "gameCode": "BPRE",
+  "revision": 0,
+  "headerChecksum": 104,
+  "expectedHeaderChecksum": 104,
+  "localPath": "/Users/stephenhung/Documents/GitHub/agarstra/work/pokemon/rom/firered-user.gba",
+  "matchesFireRed10": true
+}

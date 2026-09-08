@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "sign-start",
+      "passed": true,
+      "dom": {
+        "hidden": false,
+        "text": "A’s ho",
+        "overflow": false,
+        "choices": 0
+      }
+    },
+    {
+      "name": "sign-complete",
+      "passed": true,
+      "dom": {
+        "hidden": false,
+        "text": "A’s house",
+        "overflow": false,
+        "choices": 0
+      }
+    },
+    {
+      "name": "sign-dismissed",
+      "passed": true,
+      "dom": {
+        "hidden": true,
+        "text": "A’s house",
+        "overflow": false,
+        "choices": 0
+      }
+    },
+    {
+      "name": "battle-tutorial",
+      "passed": true,
+      "dom": {
+        "hidden": false,
+        "text": "OAK: Inflicting damage on the foe\nis the key to any battle.",
+        "overflow": false,
+        "choices": 0
+      }
+    },
+    {
+      "name": "first-battle",
+      "passed": true,
+      "dom": {
+        "hidden": true,
+        "text": "OAK: Inflicting damage on the foe\nis the key to any battle.",
+        "overflow": false,
+        "choices": 0
+      }
+    },
+    {
+      "name": "choices",
+      "passed": true,
+      "dom": {
+        "hidden": false,
+        "text": "Do you want to give a nickname to\nthis BULBASAUR?",
+        "overflow": false,
+        "choices": 1
+      }
+    }
+  ]
+}

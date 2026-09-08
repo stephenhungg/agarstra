@@ -1,0 +1,917 @@
+{
+  "passed": true,
+  "checkedAt": "2026-09-08T23:25:23.329Z",
+  "checks": [
+    {
+      "name": "presentation leaves all serialized core bytes unchanged",
+      "ok": true
+    },
+    {
+      "name": "first battle names and HP read from ROM",
+      "ok": true
+    },
+    {
+      "name": "command menu is source-visible",
+      "ok": true,
+      "detail": {
+        "mode": "actions",
+        "battlerId": 0,
+        "cursor": 0,
+        "items": [
+          {
+            "index": 0,
+            "label": "FIGHT"
+          },
+          {
+            "index": 1,
+            "label": "BAG"
+          },
+          {
+            "index": 2,
+            "label": "POKéMON"
+          },
+          {
+            "index": 3,
+            "label": "RUN"
+          }
+        ],
+        "nativeWindowId": 2
+      }
+    },
+    {
+      "name": "action labels decoded from ROM",
+      "ok": true
+    },
+    {
+      "name": "both live sprite cutouts have transparent and opaque pixels",
+      "ok": true,
+      "detail": [
+        {
+          "id": 0,
+          "opaque": 1178,
+          "hash": "7bbe736f"
+        },
+        {
+          "id": 1,
+          "opaque": 760,
+          "hash": "666be7c1"
+        }
+      ]
+    },
+    {
+      "name": "paused presentation is deterministic",
+      "ok": true
+    },
+    {
+      "name": "decoded cutout pixels match original rendered battle sprites",
+      "ok": true,
+      "detail": [
+        {
+          "id": 0,
+          "compared": 1143,
+          "matched": 1143,
+          "ratio": 1
+        },
+        {
+          "id": 1,
+          "compared": 760,
+          "matched": 760,
+          "ratio": 1
+        }
+      ]
+    },
+    {
+      "name": "native down input moves action cursor to Pokemon",
+      "ok": true,
+      "detail": {
+        "mode": "actions",
+        "battlerId": 0,
+        "cursor": 2,
+        "items": [
+          {
+            "index": 0,
+            "label": "FIGHT"
+          },
+          {
+            "index": 1,
+            "label": "BAG"
+          },
+          {
+            "index": 2,
+            "label": "POKéMON"
+          },
+          {
+            "index": 3,
+            "label": "RUN"
+          }
+        ],
+        "nativeWindowId": 2
+      }
+    },
+    {
+      "name": "native confirm exposes move selection",
+      "ok": true,
+      "detail": {
+        "mode": "moves",
+        "battlerId": 0,
+        "cursor": 0,
+        "items": [
+          {
+            "index": 0,
+            "move": 33,
+            "label": "TACKLE",
+            "pp": 35,
+            "maxPP": 35,
+            "type": "NORMAL"
+          },
+          {
+            "index": 1,
+            "move": 45,
+            "label": "GROWL",
+            "pp": 40,
+            "maxPP": 40,
+            "type": "NORMAL"
+          },
+          {
+            "index": 2,
+            "move": 0,
+            "label": "—",
+            "pp": 0,
+            "maxPP": 0,
+            "type": null
+          },
+          {
+            "index": 3,
+            "move": 0,
+            "label": "—",
+            "pp": 0,
+            "maxPP": 0,
+            "type": null
+          }
+        ],
+        "nativeWindowId": 3
+      }
+    },
+    {
+      "name": "move names and PP are original buffer values",
+      "ok": true,
+      "detail": {
+        "mode": "moves",
+        "battlerId": 0,
+        "cursor": 0,
+        "items": [
+          {
+            "index": 0,
+            "move": 33,
+            "label": "TACKLE",
+            "pp": 35,
+            "maxPP": 35,
+            "type": "NORMAL"
+          },
+          {
+            "index": 1,
+            "move": 45,
+            "label": "GROWL",
+            "pp": 40,
+            "maxPP": 40,
+            "type": "NORMAL"
+          },
+          {
+            "index": 2,
+            "move": 0,
+            "label": "—",
+            "pp": 0,
+            "maxPP": 0,
+            "type": null
+          },
+          {
+            "index": 3,
+            "move": 0,
+            "label": "—",
+            "pp": 0,
+            "maxPP": 0,
+            "type": null
+          }
+        ],
+        "nativeWindowId": 3
+      }
+    },
+    {
+      "name": "original attack replay HP matches supplied checkpoint",
+      "ok": true,
+      "detail": [
+        11,
+        14
+      ]
+    },
+    {
+      "name": "presentation reads do not change replayed native state",
+      "ok": true
+    },
+    {
+      "name": "native motion/affine/hide signals change during attack",
+      "ok": true,
+      "detail": {
+        "transforms": 9,
+        "visibilityStates": 4
+      }
+    }
+  ],
+  "replayedAttackFrames": 1564,
+  "suppliedCheckpointByteDifferences": {
+    "count": 34,
+    "firstOffsets": [
+      306,
+      320,
+      326,
+      336,
+      337,
+      340,
+      341,
+      342,
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      708,
+      709,
+      710,
+      711,
+      913,
+      915,
+      917,
+      919,
+      921,
+      923,
+      925,
+      927,
+      1332
+    ]
+  },
+  "sourcePixelHashes": 10,
+  "sourceTransforms": 9,
+  "activeMoveNames": [
+    "TACKLE",
+    "SCRATCH"
+  ],
+  "initial": {
+    "active": true,
+    "frame": 30451,
+    "battleScreen": true,
+    "battlers": [
+      {
+        "id": 0,
+        "species": 1,
+        "hp": 20,
+        "maxHP": 20,
+        "level": 5,
+        "moves": [
+          33,
+          45,
+          0,
+          0
+        ],
+        "sourceAddress": 33700836,
+        "position": 0,
+        "side": "player",
+        "nickname": "BULBASAUR",
+        "speciesName": "BULBASAUR",
+        "pp": [
+          35,
+          40,
+          0,
+          0
+        ],
+        "status": 0,
+        "controller": 135165501,
+        "command": 18,
+        "sprite": {
+          "spriteId": 6,
+          "visible": true,
+          "width": 64,
+          "height": 64,
+          "nativeWidth": 64,
+          "nativeHeight": 64,
+          "x": 72,
+          "y": 97,
+          "offsetX": 0,
+          "offsetY": 1,
+          "animation": 0,
+          "animationCommand": 0,
+          "tileNumber": 341,
+          "paletteNumber": 0,
+          "affine": 1,
+          "matrix": [
+            256,
+            0,
+            0,
+            256
+          ],
+          "opaquePixels": 1178,
+          "pixelHash": "7bbe736f",
+          "limitations": [],
+          "sourceAddress": 33687508
+        }
+      },
+      {
+        "id": 1,
+        "species": 4,
+        "hp": 18,
+        "maxHP": 18,
+        "level": 5,
+        "moves": [
+          10,
+          45,
+          0,
+          0
+        ],
+        "sourceAddress": 33700924,
+        "position": 1,
+        "side": "opponent",
+        "nickname": "CHARMANDER",
+        "speciesName": "CHARMANDER",
+        "pp": [
+          35,
+          40,
+          0,
+          0
+        ],
+        "status": 0,
+        "controller": 134437529,
+        "command": 53,
+        "sprite": {
+          "spriteId": 8,
+          "visible": true,
+          "width": 64,
+          "height": 64,
+          "nativeWidth": 64,
+          "nativeHeight": 64,
+          "x": 176,
+          "y": 53,
+          "offsetX": 0,
+          "offsetY": 0,
+          "animation": 0,
+          "animationCommand": 0,
+          "tileNumber": 509,
+          "paletteNumber": 1,
+          "affine": 1,
+          "matrix": [
+            256,
+            0,
+            0,
+            256
+          ],
+          "opaquePixels": 760,
+          "pixelHash": "666be7c1",
+          "limitations": [],
+          "sourceAddress": 33687644
+        }
+      }
+    ],
+    "menu": {
+      "mode": "actions",
+      "battlerId": 0,
+      "cursor": 0,
+      "items": [
+        {
+          "index": 0,
+          "label": "FIGHT"
+        },
+        {
+          "index": 1,
+          "label": "BAG"
+        },
+        {
+          "index": 2,
+          "label": "POKéMON"
+        },
+        {
+          "index": 3,
+          "label": "RUN"
+        }
+      ],
+      "nativeWindowId": 2
+    },
+    "windows": [
+      {
+        "id": 1,
+        "bg": 0,
+        "x": 8,
+        "y": 120,
+        "width": 112,
+        "height": 32,
+        "palette": 0,
+        "baseBlock": 448,
+        "tileData": 33621332,
+        "rect": {
+          "x": 0,
+          "y": 112,
+          "width": 128,
+          "height": 48
+        },
+        "sourceAddress": 33686720
+      },
+      {
+        "id": 2,
+        "bg": 0,
+        "x": 136,
+        "y": 120,
+        "width": 96,
+        "height": 32,
+        "palette": 5,
+        "baseBlock": 400,
+        "tileData": 33623140,
+        "rect": {
+          "x": 128,
+          "y": 112,
+          "width": 112,
+          "height": 48
+        },
+        "sourceAddress": 33686732
+      }
+    ],
+    "activeMove": null,
+    "nativeMenuFallback": false,
+    "source": "BPRE-0 / matching pret c75f3523"
+  },
+  "moves": {
+    "active": true,
+    "frame": 30503,
+    "battleScreen": true,
+    "battlers": [
+      {
+        "id": 0,
+        "species": 1,
+        "hp": 20,
+        "maxHP": 20,
+        "level": 5,
+        "moves": [
+          33,
+          45,
+          0,
+          0
+        ],
+        "sourceAddress": 33700836,
+        "position": 0,
+        "side": "player",
+        "nickname": "BULBASAUR",
+        "speciesName": "BULBASAUR",
+        "pp": [
+          35,
+          40,
+          0,
+          0
+        ],
+        "status": 0,
+        "controller": 135166345,
+        "command": 20,
+        "sprite": {
+          "spriteId": 6,
+          "visible": true,
+          "width": 64,
+          "height": 64,
+          "nativeWidth": 64,
+          "nativeHeight": 64,
+          "x": 72,
+          "y": 97,
+          "offsetX": 0,
+          "offsetY": 1,
+          "animation": 0,
+          "animationCommand": 0,
+          "tileNumber": 341,
+          "paletteNumber": 0,
+          "affine": 1,
+          "matrix": [
+            256,
+            0,
+            0,
+            256
+          ],
+          "opaquePixels": 1178,
+          "pixelHash": "7bbe736f",
+          "limitations": [],
+          "sourceAddress": 33687508
+        }
+      },
+      {
+        "id": 1,
+        "species": 4,
+        "hp": 18,
+        "maxHP": 18,
+        "level": 5,
+        "moves": [
+          10,
+          45,
+          0,
+          0
+        ],
+        "sourceAddress": 33700924,
+        "position": 1,
+        "side": "opponent",
+        "nickname": "CHARMANDER",
+        "speciesName": "CHARMANDER",
+        "pp": [
+          35,
+          40,
+          0,
+          0
+        ],
+        "status": 0,
+        "controller": 134437529,
+        "command": 53,
+        "sprite": {
+          "spriteId": 8,
+          "visible": true,
+          "width": 64,
+          "height": 64,
+          "nativeWidth": 64,
+          "nativeHeight": 64,
+          "x": 176,
+          "y": 53,
+          "offsetX": 0,
+          "offsetY": 0,
+          "animation": 0,
+          "animationCommand": 0,
+          "tileNumber": 509,
+          "paletteNumber": 1,
+          "affine": 1,
+          "matrix": [
+            256,
+            0,
+            0,
+            256
+          ],
+          "opaquePixels": 760,
+          "pixelHash": "666be7c1",
+          "limitations": [],
+          "sourceAddress": 33687644
+        }
+      }
+    ],
+    "menu": {
+      "mode": "moves",
+      "battlerId": 0,
+      "cursor": 0,
+      "items": [
+        {
+          "index": 0,
+          "move": 33,
+          "label": "TACKLE",
+          "pp": 35,
+          "maxPP": 35,
+          "type": "NORMAL"
+        },
+        {
+          "index": 1,
+          "move": 45,
+          "label": "GROWL",
+          "pp": 40,
+          "maxPP": 40,
+          "type": "NORMAL"
+        },
+        {
+          "index": 2,
+          "move": 0,
+          "label": "—",
+          "pp": 0,
+          "maxPP": 0,
+          "type": null
+        },
+        {
+          "index": 3,
+          "move": 0,
+          "label": "—",
+          "pp": 0,
+          "maxPP": 0,
+          "type": null
+        }
+      ],
+      "nativeWindowId": 3
+    },
+    "windows": [
+      {
+        "id": 3,
+        "bg": 0,
+        "x": 16,
+        "y": 120,
+        "width": 64,
+        "height": 16,
+        "palette": 5,
+        "baseBlock": 768,
+        "tileData": 33624692,
+        "rect": {
+          "x": 8,
+          "y": 112,
+          "width": 80,
+          "height": 32
+        },
+        "sourceAddress": 33686744
+      },
+      {
+        "id": 4,
+        "bg": 0,
+        "x": 88,
+        "y": 120,
+        "width": 64,
+        "height": 16,
+        "palette": 5,
+        "baseBlock": 784,
+        "tileData": 33625220,
+        "rect": {
+          "x": 80,
+          "y": 112,
+          "width": 80,
+          "height": 32
+        },
+        "sourceAddress": 33686756
+      },
+      {
+        "id": 5,
+        "bg": 0,
+        "x": 16,
+        "y": 136,
+        "width": 64,
+        "height": 16,
+        "palette": 5,
+        "baseBlock": 800,
+        "tileData": 33625748,
+        "rect": {
+          "x": 8,
+          "y": 128,
+          "width": 80,
+          "height": 32
+        },
+        "sourceAddress": 33686768
+      },
+      {
+        "id": 6,
+        "bg": 0,
+        "x": 88,
+        "y": 136,
+        "width": 64,
+        "height": 16,
+        "palette": 5,
+        "baseBlock": 816,
+        "tileData": 33626276,
+        "rect": {
+          "x": 80,
+          "y": 128,
+          "width": 80,
+          "height": 32
+        },
+        "sourceAddress": 33686780
+      },
+      {
+        "id": 7,
+        "bg": 0,
+        "x": 168,
+        "y": 120,
+        "width": 24,
+        "height": 16,
+        "palette": 5,
+        "baseBlock": 656,
+        "tileData": 33626804,
+        "rect": {
+          "x": 160,
+          "y": 112,
+          "width": 40,
+          "height": 32
+        },
+        "sourceAddress": 33686792
+      },
+      {
+        "id": 8,
+        "bg": 0,
+        "x": 168,
+        "y": 136,
+        "width": 64,
+        "height": 16,
+        "palette": 5,
+        "baseBlock": 662,
+        "tileData": 33627012,
+        "rect": {
+          "x": 160,
+          "y": 128,
+          "width": 80,
+          "height": 32
+        },
+        "sourceAddress": 33686804
+      },
+      {
+        "id": 9,
+        "bg": 0,
+        "x": 192,
+        "y": 120,
+        "width": 40,
+        "height": 16,
+        "palette": 5,
+        "baseBlock": 678,
+        "tileData": 33627540,
+        "rect": {
+          "x": 184,
+          "y": 112,
+          "width": 56,
+          "height": 32
+        },
+        "sourceAddress": 33686816
+      }
+    ],
+    "activeMove": null,
+    "nativeMenuFallback": false,
+    "source": "BPRE-0 / matching pret c75f3523"
+  },
+  "final": {
+    "active": true,
+    "frame": 32015,
+    "battleScreen": true,
+    "battlers": [
+      {
+        "id": 0,
+        "species": 1,
+        "hp": 11,
+        "maxHP": 20,
+        "level": 5,
+        "moves": [
+          33,
+          45,
+          0,
+          0
+        ],
+        "sourceAddress": 33700836,
+        "position": 0,
+        "side": "player",
+        "nickname": "BULBASAUR",
+        "speciesName": "BULBASAUR",
+        "pp": [
+          34,
+          40,
+          0,
+          0
+        ],
+        "status": 0,
+        "controller": 135165501,
+        "command": 18,
+        "sprite": {
+          "spriteId": 6,
+          "visible": true,
+          "width": 64,
+          "height": 64,
+          "nativeWidth": 64,
+          "nativeHeight": 64,
+          "x": 72,
+          "y": 97,
+          "offsetX": 0,
+          "offsetY": 1,
+          "animation": 0,
+          "animationCommand": 0,
+          "tileNumber": 341,
+          "paletteNumber": 0,
+          "affine": 1,
+          "matrix": [
+            256,
+            0,
+            0,
+            256
+          ],
+          "opaquePixels": 1178,
+          "pixelHash": "7bbe736f",
+          "limitations": [],
+          "sourceAddress": 33687508
+        }
+      },
+      {
+        "id": 1,
+        "species": 4,
+        "hp": 14,
+        "maxHP": 18,
+        "level": 5,
+        "moves": [
+          10,
+          45,
+          0,
+          0
+        ],
+        "sourceAddress": 33700924,
+        "position": 1,
+        "side": "opponent",
+        "nickname": "CHARMANDER",
+        "speciesName": "CHARMANDER",
+        "pp": [
+          34,
+          40,
+          0,
+          0
+        ],
+        "status": 0,
+        "controller": 134437529,
+        "command": 53,
+        "sprite": {
+          "spriteId": 8,
+          "visible": true,
+          "width": 64,
+          "height": 64,
+          "nativeWidth": 64,
+          "nativeHeight": 64,
+          "x": 176,
+          "y": 53,
+          "offsetX": 0,
+          "offsetY": 0,
+          "animation": 0,
+          "animationCommand": 0,
+          "tileNumber": 509,
+          "paletteNumber": 1,
+          "affine": 1,
+          "matrix": [
+            256,
+            0,
+            0,
+            256
+          ],
+          "opaquePixels": 760,
+          "pixelHash": "666be7c1",
+          "limitations": [],
+          "sourceAddress": 33687644
+        }
+      }
+    ],
+    "menu": {
+      "mode": "actions",
+      "battlerId": 0,
+      "cursor": 0,
+      "items": [
+        {
+          "index": 0,
+          "label": "FIGHT"
+        },
+        {
+          "index": 1,
+          "label": "BAG"
+        },
+        {
+          "index": 2,
+          "label": "POKéMON"
+        },
+        {
+          "index": 3,
+          "label": "RUN"
+        }
+      ],
+      "nativeWindowId": 2
+    },
+    "windows": [
+      {
+        "id": 1,
+        "bg": 0,
+        "x": 8,
+        "y": 120,
+        "width": 112,
+        "height": 32,
+        "palette": 0,
+        "baseBlock": 448,
+        "tileData": 33621332,
+        "rect": {
+          "x": 0,
+          "y": 112,
+          "width": 128,
+          "height": 48
+        },
+        "sourceAddress": 33686720
+      },
+      {
+        "id": 2,
+        "bg": 0,
+        "x": 136,
+        "y": 120,
+        "width": 96,
+        "height": 32,
+        "palette": 5,
+        "baseBlock": 400,
+        "tileData": 33623140,
+        "rect": {
+          "x": 128,
+          "y": 112,
+          "width": 112,
+          "height": 48
+        },
+        "sourceAddress": 33686732
+      }
+    ],
+    "activeMove": null,
+    "nativeMenuFallback": false,
+    "source": "BPRE-0 / matching pret c75f3523"
+  },
+  "limitations": [
+    "CPU/source verification only; separate WebGL screenshot inspection required.",
+    "Separate attack effect sprites and full background effects are not rendered.",
+    "Restored checkpoint replay is checked against the same replay without presentation reads; supplied full-state byte differences are recorded separately."
+  ]
+}

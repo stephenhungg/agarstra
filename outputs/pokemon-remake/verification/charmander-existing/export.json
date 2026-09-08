@@ -1,0 +1,53 @@
+{
+  "sourceURL": "https://www.miloscerny.com/download-charmander",
+  "downloadURL": "https://www.miloscerny.com/downloads/charmander_model_v1.0.zip",
+  "license": "CC BY-NC 4.0",
+  "credit": [
+    "Charmander rig created by Milos Cerny and downloaded at http://www.miloscerny.com/",
+    "3D model created by Guilherme Lauck https://sketchfab.com/guilauck"
+  ],
+  "status": "candidate; not photoreal approved",
+  "bones": 60,
+  "vertices": 6997,
+  "sourceActions": [
+    "Armature|Take 001|BaseLayer"
+  ],
+  "sampleFrames": [
+    1,
+    51,
+    101,
+    151,
+    201
+  ],
+  "maxVertexTravelFromFrame1": [
+    0.0,
+    0.21251448214164578,
+    2.1126042125758269e-07,
+    0.02822896526569968,
+    2.1126042125758269e-07
+  ],
+  "boundsBlenderZUp": {
+    "min": [
+      -0.3366508483886719,
+      -0.13740214705467224,
+      -0.0012709328439086676
+    ],
+    "max": [
+      0.3366454243659973,
+      0.5193802714347839,
+      0.5941978096961975
+    ]
+  },
+  "glbSHA256": "95ea02802032e55fcaaa06d8f6b53df89b5bf130b1bb22787ab5d399c9e7a3f0",
+  "modifications": [
+    "restored embedded texture paths",
+    "connected base color and roughness to Principled material",
+    "converted normal green channel from DirectX to OpenGL",
+    "exported original skin and sampled animation to GLB"
+  ],
+  "limitations": [
+    "animation semantics must be inspected; source clip name does not identify idle/attack",
+    "noncommercial license; not an unrestricted distribution asset",
+    "character is not extracted geometry from the ROM"
+  ]
+}

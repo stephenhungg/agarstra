@@ -1,0 +1,155 @@
+{
+  "asset": "cottage-v2",
+  "status": "measured-estimate-visually-confirmed",
+  "assetSHA256": "167a28ba963481cd7cd9b003ffc33e6bcace340ea8d7577ebfd1e6c720fa5c00",
+  "coordinateFrame": "glTF scene/root coordinates after node transforms, before runtime scale/centering. Not raw mesh accessor coordinates.",
+  "frontDirectionGLTF": [
+    0,
+    0,
+    1
+  ],
+  "upDirectionGLTF": [
+    0,
+    1,
+    0
+  ],
+  "frontDirectionBlender": [
+    0,
+    -1,
+    0
+  ],
+  "upDirectionBlender": [
+    0,
+    0,
+    1
+  ],
+  "thresholdAnchorGLTF": [
+    -0.17857566475868225,
+    0.04085326939821243,
+    0.2211020290851593
+  ],
+  "groundEntryAnchorGLTF": [
+    -0.17857566475868225,
+    7.614494279550854e-08,
+    0.2211020290851593
+  ],
+  "thresholdAnchorBlender": [
+    -0.17857566475868225,
+    -0.2211020290851593,
+    0.04085326939821243
+  ],
+  "groundEntryAnchorBlender": [
+    -0.17857566475868225,
+    -0.2211020290851593,
+    7.614494279550854e-08
+  ],
+  "doorColorClusterBoundsBlender": {
+    "min": [
+      -0.23849433660507202,
+      -0.22627703845500946,
+      0.04085326939821243
+    ],
+    "max": [
+      -0.11865700781345367,
+      -0.21771803498268127,
+      0.2313435971736908
+    ]
+  },
+  "doorWidthEstimate": 0.11983732879161835,
+  "doorHeightEstimate": 0.19049032777547836,
+  "doorAcrossWholeAssetFraction": 0.29612056247377544,
+  "method": "Brown base-color triangle-centroid samples on lower front facade, robust 2nd/98th percentile bounds. Window reflections and roof excluded by color, height, normal, and depth. Anchor uses facade median depth and lower detected door height.",
+  "selectedTriangles": 323,
+  "limitations": [
+    "Texture-based selection approximates the visible wooden leaf; trim and threshold may extend farther.",
+    "Anchor is not collision geometry and does not establish metric physical scale.",
+    "Verify the reported front direction and left-of-center location against actual rendered views before integration."
+  ],
+  "assetBoundsBlender": {
+    "min": [
+      -0.44871699810028076,
+      -0.28022998571395874,
+      7.614494279550854e-08
+    ],
+    "max": [
+      0.46355101466178894,
+      0.29799684882164,
+      0.7006509900093079
+    ]
+  },
+  "runtimeBottomCenterToSubtractGLTF": [
+    0.007417008280754089,
+    7.614494279550854e-08,
+    -0.008883431553840637
+  ],
+  "bottomCenteredGroundEntryAnchorGLTF": [
+    -0.18599267303943634,
+    0.0,
+    0.22998546063899994
+  ],
+  "bottomCenteredThresholdAnchorGLTF": [
+    -0.18599267303943634,
+    0.040853194892406464,
+    0.22998546063899994
+  ],
+  "projectedAnchorPixels": {
+    "front": {
+      "threshold": [
+        361.8551254272461,
+        961.294002532959
+      ],
+      "groundEntry": [
+        361.8551254272461,
+        997.4091911315918
+      ]
+    },
+    "back": {
+      "threshold": [
+        918.1452941894531,
+        878.4546661376953
+      ],
+      "groundEntry": [
+        918.1452941894531,
+        915.5706405639648
+      ]
+    },
+    "gameplay": {
+      "threshold": [
+        351.93309783935547,
+        894.8671722412109
+      ],
+      "groundEntry": [
+        351.93309783935547,
+        921.1376190185547
+      ]
+    }
+  },
+  "visualConfirmation": "Door is left of center in front.png and gameplay.png; projected threshold (361.86, 961.29) lies at the lower wooden leaf in front.png.",
+  "sourceCorrespondence": {
+    "sourceImage": "source/PalletTown-source.png",
+    "houseXTileIntervalExclusive": [
+      5,
+      10
+    ],
+    "doorTileCenterX": 6.5,
+    "doorAcrossHouseFraction": 0.3,
+    "candidateAcrossAssetFraction": 0.29612056247377544,
+    "differenceInFractions": -0.0038794375262245495,
+    "interpretation": "Strong horizontal registration agreement; runtime warp and actual camera alignment still require integration testing."
+  },
+  "integrationVerification": {
+    "status": "pass",
+    "report": "verification/workbench/results.json",
+    "sourceWarpGridCoordinates": [
+      [
+        6,
+        7
+      ],
+      [
+        15,
+        7
+      ]
+    ],
+    "note": "Fractional image comparison uses tile edges and half-cell centers; runtime adapter reports integer tile-center grid coordinates. Actual source house entry also passed."
+  }
+}

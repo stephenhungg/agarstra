@@ -1,0 +1,39 @@
+{
+  "asset": "cottage-v2",
+  "status": "candidate",
+  "provider": "Hunyuan3D v3 Image to 3D",
+  "jobId": "4ede78d2-cd08-4d2a-9ada-087bd45e591a",
+  "reference": "references/cottage-v2.png",
+  "referenceSHA256": "2f8bbeadc600c23fc17b84220998f8480a6d24ae8d894eca8aedd2bf4ac87b2d",
+  "path": "models/cottage-v2.glb",
+  "sha256": "167a28ba963481cd7cd9b003ffc33e6bcace340ea8d7577ebfd1e6c720fa5c00",
+  "bytes": 43527128,
+  "triangles": 49998,
+  "meshes": 1,
+  "materials": 1,
+  "images": 3,
+  "embeddedImages": true,
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "material",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ]
+    }
+  ],
+  "materialSlots": [
+    {
+      "baseColor": true,
+      "normal": true,
+      "roughnessMetallic": true,
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "visualStatus": "changes-required for photoreal release",
+  "sourceFacadeStatus": "improved; door and roof orientation agree with revised reference",
+  "doorAnchor": "verification/cottage-v2/door-anchor.json"
+}

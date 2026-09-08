@@ -1,0 +1,171 @@
+{
+  "status": "verified authored idle candidate; visual changes required",
+  "glbSHA256": "ad78d6f71b421d5f3ce534806b2f816d160647be282276152dca03a25c6ce7e6",
+  "clips": [
+    {
+      "name": "idle",
+      "channels": 180,
+      "keyTimeMin": 0,
+      "keyTimeMax": 3
+    }
+  ],
+  "actualImportedActions": [
+    {
+      "name": "idle",
+      "frames": [
+        0.0,
+        90.0
+      ]
+    }
+  ],
+  "skinBones": 60,
+  "meshVertices": 7788,
+  "triangles": 13760,
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0.6399999856948853
+        }
+      },
+      "name": "Charmander skin - restrained v2",
+      "normalTexture": {
+        "index": 0,
+        "scale": 0.18000000715255737
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1,
+        0.23999999463558197,
+        0.012000000104308128
+      ],
+      "extensions": {
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 2.4000000953674316
+        }
+      },
+      "name": "Charmander terminal tail - emissive candidate",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0.11999999731779099,
+          0.007000000216066837,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.6000000238418579
+      }
+    }
+  ],
+  "sourceExportComparisons": [
+    {
+      "frame": 0,
+      "maxError": 0.0002743188153776066,
+      "meanError": 9.931198584532068e-07
+    },
+    {
+      "frame": 15,
+      "maxError": 0.0002769102695027906,
+      "meanError": 1.0570586655039807e-06
+    },
+    {
+      "frame": 30,
+      "maxError": 0.00027690779453594643,
+      "meanError": 1.0613191628931426e-06
+    },
+    {
+      "frame": 45,
+      "maxError": 0.0002742948407425861,
+      "meanError": 1.0073031630850146e-06
+    },
+    {
+      "frame": 60,
+      "maxError": 0.0002717717755313844,
+      "meanError": 1.0885717273188942e-06
+    },
+    {
+      "frame": 75,
+      "maxError": 0.00027176917247410276,
+      "meanError": 1.0831097050631084e-06
+    },
+    {
+      "frame": 90,
+      "maxError": 0.0002743188153776066,
+      "meanError": 9.931198584532068e-07
+    }
+  ],
+  "sampledFrames": 91,
+  "footVertices": 1132,
+  "maxFootVertexTravel": 0.0,
+  "loopClosureMaxVertexError": 0.0,
+  "maxIdleVertexTravel": 0.004174551935819849,
+  "maxRootMatrixDelta": 0.0,
+  "allFrameBoundsBlender": {
+    "min": [
+      -0.23802579939365387,
+      -0.13905614614486694,
+      -0.001270898967050016
+    ],
+    "max": [
+      0.23802383244037628,
+      0.5193804502487183,
+      0.5949159860610962
+    ]
+  },
+  "allFrameBoundsGLTF": {
+    "min": [
+      -0.23802579939365387,
+      -0.001270898967050016,
+      -0.5193804502487183
+    ],
+    "max": [
+      0.23802383244037628,
+      0.5949159860610962,
+      0.13905614614486694
+    ]
+  },
+  "restFeetY": -0.001270898967050016,
+  "rigRootMatrix": [
+    [
+      0.009999999776482582,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.3435885737322906e-09,
+      -0.010000000707805157,
+      0.0
+    ],
+    [
+      0.0,
+      0.010000000707805157,
+      -1.3435885737322906e-09,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "sourceAttribution": [
+    "Charmander rig created by Milos Cerny and downloaded at http://www.miloscerny.com/",
+    "3D model created by Guilherme Lauck https://sketchfab.com/guilauck"
+  ],
+  "license": "CC BY-NC 4.0"
+}

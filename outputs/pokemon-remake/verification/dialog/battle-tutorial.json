@@ -1,0 +1,46 @@
+{
+  "frame": 31115,
+  "dialog": {
+    "windowId": 24,
+    "rect": {
+      "x": 8,
+      "y": 112,
+      "width": 224,
+      "height": 48
+    },
+    "mode": "text",
+    "text": "OAK: Inflicting damage on the foe\nis the key to any battle.",
+    "active": true,
+    "printerState": 2,
+    "waiting": true,
+    "complete": false,
+    "reason": null,
+    "source": {
+      "printerAddress": 33686420,
+      "cursor": 33696200,
+      "buffer": "gDisplayedStringBattle"
+    },
+    "battle": true
+  },
+  "windows": [
+    {
+      "id": 24,
+      "bg": 0,
+      "x": 16,
+      "y": 120,
+      "width": 208,
+      "height": 32,
+      "palette": 7,
+      "baseBlock": 144,
+      "tileData": 33646756,
+      "rect": {
+        "x": 8,
+        "y": 112,
+        "width": 224,
+        "height": 48
+      },
+      "sourceAddress": 33686996
+    }
+  ],
+  "auxiliary": []
+}

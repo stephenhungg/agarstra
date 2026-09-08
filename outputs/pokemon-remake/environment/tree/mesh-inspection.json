@@ -1,0 +1,62 @@
+{
+  "height_m": 5.0,
+  "bbox_min_xyz_blender": [
+    -1.765946388244629,
+    -1.3126589059829712,
+    0.0
+  ],
+  "bbox_max_xyz_blender": [
+    1.765946388244629,
+    1.3126589059829712,
+    5.0
+  ],
+  "dimensions_m": [
+    3.531892776489258,
+    2.6253178119659424,
+    5.0
+  ],
+  "meshes": 2,
+  "vertices": 68815,
+  "triangles": 61526,
+  "normalization_scale": 4.484823109059066,
+  "materials": [
+    {
+      "name": "Material.001",
+      "textures": [
+        {
+          "name": "texture_pbr_20250901",
+          "size": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+          "size": [
+            4096,
+            4096
+          ]
+        },
+        {
+          "name": "texture_pbr_20250901_normal",
+          "size": [
+            4096,
+            4096
+          ]
+        }
+      ]
+    }
+  ],
+  "origin": "bottom center",
+  "gltf_up_axis": "Y",
+  "blender_up_axis": "Z",
+  "animation": "none; static tree",
+  "source": "Higgsfield Hunyuan3D v3 single-view reconstruction",
+  "generated_scaffold_triangles_before_decimation": 49718,
+  "authored_leaves": 7200,
+  "authored_sprays": 900,
+  "correction": "Provider omitted foliage; deterministic local Blender modeling adds curved individual leaf blades and twigs to provider branch scaffold.",
+  "export_material_count": 2,
+  "foliage_material": "Vertex-colored PBR leaf geometry, double sided, roughness 0.72; no alpha textures or transparency sorting",
+  "export_verification": "GLB reimported into Blender and rendered in three views"
+}

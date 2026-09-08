@@ -1,0 +1,75 @@
+{
+  "rom": {
+    "bytes": 16777216,
+    "sha256": "3d0c79f1627022e18765766f6cb5ea067f6b5bf7dca115552189ad65a5c3a8ac",
+    "title": "POKEMON FIRE",
+    "gameCode": "BPRE",
+    "revision": 0
+  },
+  "core": {
+    "package": "@wasm-gaming/mgba-wasm@0.1.1",
+    "upstreamCommit": "c034660f007c543233f1cadeb0ca13c71afd8f41",
+    "wasmBytes": 809645,
+    "fps": 59.7275,
+    "sampleRate": 65536,
+    "stateBytes": 397312
+  },
+  "performance": {
+    "frames": 600,
+    "elapsedMs": 1083.1979589999999,
+    "fps": 553.9153716222984,
+    "includesPerFrameMemorySnapshot": true,
+    "audioFrames": 657388,
+    "energy": 24934464
+  },
+  "checks": [
+    {
+      "name": "600 synchronous frames advance source frame counter",
+      "passed": true
+    },
+    {
+      "name": "real RGBA framebuffer",
+      "passed": true
+    },
+    {
+      "name": "original ROM audio",
+      "passed": true
+    },
+    {
+      "name": "read ROM game header",
+      "passed": true
+    },
+    {
+      "name": "snapshot source frame counter",
+      "passed": true
+    },
+    {
+      "name": "all 6 source memory regions readable",
+      "passed": true
+    },
+    {
+      "name": "unmapped reads reject rather than invent data",
+      "passed": true
+    },
+    {
+      "name": "real Start input changes source state",
+      "passed": true
+    },
+    {
+      "name": "savestate restores all RGBA channels deterministically",
+      "passed": true
+    },
+    {
+      "name": "savestate restores EWRAM and IWRAM deterministically",
+      "passed": true
+    },
+    {
+      "name": "memory observation does not mutate emulation",
+      "passed": true
+    },
+    {
+      "name": "128 KiB FireRed SRAM export",
+      "passed": true
+    }
+  ]
+}

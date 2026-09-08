@@ -1,0 +1,49 @@
+{
+  "id": "pallet-boundary-broadleaf-tree",
+  "role": "Repeated compact broadleaf boundary tree",
+  "source": "../../source/PalletTown-source.png",
+  "source_mapping": "Pallet Town perimeter tree semantic family; authored realistic interpretation, not source-extracted geometry",
+  "nominal_height_m": 5,
+  "origin": "bottom_center",
+  "style_ref": "../../design/production.json:style_formula",
+  "status": "candidate; changes-required for photoreal target",
+  "budget": {
+    "reference_images": 1,
+    "paid_mesh_jobs": 1,
+    "requested_triangles": 50000
+  },
+  "quality_target": "Photoreal natural broadleaf tree with articulated branch structure and varied foliage silhouette",
+  "limitations": [
+    "Provider reconstruction omitted foliage; final leaf sprays are deterministic locally authored geometry attached to the generated branch scaffold.",
+    "Crown remains tufted/narrower than the photographic reference; bare lower stubs and mossy green upper bark need art direction review.",
+    "Leaves have modeled curvature and per-leaf color variation, but no individual leaf vein texture or translucency.",
+    "Static geometry; no wind motion.",
+    "61526 triangles and about 43 MB GLB; repeated scene performance has not been measured.",
+    "Three Blender views inspected after actual GLB reimport; runtime integration and runtime visual acceptance remain pending."
+  ],
+  "runtime_asset": "tree.glb",
+  "editable_source": "tree.blend",
+  "provider_source": "tree-hunyuan-source.glb",
+  "reference": "tree-reference-v1.png",
+  "review": "visual-review.json",
+  "inspection": "mesh-inspection.json",
+  "hashes": {
+    "tree.glb": "0488d72b777a728a65c0789d9688a75f125c9a7ba49fb1f402ba07f4a948193b",
+    "tree-review-gameplay.png": "906a7b8fcd54e2e21cf21d8a3cfa73f8b07b2b6130368827432bd3b73e06ac10",
+    "tree-review-front.png": "43c0e58bfa01dbc0ff27e206b597e4dfec7c80023251476eba78b3261b81fb95",
+    "tree.blend": "70dc9b6efbfb508bb090d9f952b2511194847ef75f56b58a4fb886b0be9a0cf7",
+    "tree-review-back.png": "e61e8b73429a8328dcf41897f5aaaf5812b3330455e80aff4d809df3507aab72",
+    "tree-hunyuan-source.glb": "9512daa91957a18bba1ef26fe1341ac5bf5072faa40fc05a08bea7b984991f68",
+    "tree-reference-v1.png": "b9e59e3ba45865df9b7204f5db64f47310a00b242afa88ce303832c0eec06701"
+  },
+  "dimensions_m": [
+    3.531892776489258,
+    2.6253178119659424,
+    5.0
+  ],
+  "triangles": 61526,
+  "draw_primitives": 2,
+  "mesh_job_id": "86dfea35-4089-4bff-b2ae-fcdba2b68a79",
+  "reference_generation": "Built-in imagegen; one image",
+  "mesh_generation": "Native Higgsfield Hunyuan3D v3; one paid job; PBR; Normal; 50000 requested faces"
+}

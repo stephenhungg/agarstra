@@ -1,0 +1,81 @@
+{
+  "status": "candidate pending actual GLB reimport review",
+  "source": "Existing Milos Cerny / Guilherme Lauck creator asset, CC BY-NC 4.0",
+  "v1Preserved": true,
+  "glbSHA256": "ad78d6f71b421d5f3ce534806b2f816d160647be282276152dca03a25c6ce7e6",
+  "authoredClip": "idle",
+  "durationSeconds": 3,
+  "frameRange": [
+    0,
+    90
+  ],
+  "fps": 30,
+  "rootTravel": 0,
+  "stanceJointHeadsBlender": {
+    "Charmander_LLegAnkle": [
+      0.08734248578548431,
+      0.06218364089727402,
+      0.04229011386632919
+    ],
+    "Charmander_LArm1": [
+      0.07374323904514313,
+      0.06774263828992844,
+      0.40907129645347595
+    ],
+    "Charmander_LArm2": [
+      0.12622863054275513,
+      0.05819986015558243,
+      0.3298660218715668
+    ],
+    "Charmander_LArmPalm": [
+      0.17146030068397522,
+      -0.01598001830279827,
+      0.35519587993621826
+    ],
+    "Charmander_RArm1": [
+      -0.07374153286218643,
+      0.0677415207028389,
+      0.4090719521045685
+    ],
+    "Charmander_RArm2": [
+      -0.12622691690921783,
+      0.05819876119494438,
+      0.3298667073249817
+    ],
+    "Charmander_RArmPalm": [
+      -0.17145930230617523,
+      -0.015982305631041527,
+      0.3551969826221466
+    ],
+    "Charmander_RLegAnkle": [
+      -0.08735527098178864,
+      0.06218626722693443,
+      0.04226495325565338
+    ]
+  },
+  "footVertexCount": 996,
+  "maxAuthoredFootTravel": 0.0,
+  "loopClosureMaxVertexError": 0.0,
+  "normalStrength": 0.18,
+  "roughnessRemap": [
+    0.62,
+    0.86
+  ],
+  "terminalTailMaterial": {
+    "selectedFaces": 286,
+    "selectedVertices": 154,
+    "rule": "All face vertices: Blender Y > .46, Z > .295, projection from Tail5 origin along its inspected longitudinal local X axis > .012.",
+    "originBlender": [
+      -2.670837602636311e-06,
+      0.49287790060043335,
+      0.2859308123588562
+    ],
+    "axisBlender": [
+      9.193593086820329e-07,
+      0.34202590584754944,
+      0.9396905303001404
+    ],
+    "emissionStrength": 2.4,
+    "limitation": "Localized emission on existing solid terminal geometry; not a translucent animated flame simulation."
+  }
+}

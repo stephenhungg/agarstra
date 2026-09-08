@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "clear-page control preserves current page while ROM waits",
+      "passed": true
+    },
+    {
+      "name": "clear-page control reveals only consumed new-page chars",
+      "passed": true
+    },
+    {
+      "name": "source partial scroll uses pixel fallback",
+      "passed": true
+    },
+    {
+      "name": "unknown glyph fails closed to pixels",
+      "passed": true
+    },
+    {
+      "name": "actual Pallet sign starts with consumed prefix",
+      "passed": true
+    },
+    {
+      "name": "observation and pause never advance or mutate source",
+      "passed": true
+    },
+    {
+      "name": "actual completed source string preserved",
+      "passed": true
+    },
+    {
+      "name": "source clearing tilemap removes stale dialog",
+      "passed": true
+    },
+    {
+      "name": "battle action menu not duplicated by dialog",
+      "passed": true
+    },
+    {
+      "name": "actual Oak battle tutorial uses printer24",
+      "passed": true
+    },
+    {
+      "name": "fallback crop exactly preserves original RGBA",
+      "passed": true
+    },
+    {
+      "name": "original yes/no window available as bounded crop",
+      "passed": true
+    },
+    {
+      "name": "checkpoint reset clears prior dialog/choice state",
+      "passed": true
+    }
+  ],
+  "source": "FireRed US1.0 original snapshots and controller-derived checkpoints",
+  "limitations": [
+    "Unknown text sources/glyphs and partial text scrolling retain cropped original dialog pixels.",
+    "Ancillary overworld choices retain original window pixels; battle menus belong to battle.js."
+  ]
+}

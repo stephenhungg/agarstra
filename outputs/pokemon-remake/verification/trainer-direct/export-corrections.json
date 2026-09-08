@@ -1,0 +1,14 @@
+{
+  "rawSHA256": "c3b5282f1d3d95128a1247a981c0df89fcb31880443de7ff4043e79bab8fcb29",
+  "candidateSHA256": "e0928e00efe5acb3d6b0b2fca055185a02da66a31bc6041208d1125f7273e356",
+  "changes": [
+    "renamed provider preset-0 Idle clip to exact idle",
+    "normalized baked Hips animation scale to 1 and divided corresponding translation by original scale",
+    "removed whole-body emission and set nonmetallic matte response; original base-color texture retained"
+  ],
+  "limitations": [
+    "no normal/roughness/metallic texture maps returned despite requested PBR",
+    "one shared body material limits realistic skin/cloth/shoe separation",
+    "no geometry edits, new generation or additional animation jobs"
+  ]
+}

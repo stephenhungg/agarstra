@@ -54,3 +54,5 @@ Browser checks require a server on port 3000 and Playwright Chromium (`npx playw
 ## Repository snapshot
 
 This repository includes the landing page, downloadable portable skill, game application source, authoring tools, tests, and documentation. Local ROMs, emulator-state captures, generated model/texture libraries, native app bundles, and the experimental `work/` tree are excluded. The game experiments need their local extracted/generated assets; a fresh clone does not contain those assets. The portable skill can instead create a new supported NES reconstruction from a user-supplied ROM; see `outputs/skills/rom-remake/references/portable-runner.md`.
+
+The complete FireRed artifact set is now additionally tracked with Git LFS. Restore its working directory using [snapshots/README.md](snapshots/README.md). The exclusions described above continue to apply to the other game experiments.

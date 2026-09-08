@@ -1,0 +1,43 @@
+{
+  "frame": 30452,
+  "dialog": null,
+  "windows": [
+    {
+      "id": 1,
+      "bg": 0,
+      "x": 8,
+      "y": 120,
+      "width": 112,
+      "height": 32,
+      "palette": 0,
+      "baseBlock": 448,
+      "tileData": 33621332,
+      "rect": {
+        "x": 0,
+        "y": 112,
+        "width": 128,
+        "height": 48
+      },
+      "sourceAddress": 33686720
+    },
+    {
+      "id": 2,
+      "bg": 0,
+      "x": 136,
+      "y": 120,
+      "width": 96,
+      "height": 32,
+      "palette": 5,
+      "baseBlock": 400,
+      "tileData": 33623140,
+      "rect": {
+        "x": 128,
+        "y": 112,
+        "width": 112,
+        "height": 48
+      },
+      "sourceAddress": 33686732
+    }
+  ],
+  "auxiliary": []
+}

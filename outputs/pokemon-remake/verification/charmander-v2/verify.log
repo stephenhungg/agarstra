@@ -1,0 +1,198 @@
+16:19:52 | INFO: Data are loaded, start creating Blender stuff
+16:19:52 | INFO: Blender create Mesh node Mesh
+16:19:52 | INFO: glTF import finished in 0.07s
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:35:28)
+Fra:0 Mem:26.02M (Peak 26.02M) | Time:00:00.34 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Charmander
+Fra:0 Mem:26.02M (Peak 26.02M) | Time:00:00.34 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REVIEW_Key
+Fra:0 Mem:29.76M (Peak 29.76M) | Time:00:00.44 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:0 Mem:28.68M (Peak 29.76M) | Time:00:00.44 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Charmander Normal OpenGL
+Fra:0 Mem:28.68M (Peak 29.76M) | Time:00:00.44 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Charmander v2 restrained roughness
+Fra:0 Mem:75.78M (Peak 124.71M) | Time:00:00.67 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Waiting for render to start
+Fra:0 Mem:75.78M (Peak 124.71M) | Time:00:00.67 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Scene
+Fra:0 Mem:75.78M (Peak 124.71M) | Time:00:00.67 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Shaders
+Fra:0 Mem:75.86M (Peak 124.71M) | Time:00:00.68 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:0 Mem:75.86M (Peak 124.71M) | Time:00:00.68 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Procedurals
+Fra:0 Mem:75.86M (Peak 124.71M) | Time:00:00.68 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Background
+Fra:0 Mem:75.86M (Peak 124.71M) | Time:00:00.68 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Camera
+Fra:0 Mem:75.86M (Peak 124.71M) | Time:00:00.68 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:0 Mem:75.86M (Peak 124.71M) | Time:00:00.68 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Objects
+Fra:0 Mem:75.86M (Peak 124.71M) | Time:00:00.68 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:0 Mem:75.86M (Peak 124.71M) | Time:00:00.68 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Particle Systems
+Fra:0 Mem:75.86M (Peak 124.71M) | Time:00:00.68 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:0 Mem:75.86M (Peak 124.71M) | Time:00:00.68 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Meshes
+Fra:0 Mem:76.65M (Peak 124.71M) | Time:00:00.69 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:0 Mem:76.65M (Peak 124.71M) | Time:00:00.69 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:0 Mem:77.69M (Peak 124.71M) | Time:00:00.69 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:0 Mem:77.69M (Peak 124.71M) | Time:00:00.69 | Mem:49.04M, Peak:49.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:0 Mem:77.69M (Peak 124.71M) | Time:00:00.69 | Mem:49.04M, Peak:49.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:0 Mem:77.69M (Peak 124.71M) | Time:00:00.71 | Mem:49.46M, Peak:49.46M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:0 Mem:77.69M (Peak 124.71M) | Time:00:00.71 | Mem:49.96M, Peak:50.38M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:0 Mem:77.69M (Peak 124.71M) | Time:00:00.71 | Mem:49.96M, Peak:50.38M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:0 Mem:78.07M (Peak 124.71M) | Time:00:00.71 | Mem:49.96M, Peak:50.38M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:0 Mem:78.07M (Peak 124.71M) | Time:00:00.71 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Objects Flags
+Fra:0 Mem:78.07M (Peak 124.71M) | Time:00:00.71 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:0 Mem:78.07M (Peak 124.71M) | Time:00:00.71 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Images
+Fra:0 Mem:78.07M (Peak 124.71M) | Time:00:00.71 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Camera Volume
+Fra:0 Mem:78.07M (Peak 124.71M) | Time:00:00.71 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:78.07M (Peak 124.71M) | Time:00:00.71 | Mem:50.43M, Peak:50.43M | Scene, ViewLayer | Updating Lights
+Fra:0 Mem:78.08M (Peak 124.71M) | Time:00:00.71 | Mem:50.43M, Peak:50.43M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:0 Mem:78.18M (Peak 124.71M) | Time:00:00.71 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Integrator
+Fra:0 Mem:78.18M (Peak 124.71M) | Time:00:00.71 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Film
+Fra:0 Mem:78.18M (Peak 124.71M) | Time:00:00.71 | Mem:50.46M, Peak:50.54M | Scene, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:78.18M (Peak 124.71M) | Time:00:00.71 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Baking
+Fra:0 Mem:78.18M (Peak 124.71M) | Time:00:00.71 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:0 Mem:78.19M (Peak 124.71M) | Time:00:00.72 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:0 Mem:78.19M (Peak 124.71M) | Time:00:00.72 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Sample 0/32
+Fra:0 Mem:150.71M (Peak 150.71M) | Time:00:01.00 | Remaining:00:08.75 | Mem:123.03M, Peak:123.03M | Scene, ViewLayer | Sample 1/32
+Fra:0 Mem:181.23M (Peak 227.01M) | Time:00:10.85 | Mem:123.03M, Peak:123.03M | Scene, ViewLayer | Sample 32/32
+Fra:0 Mem:181.23M (Peak 227.01M) | Time:00:10.85 | Mem:123.03M, Peak:123.03M | Scene, ViewLayer | Finished
+Saved: '/Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/verification/charmander-v2/front.png'
+Time: 00:11.04 (Saving: 00:00.18)
+
+Fra:22 Mem:28.07M (Peak 28.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Charmander
+Fra:22 Mem:28.08M (Peak 28.08M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REVIEW_Key
+Fra:22 Mem:29.76M (Peak 29.76M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:22 Mem:28.68M (Peak 29.76M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Charmander Normal OpenGL
+Fra:22 Mem:28.68M (Peak 29.76M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Charmander v2 restrained roughness
+Fra:22 Mem:75.78M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Waiting for render to start
+Fra:22 Mem:75.78M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Scene
+Fra:22 Mem:75.78M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Shaders
+Fra:22 Mem:75.86M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:22 Mem:75.86M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Procedurals
+Fra:22 Mem:75.86M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Background
+Fra:22 Mem:75.86M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Camera
+Fra:22 Mem:75.86M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:22 Mem:75.86M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Objects
+Fra:22 Mem:75.86M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:22 Mem:75.86M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Particle Systems
+Fra:22 Mem:75.86M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:22 Mem:75.86M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Meshes
+Fra:22 Mem:76.65M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:22 Mem:76.65M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:22 Mem:77.69M (Peak 92.70M) | Time:00:00.07 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:22 Mem:77.69M (Peak 92.70M) | Time:00:00.07 | Mem:49.04M, Peak:49.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:22 Mem:77.69M (Peak 92.70M) | Time:00:00.07 | Mem:49.04M, Peak:49.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:22 Mem:77.69M (Peak 92.70M) | Time:00:00.07 | Mem:49.46M, Peak:49.46M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:22 Mem:77.69M (Peak 92.70M) | Time:00:00.08 | Mem:49.96M, Peak:50.38M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:22 Mem:77.69M (Peak 92.70M) | Time:00:00.08 | Mem:49.96M, Peak:50.38M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:22 Mem:78.07M (Peak 92.70M) | Time:00:00.08 | Mem:49.96M, Peak:50.38M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:22 Mem:78.07M (Peak 92.70M) | Time:00:00.08 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Objects Flags
+Fra:22 Mem:78.07M (Peak 92.70M) | Time:00:00.08 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:22 Mem:78.07M (Peak 92.70M) | Time:00:00.08 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Images
+Fra:22 Mem:78.07M (Peak 92.70M) | Time:00:00.08 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Camera Volume
+Fra:22 Mem:78.07M (Peak 92.70M) | Time:00:00.08 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Lookup Tables
+Fra:22 Mem:78.07M (Peak 92.70M) | Time:00:00.08 | Mem:50.43M, Peak:50.43M | Scene, ViewLayer | Updating Lights
+Fra:22 Mem:78.08M (Peak 92.70M) | Time:00:00.08 | Mem:50.43M, Peak:50.43M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:22 Mem:78.18M (Peak 92.70M) | Time:00:00.08 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Integrator
+Fra:22 Mem:78.18M (Peak 92.70M) | Time:00:00.08 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Film
+Fra:22 Mem:78.18M (Peak 92.70M) | Time:00:00.08 | Mem:50.46M, Peak:50.54M | Scene, ViewLayer | Updating Lookup Tables
+Fra:22 Mem:78.18M (Peak 92.70M) | Time:00:00.08 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Baking
+Fra:22 Mem:78.18M (Peak 92.70M) | Time:00:00.08 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:22 Mem:78.19M (Peak 92.70M) | Time:00:00.08 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:22 Mem:78.19M (Peak 92.70M) | Time:00:00.08 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Sample 0/32
+Fra:22 Mem:150.71M (Peak 150.71M) | Time:00:00.36 | Remaining:00:08.84 | Mem:123.03M, Peak:123.03M | Scene, ViewLayer | Sample 1/32
+Fra:22 Mem:181.23M (Peak 227.01M) | Time:00:10.54 | Mem:123.03M, Peak:123.03M | Scene, ViewLayer | Sample 32/32
+Fra:22 Mem:181.23M (Peak 227.01M) | Time:00:10.54 | Mem:123.03M, Peak:123.03M | Scene, ViewLayer | Finished
+Saved: '/Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/verification/charmander-v2/idle-inhale.png'
+Time: 00:10.63 (Saving: 00:00.08)
+
+Fra:67 Mem:28.07M (Peak 28.07M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Charmander
+Fra:67 Mem:28.08M (Peak 28.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REVIEW_Floor
+Fra:67 Mem:28.08M (Peak 28.08M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REVIEW_Fill
+Fra:67 Mem:29.76M (Peak 29.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:67 Mem:28.68M (Peak 29.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Charmander Normal OpenGL
+Fra:67 Mem:28.68M (Peak 29.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Charmander v2 restrained roughness
+Fra:67 Mem:75.78M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Waiting for render to start
+Fra:67 Mem:75.78M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Scene
+Fra:67 Mem:75.78M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Shaders
+Fra:67 Mem:75.86M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:67 Mem:75.86M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Procedurals
+Fra:67 Mem:75.86M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Background
+Fra:67 Mem:75.86M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Camera
+Fra:67 Mem:75.86M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:67 Mem:75.86M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Objects
+Fra:67 Mem:75.86M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:67 Mem:75.86M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Particle Systems
+Fra:67 Mem:75.86M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:67 Mem:75.86M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Meshes
+Fra:67 Mem:76.65M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:67 Mem:76.65M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:67 Mem:77.69M (Peak 92.70M) | Time:00:00.09 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:67 Mem:77.69M (Peak 92.70M) | Time:00:00.09 | Mem:49.04M, Peak:49.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:67 Mem:77.69M (Peak 92.70M) | Time:00:00.09 | Mem:49.04M, Peak:49.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:67 Mem:77.69M (Peak 92.70M) | Time:00:00.09 | Mem:49.46M, Peak:49.46M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:67 Mem:77.69M (Peak 92.70M) | Time:00:00.10 | Mem:49.96M, Peak:50.38M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:67 Mem:77.69M (Peak 92.70M) | Time:00:00.10 | Mem:49.96M, Peak:50.38M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:67 Mem:78.07M (Peak 92.70M) | Time:00:00.10 | Mem:49.96M, Peak:50.38M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:67 Mem:78.07M (Peak 92.70M) | Time:00:00.10 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Objects Flags
+Fra:67 Mem:78.07M (Peak 92.70M) | Time:00:00.10 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:67 Mem:78.07M (Peak 92.70M) | Time:00:00.10 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Images
+Fra:67 Mem:78.07M (Peak 92.70M) | Time:00:00.10 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Camera Volume
+Fra:67 Mem:78.07M (Peak 92.70M) | Time:00:00.10 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Lookup Tables
+Fra:67 Mem:78.07M (Peak 92.70M) | Time:00:00.10 | Mem:50.43M, Peak:50.43M | Scene, ViewLayer | Updating Lights
+Fra:67 Mem:78.08M (Peak 92.70M) | Time:00:00.10 | Mem:50.43M, Peak:50.43M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:67 Mem:78.18M (Peak 92.70M) | Time:00:00.10 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Integrator
+Fra:67 Mem:78.18M (Peak 92.70M) | Time:00:00.10 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Film
+Fra:67 Mem:78.18M (Peak 92.70M) | Time:00:00.10 | Mem:50.46M, Peak:50.54M | Scene, ViewLayer | Updating Lookup Tables
+Fra:67 Mem:78.18M (Peak 92.70M) | Time:00:00.10 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Baking
+Fra:67 Mem:78.18M (Peak 92.70M) | Time:00:00.10 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:67 Mem:78.19M (Peak 92.70M) | Time:00:00.10 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:67 Mem:78.19M (Peak 92.70M) | Time:00:00.10 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Sample 0/32
+Fra:67 Mem:150.71M (Peak 150.71M) | Time:00:00.39 | Remaining:00:09.13 | Mem:123.03M, Peak:123.03M | Scene, ViewLayer | Sample 1/32
+Fra:67 Mem:181.23M (Peak 227.01M) | Time:00:10.50 | Mem:123.03M, Peak:123.03M | Scene, ViewLayer | Sample 32/32
+Fra:67 Mem:181.23M (Peak 227.01M) | Time:00:10.50 | Mem:123.03M, Peak:123.03M | Scene, ViewLayer | Finished
+Saved: '/Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/verification/charmander-v2/idle-exhale.png'
+Time: 00:10.57 (Saving: 00:00.05)
+
+Fra:0 Mem:28.07M (Peak 28.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Charmander
+Fra:0 Mem:28.08M (Peak 28.08M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REVIEW_Fill
+Fra:0 Mem:29.76M (Peak 29.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:0 Mem:28.68M (Peak 29.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Charmander Normal OpenGL
+Fra:0 Mem:28.68M (Peak 29.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Charmander v2 restrained roughness
+Fra:0 Mem:75.78M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Waiting for render to start
+Fra:0 Mem:75.78M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Scene
+Fra:0 Mem:75.78M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Shaders
+Fra:0 Mem:75.86M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:0 Mem:75.86M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Procedurals
+Fra:0 Mem:75.86M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Background
+Fra:0 Mem:75.86M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Camera
+Fra:0 Mem:75.86M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:0 Mem:75.86M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Objects
+Fra:0 Mem:75.86M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:0 Mem:75.86M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Particle Systems
+Fra:0 Mem:75.86M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:0 Mem:75.87M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Meshes
+Fra:0 Mem:76.65M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:0 Mem:76.65M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:0 Mem:77.69M (Peak 92.70M) | Time:00:00.10 | Mem:48.00M, Peak:48.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:0 Mem:77.69M (Peak 92.70M) | Time:00:00.10 | Mem:49.04M, Peak:49.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:0 Mem:77.69M (Peak 92.70M) | Time:00:00.10 | Mem:49.04M, Peak:49.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:0 Mem:77.69M (Peak 92.70M) | Time:00:00.12 | Mem:49.46M, Peak:49.46M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:0 Mem:77.69M (Peak 92.70M) | Time:00:00.12 | Mem:49.96M, Peak:50.38M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:0 Mem:77.69M (Peak 92.70M) | Time:00:00.12 | Mem:49.96M, Peak:50.38M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:0 Mem:78.08M (Peak 92.70M) | Time:00:00.12 | Mem:49.96M, Peak:50.38M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:0 Mem:78.08M (Peak 92.70M) | Time:00:00.12 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Objects Flags
+Fra:0 Mem:78.08M (Peak 92.70M) | Time:00:00.12 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:0 Mem:78.08M (Peak 92.70M) | Time:00:00.12 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Images
+Fra:0 Mem:78.08M (Peak 92.70M) | Time:00:00.12 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Camera Volume
+Fra:0 Mem:78.08M (Peak 92.70M) | Time:00:00.12 | Mem:50.35M, Peak:50.38M | Scene, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:78.08M (Peak 92.70M) | Time:00:00.12 | Mem:50.43M, Peak:50.43M | Scene, ViewLayer | Updating Lights
+Fra:0 Mem:78.08M (Peak 92.70M) | Time:00:00.12 | Mem:50.43M, Peak:50.43M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:0 Mem:78.18M (Peak 92.70M) | Time:00:00.12 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Integrator
+Fra:0 Mem:78.18M (Peak 92.70M) | Time:00:00.12 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Film
+Fra:0 Mem:78.18M (Peak 92.70M) | Time:00:00.12 | Mem:50.46M, Peak:50.54M | Scene, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:78.18M (Peak 92.70M) | Time:00:00.12 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Baking
+Fra:0 Mem:78.18M (Peak 92.70M) | Time:00:00.12 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:0 Mem:78.19M (Peak 92.70M) | Time:00:00.12 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:0 Mem:78.19M (Peak 92.70M) | Time:00:00.12 | Mem:50.54M, Peak:50.54M | Scene, ViewLayer | Sample 0/32
+Fra:0 Mem:150.71M (Peak 150.71M) | Time:00:00.40 | Remaining:00:08.53 | Mem:123.03M, Peak:123.03M | Scene, ViewLayer | Sample 1/32
+Fra:0 Mem:181.23M (Peak 227.01M) | Time:00:09.71 | Mem:123.03M, Peak:123.03M | Scene, ViewLayer | Sample 32/32
+Fra:0 Mem:181.23M (Peak 227.01M) | Time:00:09.71 | Mem:123.03M, Peak:123.03M | Scene, ViewLayer | Finished
+Saved: '/Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/verification/charmander-v2/back.png'
+Time: 00:09.76 (Saving: 00:00.05)
+
+Info: No new files have been packed
+Info: Saved as "actual-export-review.blend"
+VERIFIED {"status": "candidate pending visual review", "glbSHA256": "ad78d6f71b421d5f3ce534806b2f816d160647be282276152dca03a25c6ce7e6", "clips": [{"name": "idle", "channels": 180, "keyTimeMin": 0, "keyTimeMax": 3}], "actualImportedActions": [{"name": "idle", "frames": [0.0, 90.0]}], "skinBones": 60, "meshVertices": 7788, "triangles": 13760, "sampledFrames": 91, "footVertices": 1132, "maxFootVertexTravel": 0.0, "loopClosureMaxVertexError": 0.0, "maxIdleVertexTravel": 0.004174551935819849, "maxRootMatrixDelta": 0.0, "allFrameBoundsBlender": {"min": [-0.23802579939365387, -0.13905614614486694, -0.001270898967050016], "max": [0.23802383244037628, 0.5193804502487183, 0.5949159860610962]}, "allFrameBoundsGLTF": {"min": [-0.23802579939365387, -0.001270898967050016, -0.5193804502487183], "max": [0.23802383244037628, 0.5949159860610962, 0.13905614614486694]}, "restFeetY": -0.001270898967050016, "sourceAttribution": ["Charmander rig created by Milos Cerny and downloaded at http://www.miloscerny.com/", "3D model created by Guilherme Lauck https://sketchfab.com/guilauck"], "license": "CC BY-NC 4.0"}
+
+Blender quit

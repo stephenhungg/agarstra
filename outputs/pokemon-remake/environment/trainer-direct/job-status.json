@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-09-08T23:21:22.472813Z",
+  "display_name": "Image to 3D",
+  "id": "997118f4-c40c-41da-adef-b775bc878a95",
+  "job_type": "image_to_3d",
+  "min_result_url": null,
+  "params": {
+    "animation_action_id": 0,
+    "enable_animation": true,
+    "enable_pbr": true,
+    "enable_rigging": true,
+    "enable_safety_checker": true,
+    "folder_id": null,
+    "medias": [
+      {
+        "data": {
+          "id": "60d9b865-b5f1-4404-825e-f0eb72a71fd1",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/60d9b865-b5f1-4404-825e-f0eb72a71fd1.png"
+        },
+        "role": "image"
+      }
+    ],
+    "pose_mode": "a-pose",
+    "rigging_height_meters": 1.65,
+    "should_remesh": true,
+    "should_texture": true,
+    "symmetry_mode": "auto",
+    "target_polycount": 30000,
+    "texture_prompt": "Photoreal cinematic reconstruction; warm earth and muted green scenery, distinct PBR materials, soft natural daylight. Preserve the source trainer identity: red and white cap, red vest over dark shirt, blue jeans and sneakers, fully clothed. Realistic woven cotton, denim grain, stitching, fabric folds and shoe rubber; natural skin and hair, readable clothing color blocks. One full-body humanoid with separate limbs. The direct sprite supplies identity; reconstruct depth instead of a flat pixel cutout. No pedestal or extra figures.",
+    "topology": "triangle"
+  },
+  "result_url": null,
+  "status": "in_progress"
+}

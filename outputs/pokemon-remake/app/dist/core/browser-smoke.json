@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "phase": "overworld",
+  "map": {
+    "group": 3,
+    "number": 0,
+    "name": "PalletTown",
+    "width": 24,
+    "height": 20
+  },
+  "player": {
+    "id": 0,
+    "spriteId": 0,
+    "graphicsId": 0,
+    "localId": 255,
+    "mapGroup": 3,
+    "mapNumber": 0,
+    "isPlayer": true,
+    "visible": true,
+    "offScreen": false,
+    "tileX": 6,
+    "tileY": 8,
+    "previousTileX": 6,
+    "previousTileY": 8,
+    "worldX": 6,
+    "worldY": 8,
+    "x": 6,
+    "y": 8,
+    "visualOffsetX": 0,
+    "visualOffsetY": 0,
+    "facing": "down",
+    "direction": 1,
+    "movementDirection": 1,
+    "moving": false,
+    "elevation": 3,
+    "animation": 4,
+    "animationFrame": 1,
+    "source": {
+      "objectAddress": 33779256,
+      "spriteAddress": 33687100
+    },
+    "runningState": 0,
+    "tileTransitionState": 0,
+    "avatarFlags": 33
+  },
+  "frame": 11980,
+  "width": 240,
+  "height": 160,
+  "pixelValues": 31
+}

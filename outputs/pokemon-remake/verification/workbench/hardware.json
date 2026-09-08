@@ -1,0 +1,6 @@
+{
+  "cpu": "Apple M3 Max",
+  "model": "Mac15,10",
+  "source": "sysctl machdep.cpu.brand_string hw.model",
+  "note": "Short live-render sample; not a sustained benchmark or measured input latency"
+}

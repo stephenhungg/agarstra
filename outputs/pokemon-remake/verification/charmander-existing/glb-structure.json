@@ -1,0 +1,323 @@
+{
+  "vertexWeightCount": 7767,
+  "minWeightSum": 0.9999998856219463,
+  "maxWeightSum": 1.0000001238659024,
+  "nonFiniteWeights": 0,
+  "animatedChannels": [
+    {
+      "node": "Charmander_LLeg1",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 1.9989550882496059,
+      "values": []
+    },
+    {
+      "node": "Charmander_LLeg2",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.6786705349596243,
+      "values": []
+    },
+    {
+      "node": "Charmander_LLeg3",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.6798713021987932,
+      "values": []
+    },
+    {
+      "node": "Charmander_LLegAnkle",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.6189227218192519,
+      "values": []
+    },
+    {
+      "node": "Charmander_LLegDigit11",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.646881982040967,
+      "values": []
+    },
+    {
+      "node": "Charmander_LLegDigit12",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.6563009673549517,
+      "values": []
+    },
+    {
+      "node": "Charmander_LLegDigit21",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.6563016574125974,
+      "values": []
+    },
+    {
+      "node": "Charmander_LLegDigit22",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.6563036952117233,
+      "values": []
+    },
+    {
+      "node": "Charmander_LLegDigit31",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.6559636974717964,
+      "values": []
+    },
+    {
+      "node": "Charmander_LLegDigit32",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.6563006443540211,
+      "values": []
+    },
+    {
+      "node": "Charmander_Tail1",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.30337928780134976,
+      "values": []
+    },
+    {
+      "node": "Charmander_Tail2",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.3350521798796824,
+      "values": []
+    },
+    {
+      "node": "Charmander_Tail3",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.6612798042705997,
+      "values": []
+    },
+    {
+      "node": "Charmander_Tail4",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.7528613040184066,
+      "values": []
+    },
+    {
+      "node": "Charmander_Tail5",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.5392922809106525,
+      "values": []
+    },
+    {
+      "node": "Charmander_Spine1",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.07829075912880822,
+      "values": []
+    },
+    {
+      "node": "Charmander_Spine2",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.3425320397214223,
+      "values": []
+    },
+    {
+      "node": "Charmander_Chest",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.07829066625398884,
+      "values": []
+    },
+    {
+      "node": "Charmander_LArmCollarbone",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.44701098250838645,
+      "values": []
+    },
+    {
+      "node": "Charmander_LArm1",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.9267292829216167,
+      "values": []
+    },
+    {
+      "node": "Charmander_LArm2",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.6045168762962517,
+      "values": []
+    },
+    {
+      "node": "Charmander_LArmPalm",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.55148092059496,
+      "values": []
+    },
+    {
+      "node": "Charmander_LArmDigit11",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.34076800694565484,
+      "values": []
+    },
+    {
+      "node": "Charmander_LArmDigit12",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.34075855380341313,
+      "values": []
+    },
+    {
+      "node": "Charmander_LArmDigit21",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.340766117489425,
+      "values": []
+    },
+    {
+      "node": "Charmander_LArmDigit22",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.3407612599311236,
+      "values": []
+    },
+    {
+      "node": "Charmander_LArmDigit31",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.34076076137681366,
+      "values": []
+    },
+    {
+      "node": "Charmander_LArmDigit32",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.34076112375881124,
+      "values": []
+    },
+    {
+      "node": "Charmander_LArmDigit41",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.34076522549389365,
+      "values": []
+    },
+    {
+      "node": "Charmander_LArmDigit42",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.34075916212652585,
+      "values": []
+    },
+    {
+      "node": "Charmander_Neck",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.32300861505756634,
+      "values": []
+    },
+    {
+      "node": "Charmander_Head",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.33793244828340785,
+      "values": []
+    },
+    {
+      "node": "Charmander_REye",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.35109612593511824,
+      "values": []
+    },
+    {
+      "node": "Charmander_Jaw",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.22708417830095876,
+      "values": []
+    },
+    {
+      "node": "Charmander_Belly",
+      "path": "rotation",
+      "keys": 201,
+      "firstTime": 0.03333333507180214,
+      "lastTime": 6.699999809265137,
+      "maxDelta": 0.21836374299327851,
+      "values": []
+    }
+  ]
+}

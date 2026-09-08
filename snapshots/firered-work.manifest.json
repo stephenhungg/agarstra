@@ -1,0 +1,11 @@
+{
+  "archive": "firered-work.tar.gz",
+  "bytes": 569705950,
+  "sha256": "9325606ca761ca09e8c66841e52d40abde96a110b79ac0f0b7cc9c09f231c961",
+  "entries": 91062,
+  "includesRom": true,
+  "excluded": [
+    "node_modules",
+    ".git"
+  ]
+}

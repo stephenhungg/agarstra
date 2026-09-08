@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "v1": {
+    "status": "candidate-loader-only-not-visual-acceptance",
+    "url": "/models/charmander-existing-v1.glb",
+    "sha256": "95ea02802032e55fcaaa06d8f6b53df89b5bf130b1bb22787ab5d399c9e7a3f0",
+    "bytes": 15178784,
+    "hierarchyPreserved": true,
+    "up": "+Y",
+    "front": "+Z (asset convention; visually verify)",
+    "bounds": {
+      "min": [
+        -0.3366480008340541,
+        -0.0012600584996005125,
+        -0.5193800272136575
+      ],
+      "max": [
+        0.3366480163762562,
+        0.5941980258209834,
+        0.13740204053951502
+      ],
+      "size": [
+        0.6732960172103103,
+        0.5954580843205839,
+        0.6567820677531725
+      ]
+    },
+    "height": 0.5954580843205839,
+    "groundOffset": 0.0012600584996005125,
+    "meshCount": 1,
+    "nodeCount": 64,
+    "boneCount": 60,
+    "skinnedMeshes": [
+      {
+        "name": "Charmander",
+        "bones": 60,
+        "vertices": 7767,
+        "bindMode": "attached"
+      }
+    ],
+    "clips": [
+      {
+        "name": "Armature|Take 001|BaseLayer",
+        "duration": 6.699999809265137,
+        "tracks": 180
+      }
+    ],
+    "selectedClip": null,
+    "animationReady": false,
+    "staticOnly": true,
+    "sourceSeconds": 10,
+    "disposed": false
+  },
+  "rejectedHash": true,
+  "noFirstClipFallback": true,
+  "fixture": {
+    "poses": [
+      {
+        "t": 0,
+        "y": 0
+      },
+      {
+        "t": 0.25,
+        "y": 0.10000000149011612
+      },
+      {
+        "t": 0.5,
+        "y": 0.20000000298023224
+      },
+      {
+        "t": 0.25,
+        "y": 0.10000000149011612
+      },
+      {
+        "t": 0.25,
+        "y": 0.10000000149011612
+      },
+      {
+        "t": 1.25,
+        "y": 0.10000000149011612
+      }
+    ],
+    "preservedAncestor": 0.1,
+    "rejectedTime": true,
+    "rejectsDisposed": true,
+    "disposed": true
+  },
+  "drawCalls": 2,
+  "triangles": 13762
+}

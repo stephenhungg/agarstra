@@ -1,0 +1,162 @@
+{
+  "asset": "laboratory-v1",
+  "status": "changes-required",
+  "candidate": true,
+  "acceptedForPhotorealRelease": false,
+  "architectureVerdict": "Partial preservation: overall source layout survives; vent construction and some material/detail treatment do not preserve the accepted reference.",
+  "reviewer": "animation_renderer agent; exact source composite, native reference, and actual front/back/gameplay Blender renders inspected",
+  "reviewedAt": "2026-09-08T23:06:32.460317+00:00",
+  "referenceImages": [
+    "environment/laboratory/source-composite.png",
+    "environment/laboratory/laboratory-reference-v1.png"
+  ],
+  "assetHashes": {
+    "models/laboratory-v1.glb": "79bcace6b6a8774d6fba25230e2e4b5f6fe683dec3ee5e9eb59d6ec921fe1dab",
+    "models/laboratory-v1.blend": "3b78890c2df2429d7b71844ab15d965bddd375e41764e738342adf8fe948dc67"
+  },
+  "evidenceImages": [
+    "verification/laboratory-v1/front.png",
+    "verification/laboratory-v1/back.png",
+    "verification/laboratory-v1/gameplay.png"
+  ],
+  "evidenceImageHashes": {
+    "front.png": "4b50c8381a44b02387af6d997a47689c02e9447a2e5c4e8b6c0d87481c7152c3",
+    "back.png": "0955e4da429278d241c09c022b63e45cb3a12c316a0972ce4bc38e1a2ddfe056",
+    "gameplay.png": "5a590cc8b15904bbec533c589933a87d5d324a5733d00bd21715de7cd2b5a2be"
+  },
+  "technicalReport": "verification/laboratory-v1/mesh-inspection.json",
+  "doorAnchorReport": "verification/laboratory-v1/door-anchor.json",
+  "sourceContract": "environment/laboratory/source-contract.json",
+  "cameraAndViewport": "Three recorded orthographic Blender Cycles views, 1280x1280, 48 samples. Elevated gameplay.png is a representative review camera, not live town-camera proof.",
+  "checks": {
+    "technical_import": {
+      "status": "pass",
+      "reason": "49,992 triangles, one mesh/material, three embedded/packed 4096x4096 PBR maps. Original GLB unchanged; Blender import, save and three renders succeeded."
+    },
+    "source_layout_identity": {
+      "status": "pass",
+      "reason": "Low broad yellow building, broad gray roof, right-hand red vent, four circular clerestory windows, two lower rectangular window groups, and central green entrance survive the export."
+    },
+    "reference_construction_identity": {
+      "status": "fail",
+      "reason": "The closed metal ventilator cap in the native reference became a recessed bright-blue top that reads as an open vessel. Individual roof tiles also largely collapsed into softened horizontal bands."
+    },
+    "door_anchor_estimate": {
+      "status": "pass",
+      "reason": "155 green facade triangles produce a measured doorway at 0.500323 of asset width, matching the source central entrance at 0.5. Actual views confirm front +Z and centered green door."
+    },
+    "integrated_warp_alignment": {
+      "status": "pending",
+      "reason": "No app edits in this bounded task; integration owner must align measured anchor to original source warp (16,13) and test entry."
+    },
+    "proportions_and_scale": {
+      "status": "pending",
+      "reason": "Dimensions 0.961246 x 0.708144 x 0.473638 in Blender units; source units are normalized, not verified meters. Uniform integration scale remains to be reviewed."
+    },
+    "material_response": {
+      "status": "fail",
+      "reason": "Portholes show exaggerated irregular reflective blobs, roof detail is soft, and yellow brick joints read as dense horizontal bands. Glazing remains opaque and one fused material prevents independent glass/metal treatment."
+    },
+    "backside_completion": {
+      "status": "pass",
+      "reason": "Back render shows a closed rear volume and roof, with no duplicated door. Diagnostic UV-seam weld yields zero boundary/nonmanifold edges and zero degenerate faces."
+    },
+    "backside_correctness": {
+      "status": "pending",
+      "reason": "Rear window groups and their black center panels are generated assumptions with no source/reference support. Black panels are a visible material/design inconsistency, not evidence of open mesh holes."
+    },
+    "scene_readability_and_lighting": {
+      "status": "pending",
+      "reason": "Laboratory remains recognizable in the elevated view, but the roof and blue vent recess dominate. Actual town view needs independent review after integration."
+    },
+    "motion_and_contact": {
+      "status": "not-applicable",
+      "reason": "Static exterior asset; no door animation or laboratory interior in this bounded task."
+    }
+  },
+  "defects": [
+    {
+      "id": "vent-cap-reconstruction",
+      "severity": "blocking",
+      "location": "Top of right-hand roof ventilator",
+      "evidence": "front.png/gameplay.png versus laboratory-reference-v1.png",
+      "symptom": "Solid capped red vent became an open-looking blue recess.",
+      "consequence": "Architectural construction no longer follows the inspected reference and reads as a container.",
+      "nextAction": "Locally remodel the vent cap and louvers in Blender from the reference, then re-export and re-render; do not submit another paid generation automatically."
+    },
+    {
+      "id": "roof-and-masonry-softness",
+      "severity": "blocking-for-photoreal",
+      "location": "Roof slopes and yellow facade",
+      "evidence": "front.png/back.png/gameplay.png",
+      "symptom": "Roof tiles lose crisp transverse joints and merge into soft strips; brick detail flattens into horizontal banding.",
+      "nextAction": "Rebuild/material-repair repeatable roof and wall construction at the actual camera texel density."
+    },
+    {
+      "id": "glazing-response",
+      "severity": "blocking-for-photoreal",
+      "location": "Circular and rectangular glazing",
+      "evidence": "front.png/back.png",
+      "symptom": "Blue opaque panes have distorted bright specular shapes; rear center panes are black.",
+      "nextAction": "Separate glazing material/geometry and specify a coherent reflection/interior response, with explicit rear-window design."
+    },
+    {
+      "id": "unverified-rear",
+      "severity": "coverage-gap",
+      "location": "Rear elevation",
+      "evidence": "back.png",
+      "symptom": "Rear openings were invented from one source view.",
+      "nextAction": "Choose explicit rear requirements if those angles are accessible and review them as authored interpretation."
+    }
+  ],
+  "generation": {
+    "nativeReferenceJobs": 1,
+    "hunyuanJobsAuthorized": 1,
+    "hunyuanJobsSubmitted": 1,
+    "hunyuanJobsCompleted": 1,
+    "jobId": "aef50cf8-b285-431b-bab8-57a4fd28cb3e",
+    "faceBudget": 50000,
+    "enablePBR": true,
+    "referenceSHA256": "5ee4208aaafdc18e27b89d21ef930f99ebd56eaa7eab49474e38e0d9ed0aab45"
+  },
+  "placement": {
+    "coordinateFrame": "glTF scene/root coordinates after node transforms, before runtime scale/centering. Not raw mesh accessor coordinates.",
+    "frontDirectionGLTF": [
+      0,
+      0,
+      1
+    ],
+    "upDirectionGLTF": [
+      0,
+      1,
+      0
+    ],
+    "groundEntryAnchorGLTF": [
+      -0.017930665984749794,
+      -8.721854527493633e-08,
+      0.27358004450798035
+    ],
+    "thresholdAnchorGLTF": [
+      -0.017930665984749794,
+      0.024536918848752975,
+      0.27358004450798035
+    ],
+    "bottomCenteredGroundEntryAnchorGLTF": [
+      0.000310337170958519,
+      0.0,
+      0.30705299973487854
+    ],
+    "sourceWarp": [
+      16,
+      13
+    ]
+  },
+  "limitations": [
+    "Candidate staging is permitted with status explicit; no photoreal acceptance.",
+    "3D geometry and unseen surfaces are authored/generated interpretations, not extracted ROM geometry.",
+    "Editable .blend is a fused triangulated candidate with packed maps and separate review stage, not a parametric building.",
+    "Door anchor is a texture/geometry estimate, not collision geometry.",
+    "No app edits, no additional generation retry, no creature generation."
+  ],
+  "nextAction": "Integrate only as an explicitly labeled candidate for source-door testing. Repair vent cap and material/construction defects locally, then obtain independent runtime visual review."
+}

@@ -1,0 +1,254 @@
+{
+  "generatedAt": "2026-09-08T23:18:04.755596+00:00",
+  "asset": "laboratory-v2",
+  "status": "candidate",
+  "sourceGLB": "models/laboratory-v2.glb",
+  "sourceSHA256": "fd7fbb06c2fc3b01cc6de169eac9471c3dadd67104cb1d56d268b5d1354a6768",
+  "editableBlend": "models/laboratory-v2.blend",
+  "geometryUnchanged": false,
+  "materialNodesUnchanged": false,
+  "sourceObjects": [
+    {
+      "name": "material",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationQuaternion": [
+        0.7071066498756409,
+        0.70710688829422,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrixWorld": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -3.029462618542311e-07,
+          -0.9999999403953552,
+          0.0
+        ],
+        [
+          0.0,
+          0.9999999403953552,
+          -3.029462618542311e-07,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 36403,
+      "triangles": 49992
+    },
+    {
+      "name": "LaboratoryV2_ClosedRedVentCap",
+      "location": [
+        0.2865000069141388,
+        -0.09700000286102295,
+        0.46863800287246704
+      ],
+      "rotationQuaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrixWorld": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.2865000069141388
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.09700000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.46863800287246704
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 384,
+      "triangles": 188
+    }
+  ],
+  "boundsBlenderZUp": {
+    "min": [
+      -0.49886399507522583,
+      -0.3205989599227905,
+      -8.721853816950897e-08
+    ],
+    "max": [
+      0.4623819887638092,
+      0.3875448703765869,
+      0.47363799810409546
+    ],
+    "dimensions": [
+      0.9612460136413574,
+      0.7081438302993774,
+      0.4736380875110626
+    ]
+  },
+  "originBlender": [
+    0,
+    0,
+    0
+  ],
+  "bottomCenter": [
+    -0.018241003155708313,
+    0.03347295522689819,
+    -8.721853816950897e-08
+  ],
+  "originHorizontalOffsetFromBottomCenter": 0.03812050534487301,
+  "physicalScale": "Unverified normalized source units, not established meters",
+  "topology": [
+    {
+      "object": "material",
+      "rawVertices": 36403,
+      "weldedVerticesForDiagnosticOnly": 24984,
+      "weldTolerance": 9.612460136413574e-07,
+      "boundaryEdgesAfterDiagnosticWeld": 0,
+      "nonmanifoldEdgesAfterDiagnosticWeld": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "object": "LaboratoryV2_ClosedRedVentCap",
+      "rawVertices": 384,
+      "weldedVerticesForDiagnosticOnly": 96,
+      "weldTolerance": 9.612460136413574e-07,
+      "boundaryEdgesAfterDiagnosticWeld": 0,
+      "nonmanifoldEdgesAfterDiagnosticWeld": 0,
+      "degenerateFaces": 0
+    }
+  ],
+  "textures": [
+    {
+      "name": "texture_pbr_20250901",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorSpace": "sRGB",
+      "packed": true
+    },
+    {
+      "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorSpace": "Non-Color",
+      "packed": true
+    },
+    {
+      "name": "texture_pbr_20250901_normal",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorSpace": "Non-Color",
+      "packed": true
+    }
+  ],
+  "views": [
+    {
+      "name": "front",
+      "camera": "Review Front",
+      "location": [
+        2.6018357276916504,
+        -4.333321571350098,
+        2.9442315101623535
+      ],
+      "lookAt": [
+        -0.018241003155708313,
+        0.03347295522689819,
+        0.23681895434856415
+      ],
+      "orthographicScale": 1.4163010120391846,
+      "resolution": [
+        1280,
+        1280
+      ],
+      "path": "front.png"
+    },
+    {
+      "name": "back",
+      "camera": "Review Back",
+      "location": [
+        -2.7109200954437256,
+        4.521271705627441,
+        2.6602303981781006
+      ],
+      "lookAt": [
+        -0.018241003155708313,
+        0.03347295522689819,
+        0.23681895434856415
+      ],
+      "orthographicScale": 1.4163010120391846,
+      "resolution": [
+        1280,
+        1280
+      ],
+      "path": "back.png"
+    },
+    {
+      "name": "gameplay",
+      "camera": "Review Gameplay",
+      "location": [
+        2.197108030319214,
+        -2.92032527923584,
+        4.667516708374023
+      ],
+      "lookAt": [
+        -0.018241003155708313,
+        0.03347295522689819,
+        0.23681895434856415
+      ],
+      "orthographicScale": 1.4220269918441772,
+      "resolution": [
+        1280,
+        1280
+      ],
+      "path": "gameplay.png"
+    }
+  ],
+  "lighting": {
+    "engine": "Cycles",
+    "samples": 48,
+    "worldStrength": 0.32,
+    "viewTransform": "AgX",
+    "look": "AgX - Medium High Contrast"
+  },
+  "visualReview": "Pending actual rendered image inspection"
+}

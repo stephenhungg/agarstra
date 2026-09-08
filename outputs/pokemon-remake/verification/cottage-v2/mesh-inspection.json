@@ -1,0 +1,200 @@
+{
+  "generatedAt": "2026-09-08T22:47:14.398168+00:00",
+  "asset": "cottage-v2",
+  "status": "candidate",
+  "sourceGLB": "models/cottage-v2.glb",
+  "sourceSHA256": "167a28ba963481cd7cd9b003ffc33e6bcace340ea8d7577ebfd1e6c720fa5c00",
+  "editableBlend": "models/cottage-v2.blend",
+  "geometryUnchanged": true,
+  "materialNodesUnchanged": true,
+  "sourceObjects": [
+    {
+      "name": "material",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationQuaternion": [
+        0.7071068286895752,
+        0.7071068286895752,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "matrixWorld": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.3435885648505064e-07,
+          -1.0000001192092896,
+          0.0
+        ],
+        [
+          0.0,
+          1.0000001192092896,
+          -1.3435885648505064e-07,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "vertices": 40935,
+      "triangles": 49998
+    }
+  ],
+  "boundsBlenderZUp": {
+    "min": [
+      -0.44871699810028076,
+      -0.28023001551628113,
+      3.377082791189423e-08
+    ],
+    "max": [
+      0.46355101466178894,
+      0.29799696803092957,
+      0.7006510496139526
+    ],
+    "dimensions": [
+      0.9122680425643921,
+      0.5782269835472107,
+      0.7006509900093079
+    ]
+  },
+  "originBlender": [
+    0,
+    0,
+    0
+  ],
+  "bottomCenter": [
+    0.007417008280754089,
+    0.008883476257324219,
+    3.377082791189423e-08
+  ],
+  "originHorizontalOffsetFromBottomCenter": 0.011572733568661201,
+  "physicalScale": "Unverified normalized source units, not established meters",
+  "candidateUniformScaleForSixMeterHeight": 8.563464671505413,
+  "topology": [
+    {
+      "object": "material",
+      "rawVertices": 40935,
+      "weldedVerticesForDiagnosticOnly": 24833,
+      "weldTolerance": 9.122680425643921e-07,
+      "boundaryEdgesAfterDiagnosticWeld": 0,
+      "nonmanifoldEdgesAfterDiagnosticWeld": 0,
+      "degenerateFaces": 0
+    }
+  ],
+  "textures": [
+    {
+      "name": "texture_pbr_20250901",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorSpace": "sRGB",
+      "packed": true
+    },
+    {
+      "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorSpace": "Non-Color",
+      "packed": true
+    },
+    {
+      "name": "texture_pbr_20250901_normal",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorSpace": "Non-Color",
+      "packed": true
+    }
+  ],
+  "views": [
+    {
+      "name": "front",
+      "camera": "Review Front",
+      "location": [
+        2.4939939975738525,
+        -4.135411739349365,
+        2.919788360595703
+      ],
+      "lookAt": [
+        0.007417008280754089,
+        0.008883476257324219,
+        0.3503255546092987
+      ],
+      "orthographicScale": 1.278475046157837,
+      "resolution": [
+        1280,
+        1280
+      ],
+      "path": "front.png"
+    },
+    {
+      "name": "back",
+      "camera": "Review Back",
+      "location": [
+        -2.548063278198242,
+        4.268016815185547,
+        2.6502578258514404
+      ],
+      "lookAt": [
+        0.007417008280754089,
+        0.008883476257324219,
+        0.3503255546092987
+      ],
+      "orthographicScale": 1.278475046157837,
+      "resolution": [
+        1280,
+        1280
+      ],
+      "path": "back.png"
+    },
+    {
+      "name": "gameplay",
+      "camera": "Review Gameplay",
+      "location": [
+        2.1098880767822266,
+        -2.7944111824035645,
+        4.555267810821533
+      ],
+      "lookAt": [
+        0.007417008280754089,
+        0.008883476257324219,
+        0.3503255546092987
+      ],
+      "orthographicScale": 1.2743045091629028,
+      "resolution": [
+        1280,
+        1280
+      ],
+      "path": "gameplay.png"
+    }
+  ],
+  "lighting": {
+    "engine": "Cycles",
+    "samples": 48,
+    "worldStrength": 0.32,
+    "viewTransform": "AgX",
+    "look": "AgX - Medium High Contrast"
+  },
+  "visualReview": "changes-required for photoreal release; opening-facade identity improved; see review.json",
+  "editableBlendSHA256": "d33f81c985b43202b6eaac4dfdd4909e829a8f214f046b74c1838751354a86f4"
+}

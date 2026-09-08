@@ -1,0 +1,485 @@
+{
+  "passed": true,
+  "verifiedAt": "2026-09-08T22:37:58.986Z",
+  "replayFrames": 11979,
+  "replaySteps": 124,
+  "replayFromPowerOnExactAll397312Bytes": true,
+  "elapsedMs": 10864.887292,
+  "observerNonmutating": true,
+  "initial": {
+    "frame": 11979,
+    "callback2": 134571445,
+    "phase": "overworld",
+    "map": {
+      "group": 3,
+      "number": 0,
+      "name": "PalletTown",
+      "width": 24,
+      "height": 20
+    },
+    "player": {
+      "id": 0,
+      "spriteId": 0,
+      "graphicsId": 0,
+      "localId": 255,
+      "mapGroup": 3,
+      "mapNumber": 0,
+      "isPlayer": true,
+      "hidden": false,
+      "spriteInvisible": false,
+      "visible": true,
+      "offScreen": false,
+      "tileX": 6,
+      "tileY": 8,
+      "previousTileX": 6,
+      "previousTileY": 8,
+      "worldX": 6,
+      "worldY": 8,
+      "x": 6,
+      "y": 8,
+      "visualOffsetX": 0,
+      "visualOffsetY": 0,
+      "facing": "down",
+      "direction": 1,
+      "movementDirection": 1,
+      "moving": false,
+      "elevation": 3,
+      "animation": 4,
+      "animationFrame": 1,
+      "source": {
+        "objectAddress": 33779256,
+        "spriteAddress": 33687100
+      },
+      "runningState": 0,
+      "tileTransitionState": 0,
+      "avatarFlags": 33
+    },
+    "objectEvents": [
+      {
+        "id": 0,
+        "spriteId": 0,
+        "graphicsId": 0,
+        "localId": 255,
+        "mapGroup": 3,
+        "mapNumber": 0,
+        "isPlayer": true,
+        "hidden": false,
+        "spriteInvisible": false,
+        "visible": true,
+        "offScreen": false,
+        "tileX": 6,
+        "tileY": 8,
+        "previousTileX": 6,
+        "previousTileY": 8,
+        "worldX": 6,
+        "worldY": 8,
+        "x": 6,
+        "y": 8,
+        "visualOffsetX": 0,
+        "visualOffsetY": 0,
+        "facing": "down",
+        "direction": 1,
+        "movementDirection": 1,
+        "moving": false,
+        "elevation": 3,
+        "animation": 4,
+        "animationFrame": 1,
+        "source": {
+          "objectAddress": 33779256,
+          "spriteAddress": 33687100
+        },
+        "runningState": 0,
+        "tileTransitionState": 0,
+        "avatarFlags": 33
+      },
+      {
+        "id": 1,
+        "spriteId": 1,
+        "graphicsId": 23,
+        "localId": 1,
+        "mapGroup": 3,
+        "mapNumber": 0,
+        "isPlayer": false,
+        "hidden": false,
+        "spriteInvisible": false,
+        "visible": true,
+        "offScreen": false,
+        "tileX": 5,
+        "tileY": 15,
+        "previousTileX": 5,
+        "previousTileY": 15,
+        "worldX": 5,
+        "worldY": 15,
+        "x": 5,
+        "y": 15,
+        "visualOffsetX": 0,
+        "visualOffsetY": 0,
+        "facing": "up",
+        "direction": 2,
+        "movementDirection": 2,
+        "moving": false,
+        "elevation": 3,
+        "animation": 5,
+        "animationFrame": 1,
+        "source": {
+          "objectAddress": 33779292,
+          "spriteAddress": 33687168
+        }
+      },
+      {
+        "id": 2,
+        "spriteId": 3,
+        "graphicsId": 27,
+        "localId": 2,
+        "mapGroup": 3,
+        "mapNumber": 0,
+        "isPlayer": false,
+        "hidden": false,
+        "spriteInvisible": true,
+        "visible": false,
+        "offScreen": true,
+        "tileX": 14,
+        "tileY": 17,
+        "previousTileX": 14,
+        "previousTileY": 17,
+        "worldX": 14,
+        "worldY": 17,
+        "x": 14,
+        "y": 17,
+        "visualOffsetX": 0,
+        "visualOffsetY": 0,
+        "facing": "right",
+        "direction": 4,
+        "movementDirection": 4,
+        "moving": false,
+        "elevation": 3,
+        "animation": 7,
+        "animationFrame": 3,
+        "source": {
+          "objectAddress": 33779328,
+          "spriteAddress": 33687304
+        }
+      }
+    ],
+    "battle": {
+      "active": false,
+      "flags": 0,
+      "outcome": 0,
+      "battlers": []
+    },
+    "source": {
+      "rom": "BPRE-0",
+      "verifiedSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+      "saveBlock1": 33707400
+    }
+  },
+  "motion": [
+    {
+      "frame": 11980,
+      "x": 6,
+      "y": 8,
+      "tileX": 6,
+      "facing": "right"
+    },
+    {
+      "frame": 11981,
+      "x": 6,
+      "y": 8,
+      "tileX": 6,
+      "facing": "right"
+    },
+    {
+      "frame": 11982,
+      "x": 6,
+      "y": 8,
+      "tileX": 6,
+      "facing": "right"
+    },
+    {
+      "frame": 11983,
+      "x": 6,
+      "y": 8,
+      "tileX": 6,
+      "facing": "right"
+    },
+    {
+      "frame": 11984,
+      "x": 6,
+      "y": 8,
+      "tileX": 6,
+      "facing": "right"
+    },
+    {
+      "frame": 11985,
+      "x": 6,
+      "y": 8,
+      "tileX": 6,
+      "facing": "right"
+    },
+    {
+      "frame": 11986,
+      "x": 6,
+      "y": 8,
+      "tileX": 6,
+      "facing": "right"
+    },
+    {
+      "frame": 11987,
+      "x": 6,
+      "y": 8,
+      "tileX": 6,
+      "facing": "right"
+    },
+    {
+      "frame": 11988,
+      "x": 6.0625,
+      "y": 8,
+      "tileX": 7,
+      "facing": "right"
+    },
+    {
+      "frame": 11989,
+      "x": 6.125,
+      "y": 8,
+      "tileX": 7,
+      "facing": "right"
+    },
+    {
+      "frame": 11990,
+      "x": 6.1875,
+      "y": 8,
+      "tileX": 7,
+      "facing": "right"
+    },
+    {
+      "frame": 11991,
+      "x": 6.25,
+      "y": 8,
+      "tileX": 7,
+      "facing": "right"
+    },
+    {
+      "frame": 11992,
+      "x": 6.3125,
+      "y": 8,
+      "tileX": 7,
+      "facing": "right"
+    },
+    {
+      "frame": 11993,
+      "x": 6.375,
+      "y": 8,
+      "tileX": 7,
+      "facing": "right"
+    },
+    {
+      "frame": 11994,
+      "x": 6.4375,
+      "y": 8,
+      "tileX": 7,
+      "facing": "right"
+    },
+    {
+      "frame": 11995,
+      "x": 6.5,
+      "y": 8,
+      "tileX": 7,
+      "facing": "right"
+    },
+    {
+      "frame": 11996,
+      "x": 6.5625,
+      "y": 8,
+      "tileX": 7,
+      "facing": "right"
+    },
+    {
+      "frame": 11997,
+      "x": 6.625,
+      "y": 8,
+      "tileX": 7,
+      "facing": "right"
+    },
+    {
+      "frame": 11998,
+      "x": 6.6875,
+      "y": 8,
+      "tileX": 7,
+      "facing": "right"
+    },
+    {
+      "frame": 11999,
+      "x": 6.75,
+      "y": 8,
+      "tileX": 7,
+      "facing": "right"
+    }
+  ],
+  "restedAfterCameraScroll": {
+    "frame": 12079,
+    "callback2": 134571445,
+    "phase": "overworld",
+    "map": {
+      "group": 3,
+      "number": 0,
+      "name": "PalletTown",
+      "width": 24,
+      "height": 20
+    },
+    "player": {
+      "id": 0,
+      "spriteId": 0,
+      "graphicsId": 0,
+      "localId": 255,
+      "mapGroup": 3,
+      "mapNumber": 0,
+      "isPlayer": true,
+      "hidden": false,
+      "spriteInvisible": false,
+      "visible": true,
+      "offScreen": false,
+      "tileX": 10,
+      "tileY": 8,
+      "previousTileX": 10,
+      "previousTileY": 8,
+      "worldX": 10,
+      "worldY": 8,
+      "x": 10,
+      "y": 8,
+      "visualOffsetX": 0,
+      "visualOffsetY": 0,
+      "facing": "right",
+      "direction": 4,
+      "movementDirection": 4,
+      "moving": false,
+      "elevation": 3,
+      "animation": 7,
+      "animationFrame": 3,
+      "source": {
+        "objectAddress": 33779256,
+        "spriteAddress": 33687100
+      },
+      "runningState": 0,
+      "tileTransitionState": 0,
+      "avatarFlags": 1
+    },
+    "objectEvents": [
+      {
+        "id": 0,
+        "spriteId": 0,
+        "graphicsId": 0,
+        "localId": 255,
+        "mapGroup": 3,
+        "mapNumber": 0,
+        "isPlayer": true,
+        "hidden": false,
+        "spriteInvisible": false,
+        "visible": true,
+        "offScreen": false,
+        "tileX": 10,
+        "tileY": 8,
+        "previousTileX": 10,
+        "previousTileY": 8,
+        "worldX": 10,
+        "worldY": 8,
+        "x": 10,
+        "y": 8,
+        "visualOffsetX": 0,
+        "visualOffsetY": 0,
+        "facing": "right",
+        "direction": 4,
+        "movementDirection": 4,
+        "moving": false,
+        "elevation": 3,
+        "animation": 7,
+        "animationFrame": 3,
+        "source": {
+          "objectAddress": 33779256,
+          "spriteAddress": 33687100
+        },
+        "runningState": 0,
+        "tileTransitionState": 0,
+        "avatarFlags": 1
+      },
+      {
+        "id": 1,
+        "spriteId": 1,
+        "graphicsId": 23,
+        "localId": 1,
+        "mapGroup": 3,
+        "mapNumber": 0,
+        "isPlayer": false,
+        "hidden": false,
+        "spriteInvisible": false,
+        "visible": true,
+        "offScreen": false,
+        "tileX": 5,
+        "tileY": 15,
+        "previousTileX": 5,
+        "previousTileY": 15,
+        "worldX": 5,
+        "worldY": 15,
+        "x": 5,
+        "y": 15,
+        "visualOffsetX": 0,
+        "visualOffsetY": 0,
+        "facing": "up",
+        "direction": 2,
+        "movementDirection": 2,
+        "moving": false,
+        "elevation": 3,
+        "animation": 5,
+        "animationFrame": 1,
+        "source": {
+          "objectAddress": 33779292,
+          "spriteAddress": 33687168
+        }
+      },
+      {
+        "id": 2,
+        "spriteId": 3,
+        "graphicsId": 27,
+        "localId": 2,
+        "mapGroup": 3,
+        "mapNumber": 0,
+        "isPlayer": false,
+        "hidden": false,
+        "spriteInvisible": true,
+        "visible": false,
+        "offScreen": true,
+        "tileX": 15,
+        "tileY": 17,
+        "previousTileX": 15,
+        "previousTileY": 17,
+        "worldX": 15,
+        "worldY": 17,
+        "x": 15,
+        "y": 17,
+        "visualOffsetX": 0,
+        "visualOffsetY": 0,
+        "facing": "right",
+        "direction": 4,
+        "movementDirection": 4,
+        "moving": false,
+        "elevation": 3,
+        "animation": 7,
+        "animationFrame": 1,
+        "source": {
+          "objectAddress": 33779328,
+          "spriteAddress": 33687304
+        }
+      }
+    ],
+    "battle": {
+      "active": false,
+      "flags": 0,
+      "outcome": 0,
+      "battlers": []
+    },
+    "source": {
+      "rom": "BPRE-0",
+      "verifiedSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+      "saveBlock1": 33707400
+    }
+  }
+}

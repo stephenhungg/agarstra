@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "outputPixelsCompared": 262144,
+  "visibleSourcePixels": 859,
+  "sourceVisibleBounds": [
+    10,
+    8,
+    50,
+    63
+  ],
+  "nearestNeighborIdentity": true,
+  "background": "palette index 0 replaced with white; no other recoloring",
+  "preparedPNGSHA256": "55dd17901a376cc23ba252885e9c4e1e2f1e9e4aec1e7bb32b27731c3114f092"
+}

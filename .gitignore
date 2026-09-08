@@ -57,3 +57,8 @@ reference/
 /outputs/smb3-photoreal/design/families.json
 # Also ignore node_modules when another local task links it as a symlink.
 node_modules
+
+# Complete FireRed snapshot is explicitly versioned, including generated assets.
+!/outputs/pokemon-remake/**
+/outputs/pokemon-remake/app/node_modules
+/outputs/pokemon-remake/**/__pycache__/

@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "verifiedAt": "2026-09-08T22:41:36.668Z",
+  "replayFrames": 30451,
+  "replaySegments": 262,
+  "fullStateBytesCompared": 397312,
+  "attackFrames": 1564,
+  "attackInputs": [
+    {
+      "frames": 12,
+      "keys": 1
+    },
+    {
+      "frames": 40,
+      "keys": 0
+    },
+    {
+      "frames": 12,
+      "keys": 1
+    },
+    {
+      "frames": 600,
+      "keys": 0
+    },
+    {
+      "frames": 30,
+      "keys": 1
+    },
+    {
+      "frames": 240,
+      "keys": 0
+    },
+    {
+      "frames": 30,
+      "keys": 1
+    },
+    {
+      "frames": 600,
+      "keys": 0
+    }
+  ],
+  "elapsedMs": 27457.777833,
+  "initial": {
+    "frame": 30451,
+    "callback2": 134287617,
+    "phase": "battle",
+    "map": {
+      "group": 4,
+      "number": 3,
+      "name": "PalletTown_ProfessorOaksLab",
+      "width": 13,
+      "height": 14
+    },
+    "player": null,
+    "objectEvents": [],
+    "battle": {
+      "active": true,
+      "flags": 28,
+      "outcome": 0,
+      "battlers": [
+        {
+          "id": 0,
+          "species": 1,
+          "hp": 20,
+          "maxHP": 20,
+          "level": 5,
+          "moves": [
+            33,
+            45,
+            0,
+            0
+          ],
+          "sourceAddress": 33700836
+        },
+        {
+          "id": 1,
+          "species": 4,
+          "hp": 18,
+          "maxHP": 18,
+          "level": 5,
+          "moves": [
+            10,
+            45,
+            0,
+            0
+          ],
+          "sourceAddress": 33700924
+        }
+      ]
+    },
+    "source": {
+      "rom": "BPRE-0",
+      "verifiedSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+      "saveBlock1": 33707380
+    }
+  },
+  "after": {
+    "frame": 32015,
+    "callback2": 134287617,
+    "phase": "battle",
+    "map": {
+      "group": 4,
+      "number": 3,
+      "name": "PalletTown_ProfessorOaksLab",
+      "width": 13,
+      "height": 14
+    },
+    "player": null,
+    "objectEvents": [],
+    "battle": {
+      "active": true,
+      "flags": 28,
+      "outcome": 0,
+      "battlers": [
+        {
+          "id": 0,
+          "species": 1,
+          "hp": 11,
+          "maxHP": 20,
+          "level": 5,
+          "moves": [
+            33,
+            45,
+            0,
+            0
+          ],
+          "sourceAddress": 33700836
+        },
+        {
+          "id": 1,
+          "species": 4,
+          "hp": 14,
+          "maxHP": 18,
+          "level": 5,
+          "moves": [
+            10,
+            45,
+            0,
+            0
+          ],
+          "sourceAddress": 33700924
+        }
+      ]
+    },
+    "source": {
+      "rom": "BPRE-0",
+      "verifiedSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+      "saveBlock1": 33707380
+    }
+  }
+}

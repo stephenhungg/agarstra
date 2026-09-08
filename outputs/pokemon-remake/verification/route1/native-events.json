@@ -1,0 +1,101 @@
+[
+  {
+    "frame": 32023,
+    "map": {
+      "group": 4,
+      "number": 3,
+      "name": "PalletTown_ProfessorOaksLab",
+      "width": 13,
+      "height": 14
+    },
+    "player": null,
+    "battle": {
+      "active": true,
+      "flags": 28,
+      "outcome": 0,
+      "battlers": [
+        {
+          "id": 0,
+          "species": 1,
+          "hp": 11,
+          "maxHP": 20,
+          "level": 5,
+          "moves": [
+            33,
+            45,
+            0,
+            0
+          ],
+          "sourceAddress": 33700836
+        },
+        {
+          "id": 1,
+          "species": 4,
+          "hp": 14,
+          "maxHP": 18,
+          "level": 5,
+          "moves": [
+            10,
+            45,
+            0,
+            0
+          ],
+          "sourceAddress": 33700924
+        }
+      ]
+    }
+  },
+  {
+    "frame": 37279,
+    "map": {
+      "group": 4,
+      "number": 3,
+      "name": "PalletTown_ProfessorOaksLab",
+      "width": 13,
+      "height": 14
+    },
+    "player": {
+      "id": 0,
+      "spriteId": 0,
+      "graphicsId": 0,
+      "localId": 255,
+      "mapGroup": 4,
+      "mapNumber": 3,
+      "isPlayer": true,
+      "hidden": false,
+      "spriteInvisible": false,
+      "visible": true,
+      "offScreen": false,
+      "tileX": 6,
+      "tileY": 8,
+      "previousTileX": 6,
+      "previousTileY": 8,
+      "worldX": 6,
+      "worldY": 8,
+      "x": 6,
+      "y": 8,
+      "visualOffsetX": 0,
+      "visualOffsetY": 0,
+      "facing": "up",
+      "direction": 2,
+      "movementDirection": 2,
+      "moving": false,
+      "elevation": 3,
+      "animation": 1,
+      "animationFrame": 0,
+      "source": {
+        "objectAddress": 33779256,
+        "spriteAddress": 33687100
+      },
+      "runningState": 0,
+      "tileTransitionState": 0,
+      "avatarFlags": 33
+    },
+    "battle": {
+      "active": false,
+      "flags": 28,
+      "outcome": 2,
+      "battlers": []
+    }
+  }
+]

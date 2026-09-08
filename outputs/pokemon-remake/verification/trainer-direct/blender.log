@@ -1,0 +1,286 @@
+16:30:53 | INFO: Data are loaded, start creating Blender stuff
+16:30:53 | INFO: Blender create Mesh node char1
+16:30:53 | INFO: glTF import finished in 0.11s
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:35:28)
+Fra:1 Mem:25.60M (Peak 25.60M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | char1
+Fra:1 Mem:25.60M (Peak 25.60M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:31.08M (Peak 36.46M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:29.99M (Peak 36.46M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading texture_0
+Fra:1 Mem:44.75M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:44.75M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:44.75M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:45.91M (Peak 62.00M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:45.90M (Peak 62.00M) | Time:00:00.11 | Mem:17.07M, Peak:17.07M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:45.90M (Peak 62.00M) | Time:00:00.11 | Mem:17.07M, Peak:17.07M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:45.90M (Peak 62.00M) | Time:00:00.11 | Mem:18.02M, Peak:18.02M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:45.90M (Peak 62.00M) | Time:00:00.11 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:45.90M (Peak 62.00M) | Time:00:00.11 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:20.35M, Peak:20.43M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.11 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:112.49M (Peak 112.49M) | Time:00:00.16 | Remaining:00:01.24 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:139.96M (Peak 181.16M) | Time:00:02.58 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:139.96M (Peak 181.16M) | Time:00:02.58 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Finished
+Saved: '/Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/verification/trainer-direct/front-frame-1.png'
+Time: 00:02.66 (Saving: 00:00.08)
+
+Fra:31 Mem:28.43M (Peak 28.43M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | char1
+Fra:31 Mem:28.44M (Peak 28.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:31 Mem:31.08M (Peak 36.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:31 Mem:29.99M (Peak 36.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading texture_0
+Fra:31 Mem:44.75M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Waiting for render to start
+Fra:31 Mem:44.75M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Scene
+Fra:31 Mem:44.75M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Shaders
+Fra:31 Mem:44.83M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:31 Mem:44.83M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Procedurals
+Fra:31 Mem:44.83M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Background
+Fra:31 Mem:44.83M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Camera
+Fra:31 Mem:44.83M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:31 Mem:44.83M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects
+Fra:31 Mem:44.83M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:31 Mem:44.83M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems
+Fra:31 Mem:44.83M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:31 Mem:44.83M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes
+Fra:31 Mem:44.83M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:31 Mem:44.83M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:31 Mem:45.91M (Peak 62.00M) | Time:00:00.07 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:31 Mem:45.90M (Peak 62.00M) | Time:00:00.07 | Mem:17.07M, Peak:17.07M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:31 Mem:45.90M (Peak 62.00M) | Time:00:00.07 | Mem:17.07M, Peak:17.07M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:31 Mem:45.90M (Peak 62.00M) | Time:00:00.07 | Mem:18.02M, Peak:18.02M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:31 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:31 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Objects Flags
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Images
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Camera Volume
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Lookup Tables
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Lights
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Integrator
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Film
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.43M | Scene, ViewLayer | Updating Lookup Tables
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Baking
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:31 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Sample 0/24
+Fra:31 Mem:112.49M (Peak 112.49M) | Time:00:00.13 | Remaining:00:01.12 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Sample 1/24
+Fra:31 Mem:139.96M (Peak 181.16M) | Time:00:02.58 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Sample 24/24
+Fra:31 Mem:139.96M (Peak 181.16M) | Time:00:02.58 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Finished
+Saved: '/Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/verification/trainer-direct/front-frame-31.png'
+Time: 00:02.63 (Saving: 00:00.04)
+
+Fra:61 Mem:28.44M (Peak 28.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | char1
+Fra:61 Mem:28.44M (Peak 28.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:61 Mem:31.08M (Peak 36.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:61 Mem:29.99M (Peak 36.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading texture_0
+Fra:61 Mem:44.75M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Waiting for render to start
+Fra:61 Mem:44.75M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Scene
+Fra:61 Mem:44.75M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Shaders
+Fra:61 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:61 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Procedurals
+Fra:61 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Background
+Fra:61 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Camera
+Fra:61 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:61 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects
+Fra:61 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:61 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems
+Fra:61 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:61 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes
+Fra:61 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:61 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:61 Mem:45.91M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:61 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:17.07M, Peak:17.07M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:61 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:17.07M, Peak:17.07M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:61 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:18.02M, Peak:18.02M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:61 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:61 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Objects Flags
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Images
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Camera Volume
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Lookup Tables
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Lights
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Integrator
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Film
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.43M | Scene, ViewLayer | Updating Lookup Tables
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Baking
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:61 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Sample 0/24
+Fra:61 Mem:112.49M (Peak 112.49M) | Time:00:00.13 | Remaining:00:01.19 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Sample 1/24
+Fra:61 Mem:139.96M (Peak 181.16M) | Time:00:02.92 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Sample 24/24
+Fra:61 Mem:139.96M (Peak 181.16M) | Time:00:02.92 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Finished
+Saved: '/Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/verification/trainer-direct/front-frame-61.png'
+Time: 00:02.97 (Saving: 00:00.05)
+
+Fra:91 Mem:28.43M (Peak 28.43M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | char1
+Fra:91 Mem:28.44M (Peak 28.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim
+Fra:91 Mem:31.08M (Peak 36.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:91 Mem:29.99M (Peak 36.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading texture_0
+Fra:91 Mem:44.75M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Waiting for render to start
+Fra:91 Mem:44.75M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Scene
+Fra:91 Mem:44.75M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Shaders
+Fra:91 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:91 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Procedurals
+Fra:91 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Background
+Fra:91 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Camera
+Fra:91 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:91 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects
+Fra:91 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:91 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems
+Fra:91 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:91 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes
+Fra:91 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:91 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:91 Mem:45.91M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:91 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:17.07M, Peak:17.07M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:91 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:17.07M, Peak:17.07M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:91 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:18.02M, Peak:18.02M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:91 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:91 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Objects Flags
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Images
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Camera Volume
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Lookup Tables
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Lights
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Integrator
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Film
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.43M | Scene, ViewLayer | Updating Lookup Tables
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Baking
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:91 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Sample 0/24
+Fra:91 Mem:112.49M (Peak 112.49M) | Time:00:00.13 | Remaining:00:01.10 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Sample 1/24
+Fra:91 Mem:139.96M (Peak 181.16M) | Time:00:03.06 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Sample 24/24
+Fra:91 Mem:139.96M (Peak 181.16M) | Time:00:03.06 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Finished
+Saved: '/Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/verification/trainer-direct/front-frame-91.png'
+Time: 00:03.11 (Saving: 00:00.05)
+
+Fra:121 Mem:28.43M (Peak 28.43M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | char1
+Fra:121 Mem:28.44M (Peak 28.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Key
+Fra:121 Mem:28.50M (Peak 28.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:121 Mem:31.08M (Peak 35.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:121 Mem:29.99M (Peak 35.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading texture_0
+Fra:121 Mem:44.75M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Waiting for render to start
+Fra:121 Mem:44.75M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Scene
+Fra:121 Mem:44.75M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Shaders
+Fra:121 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:121 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Procedurals
+Fra:121 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Background
+Fra:121 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Camera
+Fra:121 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:121 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects
+Fra:121 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:121 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems
+Fra:121 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:121 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes
+Fra:121 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:121 Mem:44.83M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:121 Mem:45.91M (Peak 62.00M) | Time:00:00.08 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:121 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:17.07M, Peak:17.07M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:121 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:17.07M, Peak:17.07M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:121 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:18.02M, Peak:18.02M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:121 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:121 Mem:45.90M (Peak 62.00M) | Time:00:00.08 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Objects Flags
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Images
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Camera Volume
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Lookup Tables
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Lights
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Integrator
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Film
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.35M, Peak:20.43M | Scene, ViewLayer | Updating Lookup Tables
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Baking
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:121 Mem:47.10M (Peak 62.00M) | Time:00:00.08 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Sample 0/24
+Fra:121 Mem:112.49M (Peak 112.49M) | Time:00:00.14 | Remaining:00:01.37 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Sample 1/24
+Fra:121 Mem:139.96M (Peak 181.16M) | Time:00:03.59 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Sample 24/24
+Fra:121 Mem:139.96M (Peak 181.16M) | Time:00:03.59 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Finished
+Saved: '/Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/verification/trainer-direct/front-frame-121.png'
+Time: 00:03.65 (Saving: 00:00.05)
+
+Fra:1 Mem:28.43M (Peak 28.43M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | char1
+Fra:1 Mem:28.44M (Peak 28.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Plane
+Fra:1 Mem:28.50M (Peak 28.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill
+Fra:1 Mem:31.08M (Peak 35.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:29.99M (Peak 35.75M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading texture_0
+Fra:1 Mem:44.75M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:44.75M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:44.75M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:44.83M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:45.91M (Peak 62.00M) | Time:00:00.09 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:45.90M (Peak 62.00M) | Time:00:00.09 | Mem:17.07M, Peak:17.07M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:45.90M (Peak 62.00M) | Time:00:00.09 | Mem:17.07M, Peak:17.07M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:45.90M (Peak 62.00M) | Time:00:00.09 | Mem:18.02M, Peak:18.02M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:45.90M (Peak 62.00M) | Time:00:00.10 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:45.90M (Peak 62.00M) | Time:00:00.10 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:19.16M, Peak:20.11M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:20.35M, Peak:20.35M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:20.35M, Peak:20.43M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:47.10M (Peak 62.00M) | Time:00:00.10 | Mem:20.43M, Peak:20.43M | Scene, ViewLayer | Sample 0/24
+Fra:1 Mem:112.49M (Peak 112.49M) | Time:00:00.19 | Remaining:00:02.10 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Sample 1/24
+Fra:1 Mem:139.96M (Peak 181.16M) | Time:00:03.44 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Sample 24/24
+Fra:1 Mem:139.96M (Peak 181.16M) | Time:00:03.44 | Mem:85.68M, Peak:85.68M | Scene, ViewLayer | Finished
+Saved: '/Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/verification/trainer-direct/back-frame-1.png'
+Time: 00:03.51 (Saving: 00:00.06)
+
+Info: Saved as "trainer-direct-v1.blend"
+{"glb": "/Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/models/trainer-direct-v1.glb", "glbSHA256": "e0928e00efe5acb3d6b0b2fca055185a02da66a31bc6041208d1125f7273e356", "status": "candidate-requires-visual-review", "meshCount": 1, "armatureCount": 1, "bones": 24, "vertices": 31278, "triangles": 31112, "actions": [{"name": "idle", "frames": [1.0, 121.0]}], "activeAnimation": [{"rig": "Armature", "action": "idle", "nlaTracks": 1}], "boundsBlenderZUp": {"min": [-0.7434951663017273, -0.3943740725517273, -0.01074284128844738], "max": [0.5117729306221008, 0.46481794118881226, 1.5621142387390137]}, "height": 1.572857080027461, "samples": [{"frame": 1, "seconds": 0.03333333333333333, "bounds": {"min": [-0.7434951663017273, -0.3943740725517273, -0.01074284128844738], "max": [0.5117729306221008, 0.46481794118881226, 1.5621142387390137]}, "maxVertexTravelFromFirst": 0.0}, {"frame": 31, "seconds": 1.0333333333333334, "bounds": {"min": [-0.5272757411003113, -0.5763954520225525, -0.019867312163114548], "max": [0.4626605808734894, 0.4296191334724426, 1.561410903930664]}, "maxVertexTravelFromFirst": 0.5725813530125544}, {"frame": 61, "seconds": 2.033333333333333, "bounds": {"min": [-0.6963117718696594, -0.30514660477638245, -0.015244134701788425], "max": [0.5414400696754456, 0.45923057198524475, 1.556552529335022]}, "maxVertexTravelFromFirst": 0.4448657561528573}, {"frame": 91, "seconds": 3.033333333333333, "bounds": {"min": [-0.625870943069458, -0.30503329634666443, -0.011772888712584972], "max": [0.4912804365158081, 0.4971120059490204, 1.5689705610275269]}, "maxVertexTravelFromFirst": 0.518865823346899}, {"frame": 121, "seconds": 4.033333333333333, "bounds": {"min": [-0.7433270215988159, -0.3939608335494995, -0.010862636379897594], "max": [0.5119712948799133, 0.4829239547252655, 1.561877727508545]}, "maxVertexTravelFromFirst": 0.028141593352018452}], "materials": [{"name": "Material_1", "surfaceRenderMethod": "DITHERED"}], "skeleton": [{"rig": "Armature", "bones": [{"name": "Hips", "parent": null, "headLocal": [-1.185184121131897, 7.424386501312256, 76.10688781738281], "tailLocal": [954.205810546875, -231.14047241210938, -145.90231323242188], "restMatrixLocal": [[-0.21993333101272583, 0.9464545845985413, 0.23633284866809845, -1.185184121131897], [-0.9707156419754028, -0.23633340001106262, 0.043101146817207336, 7.424386501312256], [0.09664660692214966, -0.21993260085582733, 0.9707157611846924, 76.10688781738281], [0.0, 0.0, 0.0, 1.0]]}, {"name": "LeftUpLeg", "parent": "Hips", "headLocal": [8.716538429260254, 8.425912857055664, 69.38324737548828], "tailLocal": [459.2788391113281, 409.03582763671875, -2620.0751953125], "restMatrixLocal": [[0.9687321782112122, 0.1634717881679535, -0.186641126871109, 8.716538429260254], [0.1634722352027893, 0.14534811675548553, 0.9757819771766663, 8.425915718078613], [0.18664078414440155, -0.9757819175720215, 0.11408045887947083, 69.38322448730469], [0.0, 0.0, 0.0, 1.0]]}, {"name": "LeftLeg", "parent": "LeftUpLeg", "headLocal": [13.222174644470215, 12.432023048400879, 42.48866653442383], "tailLocal": [233.15768432617188, 979.3862915039062, -3133.01171875], "restMatrixLocal": [[0.9938382506370544, 0.0661114826798439, -0.08896533399820328, 13.222053527832031], [0.06611227244138718, 0.29066145420074463, 0.9545390605926514, 12.431686401367188], [0.08896477520465851, -0.9545390009880066, 0.2844998240470886, 42.489646911621094], [0.0, 0.0, 0.0, 1.0]]}, {"name": "LeftFoot", "parent": "LeftLeg", "headLocal": [15.421534538269043, 22.1015625, 10.733657836914062], "tailLocal": [889.3629760742188, -499.913330078125, -672.623291015625], "restMatrixLocal": [[0.6436421871185303, 0.7127983570098877, -0.2786453068256378, 15.421442031860352], [0.7127983570098877, -0.4257623851299286, 0.5573550462722778, 22.10116195678711], [0.27864521741867065, -0.5573552846908569, -0.7821199893951416, 10.734661102294922], [0.0, 0.0, 0.0, 1.0]]}, {"name": "LeftToeBase", "parent": "LeftFoot", "headLocal": [24.160953521728516, 16.88141632080078, 3.900092124938965], "tailLocal": [1076.755126953125, -611.843994140625, 3.900092124938965], "restMatrixLocal": [[0.5127968788146973, 0.8585098385810852, 1.4901161193847656e-07, 24.160873413085938], [0.8585098385810852, -0.5127968192100525, 5.960464477539063e-08, 16.880950927734375], [2.682209014892578e-07, 0.0, -0.9999998807907104, 3.900883197784424], [0.0, 0.0, 0.0, 1.0]]}, {"name": "RightUpLeg", "parent": "Hips", "headLocal": [-12.214886665344238, 5.104315757751465, 68.98189544677734], "tailLocal": [-575.8841552734375, -922.9234619140625, -2781.0146484375], "restMatrixLocal": [[0.9738106727600098, -0.18482017517089844, 0.13241738080978394, -12.214960098266602], [-0.18482010066509247, -0.30428874492645264, 0.9344783425331116, 5.104310512542725], [-0.13241726160049438, -0.9344785809516907, -0.33047816157341003, 68.98189544677734], [0.0, 0.0, 0.0, 1.0]]}, {"name": "RightLeg", "parent": "RightUpLeg", "headLocal": [-17.851581573486328, -4.175959587097168, 40.48192596435547], "tailLocal": [-1083.9610595703125, 548.246337890625, -2761.454833984375], "restMatrixLocal": [[0.8506179451942444, -0.34973013401031494, 0.3926043212413788, -17.851734161376953], [-0.34973058104515076, 0.18121851980686188, 0.9191563129425049, -4.176011085510254], [-0.39260387420654297, -0.9191567897796631, 0.03183645009994507, 40.48139953613281], [0.0, 0.0, 0.0, 1.0]]}, {"name": "RightFoot", "parent": "RightLeg", "headLocal": [-28.512683868408203, 1.3482526540756226, 12.46255874633789], "tailLocal": [-58.79017639160156, -1027.2401123046875, -853.6860961914062], "restMatrixLocal": [[0.9997128844261169, -0.022510409355163574, 0.00821484625339508, -28.5128231048584], [-0.022510796785354614, -0.7647289037704468, 0.6439587473869324, 1.3483796119689941], [-0.008213547058403492, -0.6439590454101562, -0.7650162577629089, 12.462203979492188], [0.0, 0.0, 0.0, 1.0]]}, {"name": "RightToeBase", "parent": "RightFoot", "headLocal": [-28.815467834472656, -8.937630653381348, 3.8010730743408203], "tailLocal": [-68.39273071289062, -1353.39208984375, 3.8007524013519287], "restMatrixLocal": [[0.9995670318603516, -0.029424667358398438, 1.3423152267932892e-05, -28.815441131591797], [-0.02942461520433426, -0.9995669722557068, -2.086162567138672e-07, -8.937549591064453], [1.3522803783416748e-05, -2.384185791015625e-07, -1.000000238418579, 3.8008432388305664], [0.0, 0.0, 0.0, 1.0]]}, {"name": "Spine02", "parent": "Hips", "headLocal": [-0.9876501560211182, 8.573235511779785, 86.13377380371094], "tailLocal": [18.765642166137695, 123.45850372314453, 1088.82275390625], "restMatrixLocal": [[0.9995679259300232, 0.01956850290298462, 0.021933766081929207, -0.9876571893692017], [0.019568493589758873, 0.11381062865257263, -0.9933096766471863, 8.573230743408203], [-0.02193388342857361, 0.9933096170425415, 0.11337853968143463, 86.13375091552734], [0.0, 0.0, 0.0, 1.0]]}, {"name": "Spine01", "parent": "Spine02", "headLocal": [-0.7901201844215393, 9.722088813781738, 96.16065979003906], "tailLocal": [18.963010787963867, 124.60712432861328, 1098.84765625], "restMatrixLocal": [[0.9995679259300232, 0.019568394869565964, 0.02193380333483219, -0.7901463508605957], [0.019568543881177902, 0.11381059885025024, -0.9933096766471863, 9.722078323364258], [-0.02193377912044525, 0.9933096170425415, 0.11337850987911224, 96.16033172607422], [0.0, 0.0, 0.0, 1.0]]}, {"name": "Spine", "parent": "Spine01", "headLocal": [-0.5925887227058411, 10.870936393737793, 106.1875228881836], "tailLocal": [-42.517845153808594, -39.98430633544922, 736.6989135742188], "restMatrixLocal": [[0.9959511756896973, -0.06613370031118393, -0.060890763998031616, -0.5926139950752258], [-0.06613367795944214, -0.0802200436592102, -0.9945807456970215, 10.87092399597168], [0.06089064106345177, 0.9945806860923767, -0.08426889777183533, 106.1871566772461], [0.0, 0.0, 0.0, 1.0]]}, {"name": "LeftShoulder", "parent": "Spine", "headLocal": [0.8304838538169861, 11.199508666992188, 113.44576263427734], "tailLocal": [570.0595092773438, 44.056365966796875, 113.44576263427734], "restMatrixLocal": [[-0.05762552469968796, 0.9983381032943726, 7.310882210731506e-08, 0.8304527997970581], [0.9983380436897278, 0.05762575566768646, 1.341104507446289e-07, 11.199481964111328], [9.685754776000977e-08, 8.940696716308594e-08, -0.9999998211860657, 113.44540405273438], [0.0, 0.0, 0.0, 1.0]]}, {"name": "LeftArm", "parent": "LeftShoulder", "headLocal": [6.522773265838623, 11.528079986572266, 113.44577026367188], "tailLocal": [400.33135986328125, -179.79310607910156, -2264.469970703125], "restMatrixLocal": [[0.9754174947738647, 0.16287308931350708, -0.14843465387821198, 6.522637367248535], [0.16287271678447723, -0.07912743091583252, 0.9834685921669006, 11.528048515319824], [0.14843539893627167, -0.9834686517715454, -0.10371007025241852, 113.44546508789062], [0.0, 0.0, 0.0, 1.0]]}, {"name": "LeftForeArm", "parent": "LeftArm", "headLocal": [10.460854530334473, 9.614863395690918, 89.66661834716797], "tailLocal": [2085.36376953125, 1067.376220703125, 238.872802734375], "restMatrixLocal": [[-0.4457710385322571, 0.8890892267227173, 0.10396537184715271, 10.460686683654785], [0.8890885710716248, 0.4532473385334015, -0.063934326171875, 9.614889144897461], [-0.10396561026573181, 0.06393444538116455, -0.9925236105918884, 89.66670227050781], [0.0, 0.0, 0.0, 1.0]]}, {"name": "LeftHand", "parent": "LeftForeArm", "headLocal": [31.209875106811523, 20.192474365234375, 91.15869140625], "tailLocal": [1982.40087890625, -416.8621826171875, 1294.5623779296875], "restMatrixLocal": [[0.4112336337566376, 0.8360790610313416, 0.36312416195869446, 31.21017074584961], [0.8360797762870789, -0.1872764229774475, -0.5156524181365967, 20.192665100097656], [-0.36312156915664673, 0.5156545639038086, -0.7760429978370667, 91.15898895263672], [0.0, 0.0, 0.0, 1.0]]}, {"name": "RightShoulder", "parent": "Spine", "headLocal": [-3.6745786666870117, 8.160039901733398, 113.23646545410156], "tailLocal": [-1236.47216796875, -262.9300842285156, 113.23646545410156], "restMatrixLocal": [[0.2147669494152069, -0.9766654372215271, 3.958120942115784e-08, -3.674609661102295], [-0.9766652584075928, -0.21476708352565765, -2.9802322387695312e-08, 8.160012245178223], [-7.450580596923828e-09, -1.4901161193847656e-08, -0.9999999403953552, 113.23619079589844], [0.0, 0.0, 0.0, 1.0]]}, {"name": "RightArm", "parent": "RightShoulder", "headLocal": [-16.002552032470703, 5.449131965637207, 113.2364501953125], "tailLocal": [-944.5284423828125, -1604.296630859375, -1852.2841796875], "restMatrixLocal": [[0.9261282086372375, -0.3432702124118805, 0.15637250244617462, -16.00238800048828], [-0.3432687520980835, -0.5951128005981445, 0.726641058921814, 5.449154853820801], [-0.1563749760389328, -0.7266404628753662, -0.668984591960907, 113.23616027832031], [0.0, 0.0, 0.0, 1.0]]}, {"name": "RightForeArm", "parent": "RightArm", "headLocal": [-25.28777313232422, -10.648284912109375, 93.58120727539062], "tailLocal": [-880.7467651367188, -1237.540283203125, -1166.4725341796875], "restMatrixLocal": [[0.8824260830879211, -0.4374156892299652, 0.17318163812160492, -25.287948608398438], [-0.43741562962532043, -0.6273378729820251, 0.6442939639091492, -10.648467063903809], [-0.17318090796470642, -0.644294261932373, -0.7449116110801697, 93.58070373535156], [0.0, 0.0, 0.0, 1.0]]}, {"name": "RightHand", "parent": "RightForeArm", "headLocal": [-33.84235763549805, -22.917205810546875, 80.98068237304688], "tailLocal": [-1151.8421630859375, -1566.5166015625, -357.409912109375], "restMatrixLocal": [[0.8173598051071167, -0.5716589093208313, 0.07161854207515717, -33.84255599975586], [-0.5716589689254761, -0.7892776727676392, 0.22415784001350403, -22.917491912841797], [-0.07161495089530945, -0.22415921092033386, -0.9719177484512329, 80.98007202148438], [0.0, 0.0, 0.0, 1.0]]}, {"name": "neck", "parent": "Spine", "headLocal": [-0.30337727069854736, 11.591821670532227, 112.4792251586914], "tailLocal": [30.035005569458008, 87.21324920654297, 772.4794921875], "restMatrixLocal": [[0.9976516962051392, 0.045620888471603394, 0.051086436957120895, -0.3034091591835022], [0.045621003955602646, 0.11371456831693649, -0.9924653768539429, 11.59179401397705], [-0.0510864220559597, 0.9924653768539429, 0.11136627197265625, 112.47893524169922], [0.0, 0.0, 0.0, 1.0]]}, {"name": "Head", "parent": "neck", "headLocal": [3.922779796994291e-06, 12.348037719726562, 119.0792236328125], "tailLocal": [23.657127380371094, -119.30967712402344, 654.10205078125], "restMatrixLocal": [[0.9985145926475525, 0.04289662092924118, 0.033595554530620575, -2.396106719970703e-05], [0.042896877974271774, -0.2387302815914154, -0.9701379537582397, 12.348020553588867], [-0.03359536454081535, 0.970137894153595, -0.2402157485485077, 119.07897186279297], [0.0, 0.0, 0.0, 1.0]]}, {"name": "head_end", "parent": "Head", "headLocal": [2.020055055618286, 6.6208367347717285, 164.7641143798828], "tailLocal": [26.192489624023438, -61.912479400634766, 711.4464721679688], "restMatrixLocal": [[0.9982912540435791, 0.04383102431893349, 0.038646675646305084, 2.0200259685516357], [0.04383152350783348, -0.1242690309882164, -0.9912799596786499, 6.620807647705078], [-0.03864623233675957, 0.9912798404693604, -0.12597784399986267, 164.76382446289062], [0.0, 0.0, 0.0, 1.0]]}, {"name": "headfront", "parent": "Head", "headLocal": [6.146778105176054e-06, 6.83312463760376, 119.07923126220703], "tailLocal": [0.000143795958138071, -544.6582641601562, 119.07923126220703], "restMatrixLocal": [[1.0000001192092896, 2.4959444999694824e-07, -1.5273690223693848e-07, -2.512335777282715e-05], [3.688037395477295e-07, -1.0, 1.341104507446289e-07, 6.8330888748168945], [-1.555308699607849e-07, -7.450580596923828e-08, -0.9999998807907104, 119.0789794921875], [0.0, 0.0, 0.0, 1.0]]}]}]}
+
+Blender quit

@@ -1,0 +1,38 @@
+{
+  "status": "candidate awaiting actual export review",
+  "seed": 894517,
+  "sourceBlend": "outputs/pokemon-remake/environment/tree/tree.blend",
+  "sourceGLBSHA256": "0488d72b777a728a65c0789d9688a75f125c9a7ba49fb1f402ba07f4a948193b",
+  "glbSHA256": "eb0a11a0802f57a1e9ca69a23308a42fc22a5b141436b7e63c59893b7598602d",
+  "triangles": 43886,
+  "29InstanceTriangles": 1272694,
+  "previous29InstanceTriangles": 1784254,
+  "meshCount": 2,
+  "materials": 2,
+  "nominalHeight": 3.8,
+  "boundsBlender": {
+    "min": [
+      -1.778658390045166,
+      -1.789629578590393,
+      0.0
+    ],
+    "max": [
+      1.8125954866409302,
+      1.709774374961853,
+      3.799999713897705
+    ]
+  },
+  "leafCount": 3840,
+  "newBranchExtensions": 60,
+  "newSprigs": 480,
+  "branchScaffoldBaseVertices": 13015,
+  "branchScaffoldBaseTriangles": 12926,
+  "branchAttachmentMethod": "Every extension shares an existing scaffold vertex; sprigs share terminal extension vertices. No detached leaf-cloud helper objects.",
+  "textureMethod": "Generated-source bark luminance remapped to brown and reduced to 2K; locally authored 512px leaf veins with per-leaf tint. Not photographic scans.",
+  "limitations": [
+    "Static tree; no wind.",
+    "Opaque leaves do not reproduce physical transmission.",
+    "Generated scaffold shape and locally authored foliage still require visual review.",
+    "A scene with 29 real runtime instances must be measured by integration owner."
+  ]
+}

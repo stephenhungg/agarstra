@@ -1,0 +1,90 @@
+{
+  "status": "changes-required",
+  "photorealApproved": false,
+  "battleAnimationApproved": false,
+  "modelModifiedDuringReview": false,
+  "glbSHA256": "95ea02802032e55fcaaa06d8f6b53df89b5bf130b1bb22787ab5d399c9e7a3f0",
+  "sourceType": "Existing creator asset, not generated or ROM-extracted geometry",
+  "license": "CC BY-NC 4.0",
+  "credit": [
+    "Charmander rig created by Milos Cerny and downloaded at http://www.miloscerny.com/",
+    "3D model created by Guilherme Lauck https://sketchfab.com/guilauck"
+  ],
+  "actualGLBReimportVerified": true,
+  "renderedFrames": [
+    1,
+    51,
+    151
+  ],
+  "backRenderFrame": 1,
+  "sampledFrames": [
+    1,
+    26,
+    51,
+    76,
+    101,
+    126,
+    151,
+    176,
+    201
+  ],
+  "animation": {
+    "name": "Armature|Take 001|BaseLayer",
+    "keyTimeRangeSeconds": [
+      0.03333333333333333,
+      6.7
+    ],
+    "fps": 30,
+    "channelCount": 180,
+    "jointCount": 60,
+    "materiallyChangingLocalRotationChannels": 35,
+    "semanticAssessment": "Likely rig/control demonstration; inferred from asymmetric isolated joint activity and actual inspected poses. Not a validated idle or attack.",
+    "validatedBattleClips": [],
+    "safeStaticInspectionTimeSeconds": 0.03333333333333333,
+    "staticPoseIsBattleReady": false,
+    "recommendedRuntimeBehavior": "Keep original sprite candidate for battle until purpose-authored clips and stance are reviewed."
+  },
+  "skin": {
+    "sourceVertices": 6997,
+    "exportVertices": 7767,
+    "sourceVerticesOverFourWeights": 711,
+    "maxDiscardedWeight": 0.12197072058916092,
+    "maxSampledDeformationError": 0.0039284741253962615,
+    "methodLimit": "Nine sampled frames, fixed nearest-source initial-pose correspondence; coincident source vertices may be ambiguous."
+  },
+  "orientation": {
+    "gltfSceneFront": [
+      0,
+      0,
+      1
+    ],
+    "gltfSceneUp": [
+      0,
+      1,
+      0
+    ],
+    "preserveExistingRootTransforms": true,
+    "restHeight": 0.595468707033433,
+    "restFeetY": -0.0012709569418802857
+  },
+  "defects": [
+    "Single animation behaves like a rig control demonstration, not production battle motion.",
+    "Frame 51 neck/throat strongly stretches and compresses.",
+    "Initial pose is a stiff arms-out stance.",
+    "Glossy skin and coarse scale texture undermine realism.",
+    "Tail tip is solid orange textured geometry without emissive or animated flame treatment.",
+    "Eyes read dark and lack convincing depth.",
+    "Four-weight export introduces measurable localized skin error."
+  ],
+  "evidence": [
+    "glb-frame-1-front.png",
+    "glb-frame-51-front.png",
+    "glb-frame-151-front.png",
+    "glb-frame-1-back.png",
+    "skin-verification.json",
+    "glb-structure.json",
+    "reimport-review.blend",
+    "verify_export.py",
+    "skin-verification.log"
+  ]
+}

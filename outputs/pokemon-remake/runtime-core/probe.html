@@ -1,0 +1,20 @@
+<!doctype html><meta charset="utf-8"><title>FireRed source runtime probe</title>
+<style>body{background:#101515;color:#dce8df;font:16px system-ui;max-width:820px;margin:40px auto}canvas{width:720px;height:480px;image-rendering:pixelated;background:black}button,input{margin:12px 8px 12px 0}pre{white-space:pre-wrap}</style>
+<h1>FireRed source runtime probe</h1><p>Original ROM execution. This page verifies the source bridge, not remake visuals.</p>
+<input type="file" accept=".gba" id="rom"><button id="pause">pause / resume</button>
+<p>arrows move · X = A · Z = B · enter = start · backspace = select</p>
+<canvas id="screen" width="240" height="160"></canvas><pre id="status">load the local .gba file</pre>
+<script type="module">
+import {createGbaCore,GbaAudio} from './browser-core.mjs';
+import {Keys} from './gba-adapter.mjs';
+const screen=document.querySelector('#screen'),ctx=screen.getContext('2d'),status=document.querySelector('#status');
+let gba,audio,paused=true,mask=0,last=0,debt=0;
+window.loadRom=async bytes=>{if(gba)gba.destroy();gba=await createGbaCore(bytes);window.gba=gba;paused=true;return {frame:gba.frame,fps:gba.fps};};
+document.querySelector('#rom').onchange=async event=>{audio??=new GbaAudio();await audio.resume();await window.loadRom(new Uint8Array(await event.target.files[0].arrayBuffer()));paused=false;};
+document.querySelector('#pause').onclick=async()=>{if(!gba)return;paused=!paused;if(paused)audio?.pause();else await audio?.resume();};
+const map={ArrowRight:Keys.Right,ArrowLeft:Keys.Left,ArrowUp:Keys.Up,ArrowDown:Keys.Down,KeyX:Keys.A,KeyZ:Keys.B,Enter:Keys.Start,Backspace:Keys.Select,KeyA:Keys.L,KeyS:Keys.R};
+addEventListener('keydown',e=>{if(map[e.code]){mask|=map[e.code];e.preventDefault();}});addEventListener('keyup',e=>{if(map[e.code]){mask&=~map[e.code];e.preventDefault();}});
+addEventListener('blur',()=>{mask=0;paused=true;audio?.pause();});
+window.draw=()=>{if(gba)ctx.putImageData(new ImageData(new Uint8ClampedArray(gba.pixels()),240,160),0,0);};
+function tick(now){const dt=Math.min((now-last)/1000,0.1);last=now;if(gba&&!paused){debt+=dt;const step=1/gba.fps;while(debt>=step){audio?.push(gba.step(1,mask).audio);debt-=step;}window.draw();status.textContent=JSON.stringify({frame:gba.frame,fps:gba.fps,callback2:'0x'+gba.read32(0x030030f4).toString(16),saveBlock1Ptr:'0x'+gba.read32(0x03005008).toString(16)},null,2);}else debt=0;requestAnimationFrame(tick);}requestAnimationFrame(tick);
+</script>

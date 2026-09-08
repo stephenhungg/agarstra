@@ -1,0 +1,11 @@
+Charmander existing creator asset — v2 adaptation
+
+License: CC BY-NC 4.0
+Source: https://www.miloscerny.com/download-charmander
+
+Required creator attribution:
+Charmander rig created by Milos Cerny and downloaded at http://www.miloscerny.com/
+3D model created by Guilherme Lauck https://sketchfab.com/guilauck
+
+Adaptation: restrained skin material, bent-arm stance, authored three-second idle, and localized emissive tail-tip material. Original geometry and rig are creator assets, not newly generated or extracted from a ROM.
+Original license terms: https://creativecommons.org/licenses/by-nc/4.0/legalcode

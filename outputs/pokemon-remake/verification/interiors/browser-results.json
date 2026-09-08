@@ -1,0 +1,1056 @@
+{
+  "passed": true,
+  "reports": [
+    {
+      "file": "bedroom.state",
+      "map": "PalletTown_PlayersHouse_2F",
+      "passed": true,
+      "drawCalls": 66,
+      "triangles": 23680,
+      "sourceFrame": 9114,
+      "player": {
+        "id": 0,
+        "spriteId": 0,
+        "graphicsId": 0,
+        "localId": 255,
+        "mapGroup": 4,
+        "mapNumber": 1,
+        "isPlayer": true,
+        "hidden": false,
+        "spriteInvisible": false,
+        "visible": true,
+        "offScreen": false,
+        "tileX": 6,
+        "tileY": 6,
+        "previousTileX": 6,
+        "previousTileY": 6,
+        "worldX": 6,
+        "worldY": 6,
+        "x": 6,
+        "y": 6,
+        "visualOffsetX": 0,
+        "visualOffsetY": 0,
+        "facing": "up",
+        "direction": 2,
+        "movementDirection": 2,
+        "moving": false,
+        "elevation": 3,
+        "animation": 5,
+        "animationFrame": 1,
+        "source": {
+          "objectAddress": 33779256,
+          "spriteAddress": 33687100
+        },
+        "runningState": 0,
+        "tileTransitionState": 0,
+        "avatarFlags": 33
+      },
+      "report": {
+        "status": "candidate-3d-interiors-not-photoreal-approved",
+        "photorealApproved": false,
+        "maps": {
+          "PalletTown_PlayersHouse_1F": {
+            "width": 13,
+            "height": 10,
+            "features": 13,
+            "warps": [
+              {
+                "x": 5,
+                "y": 8,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "0"
+              },
+              {
+                "x": 4,
+                "y": 8,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "0"
+              },
+              {
+                "x": 10,
+                "y": 2,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_2F",
+                "dest_warp_id": "0"
+              },
+              {
+                "x": 3,
+                "y": 9,
+                "elevation": 0,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "0"
+              }
+            ],
+            "sourceMapSHA256": "f485f064e2464ebc81bb525960529e4222c2613c55addf8be5b8f8a06891d93c"
+          },
+          "PalletTown_PlayersHouse_2F": {
+            "width": 12,
+            "height": 9,
+            "features": 10,
+            "warps": [
+              {
+                "x": 10,
+                "y": 2,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_1F",
+                "dest_warp_id": "2"
+              }
+            ],
+            "sourceMapSHA256": "2519a15ac22fc281fc5a8843c7e515b2915d1f44871a2b463961b6c192473569"
+          },
+          "PalletTown_ProfessorOaksLab": {
+            "width": 13,
+            "height": 14,
+            "features": 17,
+            "warps": [
+              {
+                "x": 6,
+                "y": 12,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "2"
+              },
+              {
+                "x": 7,
+                "y": 12,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "2"
+              },
+              {
+                "x": 5,
+                "y": 12,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "2"
+              }
+            ],
+            "sourceMapSHA256": "a1ca472215cd91f5128360af49880035be67b82fb43120758826a21e6a8d803f"
+          }
+        },
+        "activeMap": "PalletTown_PlayersHouse_2F",
+        "actorPositions": [
+          {
+            "id": 0,
+            "x": 6,
+            "z": 6,
+            "visible": true
+          }
+        ],
+        "limitations": [
+          "source-linked candidate geometry; not photoreal approved",
+          "trainer and NPC actors remain temporary markers",
+          "source 2D furniture footprints are mapped; vertical forms and lighting are interpreted",
+          "cutaway walls preserve gameplay visibility"
+        ]
+      }
+    },
+    {
+      "file": "house1f.state",
+      "map": "PalletTown_PlayersHouse_1F",
+      "passed": true,
+      "drawCalls": 95,
+      "triangles": 29100,
+      "sourceFrame": 10630,
+      "player": {
+        "id": 0,
+        "spriteId": 0,
+        "graphicsId": 0,
+        "localId": 255,
+        "mapGroup": 4,
+        "mapNumber": 0,
+        "isPlayer": true,
+        "hidden": false,
+        "spriteInvisible": false,
+        "visible": true,
+        "offScreen": false,
+        "tileX": 10,
+        "tileY": 2,
+        "previousTileX": 10,
+        "previousTileY": 2,
+        "worldX": 10,
+        "worldY": 2,
+        "x": 10,
+        "y": 2,
+        "visualOffsetX": 0,
+        "visualOffsetY": 0,
+        "facing": "left",
+        "direction": 3,
+        "movementDirection": 3,
+        "moving": false,
+        "elevation": 3,
+        "animation": 6,
+        "animationFrame": 1,
+        "source": {
+          "objectAddress": 33779256,
+          "spriteAddress": 33687100
+        },
+        "runningState": 0,
+        "tileTransitionState": 0,
+        "avatarFlags": 33
+      },
+      "report": {
+        "status": "candidate-3d-interiors-not-photoreal-approved",
+        "photorealApproved": false,
+        "maps": {
+          "PalletTown_PlayersHouse_1F": {
+            "width": 13,
+            "height": 10,
+            "features": 13,
+            "warps": [
+              {
+                "x": 5,
+                "y": 8,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "0"
+              },
+              {
+                "x": 4,
+                "y": 8,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "0"
+              },
+              {
+                "x": 10,
+                "y": 2,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_2F",
+                "dest_warp_id": "0"
+              },
+              {
+                "x": 3,
+                "y": 9,
+                "elevation": 0,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "0"
+              }
+            ],
+            "sourceMapSHA256": "f485f064e2464ebc81bb525960529e4222c2613c55addf8be5b8f8a06891d93c"
+          },
+          "PalletTown_PlayersHouse_2F": {
+            "width": 12,
+            "height": 9,
+            "features": 10,
+            "warps": [
+              {
+                "x": 10,
+                "y": 2,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_1F",
+                "dest_warp_id": "2"
+              }
+            ],
+            "sourceMapSHA256": "2519a15ac22fc281fc5a8843c7e515b2915d1f44871a2b463961b6c192473569"
+          },
+          "PalletTown_ProfessorOaksLab": {
+            "width": 13,
+            "height": 14,
+            "features": 17,
+            "warps": [
+              {
+                "x": 6,
+                "y": 12,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "2"
+              },
+              {
+                "x": 7,
+                "y": 12,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "2"
+              },
+              {
+                "x": 5,
+                "y": 12,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "2"
+              }
+            ],
+            "sourceMapSHA256": "a1ca472215cd91f5128360af49880035be67b82fb43120758826a21e6a8d803f"
+          }
+        },
+        "activeMap": "PalletTown_PlayersHouse_1F",
+        "actorPositions": [
+          {
+            "id": 0,
+            "x": 10,
+            "z": 2,
+            "visible": true
+          },
+          {
+            "id": 1,
+            "x": 8,
+            "z": 4,
+            "visible": true
+          }
+        ],
+        "limitations": [
+          "source-linked candidate geometry; not photoreal approved",
+          "trainer and NPC actors remain temporary markers",
+          "source 2D furniture footprints are mapped; vertical forms and lighting are interpreted",
+          "cutaway walls preserve gameplay visibility"
+        ]
+      }
+    },
+    {
+      "file": "choose-starter.state",
+      "map": "PalletTown_ProfessorOaksLab",
+      "passed": true,
+      "drawCalls": 145,
+      "triangles": 41684,
+      "sourceFrame": 20554,
+      "player": {
+        "id": 0,
+        "spriteId": 0,
+        "graphicsId": 0,
+        "localId": 255,
+        "mapGroup": 4,
+        "mapNumber": 3,
+        "isPlayer": true,
+        "hidden": false,
+        "spriteInvisible": false,
+        "visible": true,
+        "offScreen": false,
+        "tileX": 6,
+        "tileY": 4,
+        "previousTileX": 6,
+        "previousTileY": 4,
+        "worldX": 6,
+        "worldY": 4,
+        "x": 6,
+        "y": 4,
+        "visualOffsetX": 0,
+        "visualOffsetY": 0,
+        "facing": "up",
+        "direction": 2,
+        "movementDirection": 2,
+        "moving": false,
+        "elevation": 3,
+        "animation": 5,
+        "animationFrame": 1,
+        "source": {
+          "objectAddress": 33779256,
+          "spriteAddress": 33687100
+        },
+        "runningState": 0,
+        "tileTransitionState": 0,
+        "avatarFlags": 33
+      },
+      "report": {
+        "status": "candidate-3d-interiors-not-photoreal-approved",
+        "photorealApproved": false,
+        "maps": {
+          "PalletTown_PlayersHouse_1F": {
+            "width": 13,
+            "height": 10,
+            "features": 13,
+            "warps": [
+              {
+                "x": 5,
+                "y": 8,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "0"
+              },
+              {
+                "x": 4,
+                "y": 8,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "0"
+              },
+              {
+                "x": 10,
+                "y": 2,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_2F",
+                "dest_warp_id": "0"
+              },
+              {
+                "x": 3,
+                "y": 9,
+                "elevation": 0,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "0"
+              }
+            ],
+            "sourceMapSHA256": "f485f064e2464ebc81bb525960529e4222c2613c55addf8be5b8f8a06891d93c"
+          },
+          "PalletTown_PlayersHouse_2F": {
+            "width": 12,
+            "height": 9,
+            "features": 10,
+            "warps": [
+              {
+                "x": 10,
+                "y": 2,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_1F",
+                "dest_warp_id": "2"
+              }
+            ],
+            "sourceMapSHA256": "2519a15ac22fc281fc5a8843c7e515b2915d1f44871a2b463961b6c192473569"
+          },
+          "PalletTown_ProfessorOaksLab": {
+            "width": 13,
+            "height": 14,
+            "features": 17,
+            "warps": [
+              {
+                "x": 6,
+                "y": 12,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "2"
+              },
+              {
+                "x": 7,
+                "y": 12,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "2"
+              },
+              {
+                "x": 5,
+                "y": 12,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "2"
+              }
+            ],
+            "sourceMapSHA256": "a1ca472215cd91f5128360af49880035be67b82fb43120758826a21e6a8d803f"
+          }
+        },
+        "activeMap": "PalletTown_ProfessorOaksLab",
+        "actorPositions": [
+          {
+            "id": 0,
+            "x": 6,
+            "z": 4,
+            "visible": true
+          },
+          {
+            "id": 1,
+            "x": 3,
+            "z": 11,
+            "visible": true
+          },
+          {
+            "id": 2,
+            "x": 2,
+            "z": 9,
+            "visible": true
+          },
+          {
+            "id": 3,
+            "x": 11,
+            "z": 10,
+            "visible": true
+          },
+          {
+            "id": 4,
+            "x": 8,
+            "z": 4,
+            "visible": true
+          },
+          {
+            "id": 5,
+            "x": 9,
+            "z": 4,
+            "visible": true
+          },
+          {
+            "id": 6,
+            "x": 10,
+            "z": 4,
+            "visible": true
+          },
+          {
+            "id": 7,
+            "x": 5,
+            "z": 4,
+            "visible": true
+          },
+          {
+            "id": 8,
+            "x": 6,
+            "z": 3,
+            "visible": true
+          },
+          {
+            "id": 9,
+            "x": 4,
+            "z": 1,
+            "visible": true
+          },
+          {
+            "id": 10,
+            "x": 5,
+            "z": 1,
+            "visible": true
+          }
+        ],
+        "limitations": [
+          "source-linked candidate geometry; not photoreal approved",
+          "trainer and NPC actors remain temporary markers",
+          "source 2D furniture footprints are mapped; vertical forms and lighting are interpreted",
+          "cutaway walls preserve gameplay visibility"
+        ]
+      }
+    },
+    {
+      "file": "bedroom.state",
+      "map": "PalletTown_PlayersHouse_2F",
+      "passed": true,
+      "drawCalls": 66,
+      "triangles": 23680,
+      "sourceFrame": 9114,
+      "player": {
+        "id": 0,
+        "spriteId": 0,
+        "graphicsId": 0,
+        "localId": 255,
+        "mapGroup": 4,
+        "mapNumber": 1,
+        "isPlayer": true,
+        "hidden": false,
+        "spriteInvisible": false,
+        "visible": true,
+        "offScreen": false,
+        "tileX": 6,
+        "tileY": 6,
+        "previousTileX": 6,
+        "previousTileY": 6,
+        "worldX": 6,
+        "worldY": 6,
+        "x": 6,
+        "y": 6,
+        "visualOffsetX": 0,
+        "visualOffsetY": 0,
+        "facing": "up",
+        "direction": 2,
+        "movementDirection": 2,
+        "moving": false,
+        "elevation": 3,
+        "animation": 5,
+        "animationFrame": 1,
+        "source": {
+          "objectAddress": 33779256,
+          "spriteAddress": 33687100
+        },
+        "runningState": 0,
+        "tileTransitionState": 0,
+        "avatarFlags": 33
+      },
+      "report": {
+        "status": "candidate-3d-interiors-not-photoreal-approved",
+        "photorealApproved": false,
+        "maps": {
+          "PalletTown_PlayersHouse_1F": {
+            "width": 13,
+            "height": 10,
+            "features": 13,
+            "warps": [
+              {
+                "x": 5,
+                "y": 8,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "0"
+              },
+              {
+                "x": 4,
+                "y": 8,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "0"
+              },
+              {
+                "x": 10,
+                "y": 2,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_2F",
+                "dest_warp_id": "0"
+              },
+              {
+                "x": 3,
+                "y": 9,
+                "elevation": 0,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "0"
+              }
+            ],
+            "sourceMapSHA256": "f485f064e2464ebc81bb525960529e4222c2613c55addf8be5b8f8a06891d93c"
+          },
+          "PalletTown_PlayersHouse_2F": {
+            "width": 12,
+            "height": 9,
+            "features": 10,
+            "warps": [
+              {
+                "x": 10,
+                "y": 2,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_1F",
+                "dest_warp_id": "2"
+              }
+            ],
+            "sourceMapSHA256": "2519a15ac22fc281fc5a8843c7e515b2915d1f44871a2b463961b6c192473569"
+          },
+          "PalletTown_ProfessorOaksLab": {
+            "width": 13,
+            "height": 14,
+            "features": 17,
+            "warps": [
+              {
+                "x": 6,
+                "y": 12,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "2"
+              },
+              {
+                "x": 7,
+                "y": 12,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "2"
+              },
+              {
+                "x": 5,
+                "y": 12,
+                "elevation": 3,
+                "dest_map": "MAP_PALLET_TOWN",
+                "dest_warp_id": "2"
+              }
+            ],
+            "sourceMapSHA256": "a1ca472215cd91f5128360af49880035be67b82fb43120758826a21e6a8d803f"
+          }
+        },
+        "activeMap": "PalletTown_PlayersHouse_2F",
+        "actorPositions": [
+          {
+            "id": 0,
+            "x": 6,
+            "z": 6,
+            "visible": true
+          }
+        ],
+        "limitations": [
+          "source-linked candidate geometry; not photoreal approved",
+          "trainer and NPC actors remain temporary markers",
+          "source 2D furniture footprints are mapped; vertical forms and lighting are interpreted",
+          "cutaway walls preserve gameplay visibility"
+        ]
+      }
+    }
+  ],
+  "motion": {
+    "before": {
+      "frame": 10630,
+      "callback2": 134571445,
+      "phase": "overworld",
+      "map": {
+        "group": 4,
+        "number": 0,
+        "name": "PalletTown_PlayersHouse_1F",
+        "width": 13,
+        "height": 10
+      },
+      "player": {
+        "id": 0,
+        "spriteId": 0,
+        "graphicsId": 0,
+        "localId": 255,
+        "mapGroup": 4,
+        "mapNumber": 0,
+        "isPlayer": true,
+        "hidden": false,
+        "spriteInvisible": false,
+        "visible": true,
+        "offScreen": false,
+        "tileX": 10,
+        "tileY": 2,
+        "previousTileX": 10,
+        "previousTileY": 2,
+        "worldX": 10,
+        "worldY": 2,
+        "x": 10,
+        "y": 2,
+        "visualOffsetX": 0,
+        "visualOffsetY": 0,
+        "facing": "left",
+        "direction": 3,
+        "movementDirection": 3,
+        "moving": false,
+        "elevation": 3,
+        "animation": 6,
+        "animationFrame": 1,
+        "source": {
+          "objectAddress": 33779256,
+          "spriteAddress": 33687100
+        },
+        "runningState": 0,
+        "tileTransitionState": 0,
+        "avatarFlags": 33
+      },
+      "objectEvents": [
+        {
+          "id": 0,
+          "spriteId": 0,
+          "graphicsId": 0,
+          "localId": 255,
+          "mapGroup": 4,
+          "mapNumber": 0,
+          "isPlayer": true,
+          "hidden": false,
+          "spriteInvisible": false,
+          "visible": true,
+          "offScreen": false,
+          "tileX": 10,
+          "tileY": 2,
+          "previousTileX": 10,
+          "previousTileY": 2,
+          "worldX": 10,
+          "worldY": 2,
+          "x": 10,
+          "y": 2,
+          "visualOffsetX": 0,
+          "visualOffsetY": 0,
+          "facing": "left",
+          "direction": 3,
+          "movementDirection": 3,
+          "moving": false,
+          "elevation": 3,
+          "animation": 6,
+          "animationFrame": 1,
+          "source": {
+            "objectAddress": 33779256,
+            "spriteAddress": 33687100
+          },
+          "runningState": 0,
+          "tileTransitionState": 0,
+          "avatarFlags": 33
+        },
+        {
+          "id": 1,
+          "spriteId": 1,
+          "graphicsId": 88,
+          "localId": 1,
+          "mapGroup": 4,
+          "mapNumber": 0,
+          "isPlayer": false,
+          "hidden": false,
+          "spriteInvisible": false,
+          "visible": true,
+          "offScreen": false,
+          "tileX": 8,
+          "tileY": 4,
+          "previousTileX": 8,
+          "previousTileY": 4,
+          "worldX": 8,
+          "worldY": 4,
+          "x": 8,
+          "y": 4,
+          "visualOffsetX": 0,
+          "visualOffsetY": 0,
+          "facing": "left",
+          "direction": 3,
+          "movementDirection": 3,
+          "moving": false,
+          "elevation": 3,
+          "animation": 6,
+          "animationFrame": 1,
+          "source": {
+            "objectAddress": 33779292,
+            "spriteAddress": 33687168
+          }
+        }
+      ],
+      "battle": {
+        "active": false,
+        "flags": 0,
+        "outcome": 0,
+        "battlers": []
+      },
+      "source": {
+        "rom": "BPRE-0",
+        "verifiedSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+        "saveBlock1": 33707428
+      }
+    },
+    "after": {
+      "frame": 10639,
+      "callback2": 134571445,
+      "phase": "overworld",
+      "map": {
+        "group": 4,
+        "number": 0,
+        "name": "PalletTown_PlayersHouse_1F",
+        "width": 13,
+        "height": 10
+      },
+      "player": {
+        "id": 0,
+        "spriteId": 0,
+        "graphicsId": 0,
+        "localId": 255,
+        "mapGroup": 4,
+        "mapNumber": 0,
+        "isPlayer": true,
+        "hidden": false,
+        "spriteInvisible": false,
+        "visible": true,
+        "offScreen": false,
+        "tileX": 10,
+        "tileY": 3,
+        "previousTileX": 10,
+        "previousTileY": 2,
+        "worldX": 10,
+        "worldY": 2.0625,
+        "x": 10,
+        "y": 2.0625,
+        "visualOffsetX": 0,
+        "visualOffsetY": 0,
+        "facing": "down",
+        "direction": 1,
+        "movementDirection": 1,
+        "moving": false,
+        "elevation": 3,
+        "animation": 4,
+        "animationFrame": 0,
+        "source": {
+          "objectAddress": 33779256,
+          "spriteAddress": 33687100
+        },
+        "runningState": 2,
+        "tileTransitionState": 2,
+        "avatarFlags": 1
+      },
+      "objectEvents": [
+        {
+          "id": 0,
+          "spriteId": 0,
+          "graphicsId": 0,
+          "localId": 255,
+          "mapGroup": 4,
+          "mapNumber": 0,
+          "isPlayer": true,
+          "hidden": false,
+          "spriteInvisible": false,
+          "visible": true,
+          "offScreen": false,
+          "tileX": 10,
+          "tileY": 3,
+          "previousTileX": 10,
+          "previousTileY": 2,
+          "worldX": 10,
+          "worldY": 2.0625,
+          "x": 10,
+          "y": 2.0625,
+          "visualOffsetX": 0,
+          "visualOffsetY": 0,
+          "facing": "down",
+          "direction": 1,
+          "movementDirection": 1,
+          "moving": false,
+          "elevation": 3,
+          "animation": 4,
+          "animationFrame": 0,
+          "source": {
+            "objectAddress": 33779256,
+            "spriteAddress": 33687100
+          },
+          "runningState": 2,
+          "tileTransitionState": 2,
+          "avatarFlags": 1
+        },
+        {
+          "id": 1,
+          "spriteId": 1,
+          "graphicsId": 88,
+          "localId": 1,
+          "mapGroup": 4,
+          "mapNumber": 0,
+          "isPlayer": false,
+          "hidden": false,
+          "spriteInvisible": false,
+          "visible": true,
+          "offScreen": false,
+          "tileX": 8,
+          "tileY": 4,
+          "previousTileX": 8,
+          "previousTileY": 4,
+          "worldX": 8,
+          "worldY": 4,
+          "x": 8,
+          "y": 4,
+          "visualOffsetX": 0,
+          "visualOffsetY": 0,
+          "facing": "left",
+          "direction": 3,
+          "movementDirection": 3,
+          "moving": false,
+          "elevation": 3,
+          "animation": 6,
+          "animationFrame": 1,
+          "source": {
+            "objectAddress": 33779292,
+            "spriteAddress": 33687168
+          }
+        }
+      ],
+      "battle": {
+        "active": false,
+        "flags": 0,
+        "outcome": 0,
+        "battlers": []
+      },
+      "source": {
+        "rom": "BPRE-0",
+        "verifiedSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+        "saveBlock1": 33707428
+      }
+    },
+    "frames": 9,
+    "actors": [
+      {
+        "id": 0,
+        "x": 10,
+        "z": 2.0625,
+        "visible": true
+      },
+      {
+        "id": 1,
+        "x": 8,
+        "z": 4,
+        "visible": true
+      }
+    ]
+  },
+  "transitions": [
+    {
+      "start": "bedroom",
+      "target": "house1f",
+      "visited": [
+        {
+          "map": "PalletTown_PlayersHouse_2F",
+          "frame": 9114,
+          "supported": true,
+          "activeMap": "PalletTown_PlayersHouse_2F"
+        },
+        {
+          "map": "PalletTown_PlayersHouse_1F",
+          "frame": 10521,
+          "supported": true,
+          "activeMap": "PalletTown_PlayersHouse_1F"
+        }
+      ],
+      "finalMap": "PalletTown_PlayersHouse_1F",
+      "sourceFrame": 10629,
+      "gameplayMemoryExact": true,
+      "stateDiffCount": 18,
+      "firstDiffs": [
+        306,
+        320,
+        321,
+        326,
+        336,
+        337,
+        708,
+        709,
+        710,
+        913,
+        915,
+        917,
+        919,
+        921,
+        923,
+        925,
+        927,
+        1332
+      ],
+      "exactState": false
+    },
+    {
+      "start": "house1f",
+      "target": "pallet-town",
+      "visited": [
+        {
+          "map": "PalletTown_PlayersHouse_1F",
+          "frame": 10630,
+          "supported": true,
+          "activeMap": "PalletTown_PlayersHouse_1F"
+        },
+        {
+          "map": "PalletTown",
+          "frame": 11784,
+          "supported": false,
+          "activeMap": null
+        }
+      ],
+      "finalMap": "PalletTown",
+      "sourceFrame": 11979,
+      "gameplayMemoryExact": true,
+      "stateDiffCount": 15,
+      "firstDiffs": [
+        306,
+        336,
+        337,
+        708,
+        709,
+        710,
+        913,
+        915,
+        917,
+        919,
+        921,
+        923,
+        925,
+        927,
+        1332
+      ],
+      "exactState": false
+    },
+    {
+      "start": "pallet-town",
+      "target": "oak-lab",
+      "visited": [
+        {
+          "map": "PalletTown",
+          "frame": 11980,
+          "supported": false,
+          "activeMap": null
+        },
+        {
+          "map": "PalletTown_ProfessorOaksLab",
+          "frame": 15486,
+          "supported": true,
+          "activeMap": "PalletTown_ProfessorOaksLab"
+        }
+      ],
+      "finalMap": "PalletTown_ProfessorOaksLab",
+      "sourceFrame": 15693,
+      "gameplayMemoryExact": true,
+      "stateDiffCount": 8,
+      "firstDiffs": [
+        306,
+        320,
+        321,
+        326,
+        708,
+        709,
+        710,
+        1332
+      ],
+      "exactState": false
+    }
+  ]
+}

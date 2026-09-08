@@ -1,0 +1,99 @@
+{
+  "source": "Poly Haven",
+  "usage": "Unmodified source material maps; source provenance per record. Runtime terrain blends original path layout with lawn.",
+  "records": [
+    {
+      "file": "leafy_grass-Diffuse.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_diff_1k.jpg",
+      "sha256": "cfa40bc9d9417d1852db8753a8d5917f110c40101179f63543c382e39bc05e4a",
+      "role": "Diffuse",
+      "material": "leafy_grass",
+      "size": 1195394,
+      "license": "CC0",
+      "assetPage": "https://polyhaven.com/a/leafy_grass"
+    },
+    {
+      "file": "leafy_grass-nor_gl.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_nor_gl_1k.jpg",
+      "sha256": "832328216adc0a7e1f70a31d5ee48c9ab7f2152d83816122736cf42ac4b2ebd6",
+      "role": "nor_gl",
+      "material": "leafy_grass",
+      "size": 1466049,
+      "license": "CC0",
+      "assetPage": "https://polyhaven.com/a/leafy_grass"
+    },
+    {
+      "file": "leafy_grass-Rough.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_rough_1k.jpg",
+      "sha256": "0c2a1d91aacb8e54a496051b59854e51e456fe858abeade778e308359ef16463",
+      "role": "Rough",
+      "material": "leafy_grass",
+      "size": 511385,
+      "license": "CC0",
+      "assetPage": "https://polyhaven.com/a/leafy_grass"
+    },
+    {
+      "file": "dirt-Diffuse.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dirt/dirt_diff_1k.jpg",
+      "sha256": "6ce6ca7e28ed046f7f93fa60dcb29f8cf42cd5a539adc5676675acccfa34efd3",
+      "role": "Diffuse",
+      "material": "dirt",
+      "size": 730425,
+      "license": "CC0",
+      "assetPage": "https://polyhaven.com/a/dirt"
+    },
+    {
+      "file": "dirt-nor_gl.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dirt/dirt_nor_gl_1k.jpg",
+      "sha256": "5a5f97d920fdcdf352b350b95558bf48bb306be1fe61a47418aadc60b7deb0ce",
+      "role": "nor_gl",
+      "material": "dirt",
+      "size": 1202783,
+      "license": "CC0",
+      "assetPage": "https://polyhaven.com/a/dirt"
+    },
+    {
+      "file": "dirt-Rough.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dirt/dirt_rough_1k.jpg",
+      "sha256": "eff62d5ae7bf0c46b84173bc46f07528dd164aa39f5d550c93a805b36f54b704",
+      "role": "Rough",
+      "material": "dirt",
+      "size": 253549,
+      "license": "CC0",
+      "assetPage": "https://polyhaven.com/a/dirt"
+    },
+    {
+      "file": "lawn-Diffuse.jpg",
+      "source": "https://ambientcg.com/get?file=Grass004_1K-JPG.zip",
+      "sha256": "9e1c60da44b34a9738b1256ba827541f097dc583521b1d281e61b5f4b4217bc5",
+      "role": "Diffuse",
+      "material": "Grass004",
+      "size": 1985561,
+      "license": "CC0",
+      "assetPage": "https://ambientcg.com/view?id=Grass004",
+      "technique": "procedural PBR material, unmodified download"
+    },
+    {
+      "file": "lawn-nor_gl.jpg",
+      "source": "https://ambientcg.com/get?file=Grass004_1K-JPG.zip",
+      "sha256": "8014a81d896a5c589b60612a769bc39eb1213e48d96f6146f485ea36e9e9610f",
+      "role": "nor_gl",
+      "material": "Grass004",
+      "size": 2339612,
+      "license": "CC0",
+      "assetPage": "https://ambientcg.com/view?id=Grass004",
+      "technique": "procedural PBR material, unmodified download"
+    },
+    {
+      "file": "lawn-Rough.jpg",
+      "source": "https://ambientcg.com/get?file=Grass004_1K-JPG.zip",
+      "sha256": "706580983860f942e141acdd68c4128dd683be50fcc5d85b7c67a9a3a8c7bac0",
+      "role": "Rough",
+      "material": "Grass004",
+      "size": 851664,
+      "license": "CC0",
+      "assetPage": "https://ambientcg.com/view?id=Grass004",
+      "technique": "procedural PBR material, unmodified download"
+    }
+  ]
+}

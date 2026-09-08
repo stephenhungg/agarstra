@@ -1,0 +1,46 @@
+{
+  "frame": 12258,
+  "dialog": {
+    "windowId": 0,
+    "rect": {
+      "x": 8,
+      "y": 112,
+      "width": 224,
+      "height": 48
+    },
+    "mode": "text",
+    "text": "A’s house",
+    "active": false,
+    "printerState": 0,
+    "waiting": false,
+    "complete": true,
+    "reason": null,
+    "source": {
+      "printerAddress": 33685556,
+      "cursor": 33692962,
+      "buffer": "gStringVar4"
+    },
+    "battle": false
+  },
+  "windows": [
+    {
+      "id": 0,
+      "bg": 0,
+      "x": 16,
+      "y": 120,
+      "width": 208,
+      "height": 32,
+      "palette": 15,
+      "baseBlock": 408,
+      "tileData": 33562704,
+      "rect": {
+        "x": 8,
+        "y": 112,
+        "width": 224,
+        "height": 48
+      },
+      "sourceAddress": 33686708
+    }
+  ],
+  "auxiliary": []
+}

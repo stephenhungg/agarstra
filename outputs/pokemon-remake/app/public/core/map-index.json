@@ -1,0 +1,27 @@
+{
+  "3:0": {
+    "name": "PalletTown",
+    "width": 24,
+    "height": 20
+  },
+  "3:19": {
+    "name": "Route1",
+    "width": 24,
+    "height": 40
+  },
+  "4:0": {
+    "name": "PalletTown_PlayersHouse_1F",
+    "width": 13,
+    "height": 10
+  },
+  "4:1": {
+    "name": "PalletTown_PlayersHouse_2F",
+    "width": 12,
+    "height": 9
+  },
+  "4:3": {
+    "name": "PalletTown_ProfessorOaksLab",
+    "width": 13,
+    "height": 14
+  }
+}

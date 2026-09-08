@@ -1,0 +1,175 @@
+{
+  "asset": "laboratory-v2",
+  "status": "changes-required",
+  "scopedVentRepair": "visually-improved-author-reviewed",
+  "independentReview": "pending integration owner",
+  "assetSHA256": "fd7fbb06c2fc3b01cc6de169eac9471c3dadd67104cb1d56d268b5d1354a6768",
+  "editableBlendSHA256": "6e63481d0645b56fef5b3ef303a1e681ef83fad51d33569dfac59973a68fc5c8",
+  "sourceAssetSHA256": "79bcace6b6a8774d6fba25230e2e4b5f6fe683dec3ee5e9eb59d6ec921fe1dab",
+  "sourceCompositeSHA256": "e9c8105135e72b0afdb1a00786a4fbd7892fc798b868b08066a4d658daf1658c",
+  "referenceSHA256": "5ee4208aaafdc18e27b89d21ef930f99ebd56eaa7eab49474e38e0d9ed0aab45",
+  "reviewedAt": "2026-09-08T23:20:49.658222+00:00",
+  "renderContext": {
+    "application": "Blender 4.5.0",
+    "input": "Fresh import of exported v2 GLB",
+    "engine": "Cycles",
+    "samples": 48,
+    "views": [
+      {
+        "name": "front",
+        "camera": "Review Front",
+        "location": [
+          2.6018357276916504,
+          -4.333321571350098,
+          2.9442315101623535
+        ],
+        "lookAt": [
+          -0.018241003155708313,
+          0.03347295522689819,
+          0.23681895434856415
+        ],
+        "orthographicScale": 1.4163010120391846,
+        "resolution": [
+          1280,
+          1280
+        ],
+        "path": "front.png"
+      },
+      {
+        "name": "back",
+        "camera": "Review Back",
+        "location": [
+          -2.7109200954437256,
+          4.521271705627441,
+          2.6602303981781006
+        ],
+        "lookAt": [
+          -0.018241003155708313,
+          0.03347295522689819,
+          0.23681895434856415
+        ],
+        "orthographicScale": 1.4163010120391846,
+        "resolution": [
+          1280,
+          1280
+        ],
+        "path": "back.png"
+      },
+      {
+        "name": "gameplay",
+        "camera": "Review Gameplay",
+        "location": [
+          2.197108030319214,
+          -2.92032527923584,
+          4.667516708374023
+        ],
+        "lookAt": [
+          -0.018241003155708313,
+          0.03347295522689819,
+          0.23681895434856415
+        ],
+        "orthographicScale": 1.4220269918441772,
+        "resolution": [
+          1280,
+          1280
+        ],
+        "path": "gameplay.png"
+      }
+    ],
+    "lighting": {
+      "engine": "Cycles",
+      "samples": 48,
+      "worldStrength": 0.32,
+      "viewTransform": "AgX",
+      "look": "AgX - Medium High Contrast"
+    }
+  },
+  "renders": [
+    {
+      "path": "front.png",
+      "sha256": "98c11513a02a7a761e6e6758fdd43e868793b6b48aa2a3eb93e7139f9a026dd3",
+      "openedAndInspected": true
+    },
+    {
+      "path": "back.png",
+      "sha256": "7f8f0770644f2a51c55585d5e21953fddd661138073e5950eeef72a0a5054131",
+      "openedAndInspected": true
+    },
+    {
+      "path": "gameplay.png",
+      "sha256": "95643b17892808068e6513433a05a3e787f355e3f1f9f3d7955f5f3abac863b1",
+      "openedAndInspected": true
+    }
+  ],
+  "changes": [
+    "Closed beveled red sheet cap fitted directly in Blender to measured vent rim; blue recess fully occluded.",
+    "25,552 gray upper-roof triangles use matte material with roughness 0.87, metallic 0 and reduced dielectric specular; source color and normal maps retained."
+  ],
+  "preserved": [
+    "Original building geometry and proportions, green door, original root and exact recommended world-registration anchor.",
+    "Four front circular windows and two rectangular lower window groups remain."
+  ],
+  "checks": {
+    "importExportReimport": "pass",
+    "geometry": {
+      "v1Vertices": 35716,
+      "v2BaseVertices": 36403,
+      "maximumOriginalVertexDisplacement": 1.4901161193847656e-07,
+      "allOriginalVerticesPreservedWithin1e-6": true,
+      "baseObjectsV2": [
+        "material",
+        "LaboratoryV2_ClosedRedVentCap"
+      ],
+      "v1Bounds": [
+        [
+          -0.49886399507522583,
+          -0.3205990195274353,
+          -3.868204956347654e-08
+        ],
+        [
+          0.4623819887638092,
+          0.38754501938819885,
+          0.47363805770874023
+        ]
+      ],
+      "v2Bounds": [
+        [
+          -0.49886399507522583,
+          -0.3205989599227905,
+          -8.721853816950897e-08
+        ],
+        [
+          0.4623819887638092,
+          0.3875448703765869,
+          0.47363799810409546
+        ]
+      ]
+    },
+    "doorMaximumMeasuredDelta": 2.9802322387695312e-08,
+    "triangles": 50180,
+    "diagnosticTopology": "Both meshes closed/manifold after diagnostic UV-seam weld; zero degenerates."
+  },
+  "remainingDefects": [
+    {
+      "location": "roof front/back slopes",
+      "severity": "major for photoreal target",
+      "symptom": "Individual tile construction remains softened into broad horizontal strips; roughness repair does not restore geometry."
+    },
+    {
+      "location": "front circular and rectangular glazing",
+      "severity": "major for photoreal target",
+      "symptom": "Baked irregular reflections remain exaggerated."
+    },
+    {
+      "location": "rear wall",
+      "severity": "source-fidelity uncertainty",
+      "symptom": "Generated rear window design and dark central panes have no verified source counterpart."
+    },
+    {
+      "location": "vent cap",
+      "severity": "minor",
+      "symptom": "Clean uniform cap paint lacks reference-level weathering and fastener detail."
+    }
+  ],
+  "runtimeAcceptance": "Not tested in integrated town by this worker; root owns integration and independent review."
+}

@@ -1,0 +1,143 @@
+{
+  "asset": "cottage",
+  "status": "changes-required",
+  "candidate": true,
+  "acceptedForPhotorealRelease": false,
+  "acceptedForPlayerHouseSourceIdentity": false,
+  "reviewer": "animation_renderer agent; actual source/reference/three Blender renders inspected",
+  "reviewedAt": "2026-09-08T22:40:46.747242+00:00",
+  "referenceImages": [
+    "references/cottage-v1.png",
+    "source/PalletTown-source.png"
+  ],
+  "assetHashes": {
+    "models/cottage.glb": "680d60b3387fad01495c5f6373e01ed1b3e153335f2404d7c3dbb39aabd0d3be",
+    "models/cottage.blend": "8a503aafa8278db72ddaca68aef2f8c57f4d797b99505a81e6e2397b9c10d949"
+  },
+  "evidenceImages": [
+    "verification/cottage/front.png",
+    "verification/cottage/back.png",
+    "verification/cottage/gameplay.png"
+  ],
+  "evidenceImageHashes": {
+    "front.png": "28202d4f4a31350a8cc77c2eab46c28ab72d6edb3985986ef4fb91839f84cfc8",
+    "back.png": "8ef4d1f11dea4b3dc4983f1c074632236e269cfd15e037514b0f1af68390c5f3",
+    "gameplay.png": "da080b69035bcc934607a7f0fe3b4dd807efb28f1e3d58b2ab020b95616f25fd"
+  },
+  "technicalReport": "verification/cottage/mesh-inspection.json",
+  "cameraAndViewport": "Three recorded orthographic Blender Cycles cameras, 1280x1280, 48 samples. Gameplay is an elevated review camera, not proof of the integrated game camera.",
+  "checks": {
+    "technical_import": {
+      "status": "pass",
+      "reason": "49,970 triangles and three packed 4096x4096 textures imported and rendered; original GLB SHA256 unchanged. Geometry/material nodes preserved."
+    },
+    "identity_and_silhouette": {
+      "status": "fail",
+      "reason": "Recognizable match to the generated generic cottage reference, but the intended Pallet Town player house has a left-of-center entrance and a different roof/front silhouette. The generated reference already contains this mismatch."
+    },
+    "proportions_and_scale": {
+      "status": "pending",
+      "reason": "Dimensions 0.709469 x 0.786045 x 0.777041 in imported Blender units. Physical scale and ROM-to-building correspondence are not established; no corrective deformation applied."
+    },
+    "material_response": {
+      "status": "fail",
+      "reason": "Roof has broad bright glossy streaks and softened/wrinkled tiles relative to the crisp, restrained terracotta reference. Timber/window trim also looks rounded and smeared."
+    },
+    "construction_detail": {
+      "status": "fail",
+      "reason": "Main ridge/end caps and tile seams are lumpy; porch roof rows partially merge into an irregular sheet. A single fused triangle mesh does not preserve separately editable construction elements."
+    },
+    "backside_completion": {
+      "status": "pass",
+      "reason": "Actual back render shows a closed building volume with a continuous rear roof and plain rear/left walls, not an open front-only shell. Diagnostic UV-seam weld found zero boundary or nonmanifold edges."
+    },
+    "backside_correctness": {
+      "status": "pending",
+      "reason": "Neither the generated reference nor the top-down ROM image specifies unseen rear details. Blank rear walls are inferred generation content, not verified source accuracy."
+    },
+    "scene_readability_and_lighting": {
+      "status": "pending",
+      "reason": "Cottage remains recognizable in the elevated review view, but the roof dominates. Integrated town camera, door/collision registration and environmental lighting still require review."
+    },
+    "motion_and_contact": {
+      "status": "not-applicable",
+      "reason": "Static exterior building; no animated door or interior was requested in this bounded review."
+    },
+    "source_state_and_variant_coverage": {
+      "status": "fail",
+      "reason": "The intended player-house entrance is source tile x=6 inside building x=5..9, left of center. Candidate door is on the right. It must not be accepted merely by stretching the candidate into that footprint."
+    }
+  },
+  "defects": [
+    {
+      "id": "source-door-registration",
+      "severity": "blocking",
+      "location": "Front entrance",
+      "evidence": "PalletTown-source.png and front.png",
+      "symptom": "Candidate doorway sits right of center; player-house source doorway is left of center.",
+      "consequence": "A rendered entrance would disagree with the original warp/interaction location.",
+      "nextAction": "Author a source-aligned facade/door anchor from the verified map and regenerate or remodel the building; validate registration in the actual town view."
+    },
+    {
+      "id": "source-roof-silhouette",
+      "severity": "blocking",
+      "location": "Main roof and front facade",
+      "evidence": "PalletTown-source.png and gameplay.png",
+      "symptom": "Candidate exposes a triangular front gable; source presents a broad horizontal eave/roof-plane silhouette with a different ridge orientation.",
+      "consequence": "Identity and gameplay-camera silhouette are wrong before fine materials are considered.",
+      "nextAction": "Correct the reference and main roof axis/shape from the source elevation before adding detail."
+    },
+    {
+      "id": "roof-construction",
+      "severity": "blocking-for-photoreal",
+      "location": "Main ridge, both slopes, porch canopy",
+      "evidence": "front.png, back.png, gameplay.png",
+      "symptom": "Rounded swollen ridge caps, warped tile rows and wrinkled porch tiles lack crisp construction.",
+      "consequence": "Model reads as a softened maquette at review distance.",
+      "nextAction": "Rebuild roof panels/ridge/tile rows with repeatable construction geometry; preserve varied surface wear separately from silhouette."
+    },
+    {
+      "id": "surface-response",
+      "severity": "blocking-for-photoreal",
+      "location": "Terracotta roof, timber lintels/window surrounds",
+      "evidence": "front.png and gameplay.png compared with cottage-v1.png",
+      "symptom": "Broad white glossy streaks and smeared wood/edge detail depart from the rougher, sharply built reference.",
+      "consequence": "Material appearance remains stylized and plasticky.",
+      "nextAction": "Review roughness/normal/specular maps under matched neutral lighting; re-author overly broad baked detail instead of only increasing texture resolution."
+    },
+    {
+      "id": "unverified-back",
+      "severity": "coverage-gap",
+      "location": "Rear/left faces",
+      "evidence": "back.png",
+      "symptom": "Closed blank plaster walls with no rear openings; unseen surfaces are invented.",
+      "consequence": "Backside existence is proven, but architectural/source correctness is not.",
+      "nextAction": "Choose explicit rear construction requirements if those views are reachable, then compare a revised model from all accessible cameras."
+    }
+  ],
+  "placement": {
+    "upAxis": "Blender +Z; original glTF +Y",
+    "frontDirection": "Blender -Y, corresponding to original glTF +Z",
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "groundContactZ": 5.244698009221338e-09,
+    "bottomCenter": [
+      -0.031110495328903198,
+      0.03476046025753021,
+      5.244698009221338e-09
+    ],
+    "horizontalOriginOffset": 0.04664924990742129,
+    "physicalScale": "Unverified normalized units. A 6-meter illustrative target height would need uniform scale 7.7216; this is not an approved gameplay scale and was not applied."
+  },
+  "limitations": [
+    "Editable means a packed imported triangulated mesh, not a parametric architectural model.",
+    "One fused mesh/material; door, panes, gutters and roof tiles are not separated as gameplay parts.",
+    "Windows are opaque material surfaces; no verified room interior or glass transmission.",
+    "No app code, ROM state, candidate geometry or original GLB was changed.",
+    "No fidelity percentage or release acceptance is inferred from triangle count, packed textures or clean import."
+  ],
+  "nextAction": "Revise the building/reference around the verified player-house entrance and roof silhouette, then repair roof construction/material response and repeat review in the live town camera."
+}

@@ -1,0 +1,82 @@
+{
+  "asset": "laboratory-v1",
+  "sourceMap": "PalletTown",
+  "sceneLayoutSHA256": "6adaf468d408a031ddb6706b1f0c217f8602003466ff64d2acc875f31791e950",
+  "coordinates": "x=source tile x, z=source tile y; tile centers at integer coordinates; no independent collision simulation",
+  "boundsInclusive": [
+    13,
+    9,
+    19,
+    13
+  ],
+  "doorTile": [
+    16,
+    13
+  ],
+  "doorMetatileId": 684,
+  "metatileGrid": [
+    [
+      680,
+      681,
+      681,
+      681,
+      681,
+      701,
+      693
+    ],
+    [
+      688,
+      689,
+      689,
+      689,
+      689,
+      691,
+      692
+    ],
+    [
+      696,
+      697,
+      697,
+      697,
+      697,
+      699,
+      700
+    ],
+    [
+      704,
+      705,
+      720,
+      706,
+      707,
+      708,
+      709
+    ],
+    [
+      712,
+      713,
+      728,
+      684,
+      715,
+      716,
+      717
+    ]
+  ],
+  "observedIdentity": {
+    "massing": "Low broad rectangular pale-yellow building",
+    "roof": "Broad dark gray roof, red rectangular vent at right",
+    "frontUpperWindows": "Four blue circular windows, two on each side",
+    "frontLowerWindows": "Two broad rectangular blue window groups, one each side",
+    "entrance": "Central green entrance",
+    "countsObservation": "Read directly from exact reconstructed map crop; realistic depth/material construction remains authored"
+  },
+  "targetReference": "laboratory-reference-v1.png",
+  "geometrySource": "Authored image-to-3D interpretation; not mesh data extracted from ROM",
+  "acceptanceCriteria": [
+    "Source counts and placement survive exported GLB",
+    "Front is measured and documented in GLTF root space",
+    "Door anchor aligns the source warp without independent-axis distortion",
+    "No missing backside geometry",
+    "Material/shader import verified in actual renders",
+    "Technical validity does not imply photoreal approval"
+  ]
+}

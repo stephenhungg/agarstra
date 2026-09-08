@@ -1,0 +1,167 @@
+{
+  "asset": "cottage-v2",
+  "status": "changes-required",
+  "candidate": true,
+  "acceptedForPhotorealRelease": false,
+  "openingFacadeSourceIdentity": "pass; root integration also verified source doorway anchors and actual house entry",
+  "reviewer": "animation_renderer agent; native reference, ROM source, and all three actual Blender renders inspected",
+  "reviewedAt": "2026-09-08T22:52:14.119314+00:00",
+  "referenceImages": [
+    "references/cottage-v2.png",
+    "source/PalletTown-source.png"
+  ],
+  "assetHashes": {
+    "models/cottage-v2.glb": "167a28ba963481cd7cd9b003ffc33e6bcace340ea8d7577ebfd1e6c720fa5c00",
+    "models/cottage-v2.blend": "d33f81c985b43202b6eaac4dfdd4909e829a8f214f046b74c1838751354a86f4"
+  },
+  "evidenceImages": [
+    "verification/cottage-v2/front.png",
+    "verification/cottage-v2/back.png",
+    "verification/cottage-v2/gameplay.png"
+  ],
+  "evidenceImageHashes": {
+    "front.png": "21fa28a6953837c8ff6c1c57ae4c3676060eb9fa382f52a9d604b60ef6cf058b",
+    "back.png": "099188ca029e2c56c11295b69e96369f55997495e157e184c47253702234177c",
+    "gameplay.png": "119e9cc52056ec465dd3b607d6a6bb4ddfc5115deae6776b0a9c7b46eb971c0c"
+  },
+  "technicalReport": "verification/cottage-v2/mesh-inspection.json",
+  "doorAnchorReport": "verification/cottage-v2/door-anchor.json",
+  "cameraAndViewport": "Three recorded orthographic Blender Cycles cameras, 1280x1280, 48 samples; gameplay.png is a representative elevated review camera, not the live town camera.",
+  "checks": {
+    "technical_import": {
+      "status": "pass",
+      "reason": "49,998 triangles, one mesh/material, three embedded and packed 4096x4096 PBR textures. Blender import/save/render succeeded; original generated GLB unchanged."
+    },
+    "identity_and_silhouette": {
+      "status": "pass",
+      "reason": "Left-of-center front door, ridge parallel to facade, long horizontal front eave, blue siding, three upper windows and two lower-right windows agree with the revised source-faithful reference. V1 right-door/front-gable/canopy errors are absent."
+    },
+    "door_registration_estimate": {
+      "status": "pass",
+      "reason": "323 brown facade triangles yield a left-of-center door at 0.29612 of asset width; source door center is 0.30 of the five-tile house width. Front direction +Z and threshold position were confirmed in actual rendered views."
+    },
+    "integrated_source_warp_registration": {
+      "status": "pass",
+      "reason": "Current matching-hash workbench report verifies both doorway anchors at source warps (6,7) and (15,7), and actual original-player house entry reaches PalletTown_PlayersHouse_1F with explicit missing-interior coverage. Evidence read and current workbench screenshot inspected."
+    },
+    "proportions_and_scale": {
+      "status": "pending",
+      "reason": "Imported dimensions are 0.912268 x 0.578227 x 0.700651 in Blender units. These are normalized geometry units, not verified meters; uniform placement scale belongs to the source-to-world contract."
+    },
+    "material_response": {
+      "status": "fail",
+      "reason": "Roof is still smooth and glossy with broad bright grooves; window tree/sky reflections are baked into opaque base color and remain fixed across viewpoints."
+    },
+    "construction_detail": {
+      "status": "fail",
+      "reason": "More regular roof than V1 and cleaner facade, but tile ridges and small trim remain softened and fused. This is one textured reconstruction mesh, not separately built roof/window/door parts."
+    },
+    "backside_completion": {
+      "status": "pass",
+      "reason": "Rear is a complete closed volume with six generated windows and continuous roof/siding; no duplicate rear doorway or open shell. Diagnostic UV-seam weld found zero boundary/nonmanifold edges."
+    },
+    "backside_correctness": {
+      "status": "pending",
+      "reason": "Six rear windows are inferred generation content. The single supplied reference and ROM view do not specify that rear elevation."
+    },
+    "scene_readability_and_lighting": {
+      "status": "pending",
+      "reason": "Elevated view preserves long roof/front silhouette and left entrance, but the live town camera and environmental light need inspection. Local studio image does not establish integrated photoreal quality."
+    },
+    "motion_and_contact": {
+      "status": "not-applicable",
+      "reason": "Static exterior building. No animated door or interior requested in this bounded task."
+    }
+  },
+  "defects": [
+    {
+      "id": "soft-roof",
+      "severity": "blocking-for-photoreal-closeup",
+      "location": "Roof tile rows and ridge caps",
+      "evidence": "front.png and gameplay.png",
+      "symptom": "Rounded, fused grooves with broad glossy highlights remain softer than the crisp terracotta reference.",
+      "nextAction": "Repair roof construction/normal detail and roughness under matched lighting; do not spend another generation job automatically."
+    },
+    {
+      "id": "frozen-window-reflections",
+      "severity": "blocking-for-photoreal",
+      "location": "Front and rear glazing",
+      "evidence": "front.png/back.png; base-color texture inspection",
+      "symptom": "Tree/sky scenery is baked into opaque window images.",
+      "nextAction": "Separate glazing response and remove baked environment reflections; use actual runtime environment response with appropriate interior/curtain treatment."
+    },
+    {
+      "id": "unverified-rear",
+      "severity": "coverage-gap",
+      "location": "Rear facade",
+      "evidence": "back.png",
+      "symptom": "Six rear windows were invented from one reference image.",
+      "nextAction": "Establish a deliberate rear-elevation specification if rear views are reachable; accept only that explicit authored interpretation."
+    }
+  ],
+  "generation": {
+    "authorizedJobs": 1,
+    "submittedJobs": 1,
+    "completedJobs": 1,
+    "jobId": "4ede78d2-cd08-4d2a-9ada-087bd45e591a",
+    "provider": "Hunyuan3D v3 Image to 3D",
+    "faceBudget": 50000,
+    "enablePBR": true,
+    "inputReferenceSHA256": "2f8bbeadc600c23fc17b84220998f8480a6d24ae8d894eca8aedd2bf4ac87b2d"
+  },
+  "placement": {
+    "coordinateFrame": "glTF scene/root coordinates after node transforms, before runtime scale/centering. Not raw mesh accessor coordinates.",
+    "frontDirectionGLTF": [
+      0,
+      0,
+      1
+    ],
+    "upDirectionGLTF": [
+      0,
+      1,
+      0
+    ],
+    "groundEntryAnchorGLTF": [
+      -0.17857566475868225,
+      7.614494279550854e-08,
+      0.2211020290851593
+    ],
+    "thresholdAnchorGLTF": [
+      -0.17857566475868225,
+      0.04085326939821243,
+      0.2211020290851593
+    ],
+    "bottomCenteredGroundEntryAnchorGLTF": [
+      -0.18599267303943634,
+      0.0,
+      0.22998546063899994
+    ],
+    "physicalScale": "Unverified normalized units; no corrective deformation or rescale applied."
+  },
+  "limitations": [
+    "Candidate can be evaluated in staging; it is not photoreal release approved.",
+    "The source-style facade is verified visually, not a claim that geometry was extracted from ROM bytes.",
+    "Door anchor is an estimate from textured facade triangles, not collision geometry.",
+    "Editable .blend holds the imported triangulated mesh with packed textures and separate review stage; architectural parts are fused.",
+    "V1 GLB/Blender/reviews preserved. No app code edited."
+  ],
+  "nextAction": "Repair roof construction and baked window-reflection/material defects; specify rear elevation before photoreal promotion. Matching-hash source warp integration has now passed.",
+  "integrationEvidence": {
+    "report": "verification/workbench/results.json",
+    "reportSHA256": "5bb23217f9302c149205ac94f42e33f52f88857dea549d622d394de3ad439bf0",
+    "image": "verification/workbench/workbench.png",
+    "imageSHA256": "9aafacd2d884d20c410b157028ca9ecaf932beee2e914e51554c1252100c96fc",
+    "sourceDoors": [
+      [
+        6,
+        7
+      ],
+      [
+        15,
+        7
+      ]
+    ],
+    "uniformScale": 4.9327609178966725,
+    "observedScene": "Both candidate houses placed in Pallet Town with matching left door/front roof silhouettes; overall scene remains a labeled unfinished candidate."
+  }
+}

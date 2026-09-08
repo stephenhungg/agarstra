@@ -1,0 +1,23 @@
+{
+  "status": "matching build verified",
+  "romSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+  "romSHA256": "3d0c79f1627022e18765766f6cb5ea067f6b5bf7dca115552189ad65a5c3a8ac",
+  "romBytes": 16777216,
+  "buildSource": "https://github.com/pret/pokefirered",
+  "sourceCommit": "c75f352304d529f6ba92d4f74b9cf8b5c3810788",
+  "compilerSource": "https://github.com/pret/agbcc",
+  "compilerCommit": "da598c1d918402c42c0c0d7128ba14567f3175e9",
+  "toolchain": "Arm GNU Toolchain 13.2.Rel1 macOS arm64",
+  "toolchainArchiveSHA256": "39c44f8af42695b7b871df42e346c09fee670ea8dfc11f17083e296ea2b0d279",
+  "baseROMRequired": false,
+  "elfPath": "/Users/stephenhung/Documents/GitHub/agarstra/work/pokemon/source/pokefirered/pokefirered.elf",
+  "romPath": "/Users/stephenhung/Documents/GitHub/agarstra/work/pokemon/source/pokefirered/pokefirered.gba",
+  "buildLog": "/Users/stephenhung/Documents/GitHub/agarstra/work/pokemon/source/firered-build.log",
+  "check": "make -j8 compare: pokefirered.gba: OK",
+  "symbolCount": 54248,
+  "notes": [
+    "Root supplied user ROM with same SHA1; locally rebuilt ROM was used only to prove exact source equivalence and generate symbol addresses.",
+    "Map previews render static tile layers, excluding NPCs and animation.",
+    "Coordinates in map JSON are source metatile coordinates. ObjectEvent currentCoords include map border offsets; account for engine convention when rendering."
+  ]
+}

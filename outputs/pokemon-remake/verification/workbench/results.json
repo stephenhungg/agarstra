@@ -1,0 +1,691 @@
+{
+  "performance": {
+    "cameraPosition": [
+      27,
+      30,
+      40
+    ],
+    "cameraTarget": [
+      11.5,
+      0,
+      9.5
+    ],
+    "mode": "live original simulation and town rendering",
+    "elapsedMs": 2542.399999976158,
+    "simulationFrames": 136,
+    "viewport": [
+      2880,
+      1562
+    ],
+    "pixelRatio": 2,
+    "samples": 240,
+    "medianFrameMs": 8.300000011920929,
+    "p95FrameMs": 10.199999988079071,
+    "drawCalls": 121,
+    "triangles": 2312026
+  },
+  "town": {
+    "map": "PalletTown",
+    "houses": [
+      {
+        "id": "players-house",
+        "scale": 4.9327609178966725,
+        "sourceBounds": [
+          5,
+          3,
+          9,
+          7
+        ],
+        "doorAnchor": [
+          -0.17857566475868225,
+          7.614494279550854e-8,
+          0.2211020290851593
+        ],
+        "runtimeDoor": [
+          6,
+          5.613300558236486e-7,
+          7
+        ],
+        "sourceDoor": [
+          6,
+          7
+        ]
+      },
+      {
+        "id": "rivals-house",
+        "scale": 4.9327609178966725,
+        "sourceBounds": [
+          14,
+          3,
+          18,
+          7
+        ],
+        "doorAnchor": [
+          -0.17857566475868225,
+          7.614494279550854e-8,
+          0.2211020290851593
+        ],
+        "runtimeDoor": [
+          15,
+          5.613300558236486e-7,
+          7
+        ],
+        "sourceDoor": [
+          15,
+          7
+        ]
+      },
+      {
+        "id": "oaks-lab",
+        "scale": 5.7897826844724865,
+        "sourceBounds": [
+          13,
+          9,
+          19,
+          13
+        ],
+        "doorAnchor": [
+          -0.017930665984749794,
+          -8.721854527493633e-8,
+          0.27358004450798035
+        ],
+        "runtimeDoor": [
+          16,
+          5.7351980575976e-8,
+          13
+        ],
+        "sourceDoor": [
+          16,
+          13
+        ]
+      }
+    ],
+    "trees": {
+      "loaded": true,
+      "count": 29
+    },
+    "terrain": {
+      "status": "candidate",
+      "textures": 6,
+      "grassBlades": 100000,
+      "materialSource": "ambientCG CC0 Grass004 lawn; Poly Haven CC0 dirt",
+      "pathMask": "PalletTown metatile IDs, .16 tile visual transition; no collision changes",
+      "limitations": [
+        "terrain height remains mostly flat",
+        "water shading lacks refracted depth",
+        "garden flowers not yet reconstructed"
+      ]
+    },
+    "limitations": [
+      "trainer and NPCs use temporary markers",
+      "laboratory candidate requires vent/roof/material revision",
+      "terrain materials are candidates; flowers absent"
+    ]
+  },
+  "passed": true,
+  "checks": [
+    {
+      "name": "verified FireRed running",
+      "ok": true
+    },
+    {
+      "name": "original simulation steps exactly",
+      "ok": true
+    },
+    {
+      "name": "original pixels rendered",
+      "ok": true
+    },
+    {
+      "name": "source state replay deterministic",
+      "ok": true
+    },
+    {
+      "name": "WebGL renderer active",
+      "ok": true
+    },
+    {
+      "name": "actual textured cottage mesh loaded",
+      "ok": true,
+      "detail": {
+        "file": "cottage-v2.glb",
+        "sha256": "167a28ba963481cd7cd9b003ffc33e6bcace340ea8d7577ebfd1e6c720fa5c00",
+        "version": 2,
+        "status": "changes-required",
+        "meshes": 1,
+        "triangles": 49998,
+        "maps": 1,
+        "bounds": [
+          0.9122680127620697,
+          0.70065116183789,
+          0.5782271553757928
+        ],
+        "clips": []
+      }
+    },
+    {
+      "name": "Pallet Town checkpoint observed",
+      "ok": true
+    },
+    {
+      "name": "controller input moves source player",
+      "ok": true,
+      "detail": {
+        "before": 6,
+        "after": 6.625
+      }
+    },
+    {
+      "name": "3D marker follows source coordinates",
+      "ok": true
+    },
+    {
+      "name": "generated tree loaded",
+      "ok": true
+    },
+    {
+      "name": "3D actors survive source viewport culling",
+      "ok": true,
+      "detail": {
+        "sourceActors": 3,
+        "renderedActors": 3
+      }
+    },
+    {
+      "name": "house doorway anchors match source warps",
+      "ok": true
+    },
+    {
+      "name": "source door warp selects 3D house interior",
+      "ok": true,
+      "detail": {
+        "map": "PalletTown_PlayersHouse_1F"
+      }
+    },
+    {
+      "name": "partial source dialog rendered over town",
+      "ok": true,
+      "detail": {
+        "partial": "A’s ho"
+      }
+    },
+    {
+      "name": "dialog completion follows source printer",
+      "ok": true,
+      "detail": {
+        "text": "A’s house"
+      }
+    },
+    {
+      "name": "native confirm dismisses dialog",
+      "ok": true
+    },
+    {
+      "name": "battle routes to dedicated scene and camera",
+      "ok": true
+    },
+    {
+      "name": "battle command menu renders native commands",
+      "ok": true
+    },
+    {
+      "name": "battle health matches native RAM",
+      "ok": true
+    },
+    {
+      "name": "native Fight input opens rendered move menu",
+      "ok": true
+    },
+    {
+      "name": "integrated first attack resolves source HP",
+      "ok": true,
+      "detail": [
+        11,
+        14
+      ]
+    },
+    {
+      "name": "paused rendering does not step game",
+      "ok": true
+    },
+    {
+      "name": "checkpoint reset clears battle and dialog overlays",
+      "ok": true
+    }
+  ],
+  "asset": {
+    "file": "cottage-v2.glb",
+    "sha256": "167a28ba963481cd7cd9b003ffc33e6bcace340ea8d7577ebfd1e6c720fa5c00",
+    "version": 2,
+    "status": "changes-required",
+    "meshes": 1,
+    "triangles": 49998,
+    "maps": 1,
+    "bounds": [
+      0.9122680127620697,
+      0.70065116183789,
+      0.5782271553757928
+    ],
+    "clips": []
+  },
+  "limitations": [
+    "Asset review stage; no photoreal acceptance yet",
+    "Four world scenes and first battle verified; characters/effects and remaining game coverage are incomplete"
+  ],
+  "state": {
+    "frame": 12116,
+    "paused": true,
+    "assetReport": {
+      "file": "cottage-v2.glb",
+      "sha256": "167a28ba963481cd7cd9b003ffc33e6bcace340ea8d7577ebfd1e6c720fa5c00",
+      "version": 2,
+      "status": "changes-required",
+      "meshes": 1,
+      "triangles": 49998,
+      "maps": 1,
+      "bounds": [
+        0.9122680127620697,
+        0.70065116183789,
+        0.5782271553757928
+      ],
+      "clips": []
+    },
+    "error": null,
+    "battle": {
+      "status": "candidate",
+      "source": "Live FireRed OBJ VRAM, palette, sprite transforms and battle RAM",
+      "updates": 20,
+      "sourceFrames": 32015,
+      "modelLoadStatus": "ready",
+      "modelError": null,
+      "creatureModel": {
+        "status": "candidate-loader-only-not-visual-acceptance",
+        "url": "file:///Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/app/dist/models/charmander-existing-v2.glb",
+        "sha256": "ad78d6f71b421d5f3ce534806b2f816d160647be282276152dca03a25c6ce7e6",
+        "bytes": 14277756,
+        "hierarchyPreserved": true,
+        "up": "+Y",
+        "front": "+Z (asset convention; visually verify)",
+        "bounds": {
+          "min": [
+            -0.23782911917321775,
+            -0.0012709185182993997,
+            -0.5193804380694066
+          ],
+          "max": [
+            0.23782777606931801,
+            0.5941976732661054,
+            0.1374021934975939
+          ],
+          "size": [
+            0.47565689524253574,
+            0.5954685917844048,
+            0.6567826315670005
+          ]
+        },
+        "height": 0.5954685917844048,
+        "groundOffset": 0.0012709185182993997,
+        "meshCount": 2,
+        "nodeCount": 66,
+        "boneCount": 60,
+        "skinnedMeshes": [
+          {
+            "name": "Mesh",
+            "bones": 60,
+            "vertices": 7621,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Mesh_1",
+            "bones": 60,
+            "vertices": 167,
+            "bindMode": "attached"
+          }
+        ],
+        "clips": [
+          {
+            "name": "idle",
+            "duration": 3,
+            "tracks": 180
+          }
+        ],
+        "selectedClip": "idle",
+        "animationReady": true,
+        "staticOnly": false,
+        "sourceSeconds": null,
+        "disposed": false
+      },
+      "modelBattlerId": null,
+      "limitations": [
+        "One opponent Charmander uses a reviewed rigged 3D candidate; other creatures retain source-pixel billboards.",
+        "The 3D candidate retains coarse color detail and a solid emissive tail tip; it is not photoreal approved.",
+        "Battle stage is a presentation blockout, not a reconstruction of every battle terrain.",
+        "3D motion follows source x2/y2 offsets and visibility; source affine deformation, palette flashes and separate attack-effect sprites/background effects are not rebuilt for the model.",
+        "Native party/bag menus use exact source pixels.",
+        "Only an authored idle is played; no invented attack animation, combat simulation, damage calculation or independent animation timers."
+      ],
+      "modelCredit": [
+        "Charmander rig created by Milos Cerny and downloaded at http://www.miloscerny.com/",
+        "3D model created by Guilherme Lauck https://sketchfab.com/guilauck"
+      ],
+      "modelLicense": "CC BY-NC 4.0"
+    },
+    "battleState": {
+      "active": false,
+      "menu": null,
+      "battlers": []
+    },
+    "interiors": {
+      "status": "candidate-3d-interiors-not-photoreal-approved",
+      "photorealApproved": false,
+      "maps": {
+        "PalletTown_PlayersHouse_1F": {
+          "width": 13,
+          "height": 10,
+          "features": 13,
+          "warps": [
+            {
+              "x": 5,
+              "y": 8,
+              "elevation": 3,
+              "dest_map": "MAP_PALLET_TOWN",
+              "dest_warp_id": "0"
+            },
+            {
+              "x": 4,
+              "y": 8,
+              "elevation": 3,
+              "dest_map": "MAP_PALLET_TOWN",
+              "dest_warp_id": "0"
+            },
+            {
+              "x": 10,
+              "y": 2,
+              "elevation": 3,
+              "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_2F",
+              "dest_warp_id": "0"
+            },
+            {
+              "x": 3,
+              "y": 9,
+              "elevation": 0,
+              "dest_map": "MAP_PALLET_TOWN",
+              "dest_warp_id": "0"
+            }
+          ],
+          "sourceMapSHA256": "f485f064e2464ebc81bb525960529e4222c2613c55addf8be5b8f8a06891d93c"
+        },
+        "PalletTown_PlayersHouse_2F": {
+          "width": 12,
+          "height": 9,
+          "features": 10,
+          "warps": [
+            {
+              "x": 10,
+              "y": 2,
+              "elevation": 3,
+              "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_1F",
+              "dest_warp_id": "2"
+            }
+          ],
+          "sourceMapSHA256": "2519a15ac22fc281fc5a8843c7e515b2915d1f44871a2b463961b6c192473569"
+        },
+        "PalletTown_ProfessorOaksLab": {
+          "width": 13,
+          "height": 14,
+          "features": 17,
+          "warps": [
+            {
+              "x": 6,
+              "y": 12,
+              "elevation": 3,
+              "dest_map": "MAP_PALLET_TOWN",
+              "dest_warp_id": "2"
+            },
+            {
+              "x": 7,
+              "y": 12,
+              "elevation": 3,
+              "dest_map": "MAP_PALLET_TOWN",
+              "dest_warp_id": "2"
+            },
+            {
+              "x": 5,
+              "y": 12,
+              "elevation": 3,
+              "dest_map": "MAP_PALLET_TOWN",
+              "dest_warp_id": "2"
+            }
+          ],
+          "sourceMapSHA256": "a1ca472215cd91f5128360af49880035be67b82fb43120758826a21e6a8d803f"
+        }
+      },
+      "activeMap": "PalletTown_PlayersHouse_1F",
+      "actorPositions": [
+        {
+          "id": 0,
+          "x": 4,
+          "z": 5.3125,
+          "visible": true
+        },
+        {
+          "id": 1,
+          "x": 8,
+          "z": 4,
+          "visible": true
+        }
+      ],
+      "limitations": [
+        "source-linked candidate geometry; not photoreal approved",
+        "trainer and NPC actors remain temporary markers",
+        "source 2D furniture footprints are mapped; vertical forms and lighting are interpreted",
+        "cutaway walls preserve gameplay visibility"
+      ]
+    },
+    "dialog": {
+      "frame": 12116,
+      "dialog": null,
+      "windows": [],
+      "auxiliary": []
+    },
+    "semantic": {
+      "frame": 12116,
+      "callback2": 134571445,
+      "phase": "overworld",
+      "map": {
+        "group": 3,
+        "number": 0,
+        "name": "PalletTown",
+        "width": 24,
+        "height": 20
+      },
+      "player": {
+        "id": 0,
+        "spriteId": 0,
+        "graphicsId": 0,
+        "localId": 255,
+        "mapGroup": 3,
+        "mapNumber": 0,
+        "isPlayer": true,
+        "hidden": false,
+        "spriteInvisible": false,
+        "visible": true,
+        "offScreen": false,
+        "tileX": 6,
+        "tileY": 8,
+        "previousTileX": 6,
+        "previousTileY": 8,
+        "worldX": 6,
+        "worldY": 8,
+        "x": 6,
+        "y": 8,
+        "visualOffsetX": 0,
+        "visualOffsetY": 0,
+        "facing": "down",
+        "direction": 1,
+        "movementDirection": 1,
+        "moving": false,
+        "elevation": 3,
+        "animation": 4,
+        "animationFrame": 1,
+        "source": {
+          "objectAddress": 33779256,
+          "spriteAddress": 33687100
+        },
+        "runningState": 0,
+        "tileTransitionState": 0,
+        "avatarFlags": 33
+      },
+      "objectEvents": [
+        {
+          "id": 0,
+          "spriteId": 0,
+          "graphicsId": 0,
+          "localId": 255,
+          "mapGroup": 3,
+          "mapNumber": 0,
+          "isPlayer": true,
+          "hidden": false,
+          "spriteInvisible": false,
+          "visible": true,
+          "offScreen": false,
+          "tileX": 6,
+          "tileY": 8,
+          "previousTileX": 6,
+          "previousTileY": 8,
+          "worldX": 6,
+          "worldY": 8,
+          "x": 6,
+          "y": 8,
+          "visualOffsetX": 0,
+          "visualOffsetY": 0,
+          "facing": "down",
+          "direction": 1,
+          "movementDirection": 1,
+          "moving": false,
+          "elevation": 3,
+          "animation": 4,
+          "animationFrame": 1,
+          "source": {
+            "objectAddress": 33779256,
+            "spriteAddress": 33687100
+          },
+          "runningState": 0,
+          "tileTransitionState": 0,
+          "avatarFlags": 33
+        },
+        {
+          "id": 1,
+          "spriteId": 1,
+          "graphicsId": 23,
+          "localId": 1,
+          "mapGroup": 3,
+          "mapNumber": 0,
+          "isPlayer": false,
+          "hidden": false,
+          "spriteInvisible": false,
+          "visible": true,
+          "offScreen": false,
+          "tileX": 5,
+          "tileY": 15,
+          "previousTileX": 5,
+          "previousTileY": 15,
+          "worldX": 5,
+          "worldY": 15,
+          "x": 5,
+          "y": 15,
+          "visualOffsetX": 0,
+          "visualOffsetY": 0,
+          "facing": "up",
+          "direction": 2,
+          "movementDirection": 2,
+          "moving": false,
+          "elevation": 3,
+          "animation": 5,
+          "animationFrame": 1,
+          "source": {
+            "objectAddress": 33779292,
+            "spriteAddress": 33687168
+          }
+        },
+        {
+          "id": 2,
+          "spriteId": 3,
+          "graphicsId": 27,
+          "localId": 2,
+          "mapGroup": 3,
+          "mapNumber": 0,
+          "isPlayer": false,
+          "hidden": false,
+          "spriteInvisible": true,
+          "visible": false,
+          "offScreen": true,
+          "tileX": 15,
+          "tileY": 17,
+          "previousTileX": 15,
+          "previousTileY": 17,
+          "worldX": 15,
+          "worldY": 17,
+          "x": 15,
+          "y": 17,
+          "visualOffsetX": 0,
+          "visualOffsetY": 0,
+          "facing": "right",
+          "direction": 4,
+          "movementDirection": 4,
+          "moving": false,
+          "elevation": 3,
+          "animation": 7,
+          "animationFrame": 1,
+          "source": {
+            "objectAddress": 33779328,
+            "spriteAddress": 33687304
+          }
+        }
+      ],
+      "battle": {
+        "active": false,
+        "flags": 0,
+        "outcome": 0,
+        "battlers": []
+      },
+      "source": {
+        "rom": "BPRE-0",
+        "verifiedSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+        "saveBlock1": 33707400
+      }
+    }
+  },
+  "playability": {
+    "checks": [
+      {
+        "name": "real keyboard moves player",
+        "ok": true,
+        "detail": {
+          "before": 6,
+          "after": 6.5
+        }
+      },
+      {
+        "name": "battle button and real keyboard select Pokemon",
+        "ok": true,
+        "detail": {
+          "cursor": 2
+        }
+      },
+      {
+        "name": "save button writes persistent snapshot",
+        "ok": true
+      },
+      {
+        "name": "resume button restores battle and menu cursor",
+        "ok": true
+      },
+      {
+        "name": "original view toggle displays live game",
+        "ok": true
+      }
+    ],
+    "passed": true
+  }
+}

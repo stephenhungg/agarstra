@@ -1,0 +1,48 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import {GbaAdapter} from '../../runtime-core/gba-adapter.mjs';
+import {readFireRedState} from '../../runtime-core/firered-state.mjs';
+import {readBattlePresentation} from '../../app/battle.js';
+
+const root=new URL('../../../../',import.meta.url).pathname;
+const bridge=root+'work/pokemon/bridge-probe/';
+const require=createRequire(import.meta.url);
+const module=await require(bridge+'mgba.cjs')({locateFile:p=>bridge+'package/dist/mgba/'+p});
+const core=new GbaAdapter(module,fs.readFileSync(root+'work/pokemon/rom/firered-user.gba'));
+const checks=[];const check=(name,ok,detail)=>{checks.push({name,ok,detail});assert.ok(ok,name);};
+const start=fs.readFileSync(new URL('../../runtime-core/checkpoints/first-battle.state',import.meta.url));
+core.loadState(start);
+const before=core.saveState(),first=readBattlePresentation(core,readFireRedState(core)),after=core.saveState();
+check('presentation leaves all serialized core bytes unchanged',Buffer.compare(before,after)===0);
+check('first battle names and HP read from ROM',JSON.stringify(first.battlers.map(b=>[b.nickname,b.hp,b.maxHP,b.level]))===JSON.stringify([['BULBASAUR',20,20,5],['CHARMANDER',18,18,5]]));
+check('command menu is source-visible',first.menu?.mode==='actions',first.menu);
+check('action labels decoded from ROM',JSON.stringify(first.menu.items.map(i=>i.label))===JSON.stringify(['FIGHT','BAG','POKéMON','RUN']));
+check('both live sprite cutouts have transparent and opaque pixels',first.battlers.every(b=>b.sprite?.visible&&b.sprite.opaquePixels>50&&b.sprite.opaquePixels<b.sprite.width*b.sprite.height),first.battlers.map(b=>({id:b.id,opaque:b.sprite.opaquePixels,hash:b.sprite.pixelHash})));
+check('paused presentation is deterministic',JSON.stringify(readBattlePresentation(core,readFireRedState(core)))===JSON.stringify(first));
+core.step(1,0);const drawn=readBattlePresentation(core,readFireRedState(core)),pixels=core.pixels(),pixelMatches=[];
+for(const mon of drawn.battlers){const s=mon.sprite;let compared=0,matched=0;for(let y=0;y<s.height;y++)for(let x=0;x<s.width;x++){const p=(y*s.width+x)*4;if(!s.rgba[p+3])continue;const sx=Math.floor(s.x-s.width/2+x),sy=Math.floor(s.y-s.height/2+y);if(sx<0||sx>=240||sy<0||sy>=112)continue;const q=(sy*240+sx)*4;compared++;if([0,1,2].every(c=>Math.abs(pixels[q+c]-s.rgba[p+c])<=1))matched++;}pixelMatches.push({id:mon.id,compared,matched,ratio:matched/compared});}
+check('decoded cutout pixels match original rendered battle sprites',pixelMatches.every(x=>x.compared>100&&x.ratio>.95),pixelMatches);
+core.loadState(start);
+core.step(1,128);let cursor=readBattlePresentation(core,readFireRedState(core));
+check('native down input moves action cursor to Pokemon',cursor.menu?.cursor===2,cursor.menu);
+core.loadState(start);core.step(12,1);core.step(40,0);
+const moves=readBattlePresentation(core,readFireRedState(core));
+check('native confirm exposes move selection',moves.menu?.mode==='moves',moves.menu);
+check('move names and PP are original buffer values',moves.menu.items[0].label==='TACKLE'&&moves.menu.items[0].pp===35&&moves.menu.items[1].label==='GROWL',moves.menu);
+core.loadState(start);
+const replay=JSON.parse(fs.readFileSync(new URL('../../runtime-core/checkpoints/battle-verification.json',import.meta.url))).attackInputs;
+const hashes=new Set(),transforms=new Set(),visible=new Set(),activeMoves=new Set();let frames=0;
+for(const segment of replay){for(let i=0;i<segment.frames;i++){core.step(1,segment.keys);frames++;if(frames%3===0){const p=readBattlePresentation(core,readFireRedState(core));for(const b of p.battlers){if(b.sprite){hashes.add(`${b.id}:${b.sprite.pixelHash}`);transforms.add(`${b.id}:${b.sprite.x}:${b.sprite.y}:${b.sprite.matrix}`);visible.add(`${b.id}:${b.sprite.visible}`);}}if(p.activeMove)activeMoves.add(p.activeMove.name);}}}
+const final=readBattlePresentation(core,readFireRedState(core));
+check('original attack replay HP matches supplied checkpoint',JSON.stringify(final.battlers.map(b=>b.hp))==='[11,14]',final.battlers.map(b=>b.hp));
+const observedReplay=core.saveState();
+const supplied=fs.readFileSync(new URL('../../runtime-core/checkpoints/first-attack.state',import.meta.url));
+const suppliedDifferences=[];for(let i=0;i<supplied.length;i++)if(supplied[i]!==observedReplay[i])suppliedDifferences.push(i);
+core.loadState(start);for(const segment of replay)for(let i=0;i<segment.frames;i++)core.step(1,segment.keys);
+check('presentation reads do not change replayed native state',Buffer.compare(observedReplay,core.saveState())===0);
+check('native motion/affine/hide signals change during attack',transforms.size>2||visible.size>2,{transforms:transforms.size,visibilityStates:visible.size});
+const compact=p=>({...p,battlers:p.battlers.map(b=>({...b,sprite:b.sprite?{...b.sprite,rgba:undefined}:null}))});
+const report={passed:checks.every(c=>c.ok),checkedAt:new Date().toISOString(),checks,replayedAttackFrames:frames,suppliedCheckpointByteDifferences:{count:suppliedDifferences.length,firstOffsets:suppliedDifferences.slice(0,40)},sourcePixelHashes:hashes.size,sourceTransforms:transforms.size,activeMoveNames:[...activeMoves],initial:compact(first),moves:compact(moves),final:compact(final),limitations:['CPU/source verification only; separate WebGL screenshot inspection required.','Separate attack effect sprites and full background effects are not rendered.','Restored checkpoint replay is checked against the same replay without presentation reads; supplied full-state byte differences are recorded separately.']};
+fs.writeFileSync(new URL('./source-checks.json',import.meta.url),JSON.stringify(report,null,2));
+console.log(JSON.stringify({passed:report.passed,checks:checks.length,frames,initialHP:first.battlers.map(b=>b.hp),finalHP:final.battlers.map(b=>b.hp),sourceTransforms:transforms.size},null,2));core.destroy();

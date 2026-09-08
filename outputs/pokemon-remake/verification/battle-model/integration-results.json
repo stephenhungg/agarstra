@@ -1,0 +1,306 @@
+{
+  "ready": true,
+  "error": null,
+  "passed": true,
+  "checks": [
+    {
+      "name": "actual reviewed v2 loads with expected SHA and idle",
+      "ok": true,
+      "detail": {
+        "status": "candidate",
+        "source": "Live FireRed OBJ VRAM, palette, sprite transforms and battle RAM",
+        "updates": 22,
+        "sourceFrames": 30451,
+        "modelLoadStatus": "ready",
+        "modelError": null,
+        "creatureModel": {
+          "status": "candidate-loader-only-not-visual-acceptance",
+          "url": "http://127.0.0.1:59378/models/charmander-existing-v2.glb",
+          "sha256": "ad78d6f71b421d5f3ce534806b2f816d160647be282276152dca03a25c6ce7e6",
+          "bytes": 14277756,
+          "hierarchyPreserved": true,
+          "up": "+Y",
+          "front": "+Z (asset convention; visually verify)",
+          "bounds": {
+            "min": [
+              -0.23782911917321775,
+              -0.0012709185182993997,
+              -0.5193804380694066
+            ],
+            "max": [
+              0.23782777606931801,
+              0.5941976732661054,
+              0.1374021934975939
+            ],
+            "size": [
+              0.47565689524253574,
+              0.5954685917844048,
+              0.6567826315670005
+            ]
+          },
+          "height": 0.5954685917844048,
+          "groundOffset": 0.0012709185182993997,
+          "meshCount": 2,
+          "nodeCount": 66,
+          "boneCount": 60,
+          "skinnedMeshes": [
+            {
+              "name": "Mesh",
+              "bones": 60,
+              "vertices": 7621,
+              "bindMode": "attached"
+            },
+            {
+              "name": "Mesh_1",
+              "bones": 60,
+              "vertices": 167,
+              "bindMode": "attached"
+            }
+          ],
+          "clips": [
+            {
+              "name": "idle",
+              "duration": 3,
+              "tracks": 180
+            }
+          ],
+          "selectedClip": "idle",
+          "animationReady": true,
+          "staticOnly": false,
+          "sourceSeconds": 509.83215436775356,
+          "disposed": false
+        },
+        "modelBattlerId": 1,
+        "limitations": [
+          "One opponent Charmander uses a reviewed rigged 3D candidate; other creatures retain source-pixel billboards.",
+          "The 3D candidate retains coarse color detail and a solid emissive tail tip; it is not photoreal approved.",
+          "Battle stage is a presentation blockout, not a reconstruction of every battle terrain.",
+          "3D motion follows source x2/y2 offsets and visibility; source affine deformation, palette flashes and separate attack-effect sprites/background effects are not rebuilt for the model.",
+          "Native party/bag menus use exact source pixels.",
+          "Only an authored idle is played; no invented attack animation, combat simulation, damage calculation or independent animation timers."
+        ],
+        "modelCredit": [
+          "Charmander rig created by Milos Cerny and downloaded at http://www.miloscerny.com/",
+          "3D model created by Guilherme Lauck https://sketchfab.com/guilauck"
+        ],
+        "modelLicense": "CC BY-NC 4.0"
+      }
+    },
+    {
+      "name": "only opponent Charmander uses 3D; Bulbasaur remains source sprite",
+      "ok": true,
+      "detail": [
+        {
+          "id": 0,
+          "visible": true,
+          "position": [
+            -3.936,
+            0.00200726163960091,
+            1.9869673333385611
+          ],
+          "presentation": "source-sprite",
+          "sourceOffsets": {
+            "x": 0,
+            "y": 1
+          },
+          "pixelHash": "7bbe736f"
+        },
+        {
+          "id": 1,
+          "visible": true,
+          "position": [
+            4,
+            -0.04,
+            -3
+          ],
+          "presentation": "rigged-3d-candidate",
+          "sourceOffsets": {
+            "x": 0,
+            "y": 0
+          },
+          "pixelHash": "666be7c1"
+        }
+      ]
+    },
+    {
+      "name": "3D anchor is fixed stage coordinate",
+      "ok": true,
+      "detail": [
+        4,
+        -0.04,
+        -3
+      ]
+    },
+    {
+      "name": "paused source frame freezes complete model transforms",
+      "ok": true
+    },
+    {
+      "name": "presentation/load does not mutate serialized core",
+      "ok": true
+    },
+    {
+      "name": "authored idle responds to source frame advancement",
+      "ok": true
+    },
+    {
+      "name": "animation clock is exactly source frame / native FPS",
+      "ok": true
+    },
+    {
+      "name": "checkpoint reset restores model transforms",
+      "ok": true
+    },
+    {
+      "name": "source x2/y2 offsets map directly without captured animation baseline",
+      "ok": true,
+      "detail": {
+        "id": 1,
+        "visible": true,
+        "position": [
+          4.984,
+          0.42517840687874187,
+          -3.1602281179249
+        ],
+        "presentation": "rigged-3d-candidate",
+        "sourceOffsets": {
+          "x": 12,
+          "y": -6
+        },
+        "pixelHash": "666be7c1"
+      }
+    },
+    {
+      "name": "source hide flag hides 3D candidate",
+      "ok": true
+    },
+    {
+      "name": "source show restores 3D candidate",
+      "ok": true
+    },
+    {
+      "name": "model failure records error and keeps original cutout",
+      "ok": true,
+      "detail": "Battle model fetch failed: 503"
+    }
+  ],
+  "report": {
+    "status": "candidate",
+    "source": "Live FireRed OBJ VRAM, palette, sprite transforms and battle RAM",
+    "updates": 22,
+    "sourceFrames": 30451,
+    "modelLoadStatus": "ready",
+    "modelError": null,
+    "creatureModel": {
+      "status": "candidate-loader-only-not-visual-acceptance",
+      "url": "http://127.0.0.1:59378/models/charmander-existing-v2.glb",
+      "sha256": "ad78d6f71b421d5f3ce534806b2f816d160647be282276152dca03a25c6ce7e6",
+      "bytes": 14277756,
+      "hierarchyPreserved": true,
+      "up": "+Y",
+      "front": "+Z (asset convention; visually verify)",
+      "bounds": {
+        "min": [
+          -0.23782911917321775,
+          -0.0012709185182993997,
+          -0.5193804380694066
+        ],
+        "max": [
+          0.23782777606931801,
+          0.5941976732661054,
+          0.1374021934975939
+        ],
+        "size": [
+          0.47565689524253574,
+          0.5954685917844048,
+          0.6567826315670005
+        ]
+      },
+      "height": 0.5954685917844048,
+      "groundOffset": 0.0012709185182993997,
+      "meshCount": 2,
+      "nodeCount": 66,
+      "boneCount": 60,
+      "skinnedMeshes": [
+        {
+          "name": "Mesh",
+          "bones": 60,
+          "vertices": 7621,
+          "bindMode": "attached"
+        },
+        {
+          "name": "Mesh_1",
+          "bones": 60,
+          "vertices": 167,
+          "bindMode": "attached"
+        }
+      ],
+      "clips": [
+        {
+          "name": "idle",
+          "duration": 3,
+          "tracks": 180
+        }
+      ],
+      "selectedClip": "idle",
+      "animationReady": true,
+      "staticOnly": false,
+      "sourceSeconds": 509.83215436775356,
+      "disposed": false
+    },
+    "modelBattlerId": 1,
+    "limitations": [
+      "One opponent Charmander uses a reviewed rigged 3D candidate; other creatures retain source-pixel billboards.",
+      "The 3D candidate retains coarse color detail and a solid emissive tail tip; it is not photoreal approved.",
+      "Battle stage is a presentation blockout, not a reconstruction of every battle terrain.",
+      "3D motion follows source x2/y2 offsets and visibility; source affine deformation, palette flashes and separate attack-effect sprites/background effects are not rebuilt for the model.",
+      "Native party/bag menus use exact source pixels.",
+      "Only an authored idle is played; no invented attack animation, combat simulation, damage calculation or independent animation timers."
+    ],
+    "modelCredit": [
+      "Charmander rig created by Milos Cerny and downloaded at http://www.miloscerny.com/",
+      "3D model created by Guilherme Lauck https://sketchfab.com/guilauck"
+    ],
+    "modelLicense": "CC BY-NC 4.0"
+  },
+  "actors": [
+    {
+      "id": 0,
+      "visible": true,
+      "position": [
+        -3.936,
+        0.00200726163960091,
+        1.9869673333385611
+      ],
+      "presentation": "source-sprite",
+      "sourceOffsets": {
+        "x": 0,
+        "y": 1
+      },
+      "pixelHash": "7bbe736f"
+    },
+    {
+      "id": 1,
+      "visible": true,
+      "position": [
+        4,
+        -0.04,
+        -3
+      ],
+      "presentation": "rigged-3d-candidate",
+      "sourceOffsets": {
+        "x": 0,
+        "y": 0
+      },
+      "pixelHash": "666be7c1"
+    }
+  ],
+  "drawCalls": 6,
+  "triangles": 14594,
+  "messages": [
+    {
+      "level": 2,
+      "message": "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged."
+    }
+  ]
+}

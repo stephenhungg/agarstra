@@ -1,0 +1,16 @@
+16:17:59 | INFO: Data are loaded, start creating Blender stuff
+16:17:59 | INFO: Blender create Mesh node material
+16:17:59 | INFO: glTF import finished in 0.05s
+INFO Draco mesh compression is available, use library at /Volumes/Blender/Blender.app/Contents/Resources/4.5/scripts/addons_core/io_scene_gltf2/libextern_draco.dylib
+16:18:02 | INFO: Starting glTF 2.0 export
+16:18:02 | INFO: Extracting primitive: material
+16:18:02 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:18:02 | INFO: Primitives created: 2
+16:18:02 | INFO: Extracting primitive: Cube
+16:18:02 | INFO: Primitives created: 1
+16:18:02 | INFO: Finished glTF 2.0 export in 0.5069591999053955 s
+
+REPAIR {"sourceSHA256": "79bcace6b6a8774d6fba25230e2e4b5f6fe683dec3ee5e9eb59d6ec921fe1dab", "sha256": "fd7fbb06c2fc3b01cc6de169eac9471c3dadd67104cb1d56d268b5d1354a6768", "originalGeometryAndTransformsUnchanged": true, "originalBoundsBlender": [[-0.49886399507522583, -0.3205990195274353, -3.868204956347654e-08], [0.4623819887638092, 0.38754501938819885, 0.47363805770874023]], "capBoundsBlender": [[0.219, -0.177, 0.463638], [0.354, -0.017, 0.47363799810409546]], "roofTrianglesReassigned": 25552, "roofRoughness": 0.87, "roofMetallic": 0, "roofSpecularIORLevel": 0.25, "sourceDoorAnchorUnchanged": true, "authoring": "Direct Blender geometry and materials; no generated intermediary"}
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:35:28)
+
+Blender quit

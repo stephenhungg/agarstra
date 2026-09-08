@@ -1,0 +1,414 @@
+{
+  "glbSHA256": "95ea02802032e55fcaaa06d8f6b53df89b5bf130b1bb22787ab5d399c9e7a3f0",
+  "actualImportedActions": [
+    {
+      "name": "Armature|Take 001|BaseLayer",
+      "frameRange": [
+        1.0,
+        201.0
+      ]
+    }
+  ],
+  "fps": 30,
+  "sourceVertexCount": 6997,
+  "exportVertexCount": 7767,
+  "sourceVerticesOverFourWeights": 711,
+  "maxDiscardedWeight": 0.12197072058916092,
+  "maxFrame1NearestSourceDistance": 3.66699714504648e-06,
+  "comparisonMethod": "Match exported vertices to nearest source world-space vertex at frame 1, then compare that fixed correspondence at all samples. UV seams may duplicate exported vertices.",
+  "frames": [
+    {
+      "frame": 1,
+      "seconds": 0.03333333333333333,
+      "maxExportSkinError": 3.666997220968951e-06,
+      "meanExportSkinError": 1.3016018490979298e-07,
+      "maxVertexTravel": 0.0,
+      "meanVertexTravel": 0.0,
+      "changedJoints": []
+    },
+    {
+      "frame": 26,
+      "seconds": 0.8666666666666667,
+      "maxExportSkinError": 5.3292273922080606e-05,
+      "meanExportSkinError": 1.9330901789319586e-07,
+      "maxVertexTravel": 0.03359545168683591,
+      "meanVertexTravel": 0.00035274610663467486,
+      "changedJoints": [
+        {
+          "bone": "Charmander_LArmDigit42",
+          "degrees": 57.842741061816945,
+          "travel": 0.00904940684460131
+        },
+        {
+          "bone": "Charmander_LArmDigit41",
+          "degrees": 28.921278550725788,
+          "travel": 5.960464477539063e-08
+        },
+        {
+          "bone": "Charmander_REye",
+          "degrees": 30.632937389738213,
+          "travel": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 51,
+      "seconds": 1.7,
+      "maxExportSkinError": 0.0039284741253962615,
+      "meanExportSkinError": 1.1946344425157125e-05,
+      "maxVertexTravel": 0.21251609212697953,
+      "meanVertexTravel": 0.03617912062327562,
+      "changedJoints": [
+        {
+          "bone": "Charmander_LEye",
+          "degrees": 67.92477646548359,
+          "travel": 0.12294631116050227
+        },
+        {
+          "bone": "Charmander_REye",
+          "degrees": 67.92474914472692,
+          "travel": 0.12294620037545231
+        },
+        {
+          "bone": "Charmander_Tail5",
+          "degrees": 67.18236905364905,
+          "travel": 0.09386464269167442
+        },
+        {
+          "bone": "Charmander_Tail4",
+          "degrees": 67.1823827140274,
+          "travel": 0.04063065843747593
+        },
+        {
+          "bone": "Charmander_Head",
+          "degrees": 67.9247732777601,
+          "travel": 0.03860375482278545
+        },
+        {
+          "bone": "Charmander_Jaw",
+          "degrees": 67.92479012586193,
+          "travel": 0.038131706001855635
+        },
+        {
+          "bone": "Charmander_LArmDigit22",
+          "degrees": 78.48087480887332,
+          "travel": 0.012168547160761602
+        },
+        {
+          "bone": "Charmander_LArmDigit21",
+          "degrees": 39.24011980064026,
+          "travel": 4.280032699210963e-08
+        },
+        {
+          "bone": "Charmander_Tail3",
+          "degrees": 21.268606311225454,
+          "travel": 0.0
+        },
+        {
+          "bone": "Charmander_Neck",
+          "degrees": 33.964034535702865,
+          "travel": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 76,
+      "seconds": 2.533333333333333,
+      "maxExportSkinError": 0.0030629532107140566,
+      "meanExportSkinError": 3.191502548832382e-06,
+      "maxVertexTravel": 0.34038750814419444,
+      "meanVertexTravel": 0.02947063900519961,
+      "changedJoints": [
+        {
+          "bone": "Charmander_Tail5",
+          "degrees": 110.94652293502628,
+          "travel": 0.2755291908155152
+        },
+        {
+          "bone": "Charmander_Tail4",
+          "degrees": 83.19371580883694,
+          "travel": 0.1492942363890731
+        },
+        {
+          "bone": "Charmander_Tail3",
+          "degrees": 55.440894794898206,
+          "travel": 0.05498155339623487
+        },
+        {
+          "bone": "Charmander_LLegDigit22",
+          "degrees": 153.25285125786868,
+          "travel": 0.03796026467367789
+        },
+        {
+          "bone": "Charmander_LLegDigit32",
+          "degrees": 152.3767975345445,
+          "travel": 0.037658981603434796
+        },
+        {
+          "bone": "Charmander_LLegDigit12",
+          "degrees": 151.3845622934384,
+          "travel": 0.0368370368111538
+        },
+        {
+          "bone": "Charmander_Tail2",
+          "degrees": 27.688014244175296,
+          "travel": 0.0001195432708159217
+        },
+        {
+          "bone": "Charmander_LLegDigit11",
+          "degrees": 75.48459057567027,
+          "travel": 1.1033716216400181e-07
+        },
+        {
+          "bone": "Charmander_LLegDigit21",
+          "degrees": 76.6262872039181,
+          "travel": 1.0881738118066288e-07
+        },
+        {
+          "bone": "Charmander_LLegDigit31",
+          "degrees": 76.58534705003305,
+          "travel": 1.039416076861598e-07
+        }
+      ]
+    },
+    {
+      "frame": 101,
+      "seconds": 3.3666666666666667,
+      "maxExportSkinError": 3.667170476476402e-06,
+      "meanExportSkinError": 1.3315695386736493e-07,
+      "maxVertexTravel": 2.1696418193818683e-07,
+      "meanVertexTravel": 3.150121368988212e-08,
+      "changedJoints": []
+    },
+    {
+      "frame": 126,
+      "seconds": 4.2,
+      "maxExportSkinError": 0.0020036904890698435,
+      "meanExportSkinError": 3.2252300417588387e-06,
+      "maxVertexTravel": 0.3667125280431048,
+      "meanVertexTravel": 0.028576188980247448,
+      "changedJoints": [
+        {
+          "bone": "Charmander_LArmDigit32",
+          "degrees": 117.80564478636322,
+          "travel": 0.31993236897157057
+        },
+        {
+          "bone": "Charmander_LArmDigit22",
+          "degrees": 117.80405654001011,
+          "travel": 0.31618166931137015
+        },
+        {
+          "bone": "Charmander_LArmDigit42",
+          "degrees": 117.80461661552205,
+          "travel": 0.3095536513312534
+        },
+        {
+          "bone": "Charmander_LArmDigit31",
+          "degrees": 117.80512569198629,
+          "travel": 0.28936825188766707
+        },
+        {
+          "bone": "Charmander_LArmDigit21",
+          "degrees": 117.80501640895957,
+          "travel": 0.2857122900264788
+        },
+        {
+          "bone": "Charmander_LArmDigit41",
+          "degrees": 117.80425142777253,
+          "travel": 0.28309290155030337
+        },
+        {
+          "bone": "Charmander_LArmDigit12",
+          "degrees": 117.80488982308884,
+          "travel": 0.26383536886042275
+        },
+        {
+          "bone": "Charmander_LArmDigit11",
+          "degrees": 117.80498544573723,
+          "travel": 0.24104467832029627
+        },
+        {
+          "bone": "Charmander_LArmPalm",
+          "degrees": 117.8050127664939,
+          "travel": 0.23853711067229255
+        },
+        {
+          "bone": "Charmander_LArm2",
+          "degrees": 117.80490348346719,
+          "travel": 0.11313352839353583
+        },
+        {
+          "bone": "Charmander_LArm1",
+          "degrees": 117.80497178535889,
+          "travel": 0.011901491320828623
+        },
+        {
+          "bone": "Charmander_LArmCollarbone",
+          "degrees": 17.49980013476621,
+          "travel": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 151,
+      "seconds": 5.033333333333333,
+      "maxExportSkinError": 0.0029682685736946318,
+      "meanExportSkinError": 4.287444319466457e-06,
+      "maxVertexTravel": 0.02822889746812793,
+      "meanVertexTravel": 0.0032534146415826816,
+      "changedJoints": [
+        {
+          "bone": "Charmander_LArmDigit11",
+          "degrees": 0.0,
+          "travel": 0.027895256693130553
+        },
+        {
+          "bone": "Charmander_LArmDigit22",
+          "degrees": 0.0,
+          "travel": 0.027895256627922714
+        },
+        {
+          "bone": "Charmander_LArmDigit12",
+          "degrees": 0.0,
+          "travel": 0.02789523256621974
+        },
+        {
+          "bone": "Charmander_LArmDigit21",
+          "degrees": 0.0,
+          "travel": 0.02789523165330919
+        },
+        {
+          "bone": "Charmander_LArmDigit41",
+          "degrees": 0.0,
+          "travel": 0.02789522852332994
+        },
+        {
+          "bone": "Charmander_LArm1",
+          "degrees": 0.0,
+          "travel": 0.02789521293863636
+        },
+        {
+          "bone": "Charmander_LArmDigit31",
+          "degrees": 0.0,
+          "travel": 0.027895198788509542
+        },
+        {
+          "bone": "Charmander_LArmPalm",
+          "degrees": 0.0,
+          "travel": 0.027895190181055615
+        },
+        {
+          "bone": "Charmander_LArmDigit42",
+          "degrees": 0.0,
+          "travel": 0.02789518770315172
+        },
+        {
+          "bone": "Charmander_LArmDigit32",
+          "degrees": 0.0,
+          "travel": 0.02789516794512068
+        },
+        {
+          "bone": "Charmander_LArm2",
+          "degrees": 0.0,
+          "travel": 0.02789515712058289
+        },
+        {
+          "bone": "Charmander_LArmCollarbone",
+          "degrees": 38.66150374019721,
+          "travel": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 176,
+      "seconds": 5.866666666666666,
+      "maxExportSkinError": 0.0016596563418712236,
+      "meanExportSkinError": 3.9925138364913554e-06,
+      "maxVertexTravel": 0.0626666995678823,
+      "meanVertexTravel": 0.0007381712193530627,
+      "changedJoints": [
+        {
+          "bone": "Charmander_Belly",
+          "degrees": 25.072572593984628,
+          "travel": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 201,
+      "seconds": 6.7,
+      "maxExportSkinError": 3.667170476476402e-06,
+      "meanExportSkinError": 1.3237821447892985e-07,
+      "maxVertexTravel": 2.5474013384101925e-07,
+      "meanVertexTravel": 3.824485187815754e-08,
+      "changedJoints": []
+    }
+  ],
+  "importedRootTransform": {
+    "meshMatrix": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.3435885737322906e-09,
+        -0.010000000707805157,
+        0.0
+      ],
+      [
+        0.0,
+        0.010000000707805157,
+        -1.3435885737322906e-09,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "rigMatrix": [
+      [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.3435885737322906e-09,
+        -0.010000000707805157,
+        0.0
+      ],
+      [
+        0.0,
+        0.010000000707805157,
+        -1.3435885737322906e-09,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "boundsBlenderZUp": {
+    "min": [
+      -0.3366507291793823,
+      -0.13740217685699463,
+      -0.0012709569418802857
+    ],
+    "max": [
+      0.3366455137729645,
+      0.5193804502487183,
+      0.5941977500915527
+    ]
+  }
+}

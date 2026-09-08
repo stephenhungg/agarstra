@@ -1,0 +1,2682 @@
+{
+  "sourceCommit": "c75f352304d529f6ba92d4f74b9cf8b5c3810788",
+  "romSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+  "status": "candidate-3d-interiors-not-photoreal-approved",
+  "coordinateConvention": "+Y up; x=source x, z=source y; tile centers are integer coordinates",
+  "interpretation": "Layout IDs, raw metatiles, collisions and warp coordinates are exact source. Furniture names/vertical profiles are visual interpretations of assembled source metatile imagery, except the PC named in source constants.",
+  "maps": {
+    "PalletTown_PlayersHouse_1F": {
+      "width": 13,
+      "height": 10,
+      "tilesets": [
+        "gTileset_Building",
+        "gTileset_GenericBuilding1"
+      ],
+      "mapDataSHA256": "f485f064e2464ebc81bb525960529e4222c2613c55addf8be5b8f8a06891d93c",
+      "metatileIds": [
+        8,
+        32,
+        32,
+        46,
+        47,
+        32,
+        45,
+        33,
+        34,
+        32,
+        32,
+        32,
+        32,
+        8,
+        49,
+        50,
+        54,
+        55,
+        40,
+        53,
+        41,
+        42,
+        40,
+        40,
+        22,
+        23,
+        8,
+        57,
+        58,
+        62,
+        63,
+        9,
+        61,
+        9,
+        9,
+        9,
+        29,
+        30,
+        31,
+        8,
+        9,
+        1,
+        1,
+        67,
+        68,
+        68,
+        68,
+        68,
+        70,
+        37,
+        38,
+        39,
+        8,
+        9,
+        1,
+        1,
+        83,
+        75,
+        76,
+        77,
+        78,
+        86,
+        1,
+        1,
+        1,
+        8,
+        9,
+        1,
+        1,
+        83,
+        75,
+        84,
+        85,
+        78,
+        86,
+        1,
+        1,
+        1,
+        8,
+        87,
+        1,
+        1,
+        91,
+        92,
+        92,
+        92,
+        92,
+        94,
+        1,
+        1,
+        71,
+        8,
+        95,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        79,
+        8,
+        9,
+        1,
+        18,
+        19,
+        20,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        8,
+        8,
+        8,
+        26,
+        27,
+        28,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "collision": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "warps": [
+        {
+          "x": 5,
+          "y": 8,
+          "elevation": 3,
+          "dest_map": "MAP_PALLET_TOWN",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 4,
+          "y": 8,
+          "elevation": 3,
+          "dest_map": "MAP_PALLET_TOWN",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 10,
+          "y": 2,
+          "elevation": 3,
+          "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_2F",
+          "dest_warp_id": "0"
+        },
+        {
+          "x": 3,
+          "y": 9,
+          "elevation": 0,
+          "dest_map": "MAP_PALLET_TOWN",
+          "dest_warp_id": "0"
+        }
+      ],
+      "features": [
+        {
+          "id": "kitchen-sink",
+          "kind": "sink",
+          "bounds": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "sourceCells": [
+            {
+              "x": 1,
+              "y": 1,
+              "metatileId": 49,
+              "collision": 1
+            },
+            {
+              "x": 2,
+              "y": 1,
+              "metatileId": 50,
+              "collision": 1
+            },
+            {
+              "x": 1,
+              "y": 2,
+              "metatileId": 57,
+              "collision": 0
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "metatileId": 58,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "kitchen-cupboard",
+          "kind": "cupboard",
+          "bounds": [
+            3,
+            1,
+            4,
+            2
+          ],
+          "sourceCells": [
+            {
+              "x": 3,
+              "y": 1,
+              "metatileId": 54,
+              "collision": 1
+            },
+            {
+              "x": 4,
+              "y": 1,
+              "metatileId": 55,
+              "collision": 1
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "metatileId": 62,
+              "collision": 0
+            },
+            {
+              "x": 4,
+              "y": 2,
+              "metatileId": 63,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "television",
+          "kind": "tv",
+          "bounds": [
+            6,
+            1,
+            6,
+            2
+          ],
+          "sourceCells": [
+            {
+              "x": 6,
+              "y": 1,
+              "metatileId": 53,
+              "collision": 1
+            },
+            {
+              "x": 6,
+              "y": 2,
+              "metatileId": 61,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "north-window",
+          "kind": "window",
+          "bounds": [
+            7,
+            0,
+            8,
+            1
+          ],
+          "sourceCells": [
+            {
+              "x": 7,
+              "y": 0,
+              "metatileId": 33,
+              "collision": 1
+            },
+            {
+              "x": 8,
+              "y": 0,
+              "metatileId": 34,
+              "collision": 1
+            },
+            {
+              "x": 7,
+              "y": 1,
+              "metatileId": 41,
+              "collision": 1
+            },
+            {
+              "x": 8,
+              "y": 1,
+              "metatileId": 42,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "stairs-up",
+          "kind": "stairsUp",
+          "bounds": [
+            10,
+            1,
+            12,
+            3
+          ],
+          "sourceCells": [
+            {
+              "x": 10,
+              "y": 1,
+              "metatileId": 40,
+              "collision": 1
+            },
+            {
+              "x": 11,
+              "y": 1,
+              "metatileId": 22,
+              "collision": 1
+            },
+            {
+              "x": 12,
+              "y": 1,
+              "metatileId": 23,
+              "collision": 1
+            },
+            {
+              "x": 10,
+              "y": 2,
+              "metatileId": 29,
+              "collision": 0
+            },
+            {
+              "x": 11,
+              "y": 2,
+              "metatileId": 30,
+              "collision": 1
+            },
+            {
+              "x": 12,
+              "y": 2,
+              "metatileId": 31,
+              "collision": 1
+            },
+            {
+              "x": 10,
+              "y": 3,
+              "metatileId": 37,
+              "collision": 0
+            },
+            {
+              "x": 11,
+              "y": 3,
+              "metatileId": 38,
+              "collision": 0
+            },
+            {
+              "x": 12,
+              "y": 3,
+              "metatileId": 39,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "dining-rug",
+          "kind": "rug",
+          "bounds": [
+            4,
+            3,
+            9,
+            6
+          ],
+          "sourceCells": [
+            {
+              "x": 4,
+              "y": 3,
+              "metatileId": 67,
+              "collision": 0
+            },
+            {
+              "x": 5,
+              "y": 3,
+              "metatileId": 68,
+              "collision": 0
+            },
+            {
+              "x": 6,
+              "y": 3,
+              "metatileId": 68,
+              "collision": 0
+            },
+            {
+              "x": 7,
+              "y": 3,
+              "metatileId": 68,
+              "collision": 0
+            },
+            {
+              "x": 8,
+              "y": 3,
+              "metatileId": 68,
+              "collision": 0
+            },
+            {
+              "x": 9,
+              "y": 3,
+              "metatileId": 70,
+              "collision": 0
+            },
+            {
+              "x": 4,
+              "y": 4,
+              "metatileId": 83,
+              "collision": 0
+            },
+            {
+              "x": 5,
+              "y": 4,
+              "metatileId": 75,
+              "collision": 0
+            },
+            {
+              "x": 6,
+              "y": 4,
+              "metatileId": 76,
+              "collision": 1
+            },
+            {
+              "x": 7,
+              "y": 4,
+              "metatileId": 77,
+              "collision": 1
+            },
+            {
+              "x": 8,
+              "y": 4,
+              "metatileId": 78,
+              "collision": 0
+            },
+            {
+              "x": 9,
+              "y": 4,
+              "metatileId": 86,
+              "collision": 0
+            },
+            {
+              "x": 4,
+              "y": 5,
+              "metatileId": 83,
+              "collision": 0
+            },
+            {
+              "x": 5,
+              "y": 5,
+              "metatileId": 75,
+              "collision": 0
+            },
+            {
+              "x": 6,
+              "y": 5,
+              "metatileId": 84,
+              "collision": 1
+            },
+            {
+              "x": 7,
+              "y": 5,
+              "metatileId": 85,
+              "collision": 1
+            },
+            {
+              "x": 8,
+              "y": 5,
+              "metatileId": 78,
+              "collision": 0
+            },
+            {
+              "x": 9,
+              "y": 5,
+              "metatileId": 86,
+              "collision": 0
+            },
+            {
+              "x": 4,
+              "y": 6,
+              "metatileId": 91,
+              "collision": 0
+            },
+            {
+              "x": 5,
+              "y": 6,
+              "metatileId": 92,
+              "collision": 0
+            },
+            {
+              "x": 6,
+              "y": 6,
+              "metatileId": 92,
+              "collision": 0
+            },
+            {
+              "x": 7,
+              "y": 6,
+              "metatileId": 92,
+              "collision": 0
+            },
+            {
+              "x": 8,
+              "y": 6,
+              "metatileId": 92,
+              "collision": 0
+            },
+            {
+              "x": 9,
+              "y": 6,
+              "metatileId": 94,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "dining-table",
+          "kind": "table",
+          "bounds": [
+            6,
+            4,
+            7,
+            5
+          ],
+          "sourceCells": [
+            {
+              "x": 6,
+              "y": 4,
+              "metatileId": 76,
+              "collision": 1
+            },
+            {
+              "x": 7,
+              "y": 4,
+              "metatileId": 77,
+              "collision": 1
+            },
+            {
+              "x": 6,
+              "y": 5,
+              "metatileId": 84,
+              "collision": 1
+            },
+            {
+              "x": 7,
+              "y": 5,
+              "metatileId": 85,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "chair-nw",
+          "kind": "chair",
+          "bounds": [
+            5,
+            4,
+            5,
+            4
+          ],
+          "sourceCells": [
+            {
+              "x": 5,
+              "y": 4,
+              "metatileId": 75,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "chair-sw",
+          "kind": "chair",
+          "bounds": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "sourceCells": [
+            {
+              "x": 5,
+              "y": 5,
+              "metatileId": 75,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "chair-ne",
+          "kind": "chair",
+          "bounds": [
+            8,
+            4,
+            8,
+            4
+          ],
+          "sourceCells": [
+            {
+              "x": 8,
+              "y": 4,
+              "metatileId": 78,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "chair-se",
+          "kind": "chair",
+          "bounds": [
+            8,
+            5,
+            8,
+            5
+          ],
+          "sourceCells": [
+            {
+              "x": 8,
+              "y": 5,
+              "metatileId": 78,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "plant-west",
+          "kind": "plant",
+          "bounds": [
+            1,
+            6,
+            1,
+            7
+          ],
+          "sourceCells": [
+            {
+              "x": 1,
+              "y": 6,
+              "metatileId": 87,
+              "collision": 0
+            },
+            {
+              "x": 1,
+              "y": 7,
+              "metatileId": 95,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "plant-east",
+          "kind": "plant",
+          "bounds": [
+            12,
+            6,
+            12,
+            7
+          ],
+          "sourceCells": [
+            {
+              "x": 12,
+              "y": 6,
+              "metatileId": 71,
+              "collision": 0
+            },
+            {
+              "x": 12,
+              "y": 7,
+              "metatileId": 79,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": null
+        }
+      ],
+      "sourcePaths": [
+        "data/layouts/PalletTown_PlayersHouse_1F/map.bin",
+        "data/maps/PalletTown_PlayersHouse_1F/map.json"
+      ]
+    },
+    "PalletTown_PlayersHouse_2F": {
+      "width": 12,
+      "height": 9,
+      "tilesets": [
+        "gTileset_Building",
+        "gTileset_GenericBuilding1"
+      ],
+      "mapDataSHA256": "2519a15ac22fc281fc5a8843c7e515b2915d1f44871a2b463961b6c192473569",
+      "metatileIds": [
+        8,
+        647,
+        32,
+        32,
+        43,
+        44,
+        32,
+        32,
+        32,
+        32,
+        32,
+        150,
+        8,
+        655,
+        134,
+        48,
+        51,
+        52,
+        40,
+        40,
+        21,
+        40,
+        40,
+        166,
+        8,
+        663,
+        90,
+        56,
+        59,
+        60,
+        9,
+        9,
+        5,
+        6,
+        7,
+        9,
+        8,
+        9,
+        1,
+        1,
+        1,
+        1,
+        646,
+        1,
+        13,
+        14,
+        15,
+        1,
+        8,
+        643,
+        644,
+        645,
+        67,
+        68,
+        53,
+        68,
+        70,
+        1,
+        1,
+        1,
+        8,
+        651,
+        652,
+        653,
+        83,
+        69,
+        654,
+        69,
+        86,
+        1,
+        1,
+        1,
+        8,
+        659,
+        660,
+        661,
+        83,
+        69,
+        662,
+        69,
+        86,
+        1,
+        1,
+        1,
+        8,
+        9,
+        1,
+        1,
+        91,
+        92,
+        92,
+        92,
+        94,
+        1,
+        1,
+        1,
+        8,
+        9,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "collision": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "warps": [
+        {
+          "x": 10,
+          "y": 2,
+          "elevation": 3,
+          "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_1F",
+          "dest_warp_id": "2"
+        }
+      ],
+      "features": [
+        {
+          "id": "pc-desk",
+          "kind": "desk",
+          "bounds": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "sourceCells": [
+            {
+              "x": 1,
+              "y": 1,
+              "metatileId": 655,
+              "collision": 1
+            },
+            {
+              "x": 2,
+              "y": 1,
+              "metatileId": 134,
+              "collision": 1
+            },
+            {
+              "x": 1,
+              "y": 2,
+              "metatileId": 663,
+              "collision": 0
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "metatileId": 90,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "players-pc",
+          "kind": "pc",
+          "bounds": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "sourceCells": [
+            {
+              "x": 1,
+              "y": 0,
+              "metatileId": 647,
+              "collision": 1
+            },
+            {
+              "x": 1,
+              "y": 1,
+              "metatileId": 655,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": "METATILE_GenericBuilding1_PlayersPCOff"
+        },
+        {
+          "id": "desk-chair",
+          "kind": "chair",
+          "bounds": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "sourceCells": [
+            {
+              "x": 1,
+              "y": 2,
+              "metatileId": 663,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "bookshelf",
+          "kind": "bookshelf",
+          "bounds": [
+            4,
+            0,
+            5,
+            2
+          ],
+          "sourceCells": [
+            {
+              "x": 4,
+              "y": 0,
+              "metatileId": 43,
+              "collision": 1
+            },
+            {
+              "x": 5,
+              "y": 0,
+              "metatileId": 44,
+              "collision": 1
+            },
+            {
+              "x": 4,
+              "y": 1,
+              "metatileId": 51,
+              "collision": 1
+            },
+            {
+              "x": 5,
+              "y": 1,
+              "metatileId": 52,
+              "collision": 1
+            },
+            {
+              "x": 4,
+              "y": 2,
+              "metatileId": 59,
+              "collision": 0
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "metatileId": 60,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "stairs-down",
+          "kind": "stairsDown",
+          "bounds": [
+            8,
+            1,
+            10,
+            3
+          ],
+          "sourceCells": [
+            {
+              "x": 8,
+              "y": 1,
+              "metatileId": 21,
+              "collision": 1
+            },
+            {
+              "x": 9,
+              "y": 1,
+              "metatileId": 40,
+              "collision": 1
+            },
+            {
+              "x": 10,
+              "y": 1,
+              "metatileId": 40,
+              "collision": 1
+            },
+            {
+              "x": 8,
+              "y": 2,
+              "metatileId": 5,
+              "collision": 1
+            },
+            {
+              "x": 9,
+              "y": 2,
+              "metatileId": 6,
+              "collision": 1
+            },
+            {
+              "x": 10,
+              "y": 2,
+              "metatileId": 7,
+              "collision": 0
+            },
+            {
+              "x": 8,
+              "y": 3,
+              "metatileId": 13,
+              "collision": 1
+            },
+            {
+              "x": 9,
+              "y": 3,
+              "metatileId": 14,
+              "collision": 1
+            },
+            {
+              "x": 10,
+              "y": 3,
+              "metatileId": 15,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "bed",
+          "kind": "bed",
+          "bounds": [
+            1,
+            4,
+            3,
+            6
+          ],
+          "sourceCells": [
+            {
+              "x": 1,
+              "y": 4,
+              "metatileId": 643,
+              "collision": 0
+            },
+            {
+              "x": 2,
+              "y": 4,
+              "metatileId": 644,
+              "collision": 0
+            },
+            {
+              "x": 3,
+              "y": 4,
+              "metatileId": 645,
+              "collision": 0
+            },
+            {
+              "x": 1,
+              "y": 5,
+              "metatileId": 651,
+              "collision": 0
+            },
+            {
+              "x": 2,
+              "y": 5,
+              "metatileId": 652,
+              "collision": 0
+            },
+            {
+              "x": 3,
+              "y": 5,
+              "metatileId": 653,
+              "collision": 0
+            },
+            {
+              "x": 1,
+              "y": 6,
+              "metatileId": 659,
+              "collision": 0
+            },
+            {
+              "x": 2,
+              "y": 6,
+              "metatileId": 660,
+              "collision": 1
+            },
+            {
+              "x": 3,
+              "y": 6,
+              "metatileId": 661,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "bedroom-rug",
+          "kind": "rug",
+          "bounds": [
+            4,
+            4,
+            8,
+            7
+          ],
+          "sourceCells": [
+            {
+              "x": 4,
+              "y": 4,
+              "metatileId": 67,
+              "collision": 0
+            },
+            {
+              "x": 5,
+              "y": 4,
+              "metatileId": 68,
+              "collision": 0
+            },
+            {
+              "x": 6,
+              "y": 4,
+              "metatileId": 53,
+              "collision": 1
+            },
+            {
+              "x": 7,
+              "y": 4,
+              "metatileId": 68,
+              "collision": 0
+            },
+            {
+              "x": 8,
+              "y": 4,
+              "metatileId": 70,
+              "collision": 0
+            },
+            {
+              "x": 4,
+              "y": 5,
+              "metatileId": 83,
+              "collision": 0
+            },
+            {
+              "x": 5,
+              "y": 5,
+              "metatileId": 69,
+              "collision": 0
+            },
+            {
+              "x": 6,
+              "y": 5,
+              "metatileId": 654,
+              "collision": 1
+            },
+            {
+              "x": 7,
+              "y": 5,
+              "metatileId": 69,
+              "collision": 0
+            },
+            {
+              "x": 8,
+              "y": 5,
+              "metatileId": 86,
+              "collision": 0
+            },
+            {
+              "x": 4,
+              "y": 6,
+              "metatileId": 83,
+              "collision": 0
+            },
+            {
+              "x": 5,
+              "y": 6,
+              "metatileId": 69,
+              "collision": 0
+            },
+            {
+              "x": 6,
+              "y": 6,
+              "metatileId": 662,
+              "collision": 0
+            },
+            {
+              "x": 7,
+              "y": 6,
+              "metatileId": 69,
+              "collision": 0
+            },
+            {
+              "x": 8,
+              "y": 6,
+              "metatileId": 86,
+              "collision": 0
+            },
+            {
+              "x": 4,
+              "y": 7,
+              "metatileId": 91,
+              "collision": 0
+            },
+            {
+              "x": 5,
+              "y": 7,
+              "metatileId": 92,
+              "collision": 0
+            },
+            {
+              "x": 6,
+              "y": 7,
+              "metatileId": 92,
+              "collision": 0
+            },
+            {
+              "x": 7,
+              "y": 7,
+              "metatileId": 92,
+              "collision": 0
+            },
+            {
+              "x": 8,
+              "y": 7,
+              "metatileId": 94,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "television",
+          "kind": "tv",
+          "bounds": [
+            6,
+            3,
+            6,
+            4
+          ],
+          "sourceCells": [
+            {
+              "x": 6,
+              "y": 3,
+              "metatileId": 646,
+              "collision": 0
+            },
+            {
+              "x": 6,
+              "y": 4,
+              "metatileId": 53,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "game-console",
+          "kind": "console",
+          "bounds": [
+            6,
+            5,
+            6,
+            6
+          ],
+          "sourceCells": [
+            {
+              "x": 6,
+              "y": 5,
+              "metatileId": 654,
+              "collision": 1
+            },
+            {
+              "x": 6,
+              "y": 6,
+              "metatileId": 662,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "notice",
+          "kind": "poster",
+          "bounds": [
+            11,
+            0,
+            11,
+            1
+          ],
+          "sourceCells": [
+            {
+              "x": 11,
+              "y": 0,
+              "metatileId": 150,
+              "collision": 1
+            },
+            {
+              "x": 11,
+              "y": 1,
+              "metatileId": 166,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": null
+        }
+      ],
+      "sourcePaths": [
+        "data/layouts/PalletTown_PlayersHouse_2F/map.bin",
+        "data/maps/PalletTown_PlayersHouse_2F/map.json"
+      ]
+    },
+    "PalletTown_ProfessorOaksLab": {
+      "width": 13,
+      "height": 14,
+      "tilesets": [
+        "gTileset_Building",
+        "gTileset_Lab"
+      ],
+      "mapDataSHA256": "a1ca472215cd91f5128360af49880035be67b82fb43120758826a21e6a8d803f",
+      "metatileIds": [
+        669,
+        109,
+        109,
+        110,
+        105,
+        105,
+        653,
+        653,
+        152,
+        107,
+        108,
+        107,
+        108,
+        685,
+        678,
+        117,
+        118,
+        133,
+        134,
+        661,
+        661,
+        160,
+        115,
+        116,
+        115,
+        116,
+        693,
+        694,
+        645,
+        646,
+        645,
+        646,
+        641,
+        641,
+        641,
+        643,
+        644,
+        643,
+        644,
+        671,
+        675,
+        676,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        671,
+        683,
+        684,
+        649,
+        649,
+        649,
+        649,
+        649,
+        680,
+        681,
+        682,
+        649,
+        649,
+        648,
+        691,
+        692,
+        649,
+        649,
+        649,
+        649,
+        649,
+        688,
+        689,
+        690,
+        649,
+        649,
+        648,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        698,
+        651,
+        652,
+        651,
+        652,
+        649,
+        649,
+        649,
+        651,
+        652,
+        651,
+        652,
+        652,
+        115,
+        115,
+        116,
+        115,
+        116,
+        649,
+        649,
+        649,
+        115,
+        116,
+        115,
+        116,
+        116,
+        647,
+        643,
+        644,
+        643,
+        644,
+        649,
+        649,
+        649,
+        643,
+        644,
+        643,
+        644,
+        644,
+        648,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        659,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        649,
+        660,
+        667,
+        649,
+        649,
+        649,
+        649,
+        656,
+        657,
+        658,
+        649,
+        649,
+        649,
+        649,
+        668,
+        8,
+        8,
+        8,
+        8,
+        8,
+        664,
+        665,
+        666,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "collision": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "warps": [
+        {
+          "x": 6,
+          "y": 12,
+          "elevation": 3,
+          "dest_map": "MAP_PALLET_TOWN",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 7,
+          "y": 12,
+          "elevation": 3,
+          "dest_map": "MAP_PALLET_TOWN",
+          "dest_warp_id": "2"
+        },
+        {
+          "x": 5,
+          "y": 12,
+          "elevation": 3,
+          "dest_map": "MAP_PALLET_TOWN",
+          "dest_warp_id": "2"
+        }
+      ],
+      "features": [
+        {
+          "id": "north-machine",
+          "kind": "machine",
+          "bounds": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "sourceCells": [
+            {
+              "x": 0,
+              "y": 0,
+              "metatileId": 669,
+              "collision": 1
+            },
+            {
+              "x": 0,
+              "y": 1,
+              "metatileId": 685,
+              "collision": 1
+            },
+            {
+              "x": 0,
+              "y": 2,
+              "metatileId": 693,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "computer-bench",
+          "kind": "desk",
+          "bounds": [
+            1,
+            1,
+            5,
+            2
+          ],
+          "sourceCells": [
+            {
+              "x": 1,
+              "y": 1,
+              "metatileId": 678,
+              "collision": 1
+            },
+            {
+              "x": 2,
+              "y": 1,
+              "metatileId": 117,
+              "collision": 1
+            },
+            {
+              "x": 3,
+              "y": 1,
+              "metatileId": 118,
+              "collision": 1
+            },
+            {
+              "x": 4,
+              "y": 1,
+              "metatileId": 133,
+              "collision": 1
+            },
+            {
+              "x": 5,
+              "y": 1,
+              "metatileId": 134,
+              "collision": 1
+            },
+            {
+              "x": 1,
+              "y": 2,
+              "metatileId": 694,
+              "collision": 0
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "metatileId": 645,
+              "collision": 0
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "metatileId": 646,
+              "collision": 0
+            },
+            {
+              "x": 4,
+              "y": 2,
+              "metatileId": 645,
+              "collision": 0
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "metatileId": 646,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "lab-computer",
+          "kind": "pc",
+          "bounds": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "sourceCells": [
+            {
+              "x": 2,
+              "y": 0,
+              "metatileId": 109,
+              "collision": 1
+            },
+            {
+              "x": 3,
+              "y": 0,
+              "metatileId": 110,
+              "collision": 1
+            },
+            {
+              "x": 2,
+              "y": 1,
+              "metatileId": 117,
+              "collision": 1
+            },
+            {
+              "x": 3,
+              "y": 1,
+              "metatileId": 118,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "notice-west",
+          "kind": "poster",
+          "bounds": [
+            6,
+            0,
+            6,
+            1
+          ],
+          "sourceCells": [
+            {
+              "x": 6,
+              "y": 0,
+              "metatileId": 653,
+              "collision": 1
+            },
+            {
+              "x": 6,
+              "y": 1,
+              "metatileId": 661,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "notice-east",
+          "kind": "poster",
+          "bounds": [
+            7,
+            0,
+            7,
+            1
+          ],
+          "sourceCells": [
+            {
+              "x": 7,
+              "y": 0,
+              "metatileId": 653,
+              "collision": 1
+            },
+            {
+              "x": 7,
+              "y": 1,
+              "metatileId": 661,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "north-window",
+          "kind": "window",
+          "bounds": [
+            8,
+            0,
+            8,
+            1
+          ],
+          "sourceCells": [
+            {
+              "x": 8,
+              "y": 0,
+              "metatileId": 152,
+              "collision": 1
+            },
+            {
+              "x": 8,
+              "y": 1,
+              "metatileId": 160,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "north-shelf-a",
+          "kind": "bookshelf",
+          "bounds": [
+            9,
+            0,
+            10,
+            2
+          ],
+          "sourceCells": [
+            {
+              "x": 9,
+              "y": 0,
+              "metatileId": 107,
+              "collision": 1
+            },
+            {
+              "x": 10,
+              "y": 0,
+              "metatileId": 108,
+              "collision": 1
+            },
+            {
+              "x": 9,
+              "y": 1,
+              "metatileId": 115,
+              "collision": 1
+            },
+            {
+              "x": 10,
+              "y": 1,
+              "metatileId": 116,
+              "collision": 1
+            },
+            {
+              "x": 9,
+              "y": 2,
+              "metatileId": 643,
+              "collision": 0
+            },
+            {
+              "x": 10,
+              "y": 2,
+              "metatileId": 644,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "north-shelf-b",
+          "kind": "bookshelf",
+          "bounds": [
+            11,
+            0,
+            12,
+            2
+          ],
+          "sourceCells": [
+            {
+              "x": 11,
+              "y": 0,
+              "metatileId": 107,
+              "collision": 1
+            },
+            {
+              "x": 12,
+              "y": 0,
+              "metatileId": 108,
+              "collision": 1
+            },
+            {
+              "x": 11,
+              "y": 1,
+              "metatileId": 115,
+              "collision": 1
+            },
+            {
+              "x": 12,
+              "y": 1,
+              "metatileId": 116,
+              "collision": 1
+            },
+            {
+              "x": 11,
+              "y": 2,
+              "metatileId": 643,
+              "collision": 0
+            },
+            {
+              "x": 12,
+              "y": 2,
+              "metatileId": 644,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "west-partition-a",
+          "kind": "bookshelf",
+          "bounds": [
+            0,
+            7,
+            2,
+            9
+          ],
+          "sourceCells": [
+            {
+              "x": 0,
+              "y": 7,
+              "metatileId": 698,
+              "collision": 0
+            },
+            {
+              "x": 1,
+              "y": 7,
+              "metatileId": 651,
+              "collision": 0
+            },
+            {
+              "x": 2,
+              "y": 7,
+              "metatileId": 652,
+              "collision": 0
+            },
+            {
+              "x": 0,
+              "y": 8,
+              "metatileId": 115,
+              "collision": 1
+            },
+            {
+              "x": 1,
+              "y": 8,
+              "metatileId": 115,
+              "collision": 1
+            },
+            {
+              "x": 2,
+              "y": 8,
+              "metatileId": 116,
+              "collision": 1
+            },
+            {
+              "x": 0,
+              "y": 9,
+              "metatileId": 647,
+              "collision": 0
+            },
+            {
+              "x": 1,
+              "y": 9,
+              "metatileId": 643,
+              "collision": 0
+            },
+            {
+              "x": 2,
+              "y": 9,
+              "metatileId": 644,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "west-partition-b",
+          "kind": "bookshelf",
+          "bounds": [
+            3,
+            7,
+            4,
+            9
+          ],
+          "sourceCells": [
+            {
+              "x": 3,
+              "y": 7,
+              "metatileId": 651,
+              "collision": 0
+            },
+            {
+              "x": 4,
+              "y": 7,
+              "metatileId": 652,
+              "collision": 0
+            },
+            {
+              "x": 3,
+              "y": 8,
+              "metatileId": 115,
+              "collision": 1
+            },
+            {
+              "x": 4,
+              "y": 8,
+              "metatileId": 116,
+              "collision": 1
+            },
+            {
+              "x": 3,
+              "y": 9,
+              "metatileId": 643,
+              "collision": 0
+            },
+            {
+              "x": 4,
+              "y": 9,
+              "metatileId": 644,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "east-partition-a",
+          "kind": "bookshelf",
+          "bounds": [
+            8,
+            7,
+            10,
+            9
+          ],
+          "sourceCells": [
+            {
+              "x": 8,
+              "y": 7,
+              "metatileId": 651,
+              "collision": 0
+            },
+            {
+              "x": 9,
+              "y": 7,
+              "metatileId": 652,
+              "collision": 0
+            },
+            {
+              "x": 10,
+              "y": 7,
+              "metatileId": 651,
+              "collision": 0
+            },
+            {
+              "x": 8,
+              "y": 8,
+              "metatileId": 115,
+              "collision": 1
+            },
+            {
+              "x": 9,
+              "y": 8,
+              "metatileId": 116,
+              "collision": 1
+            },
+            {
+              "x": 10,
+              "y": 8,
+              "metatileId": 115,
+              "collision": 1
+            },
+            {
+              "x": 8,
+              "y": 9,
+              "metatileId": 643,
+              "collision": 0
+            },
+            {
+              "x": 9,
+              "y": 9,
+              "metatileId": 644,
+              "collision": 0
+            },
+            {
+              "x": 10,
+              "y": 9,
+              "metatileId": 643,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "east-partition-b",
+          "kind": "bookshelf",
+          "bounds": [
+            11,
+            7,
+            12,
+            9
+          ],
+          "sourceCells": [
+            {
+              "x": 11,
+              "y": 7,
+              "metatileId": 652,
+              "collision": 0
+            },
+            {
+              "x": 12,
+              "y": 7,
+              "metatileId": 652,
+              "collision": 0
+            },
+            {
+              "x": 11,
+              "y": 8,
+              "metatileId": 116,
+              "collision": 1
+            },
+            {
+              "x": 12,
+              "y": 8,
+              "metatileId": 116,
+              "collision": 1
+            },
+            {
+              "x": 11,
+              "y": 9,
+              "metatileId": 644,
+              "collision": 0
+            },
+            {
+              "x": 12,
+              "y": 9,
+              "metatileId": 644,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "healing-machine",
+          "kind": "healer",
+          "bounds": [
+            1,
+            3,
+            2,
+            5
+          ],
+          "sourceCells": [
+            {
+              "x": 1,
+              "y": 3,
+              "metatileId": 675,
+              "collision": 0
+            },
+            {
+              "x": 2,
+              "y": 3,
+              "metatileId": 676,
+              "collision": 0
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "metatileId": 683,
+              "collision": 1
+            },
+            {
+              "x": 2,
+              "y": 4,
+              "metatileId": 684,
+              "collision": 1
+            },
+            {
+              "x": 1,
+              "y": 5,
+              "metatileId": 691,
+              "collision": 1
+            },
+            {
+              "x": 2,
+              "y": 5,
+              "metatileId": 692,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "starter-table",
+          "kind": "table",
+          "bounds": [
+            8,
+            4,
+            10,
+            5
+          ],
+          "sourceCells": [
+            {
+              "x": 8,
+              "y": 4,
+              "metatileId": 680,
+              "collision": 1
+            },
+            {
+              "x": 9,
+              "y": 4,
+              "metatileId": 681,
+              "collision": 1
+            },
+            {
+              "x": 10,
+              "y": 4,
+              "metatileId": 682,
+              "collision": 1
+            },
+            {
+              "x": 8,
+              "y": 5,
+              "metatileId": 688,
+              "collision": 0
+            },
+            {
+              "x": 9,
+              "y": 5,
+              "metatileId": 689,
+              "collision": 0
+            },
+            {
+              "x": 10,
+              "y": 5,
+              "metatileId": 690,
+              "collision": 0
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "brochure-rack",
+          "kind": "rack",
+          "bounds": [
+            0,
+            3,
+            0,
+            4
+          ],
+          "sourceCells": [
+            {
+              "x": 0,
+              "y": 3,
+              "metatileId": 671,
+              "collision": 1
+            },
+            {
+              "x": 0,
+              "y": 4,
+              "metatileId": 671,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "plant-west",
+          "kind": "plant",
+          "bounds": [
+            0,
+            11,
+            0,
+            12
+          ],
+          "sourceCells": [
+            {
+              "x": 0,
+              "y": 11,
+              "metatileId": 659,
+              "collision": 0
+            },
+            {
+              "x": 0,
+              "y": 12,
+              "metatileId": 667,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": null
+        },
+        {
+          "id": "plant-east",
+          "kind": "plant",
+          "bounds": [
+            12,
+            11,
+            12,
+            12
+          ],
+          "sourceCells": [
+            {
+              "x": 12,
+              "y": 11,
+              "metatileId": 660,
+              "collision": 0
+            },
+            {
+              "x": 12,
+              "y": 12,
+              "metatileId": 668,
+              "collision": 1
+            }
+          ],
+          "sourceLabel": null
+        }
+      ],
+      "sourcePaths": [
+        "data/layouts/PalletTown_ProfessorOaksLab/map.bin",
+        "data/maps/PalletTown_ProfessorOaksLab/map.json"
+      ]
+    }
+  }
+}

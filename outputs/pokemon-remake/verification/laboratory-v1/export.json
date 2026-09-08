@@ -1,0 +1,39 @@
+{
+  "asset": "laboratory-v1",
+  "status": "candidate",
+  "provider": "Hunyuan3D v3 Image to 3D",
+  "jobId": "aef50cf8-b285-431b-bab8-57a4fd28cb3e",
+  "reference": "environment/laboratory/laboratory-reference-v1.png",
+  "referenceSHA256": "5ee4208aaafdc18e27b89d21ef930f99ebd56eaa7eab49474e38e0d9ed0aab45",
+  "path": "models/laboratory-v1.glb",
+  "sha256": "79bcace6b6a8774d6fba25230e2e4b5f6fe683dec3ee5e9eb59d6ec921fe1dab",
+  "bytes": 43775564,
+  "triangles": 49992,
+  "meshes": 1,
+  "materials": 1,
+  "images": 3,
+  "embeddedImages": true,
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "material",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ]
+    }
+  ],
+  "materialSlots": [
+    {
+      "baseColor": true,
+      "normal": true,
+      "roughnessMetallic": true,
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "visualStatus": "changes-required",
+  "architectureStatus": "Partial preservation: overall source layout survives; vent construction and some material/detail treatment do not preserve the accepted reference.",
+  "doorAnchor": "verification/laboratory-v1/door-anchor.json"
+}

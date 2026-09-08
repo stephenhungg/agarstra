@@ -1,0 +1,98 @@
+{
+  "status": "candidate; visual changes required",
+  "candidateRuntimeUsable": true,
+  "photorealApproved": false,
+  "sourceIdentityApproved": false,
+  "clipSemanticsVerified": true,
+  "model": "models/charmander-existing-v2.glb",
+  "blend": "models/charmander-existing-v2.blend",
+  "glbSHA256": "ad78d6f71b421d5f3ce534806b2f816d160647be282276152dca03a25c6ce7e6",
+  "v1PreservedSHA256": "95ea02802032e55fcaaa06d8f6b53df89b5bf130b1bb22787ab5d399c9e7a3f0",
+  "license": "CC BY-NC 4.0",
+  "sourceURL": "https://www.miloscerny.com/download-charmander",
+  "credit": [
+    "Charmander rig created by Milos Cerny and downloaded at http://www.miloscerny.com/",
+    "3D model created by Guilherme Lauck https://sketchfab.com/guilauck"
+  ],
+  "modifications": [
+    "Preserved original 60-bone rig and skin; removed old rig demonstration clip from v2.",
+    "Derived symmetric bent-arm stance using inspected world-space joint heads and axes.",
+    "Authored one new idle clip, 0\u20133 seconds at 30 fps, with subtle chest/head/arm movement and unchanged root/legs.",
+    "Reduced normal strength .65 to .18 and remapped roughness to .62\u2013.86, retaining original base-color texture.",
+    "Assigned emissive material only to reliably isolated terminal tail triangles; no whole-body emission."
+  ],
+  "checks": {
+    "actualGLBReimported": true,
+    "all91FramesChecked": true,
+    "footVerticesFixed": 1132,
+    "maxFootVertexTravel": 0.0,
+    "maxRootMatrixDelta": 0.0,
+    "loopClosureMaxVertexError": 0.0,
+    "maxIdleVertexTravel": 0.004174551935819849,
+    "maxAuthoredExportErrorAcrossSevenSamples": 0.0002769102695027906,
+    "actualRendersInspected": [
+      "front.png",
+      "back.png",
+      "idle-inhale.png",
+      "idle-exhale.png"
+    ]
+  },
+  "terminalTail": {
+    "selectedFaces": 286,
+    "selectedVertices": 154,
+    "rule": "All face vertices: Blender Y > .46, Z > .295, projection from Tail5 origin along its inspected longitudinal local X axis > .012.",
+    "originBlender": [
+      -2.670837602636311e-06,
+      0.49287790060043335,
+      0.2859308123588562
+    ],
+    "axisBlender": [
+      9.193593086820329e-07,
+      0.34202590584754944,
+      0.9396905303001404
+    ],
+    "emissionStrength": 2.4,
+    "limitation": "Localized emission on existing solid terminal geometry; not a translucent animated flame simulation."
+  },
+  "remainingDefects": [
+    "Tail tip remains solid with a hard material boundary; emission alone is not a realistic flame.",
+    "Coarse scale pattern remains in original base-color image even after reducing normal relief.",
+    "Original skull/eyes/horns and tooth shapes remain stylized and are not approved as source-faithful photoreal Charmander identity.",
+    "Slight shoulder/underarm pinching remains in bent-arm stance.",
+    "No attack, hit, faint, locomotion, facial, or flame animation has been authored.",
+    "Four-weight export remains an approximation; sampled nearest-initial-pose correspondence is not a proof of every source vertex."
+  ],
+  "runtime": {
+    "clip": "idle",
+    "durationSeconds": 3,
+    "loop": true,
+    "gltfSceneFront": [
+      0,
+      0,
+      1
+    ],
+    "gltfSceneUp": [
+      0,
+      1,
+      0
+    ],
+    "groundOffsetBeforeOuterScale": 0.001270898967050016,
+    "preserveArmatureHierarchyAndRootTransforms": true,
+    "retainCCBYNCAttribution": true,
+    "doNotPlayV1RigDemo": true
+  },
+  "evidence": [
+    "verification.json",
+    "authoring.json",
+    "rig-inspection.json",
+    "front.png",
+    "back.png",
+    "idle-inhale.png",
+    "idle-exhale.png",
+    "actual-export-review.blend",
+    "author_candidate.py",
+    "verify_candidate.py",
+    "author.log",
+    "verify.log"
+  ]
+}

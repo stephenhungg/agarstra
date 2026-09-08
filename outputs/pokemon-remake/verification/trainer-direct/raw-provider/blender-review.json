@@ -1,0 +1,132 @@
+{
+  "glb": "/Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/models/trainer-direct-v1.glb",
+  "glbSHA256": "c3b5282f1d3d95128a1247a981c0df89fcb31880443de7ff4043e79bab8fcb29",
+  "status": "candidate-requires-visual-review",
+  "meshCount": 2,
+  "armatureCount": 1,
+  "bones": 24,
+  "vertices": 31320,
+  "triangles": 31192,
+  "actions": [
+    {
+      "name": "Armature|Idle|baselayer",
+      "frames": [
+        1.0,
+        121.0
+      ]
+    }
+  ],
+  "activeAnimation": [
+    {
+      "rig": "Armature",
+      "action": "Armature|Idle|baselayer",
+      "nlaTracks": 1
+    }
+  ],
+  "boundsBlenderZUp": {
+    "min": [
+      -0.9510578513145447,
+      -0.9999999403953552,
+      -1.0
+    ],
+    "max": [
+      0.9510578513145447,
+      0.9999999403953552,
+      1.8377814292907715
+    ]
+  },
+  "height": 2.8377814292907715,
+  "samples": [
+    {
+      "frame": 1,
+      "seconds": 0.03333333333333333,
+      "bounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.8377814292907715
+        ]
+      },
+      "maxVertexTravelFromFirst": 0.0
+    },
+    {
+      "frame": 31,
+      "seconds": 1.0333333333333334,
+      "bounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.8369539976119995
+        ]
+      },
+      "maxVertexTravelFromFirst": 0.6736253301935472
+    },
+    {
+      "frame": 61,
+      "seconds": 2.033333333333333,
+      "bounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.831238031387329
+        ]
+      },
+      "maxVertexTravelFromFirst": 0.5233714785074199
+    },
+    {
+      "frame": 91,
+      "seconds": 3.033333333333333,
+      "bounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.845847249031067
+        ]
+      },
+      "maxVertexTravelFromFirst": 0.6104302648824107
+    },
+    {
+      "frame": 121,
+      "seconds": 4.033333333333333,
+      "bounds": {
+        "min": [
+          -0.9510578513145447,
+          -0.9999999403953552,
+          -1.0
+        ],
+        "max": [
+          0.9510578513145447,
+          0.9999999403953552,
+          1.8375027179718018
+        ]
+      },
+      "maxVertexTravelFromFirst": 0.03310782253660299
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material_1",
+      "surfaceRenderMethod": "DITHERED"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "passed": true,
+  "samples": {
+    "first-battle": {
+      "frame": 30452,
+      "hp": [
+        20,
+        18
+      ],
+      "menu": {
+        "mode": "actions",
+        "battlerId": 0,
+        "cursor": 0,
+        "items": [
+          {
+            "index": 0,
+            "label": "FIGHT"
+          },
+          {
+            "index": 1,
+            "label": "BAG"
+          },
+          {
+            "index": 2,
+            "label": "POKéMON"
+          },
+          {
+            "index": 3,
+            "label": "RUN"
+          }
+        ],
+        "nativeWindowId": 2
+      },
+      "actors": [
+        {
+          "id": 0,
+          "visible": true,
+          "position": [
+            -3.936,
+            0.00200726163960091,
+            1.9869673333385611
+          ],
+          "pixelHash": "7bbe736f"
+        },
+        {
+          "id": 1,
+          "visible": true,
+          "position": [
+            4.5920000000000005,
+            2.761981766047529,
+            -1.0790079984307948
+          ],
+          "pixelHash": "666be7c1"
+        }
+      ],
+      "drawCalls": 5,
+      "triangles": 836,
+      "hud": "SOURCE SPRITE CANDIDATES · RIGGED 3D CREATURES PENDINGBULBASAURLv 5HP 20 / 20CHARMANDERLv 5HP 18 / 18Choose a commandFIGHTBAGPOKéMONRUNArrows select · X / Space confirmORIGINAL GAME MENU"
+    },
+    "first-attack": {
+      "frame": 32016,
+      "hp": [
+        11,
+        14
+      ],
+      "menu": {
+        "mode": "actions",
+        "battlerId": 0,
+        "cursor": 0,
+        "items": [
+          {
+            "index": 0,
+            "label": "FIGHT"
+          },
+          {
+            "index": 1,
+            "label": "BAG"
+          },
+          {
+            "index": 2,
+            "label": "POKéMON"
+          },
+          {
+            "index": 3,
+            "label": "RUN"
+          }
+        ],
+        "nativeWindowId": 2
+      },
+      "actors": [
+        {
+          "id": 0,
+          "visible": true,
+          "position": [
+            -3.936,
+            0.00200726163960091,
+            1.9869673333385611
+          ],
+          "pixelHash": "7bbe736f"
+        },
+        {
+          "id": 1,
+          "visible": true,
+          "position": [
+            4.5920000000000005,
+            2.761981766047529,
+            -1.0790079984307948
+          ],
+          "pixelHash": "666be7c1"
+        }
+      ],
+      "drawCalls": 5,
+      "triangles": 836,
+      "hud": "SOURCE SPRITE CANDIDATES · RIGGED 3D CREATURES PENDINGBULBASAURLv 5HP 11 / 20CHARMANDERLv 5HP 14 / 18Choose a commandFIGHTBAGPOKéMONRUNArrows select · X / Space confirmORIGINAL GAME MENU"
+    },
+    "moves": {
+      "frame": 30504,
+      "hp": [
+        20,
+        18
+      ],
+      "menu": {
+        "mode": "moves",
+        "battlerId": 0,
+        "cursor": 0,
+        "items": [
+          {
+            "index": 0,
+            "move": 33,
+            "label": "TACKLE",
+            "pp": 35,
+            "maxPP": 35,
+            "type": "NORMAL"
+          },
+          {
+            "index": 1,
+            "move": 45,
+            "label": "GROWL",
+            "pp": 40,
+            "maxPP": 40,
+            "type": "NORMAL"
+          },
+          {
+            "index": 2,
+            "move": 0,
+            "label": "—",
+            "pp": 0,
+            "maxPP": 0,
+            "type": null
+          },
+          {
+            "index": 3,
+            "move": 0,
+            "label": "—",
+            "pp": 0,
+            "maxPP": 0,
+            "type": null
+          }
+        ],
+        "nativeWindowId": 3
+      },
+      "actors": [
+        {
+          "id": 0,
+          "visible": true,
+          "position": [
+            -3.936,
+            0.00200726163960091,
+            1.9869673333385611
+          ],
+          "pixelHash": "7bbe736f"
+        },
+        {
+          "id": 1,
+          "visible": true,
+          "position": [
+            4.5920000000000005,
+            2.761981766047529,
+            -1.0790079984307948
+          ],
+          "pixelHash": "666be7c1"
+        }
+      ],
+      "drawCalls": 5,
+      "triangles": 836,
+      "hud": "SOURCE SPRITE CANDIDATES · RIGGED 3D CREATURES PENDINGBULBASAURLv 5HP 20 / 20CHARMANDERLv 5HP 18 / 18Choose a moveTACKLEPP 35/35GROWLPP 40/40——NORMAL · Arrows select · X / Space confirm · Z backORIGINAL GAME MENU"
+    }
+  },
+  "messages": [
+    {
+      "level": 0,
+      "message": "[vite] connecting..."
+    },
+    {
+      "level": 0,
+      "message": "[vite] connected."
+    },
+    {
+      "level": 2,
+      "message": "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged."
+    }
+  ]
+}

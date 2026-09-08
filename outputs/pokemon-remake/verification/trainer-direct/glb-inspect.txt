@@ -1,0 +1,8 @@
+file:       outputs/pokemon-remake/models/trainer-direct-v1.glb
+meshes:     1
+skins:      1
+images:     1
+materials:  1
+  material[0] 'Material_1': alphaMode=OPAQUE doubleSided=True
+animations: 1
+  clip: idle

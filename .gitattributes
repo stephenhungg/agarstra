@@ -1,0 +1,15 @@
+outputs/pokemon-remake/**/*.glb filter=lfs diff=lfs merge=lfs -text
+outputs/pokemon-remake/**/*.gltf filter=lfs diff=lfs merge=lfs -text
+outputs/pokemon-remake/**/*.blend filter=lfs diff=lfs merge=lfs -text
+outputs/pokemon-remake/**/*.blend1 filter=lfs diff=lfs merge=lfs -text
+outputs/pokemon-remake/**/*.fbx filter=lfs diff=lfs merge=lfs -text
+outputs/pokemon-remake/**/*.png filter=lfs diff=lfs merge=lfs -text
+outputs/pokemon-remake/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+outputs/pokemon-remake/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+outputs/pokemon-remake/**/*.hdr filter=lfs diff=lfs merge=lfs -text
+outputs/pokemon-remake/**/*.exr filter=lfs diff=lfs merge=lfs -text
+outputs/pokemon-remake/**/*.wasm filter=lfs diff=lfs merge=lfs -text
+outputs/pokemon-remake/**/*.state filter=lfs diff=lfs merge=lfs -text
+outputs/pokemon-remake/**/*.zip filter=lfs diff=lfs merge=lfs -text
+outputs/pokemon-remake/**/*.bin filter=lfs diff=lfs merge=lfs -text
+snapshots/*.tar.gz filter=lfs diff=lfs merge=lfs -text

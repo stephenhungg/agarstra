@@ -1,0 +1,21 @@
+{
+  "asset": "cottage",
+  "provider": "Hunyuan3D v3 Image to 3D",
+  "job": "82240e73-0b1a-4ed8-8d70-fa2810753e02",
+  "reference": "references/cottage-v1.png",
+  "path": "models/cottage.glb",
+  "sha256": "680d60b3387fad01495c5f6373e01ed1b3e153335f2404d7c3dbb39aabd0d3be",
+  "bytes": 38910812,
+  "meshes": 1,
+  "materials": 1,
+  "images": 3,
+  "materialSlots": [
+    {
+      "baseColor": true,
+      "roughnessMetallic": true,
+      "normal": true,
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "visualStatus": "pending runtime inspection"
+}

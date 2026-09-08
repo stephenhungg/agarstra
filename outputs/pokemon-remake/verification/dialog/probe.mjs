@@ -1,0 +1,8 @@
+import fs from 'node:fs';import {createRequire}from'node:module';import{GbaAdapter,Keys}from'../../runtime-core/gba-adapter.mjs';import{readFireRedState}from'../../runtime-core/firered-state.mjs';import{readFireRedDialog}from'../../runtime-core/firered-dialog.mjs';
+const require=createRequire(import.meta.url),project='/Users/stephenhung/Documents/GitHub/agarstra',probe=project+'/work/pokemon/bridge-probe/';const {PNG}=require(project+'/node_modules/pngjs');
+const m=await require(probe+'mgba.cjs')({locateFile:p=>probe+'package/dist/mgba/'+p}),g=new GbaAdapter(m,fs.readFileSync(project+'/work/pokemon/rom/firered-user.gba'));
+const out=new URL('.',import.meta.url).pathname;
+function capture(name){const d=readFireRedDialog(g,readFireRedState(g));console.log(name,JSON.stringify(d));fs.writeFileSync(out+name+'.json',JSON.stringify(d,null,2));fs.writeFileSync(out+name+'.state',g.saveState());const png=new PNG({width:240,height:160});png.data=Buffer.from(g.pixels());fs.writeFileSync(out+name+'.png',PNG.sync.write(png));}
+g.loadState(fs.readFileSync(project+'/outputs/pokemon-remake/runtime-core/checkpoints/pallet-town.state'));g.step(1);capture('no-dialog');g.step(40,Keys.Left);g.step(16,0);g.step(3,Keys.Up);g.step(12,0);g.step(3,Keys.A);g.step(4,0);capture('sign-start');g.step(200,0);capture('sign-complete');g.step(8,Keys.A);g.step(30,0);capture('sign-dismissed');
+for(const name of ['first-battle','first-attack']){g.loadState(fs.readFileSync(project+'/outputs/pokemon-remake/runtime-core/checkpoints/'+name+'.state'));g.step(1);capture(name);}
+g.loadState(fs.readFileSync(probe+'first-battle.state'));g.step(12,Keys.A);g.step(40,0);g.step(12,Keys.A);g.step(600,0);capture('battle-tutorial');g.destroy();

@@ -1,0 +1,52 @@
+{
+  "status": "changes-required",
+  "reviewer": "root",
+  "evidence": "verification/workbench/workbench.png",
+  "artifactHashes": {
+    "app/main.js": "59e15d0d1751e1b71b14d49c05255b313f882ed3c5d291a9b17f1da5f7f949a0",
+    "app/town.js": "18f11722c7d9157b931e97a90ac50831923146a10f19d8965acbc2df021c6335",
+    "app/style.css": "d3a5235745d39b609ba03bfa410343415d6f50714fab9c7ea11f66111d9169eb",
+    "design/runtime-candidates.json": "3b851cab8121214b34629339b5f90473b0cbf9919fdc1a0fec2d00355a2d83c6",
+    "verification/workbench/workbench.png": "9aafacd2d884d20c410b157028ca9ecaf932beee2e914e51554c1252100c96fc"
+  },
+  "runtime": {
+    "cottage": {
+      "file": "cottage-v2.glb",
+      "sha256": "167a28ba963481cd7cd9b003ffc33e6bcace340ea8d7577ebfd1e6c720fa5c00",
+      "version": 2,
+      "status": "changes-required",
+      "meshes": 1,
+      "triangles": 49998,
+      "maps": 1,
+      "bounds": [
+        0.9122680127620697,
+        0.70065116183789,
+        0.5782271553757928
+      ],
+      "clips": []
+    },
+    "camera": [
+      27,
+      30,
+      40
+    ],
+    "target": [
+      11.5,
+      0,
+      9.5
+    ],
+    "viewport": [
+      2180,
+      1678
+    ]
+  },
+  "observations": [
+    "Cottage v2 front door is left of center and roof ridge runs parallel to facade, correcting v1 identity defects.",
+    "Measured doors coincide with source warps and original house entry works in integration test.",
+    "Tree canopy reads as repeated sparse tufts rather than dense varied broadleaf growth.",
+    "Ground, paths and water are flat draft surfaces, laboratory is an unbuilt labeled footprint, characters are temporary rings.",
+    "The scene is visibly a reconstruction prototype and does not meet the photorealistic target."
+  ],
+  "nextAction": "Refine roof/foliage/terrain; obtain inspectable existing character models; implement real rigs and battle presentation.",
+  "photorealApproved": false
+}
