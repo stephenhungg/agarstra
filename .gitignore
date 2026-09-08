@@ -62,3 +62,4 @@ node_modules
 !/outputs/pokemon-remake/**
 /outputs/pokemon-remake/app/node_modules
 /outputs/pokemon-remake/**/__pycache__/
+.vercel

@@ -5,6 +5,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { CustomEase } from "gsap/CustomEase";
 import "./lower-sections.css";
+import SkillInstall from "./SkillInstall";
 
 gsap.registerPlugin(useGSAP, CustomEase);
 const hoverEase = CustomEase.create(
@@ -540,12 +541,11 @@ export default function LowerSections() {
               <span>skill.</span>
             </h2>
             <p className="ls-download-description">
-              The workflow, production contracts, and Python evidence gate. A
-              starting point for your agent—not a one-click game converter.
+              Bring the ROM-to-3D workflow into Codex. Copy the install
+              instruction, paste it into a chat, and let your agent handle
+              setup.
             </p>
-            <a className="ls-submit" href={download} download>
-              Download the skill <span aria-hidden="true">↓</span>
-            </a>
+            <SkillInstall />
             <a className="ls-text-link" href="/agarstra/playbook.md">
               Read the setup playbook ↗
             </a>
@@ -565,10 +565,10 @@ export default function LowerSections() {
               <li>
                 <span>01</span>
                 <div>
-                  <h3>Unpack the skill.</h3>
+                  <h3>Paste into Codex.</h3>
                   <p>
-                    Place the rom-remake folder in your agent’s skills
-                    directory. Read SKILL.md before running the included tools.
+                    Click Copy install command, paste it into Codex, and send.
+                    Your agent downloads the skill and installs it locally.
                   </p>
                 </div>
               </li>

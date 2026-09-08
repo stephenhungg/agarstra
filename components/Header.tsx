@@ -146,7 +146,7 @@ export default function Header() {
         <div className="menu-bottom">
           <div className="menu-bottom-contact">
             <span>Old worlds. New dimensions.</span>
-            <a href="/downloads/agarstra-rom-remake.zip" download>
+            <a href="#get-started" onClick={() => changeMenu(false)}>
               Get the skill ↗
             </a>
           </div>

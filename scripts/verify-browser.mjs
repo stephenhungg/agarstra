@@ -206,6 +206,40 @@ try {
     (await page.locator("dialog").evaluate((element) => !element.open)) &&
       (await preview.evaluate((element) => document.activeElement === element)),
   );
+  await page.context().grantPermissions(["clipboard-read", "clipboard-write"]);
+  const install = page.getByRole("button", { name: "Copy install command" });
+  await install.click();
+  const copied = await page.evaluate(() => navigator.clipboard.readText());
+  check(
+    "install button copies a complete Codex instruction",
+    copied === (await page.locator("#skill-install-prompt").inputValue()) &&
+      copied.includes(
+        "https://agarstra.stephenhung.me/downloads/agarstra-rom-remake.zip",
+      ) &&
+      copied.includes("$CODEX_HOME/skills/rom-remake") &&
+      (await page.getByRole("status").innerText()).includes("Copied."),
+  );
+  await page.evaluate(() => {
+    Object.defineProperty(navigator.clipboard, "writeText", {
+      configurable: true,
+      value: async () => {
+        throw new Error("Clipboard denied");
+      },
+    });
+  });
+  await install.click();
+  check(
+    "clipboard denial selects a manual-copy fallback",
+    (await page.getByRole("status").innerText()).includes("Select and copy") &&
+      (await page
+        .locator("#skill-install-prompt")
+        .evaluate(
+          (element) =>
+            document.activeElement === element &&
+            element.selectionEnd - element.selectionStart ===
+              element.value.length,
+        )),
+  );
   const zip = await page.request.get(
     new URL("/downloads/agarstra-rom-remake.zip", baseURL).href,
   );
