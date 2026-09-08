@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "sourcePatternComparisons": 1348,
+  "spriteKeysCompared": 1718,
+  "coinFrames": 76,
+  "bounceFrames": 20,
+  "scoreFrames": 141,
+  "squashedFrames": 16,
+  "maxCamera": 190,
+  "renderableDeathFrames": 200,
+  "unmappedFrames": 221,
+  "checks": [
+    "SRAM coordinates match original nametable patterns",
+    "opening ground does not inherit a later raised ground height",
+    "whole connected hill and colored platform",
+    "RAM object identity and OAM extent",
+    "stable block ID from question to used",
+    "actual coin and score popup RAM with displayed OAM coordinates",
+    "source sprite identifiers match extracted frame without claiming Mario",
+    "death preserves renderable World 1-1",
+    "unknown definitions require object-only fallback",
+    "unmapped worldmap remains explicit",
+    "semantic observer leaves RAM, OAM and framebuffer unchanged"
+  ]
+}

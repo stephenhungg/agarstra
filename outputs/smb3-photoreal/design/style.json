@@ -1,0 +1,13 @@
+{
+  "formula": "Cinematic physically based reconstruction of the Super Mario Bros. 3 world, with recognizable source silhouettes and grounded real-world materials. Characters retain compact expressive proportions, woven clothing, leather, skin detail and organic creature surfaces. Environments use weathered masonry, cast enamel metal, soil and layered vegetation. Warm late-afternoon sunlight, soft sky fill and natural contact shadows unify the scene. Maintain readable silhouettes, restrained saturation and believable surface scale, shown in three-quarter isometric view.",
+  "runtimeCamera": "side-view 2.5D; gameplay silhouette alignment takes priority",
+  "units": "Blender Z up, face toward -Y, X right; export glTF Y up. Ground roots at bottom-center. One block = 1 scene unit =16 NESpixels",
+  "quality": "Realistic material response and recognizable detailed forms; never call unreviewed procedural approximations photoreal",
+  "budgets": {
+    "agentWorkers": 24,
+    "blenderProcesses": 2,
+    "runtimeVisibleTriangles": 500000,
+    "heroTriangles": 30000,
+    "propTriangles": 8000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "target": "Pok\u00e9mon FireRed, English GBA BPRE revision 0; SHA1 verified",
+  "objective": "Find the ROM and make its playable presentation photorealistic. First accepted exploration/battle sequence is a production milestone, not proof of full-game completion.",
+  "style_formula": "Photoreal cinematic reconstruction with recognizable Pok\u00e9mon silhouettes and expressive proportions. Organic surfaces have fine, restrained biological detail; shells, eyes, masonry and vegetation have distinct physically based responses. Cool blue creature colors contrast with warm earth and muted green scenery. Natural daylight and soft indirect fill reveal form without hiding defects. Use coherent world scale, legible combat silhouettes and three-dimensional geometry that holds up from the exploration and battle cameras.",
+  "scope_status": "Pallet Town, three interiors, source dialog and first-battle presentation integrated; art and game coverage incomplete",
+  "first_creature": "Squirtle",
+  "first_gate": "Verified source and a convincing exported creature in battle framing",
+  "coverage": {
+    "source_adapter": true,
+    "runtime": true,
+    "accepted_creatures": 0,
+    "accepted_environments": 0,
+    "rendered_maps": [
+      "PalletTown",
+      "PalletTown_PlayersHouse_1F",
+      "PalletTown_PlayersHouse_2F",
+      "PalletTown_ProfessorOaksLab"
+    ],
+    "full_game": false,
+    "dialog": "source printer and visible-window presentation",
+    "battle": "first battle, source sprites/menus/HP; independent effects incomplete"
+  },
+  "local_rom_search": "User-provided archive extracted locally and matched against independently rebuilt pret source byte for byte.",
+  "parallel_work": {
+    "source": "firered_source",
+    "bridge": "gba_bridge_probe"
+  },
+  "next_actions": [
+    "Author and verify source-event character motion; existing Charmander clip is not an acceptable battle animation",
+    "Replace trainer markers and creature billboards with reviewed rigged geometry",
+    "Refine cottage/lab roofs, trees and dry terrain against source and target",
+    "Expand scene/effect coverage with original-input replay evidence"
+  ],
+  "rom": "source/rom-identity.json",
+  "rom_verified": true,
+  "reference_status": {
+    "squirtle": "imagegen output moderation rejection, no reference or mesh produced; no alternate-provider retry",
+    "cottage": "Actual PBR GLB exported and rendered. Changes required: source doorway position and roof silhouette mismatch, soft geometry.",
+    "tree": "Actual generated GLB omitted canopy; locally authored leaf sprays added. Changes required: crown shape, branch and leaf materials.",
+    "bulbasaur": "Native image generation output moderation rejection (other), request c9e80f30-62aa-49da-ac16-dd6846bcdbaf. No image/model produced; no alternate-provider generation retry.",
+    "cottage-v2": "Actual GLB and editable Blender source exported, independent front/back/gameplay reviews performed; source doorway/roof identity improved. Runtime door anchor matches original warp coordinates. Changes required for soft glossy roof and baked window reflections; not photoreal approved."
+  },
+  "battle_checkpoint": {
+    "source": "runtime-core/checkpoints/first-battle.state",
+    "species": [
+      "Bulbasaur",
+      "Charmander"
+    ],
+    "input_only": true,
+    "full_replay_verified": true
+  },
+  "creature_input": "Existing Charmander FBX offered by Milos Cerny imported: 60 bones, original clip, GLB candidate. CC BY-NC 4.0; credit and license preserved. Not generated or photoreal-approved. Actual GLB skin reviewed; clip is an apparent rig demonstration with neck distortion, not approved for battle. No model changes during review.",
+  "modeling_method": {
+    "preferred": "extracted source sprites and dimensions directly constrain Blender geometry, followed by materials, rig, GLB and runtime review",
+    "intermediate_generated_image": "optional visual exploration, not a required mesh input or identity authority",
+    "limits": "Sprite pixels do not encode hidden geometry, depth, topology or a rig. These remain authored/inferred."
+  }
+}

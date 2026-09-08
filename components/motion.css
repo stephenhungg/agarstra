@@ -1,0 +1,62 @@
+.motion-heading-word {
+  display: inline-block;
+  will-change: transform;
+  line-height: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+}
+.pill > .motion-pill-label {
+  display: inline-block;
+  position: relative;
+  line-height: inherit;
+  overflow: hidden;
+}
+.motion-pill-track > .motion-pill-copy {
+  position: absolute;
+  left: 0;
+  top: -20px;
+  white-space: nowrap;
+  pointer-events: none;
+  line-height: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+.pill > i {
+  position: relative;
+}
+.motion-pill-dot-copy {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: currentColor;
+  opacity: 0;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .motion-heading-word {
+    will-change: auto;
+  }
+  .intro-loader {
+    display: none !important;
+  }
+}
+
+.motion-pill-track {
+  display: block;
+  position: relative;
+  font: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+/* Word wrappers must inherit their authored parent, not match decorative span rules. */
+.motion-heading-word {
+  font: inherit !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  color: inherit !important;
+  text-indent: 0 !important;
+}
+.motion-heading-word {
+  text-indent: 0;
+}

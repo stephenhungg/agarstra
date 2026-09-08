@@ -1,0 +1,12 @@
+import {readROM} from './read-rom.mjs';
+import fs from'node:fs';import assert from'node:assert/strict';import{GameBridge}from'../../../smb3-demo/src/bridge.js';import{NES}from'../../../smb3-demo/src/vendor/jsnes/index.js';import{RomAssetExtractor,recompose}from'../../../smb3-demo/src/rom-extractor.js';
+const rom=readROM(),boot=new GameBridge();boot.load(rom);boot.bootToLevel();const checkpoint=boot.nes.toJSON();
+const scenarios=[{name:'jump-scroll-stomp-coin-blocks',frames:550,actions:{9:['RIGHT',true],39:['A',true],69:['A',false],95:['RIGHT',false],160:['LEFT',true],180:['LEFT',false],230:['A',true],260:['A',false],340:['RIGHT',true],353:['RIGHT',false],420:['A',true],450:['A',false]}},{name:'death-worldmap',frames:600,actions:{0:['RIGHT',true]}}];
+const results=[];const BUTTON={A:0,B:1,SELECT:2,START:3,UP:4,DOWN:5,LEFT:6,RIGHT:7};
+for(const scenario of scenarios){let source,controlSource;const a=new NES({emulateSound:false,onFrame:p=>source=p}),b=new NES({emulateSound:false,onFrame:p=>controlSource=p});a.loadROM(rom);b.loadROM(rom);a.fromJSON(checkpoint);b.fromJSON(checkpoint);const ex=new RomAssetExtractor(a,rom);let mismatch=0,first=null,unresolved=new Set(),emulationMismatch=0;const start=performance.now();for(let f=0;f<scenario.frames;f++){
+ const act=scenario.actions[f];if(act)for(const n of[a,b])n[act[1]?'buttonDown':'buttonUp'](1,BUTTON[act[0]]);
+ a.frame();b.frame();const frame=ex.getFrame(),reconstructed=recompose(frame);
+ for(let j=0;j<61440;j++){if(source[j]!==reconstructed[j]){mismatch++;first??={f,x:j%256,y:Math.floor(j/256),expected:source[j],actual:reconstructed[j]};}if(source[j]!==controlSource[j])emulationMismatch++;}
+ assert.deepEqual(a.cpu.mem.slice(0,2048),b.cpu.mem.slice(0,2048));for(const asset of frame.assets){if(!asset.romSources.length)unresolved.add(asset.id);assert(asset.mappedSources.length>0, "exact active CHR source must be known");for(const mapped of asset.mappedSources)assert.deepEqual(Array.from(rom.subarray(mapped.romOffset,mapped.romOffset+16)),Array.from(asset.chrBytes), "active CHR source bytes match extracted asset");}
+ }results.push({scenario:scenario.name,frames:scenario.frames,pixels:scenario.frames*61440,mismatch,first,emulationMismatch,unresolved:unresolved.size,elapsedMs:Math.round(performance.now()-start),uniqueAssets:ex.assets.size});}
+console.log(JSON.stringify(results,null,2));fs.writeFileSync(new URL('./verification.json',import.meta.url),JSON.stringify(results,null,2));assert(results.every(r=>r.mismatch===0&&r.emulationMismatch===0&&r.unresolved===0));

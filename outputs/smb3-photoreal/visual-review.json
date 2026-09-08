@@ -1,0 +1,642 @@
+{
+  "reviewer": "blender_assets",
+  "familyCount": 25,
+  "modelCount": 73,
+  "buildsCompleted": true,
+  "structuralFailures": 0,
+  "reviewScope": "Actual Blender/Cycles renders of exported GLBs; all previews inspected. Not in-game QA, source shape equivalence or photorealism certification.",
+  "photorealReady": false,
+  "families": [
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.3618739,
+      "previewSHA256": "8f9e80666598998876816fcba86ec453efa6c348d1ef629870a7ae510f394eb6",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Blooper, fish and piranha plant recognizable, with eyes, mouth and fin/leaf detail. Fish fins are stylized leaflike forms.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "aquatic-1",
+      "models": [
+        {
+          "id": "blooper",
+          "sha256": "9f5a6e105bd0a956ca83a49a5807324393e23c6d6d01f5ce0597c8814cfa0873"
+        },
+        {
+          "id": "cheep-cheep",
+          "sha256": "c19a352ddd937d65f36e743ccc06b158a7842ab8705ff941dc903eac777d998e"
+        },
+        {
+          "id": "piranha-plant",
+          "sha256": "391368fa0ac6c6d6d4af8fe71b195c014ff6f4e93f4182004bdfa5c56a51bd79"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.370202,
+      "previewSHA256": "5de3be76f3f0d2ebe48c3622f7b25c30d2887f5ea6dbb728e0f6ae5de2c23cb5",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Boo and Dry Bones are detailed stylized sculpts, with ribs and mouth cavity visible.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "aquatic-2",
+      "models": [
+        {
+          "id": "boo",
+          "sha256": "d84c9f05e34993a3d7651f0df833713c43b7c5a26b6a48080a9c57a99ce8537b"
+        },
+        {
+          "id": "dry-bones",
+          "sha256": "da1ef02fae1487394d4495a8e84853d8394fedaefe32f641a95d97ae8cfb8d11"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.3763998,
+      "previewSHA256": "d23663f63112a11e4ad5a4558f4943619f5193c5de7b91e5f1172f948fe1bf89",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Colored cast panels with bevels and recessed hardware plus separate wood boards; coherent miniature props.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "architecture-1",
+      "models": [
+        {
+          "id": "platform-blue",
+          "sha256": "ad01ae3265de7fe5f3c4d2c5efec8e98c5b5a03229181fe458de897b1c359f7a"
+        },
+        {
+          "id": "platform-coral",
+          "sha256": "aeadaf80e2d005cc939f587bbea66d0f1ae2f92ac8ede7dbb1ac1dfe1f0afef3"
+        },
+        {
+          "id": "platform-cream",
+          "sha256": "8db5586899daf279841bf50eb494c6096a3be9c3a7c8753074ac2001bf47481b"
+        },
+        {
+          "id": "wood-platform",
+          "sha256": "197c6e117b84f171e45e7fc676e4f1abe9ae1270f860e87fed29831ce27a20b7"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.387017,
+      "previewSHA256": "1e46968064108e9bb79e9e5ab294790e80438b6f7aa44f93d41f96388f236b08",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Separated wood boards, castle masonry and door hardware visible. Correct material response.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "architecture-2",
+      "models": [
+        {
+          "id": "airship-hull",
+          "sha256": "0103ba98046ffe78abaa7135a3335946dd8e5d3c13e094b6b70907662be9bf33"
+        },
+        {
+          "id": "castle-door",
+          "sha256": "e0d9099d7e42a4303a20ab5db8782892fcfec1cb583d9e21a8100af92be692c2"
+        },
+        {
+          "id": "castle-wall",
+          "sha256": "ad79d2b030fa0fd58930f441390d837feb1d34ccb91b8e04041f0d6b2ebf3e5d"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.398647,
+      "previewSHA256": "a5960bb58822db917192805ff28408347b5199a85b50d8e68bcb963abc1bb556",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Detailed inset metal plates, fasteners and separated brick/mortar visible. Materials render correctly.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "blocks-1",
+      "models": [
+        {
+          "id": "brick-block",
+          "sha256": "293c7aa2549c8c9168b26f8d2cbc320157ee41e80c7f443a735ced26184ee9df"
+        },
+        {
+          "id": "question-block",
+          "sha256": "b7c8685450b4114625e63870ea70557a92cf57be08682a08c8fcf27876366f33"
+        },
+        {
+          "id": "used-block",
+          "sha256": "dffd54d99699bfc9dd883869f951b790e1e18789654e2bffe9eae080af61b081"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.406181,
+      "previewSHA256": "acc5a5205facfcc65278c350aa97504811c60a286bdf84f651ea52c6a3129a50",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Stone and ice details visible. Earlier preview cropped top; current framing corrected.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "blocks-2",
+      "models": [
+        {
+          "id": "ice-block",
+          "sha256": "fc766dc01769aede2b2d1863033c76fbaa3bbb192db775314426db1f6383e6b7"
+        },
+        {
+          "id": "stone-block",
+          "sha256": "1de5791df3899cccbee9bac9ebb71e8ada29894376f7c03382661b549bac15fd"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.409985,
+      "previewSHA256": "dd63df1b9bb55976591684d14b74aa045afcbcfe8d213a11cfedd1ebad1d0877",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Recognizable Mario figure, cap and boot; cloth/leather maps and stitches visible. Body shoulders visibly segmented and face shaded by cap; miniature style.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "character-kit-1",
+      "models": [
+        {
+          "id": "mario-body",
+          "sha256": "89fcf41bcd03b74449be527694dbd9327e80e9be6f35fd0545623202155105f0"
+        },
+        {
+          "id": "mario-boot",
+          "sha256": "5fda2c661a44c33dbbbf3aec519328bcec942341a860d77e45dc09d5ad7c3ff4"
+        },
+        {
+          "id": "mario-cap",
+          "sha256": "1b3d9701d3e30201a10caf35de146c4f642027a3fd0a3dd6957166bec2e16567"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.420629,
+      "previewSHA256": "8b9faacaddccf5c66fb00fa15d985c02b59eaafa2707c1c8cabaa4348fd40a56",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Glove, shell straps and buckles visible. Tail fur is rigid geometric spikes and remains stylized.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "character-kit-2",
+      "models": [
+        {
+          "id": "hammer-suit-shell",
+          "sha256": "a659aa272505b346de0c780319542c133574a5753d1a1a57c5dc39728fd900ce"
+        },
+        {
+          "id": "mario-glove",
+          "sha256": "98e6e8d29ff19d907813b031e5e9cfb682f92060c3723671cd13098a6843a915"
+        },
+        {
+          "id": "raccoon-tail",
+          "sha256": "0109ad1f58e9e07ed30a6c94bdef9cb1aaf8890f77e230d88735e5e3bc1835c7"
+        }
+      ]
+    },
+    {
+      "family": "clouds",
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.428991,
+      "previewSHA256": "75133c2b1bd8348bc554df1504080201505d710e107c0306fe236677da5f3c6a",
+      "inspection": "actual exported GLB contact sheet",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "models": [
+        {
+          "id": "cloud",
+          "sha256": "7613293bcefc8ab5667ed9883fced79f2e84c396769023eae49e0f4346ce18b8"
+        },
+        {
+          "id": "platform-green",
+          "sha256": "a42bf42303b231d8005610391e96a0edefc55f7b6cdd6e32c8867040551ee23a"
+        }
+      ],
+      "notes": "Cloud is a unified opaque white sculpt with soft lobes and subtle eye folds, not volumetric vapor. Green platform has recessed hardware and strong surface microtexture."
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.432344,
+      "previewSHA256": "e603dac8b84add6597d061f1f720460c214b50a763c8e677c2fa6354f0e1b989",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Recognizable Goomba and Koopas with visible eyes, shell and surface detail. Stylized figurines.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "creatures-1",
+      "models": [
+        {
+          "id": "goomba",
+          "sha256": "c1f69f75ac1f35498fed95d19aed3b7e20a912100f5c2094f018d2c5b09f56d4"
+        },
+        {
+          "id": "koopa-green",
+          "sha256": "233fce63e3fa84934a3b3931f629b4ff92ce41f93f8d9f5a2b8f03d6140a2653"
+        },
+        {
+          "id": "koopa-red",
+          "sha256": "f60e5c27ccfb048bbdc5f51d9c2ae9f940412777174c2529b484be82f6cb7f61"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.444535,
+      "previewSHA256": "baf15c1f542ea823af9630ffb01ad7e4e5b3c88428b2b37f604219e527be98e5",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Beetle and Spiny identifiable with shell, spikes and appendages. Stylized figurines.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "creatures-2",
+      "models": [
+        {
+          "id": "buzzy-beetle",
+          "sha256": "a5a2e55ca174571c0afb50e4c9b7be360cfba5d3a939bcdcafedbba0a6187628"
+        },
+        {
+          "id": "spiny",
+          "sha256": "aa70e0a2884c14a122c6013af864bb4dea8f1c16fa4d6f6dc5fe8d85edb9d86b"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.451369,
+      "previewSHA256": "a7de9aa843b11ceef3b19096f5b6ea31a569afe1ee297bb16a34bb0614c3ad4d",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Metal coin, mushrooms and leaf show baked surface response; isolated mushroom label partly occluded in grid. Objects visible.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "items-1",
+      "models": [
+        {
+          "id": "coin",
+          "sha256": "fda36940c2fea6ec8f48121cd7c500ab0b4c1a8b933c9bbb0ea245572bc2acae"
+        },
+        {
+          "id": "one-up",
+          "sha256": "6394fe500efcf3c1c20eb1aa0e397a863287eaf7d3db80b0f60e51f8d42027f1"
+        },
+        {
+          "id": "super-leaf",
+          "sha256": "da4dfe124e9925da613347352828aa14aebf12a0f10d01e3d8cf0812806a06e1"
+        },
+        {
+          "id": "super-mushroom",
+          "sha256": "ae07d1be587e594cb50fd9b283107c9011c5f95ac70bb7e008c23c5692f5b76e"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.4586298,
+      "previewSHA256": "2787bbe54e8d883cc76d49c18abdcce1f7c7c697d6594af44ff5aada6c4cf2f2",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Music/POW boxes detailed and readable; star and flower clean physical prop styling. Star label partly occluded in grid.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "items-2",
+      "models": [
+        {
+          "id": "fire-flower",
+          "sha256": "cb09ee3e325024c1c9b7641008965ad00f1861c125853e6191e66fb8d0edc368"
+        },
+        {
+          "id": "music-block",
+          "sha256": "10ace09cd9ee1a33c0a434cd16829b6b34e93cebe683f614dad5ac6c4a0d6b2c"
+        },
+        {
+          "id": "pow-block",
+          "sha256": "53af40fe1a9e33e1fec53ee8f9f0c853f77808c25f33568f57c45e720494ce48"
+        },
+        {
+          "id": "star",
+          "sha256": "c0946300e21861411ba9e8062b4afaebcdac33b036c8b18d4e75085ced2d9579"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.4672651,
+      "previewSHA256": "7fb2ee2d1f0e53ef9403c2db47e3f42aad627dadfe18ce6c9f172b56dace9455",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Cannon, bullet and hammer show metal/wood microtexture; cannon barrel has actual depth.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "mechanisms-1",
+      "models": [
+        {
+          "id": "bullet-bill",
+          "sha256": "0354f05fe7cd14ed7edb291dab1d9bd1240fe5fb981af97ceea6d6b138797061"
+        },
+        {
+          "id": "cannon",
+          "sha256": "fe8fdca47d4d003445360aab5cedcbacaa1f5c691ce3de984d6939492b215a24"
+        },
+        {
+          "id": "hammer",
+          "sha256": "2e9912398e23fdd3859fbb3419f91199a7efc5217944603159e93018a17c0557"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.474944,
+      "previewSHA256": "4f4b2b234b6623df90afadbec69a22c289577a85c960f5b52492d412d12b9031",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Chain Chomp and spike trap coherent physical props; firebar uses stylized rigid glowing flames, not real fire.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "mechanisms-2",
+      "models": [
+        {
+          "id": "chain-chomp",
+          "sha256": "56fa371ceec7d23281b21b0a9d3c36c8a467974c8dd829a8e2ee5bb645038a3b"
+        },
+        {
+          "id": "firebar",
+          "sha256": "e156a15e102fe7eba976068c9208e54ace2f86a7921dac5cdc625cb39dca63be"
+        },
+        {
+          "id": "spike-trap",
+          "sha256": "0451320ba44778f8c91c3380fd011eac044109cde1695ca560eb5900edef66f0"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.48172,
+      "previewSHA256": "830ec8d6abeb261260e7224ca023eaf214a7b0dc9c2e7c7d47da5a8470a7aa30",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Hollow pipes, flanges, bolts and enamel highlights visible.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "pipes-1",
+      "models": [
+        {
+          "id": "pipe-gold",
+          "sha256": "ef2e4275bec16aaefaad655af3e1cec4e3944ad36c8438e19acc316080f3ed38"
+        },
+        {
+          "id": "pipe-green",
+          "sha256": "fa1262f8a00d92715c7e87328dfed201b7b011c184bb71644f60e12a19b8f1a8"
+        },
+        {
+          "id": "pipe-red",
+          "sha256": "e1d0a1f95ec71e2c8e5afc9d128c7dc4a2835a5e16f28665eafb67c159ff2f95"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.486979,
+      "previewSHA256": "d729bfb258f2891fc53f0c2adfef9315ff4a2f0e219d2a21c50aa6a90e80d26b",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Elbow and short pipe geometry clear. Strong orange-peel roughness is authored styling.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "pipes-2",
+      "models": [
+        {
+          "id": "pipe-elbow",
+          "sha256": "72d15528e83cfddf70be4f639909a9f8e5dfaca8caa4b758d87fa3e0404736a1"
+        },
+        {
+          "id": "pipe-short",
+          "sha256": "825b6a546935f3acfb3a24a46c1a184c41b74dc4c2a5cb7168e34760f2507322"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.4912288,
+      "previewSHA256": "54164201098e9b4b377edf47c9d836438738219a67406ec126536b022e65f3c2",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Grass and reeds thin geometry, rock cluster visibly low-poly/faceted, material maps visible.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "set-dressing-1",
+      "models": [
+        {
+          "id": "grass-clump",
+          "sha256": "befa5fb6bdba1749c7683e642fd6e9d65fcb43b74ba96ed50ed7578821b3682a"
+        },
+        {
+          "id": "reeds",
+          "sha256": "3e1262f622d78e35291d143f2d1ac31269110b0a728e2d765f89a508f980fca3"
+        },
+        {
+          "id": "rock-cluster",
+          "sha256": "350a28a205d21de69167c33ef6e6922da9ecb4826dd175cb661656813d039194"
+        }
+      ]
+    },
+    {
+      "family": "set-dressing-2",
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.4956129,
+      "previewSHA256": "88546db1495117b15bd66aaa47274761f7b362829dd2629ef5ba39dedcc3e14b",
+      "inspection": "actual exported GLB contact sheet",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "models": [
+        {
+          "id": "metal-gate",
+          "sha256": "c2b614e03adcdf9c28781dfd543f1152eb099e72c80383db7bfbc1d7b78e90d1"
+        },
+        {
+          "id": "wood-crate",
+          "sha256": "1c96e32eea509da115bdb64f1bd1e57da8f5efb187f778935e247fc82e2b4512"
+        },
+        {
+          "id": "wood-fence",
+          "sha256": "27474eceb6c0668048524fbf6fc404a388dfb5dd2cb8d748218a37ef9598e937"
+        }
+      ],
+      "notes": "Gate metal scrollwork, crate slats and fence rails visible. Wood grain exaggerated but readable as physical prop detail."
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.5002189,
+      "previewSHA256": "6d76d278b5861d2d1c9f5dd6431ee555d494054cfbc0df36226d7d34bdd2a9de",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Grass blades, pebbles and ground layers visible. Surface remains clean miniature style, not verified photoreal.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "terrain-1",
+      "models": [
+        {
+          "id": "ground-grass",
+          "sha256": "ab16cea98b0b04fafb54b0c17d0a7ce6c935a605241f1172e743a3ca7097dc89"
+        },
+        {
+          "id": "ground-sand",
+          "sha256": "bf3e4233f05868db988540138d7f132d2b0acf40c9e3326ae9a61a156fe15324"
+        },
+        {
+          "id": "ground-soil",
+          "sha256": "4197c03d1a2209b076ca6297a971beb4ea18fa64de90912c6ea0c00f03194aa0"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.5083761,
+      "previewSHA256": "98fb92de0162cb9819b3a340542a0e5e57ae372abac2327d07ec5d9138850d50",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Snow cap, separated masonry and wood boards visible with material variation.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "terrain-2",
+      "models": [
+        {
+          "id": "ground-snow",
+          "sha256": "b5c78d186b61438465fd4c192883707e7e8440a54bd443ed8601171bef28aa3f"
+        },
+        {
+          "id": "ground-stone",
+          "sha256": "25f0948290fb0f7a826c817c412ddd34811769fcb7b2d35092ca0262f351e1dd"
+        },
+        {
+          "id": "ground-wood",
+          "sha256": "c5a0e3d7d8bceb6d833176fb09d866341b6563fe0e3cd64d21cd3dc598bd48da"
+        }
+      ]
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903582.253813,
+      "previewSHA256": "47d2c392b7947f8885b942db3528cd1697f32a259454af01e6b5807f71d28dcf",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Refined dense tiny elliptical curled leaves now replace large angular cardboard-like blades. Actual updated render shows a substantially smoother silhouette and restrained green variation. UV-space midrib and branch-vein normal map embedded; small veins not individually discernible at contact-sheet scale. Still an authored miniature shrub interpretation, not photoreal certification.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "vegetation-1",
+      "models": [
+        {
+          "id": "bush",
+          "sha256": "7666d585133f2c142333b88170a796273869c5ff65ab5e0c5a4d7a7880ed3d28"
+        },
+        {
+          "id": "hill-green",
+          "sha256": "f6160c3ab49d5ab3848bae19ca8ee3c6bc3907183021fe1fea16807a9ff18e86"
+        },
+        {
+          "id": "hill-tall",
+          "sha256": "e43ef5be84a1809f4c3adce40990addcbc4385529fc5b3277ad1fc7408701837"
+        }
+      ],
+      "iterationValidation": {
+        "changedModelsOnly": [
+          "hill-tall",
+          "bush",
+          "hill-green"
+        ],
+        "triangles": {
+          "bush": 41882,
+          "hill-green": 47810,
+          "hill-tall": 47810
+        },
+        "stableIdsAndNominalDimensions": true,
+        "resumeRegressionTests": 2
+      }
+    },
+    {
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.524607,
+      "previewSHA256": "9172f272a3f41287a0e85142f6dc9766e8bb499e453cf17979c63dc8ae94cc38",
+      "inspection": "actual exported GLB contact sheet",
+      "notes": "Fern, vine and mushroom tree render with materials. Mushroom canopy and leaves visibly stylized/faceted.",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "family": "vegetation-2",
+      "models": [
+        {
+          "id": "fern",
+          "sha256": "4d8fea4b6d9886eb31b4fe5c653b98ededa4ebc90a2fbdcb8652f7da73cc8cca"
+        },
+        {
+          "id": "mushroom-tree",
+          "sha256": "c309347e64cec157524b42a12c62460a522ac4bc3808e6b8c15c58a89d1d1b40"
+        },
+        {
+          "id": "vine",
+          "sha256": "cb8f7ad3c30582727540ed7494ef56366249249f938dc215812937f630cf4c1b"
+        }
+      ]
+    },
+    {
+      "family": "worldmap-1",
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.5331452,
+      "previewSHA256": "267f86c4d2e068b5c614a42fc2f74521ec1e77791978df976c2d121eaa8f8da1",
+      "inspection": "actual exported GLB contact sheet",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "models": [
+        {
+          "id": "map-castle",
+          "sha256": "d12c0d2110f13e188629015689a8149384ed13a5f8f7196542a1074c151be57e"
+        },
+        {
+          "id": "map-fortress",
+          "sha256": "3e80b3fe4832a54cb6c0350949fb1eaf4822b4683a5214802548b465c318e26f"
+        },
+        {
+          "id": "map-house",
+          "sha256": "2c5476d4e93e42510430ab4df893844d7f3faae9ba2d5f6f7156262fd80bdbf2"
+        }
+      ],
+      "notes": "Castle and fortress masonry, flags, arched wood doors clear; mushroom house spots appear eye-like rings, requiring art review against source."
+    },
+    {
+      "family": "worldmap-2",
+      "reviewer": "blender_assets",
+      "reviewedAt": 1788903242.5427551,
+      "previewSHA256": "7bdf58004e5c5093fbbcdba0c5f44d81e0dcbd02f354401563794cb8cdcd17e4",
+      "inspection": "actual exported GLB contact sheet",
+      "candidateProp": true,
+      "photorealApproved": false,
+      "runtimeReadability": "requires in-game inspection",
+      "models": [
+        {
+          "id": "map-boat",
+          "sha256": "70f119cd2042b3e264122f7914e014256f3a83d9d771453e08ef39ca3168ef59"
+        },
+        {
+          "id": "map-bridge",
+          "sha256": "83b6931bcc656a49b9847485c5d4c2797d73daff20b764be67ea44355de8a275"
+        },
+        {
+          "id": "map-lock",
+          "sha256": "0682ad0ecb71a22267ed2bcc21fce9b5bdb76a5b7f37b5f2eae36545381e878b"
+        }
+      ],
+      "notes": "Boat plank detail, bridge ropes/boards and lock hardware visible; lock shackle has visibly angular segments."
+    }
+  ]
+}

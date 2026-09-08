@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "gate": "structural-export",
+  "models": [
+    {
+      "file": "/Users/stephenhung/Documents/Codex/2026-09-08/o/outputs/smb3-photoreal/models/pbr-smoke.glb",
+      "errors": [],
+      "warnings": [
+        "Photoreal readiness awaits hash-matched visual approval; mesh counts/material flags do not prove it."
+      ],
+      "structuralReady": true,
+      "photorealReady": false,
+      "sha256": "04da153987e5e1c5043f200ca665db7777f0beedebacdde00ced1af6d7ad7103",
+      "bytes": 1038060,
+      "geometry": {
+        "meshes": 1,
+        "primitives": 1,
+        "triangles": 188,
+        "vertices": 384,
+        "worldBounds": {
+          "min": [
+            -0.5,
+            0.0,
+            -0.32499998807907104
+          ],
+          "max": [
+            0.5,
+            1.0,
+            0.32499998807907104
+          ],
+          "size": [
+            1.0,
+            1.0,
+            0.6499999761581421
+          ]
+        },
+        "nearlyPlanar": false,
+        "proxyNameSignals": []
+      },
+      "materials": {
+        "count": 1,
+        "explicitMetalRoughPBR": 1,
+        "textureCount": 3,
+        "usedTextureCount": 3,
+        "images": [
+          {
+            "location": "embedded",
+            "available": true,
+            "bytes": 556970,
+            "mimeType": "image/png",
+            "dimensions": [
+              512,
+              512
+            ]
+          },
+          {
+            "location": "embedded",
+            "available": true,
+            "bytes": 239794,
+            "mimeType": "image/png",
+            "dimensions": [
+              512,
+              512
+            ]
+          },
+          {
+            "location": "embedded",
+            "available": true,
+            "bytes": 225285,
+            "mimeType": "image/png",
+            "dimensions": [
+              512,
+              512
+            ]
+          }
+        ],
+        "roughnessRange": [
+          1,
+          1
+        ],
+        "metallicRange": [
+          0.18000000715255737,
+          0.18000000715255737
+        ]
+      },
+      "nodes": {
+        "count": 1,
+        "names": [
+          "BakedEnamelProof"
+        ],
+        "duplicateNames": []
+      },
+      "provenance": {
+        "familyIds": [],
+        "sourceAssetIds": []
+      },
+      "readiness": {
+        "structuralExport": true,
+        "volumetricCandidate": true,
+        "materialCandidate": true,
+        "hashMatchedVisualApproval": false,
+        "photorealQualityAutomaticallyProvable": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,1128 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>SMB3 · authored asset library</title><style>
+:root{color-scheme:dark;font-family:system-ui,sans-serif;background:#141815;color:#e9eee7}*{box-sizing:border-box}body{margin:0}header,main,footer{max-width:1440px;margin:auto;padding:32px}header{padding-top:56px}h1{font-size:clamp(32px,5vw,64px);letter-spacing:-.04em;margin:12px 0}p{line-height:1.6}header p{max-width:980px}a{color:#b7dab4}.eyebrow,.meta{color:#a3afa2;font-size:13px}.stats{font-size:20px;color:#d8eabd}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:24px}article{background:#1d231e;border:1px solid #354035;border-radius:14px;overflow:hidden}img{width:100%;display:block;aspect-ratio:1.5;object-fit:contain;background:#171b18}.body{padding:22px}h2{margin:0;font-size:22px}.badge{font-size:12px;color:#ddc88f}.links,.assets{font-size:13px}details{font-size:13px;color:#bec9bc}summary{cursor:pointer}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;line-height:1.55}.missing{height:220px;display:grid;place-items:center}footer{color:#a3afa2}@media(max-width:420px){header,main,footer{padding:20px}.grid{grid-template-columns:1fr}}
+</style><header><div class="eyebrow">ROM → semantic scene → authored Blender assets</div><h1>SMB3 asset workshop</h1><p class="stats">73 GLBs · 25/25 families built · 25/25 contact sheets audited · 0 families approved as photoreal</p><p>These are authored 3D interpretations of SMB3 silhouettes, with physical materials and baked textures. The ROM provides tiles, palettes, object identities and gameplay; it does not contain hidden realistic geometry. The wider catalog includes brief-driven concepts that are not verified source matches or integrated gameplay replacements. Contact-sheet inspection is separate from in-game readability, source-shape accuracy and photoreal approval. No 95% visual-fidelity claim is established.</p><p>24 CLI author jobs · 1 supplemental jobs · 25 current structural checks · snapshot 2026-09-08T21:56:05+00:00</p><p><a href="animated/README.md">Animated character library</a> · <a href="animated/pose-contact-sheet.png">Animation poses</a> · <a href="README.md">Build report & reproduction</a> · <a href="visual-review.json">Recorded visual review</a> · <a href="design/style.json">Style contract</a> · <a href="../smb3-rom-assets/EXTRACTION.md">Original ROM extraction evidence</a></p></header><main class="grid"><article><a href="families/aquatic-1/preview.png"><img loading="lazy" src="families/aquatic-1/preview.png" alt="Rendered exported GLB contact sheet: aquatic-1"></a><div class="body"><h2>aquatic-1</h2><p class="badge">contact sheet audited · candidate</p><p>Blooper, fish and piranha plant recognizable, with eyes, mouth and fin/leaf detail. Fish fins are stylized leaflike forms.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/aquatic-1/library.blend">Blender library</a> · <a href="families/aquatic-1/manifest.json">Manifest</a> · <a href="families/aquatic-1/validation.json">GLB checks</a> · <a href="families/aquatic-1/visual-review.json">Visual review</a> · <a href="sources/aquatic-1.py">Authoring source</a></p><p class="assets"><a href="families/aquatic-1/models/blooper.glb">blooper</a> · <a href="families/aquatic-1/models/cheep-cheep.glb">cheep-cheep</a> · <a href="families/aquatic-1/models/piranha-plant.glb">piranha-plant</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;cheep-cheep&quot;,
+    &quot;source_basis&quot;: &quot;Catalog binary-asset-manifest.json OBJ_CHEEPCHEEPHOPPER=100 and OBJ_JUMPINGCHEEPCHEEP=118; compact fish, expressive eyes, red/white palette and fins interpreted from family brief.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Procedural source-inspired reconstruction; no anatomical photorealism claim.&quot;,
+      &quot;Catalog README says standard-object frame boundaries and palette/bank contexts remain unresolved; no verified enemy PNG composite was identified.&quot;,
+      &quot;Static editable meshes without skeletal rig or animation; attached organs overlap at joins.&quot;,
+      &quot;Baked shared material swatches supply microvariation; not scanned biological surfaces.&quot;,
+      &quot;Central queue must render and inspect silhouettes, texture transfer, normals and intersections.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;blooper&quot;,
+    &quot;source_basis&quot;: &quot;Catalog binary-asset-manifest.json OBJ_BLOOPER=98; all-byte-data-labels.json Blooper_FlipTowardsPlayer PRG/prg003.asm:4532. Pointed pale mantle and dangling arms interpreted from family brief.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Procedural source-inspired reconstruction; no anatomical photorealism claim.&quot;,
+      &quot;Catalog README says standard-object frame boundaries and palette/bank contexts remain unresolved; no verified enemy PNG composite was identified.&quot;,
+      &quot;Static editable meshes without skeletal rig or animation; attached organs overlap at joins.&quot;,
+      &quot;Baked shared material swatches supply microvariation; not scanned biological surfaces.&quot;,
+      &quot;Central queue must render and inspect silhouettes, texture transfer, normals and intersections.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;piranha-plant&quot;,
+    &quot;source_basis&quot;: &quot;Catalog binary-asset-manifest.json OBJ_REDPIRANHA=162 (tall pipe muncher); Piranha_Style PRG/prg005.asm:1268. Red spotted head, pale jaws, green stem and paired leaves interpreted from family brief.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Procedural source-inspired reconstruction; no anatomical photorealism claim.&quot;,
+      &quot;Catalog README says standard-object frame boundaries and palette/bank contexts remain unresolved; no verified enemy PNG composite was identified.&quot;,
+      &quot;Static editable meshes without skeletal rig or animation; attached organs overlap at joins.&quot;,
+      &quot;Baked shared material swatches supply microvariation; not scanned biological surfaces.&quot;,
+      &quot;Central queue must render and inspect silhouettes, texture transfer, normals and intersections.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/aquatic-2/preview.png"><img loading="lazy" src="families/aquatic-2/preview.png" alt="Rendered exported GLB contact sheet: aquatic-2"></a><div class="body"><h2>aquatic-2</h2><p class="badge">contact sheet audited · candidate</p><p>Boo and Dry Bones are detailed stylized sculpts, with ribs and mouth cavity visible.</p><p class="meta">2 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/aquatic-2/library.blend">Blender library</a> · <a href="families/aquatic-2/manifest.json">Manifest</a> · <a href="families/aquatic-2/validation.json">GLB checks</a> · <a href="families/aquatic-2/visual-review.json">Visual review</a> · <a href="sources/aquatic-2.py">Authoring source</a></p><p class="assets"><a href="families/aquatic-2/models/boo.glb">boo</a> · <a href="families/aquatic-2/models/dry-bones.glb">dry-bones</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;dry-bones&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;descriptor&quot;: 63,
+      &quot;symbol&quot;: &quot;OBJ_DRYBONES / ObjP3F&quot;,
+      &quot;source&quot;: &quot;PRG/prg002.asm:435&quot;,
+      &quot;interpretation&quot;: &quot;Recognizable silhouette from user brief; catalog descriptor unresolved, not a verified sprite reconstruction.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Stylized procedural interpretation; no anatomical photorealism claim.&quot;,
+      &quot;Unrigged; components remain individually editable.&quot;,
+      &quot;No Blender execution or visual inspection performed during code authoring.&quot;,
+      &quot;Small intersections at anatomical joins; not a unified watertight fabrication mesh.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;boo&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;descriptor&quot;: 47,
+      &quot;symbol&quot;: &quot;OBJ_BOO / ObjP2F&quot;,
+      &quot;source&quot;: &quot;PRG/prg002.asm:401&quot;,
+      &quot;interpretation&quot;: &quot;Recognizable silhouette from user brief; catalog descriptor unresolved, not a verified sprite reconstruction.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Stylized procedural interpretation; no anatomical photorealism claim.&quot;,
+      &quot;Unrigged; components remain individually editable.&quot;,
+      &quot;No Blender execution or visual inspection performed during code authoring.&quot;,
+      &quot;Small intersections at anatomical joins; not a unified watertight fabrication mesh.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/architecture-1/preview.png"><img loading="lazy" src="families/architecture-1/preview.png" alt="Rendered exported GLB contact sheet: architecture-1"></a><div class="body"><h2>architecture-1</h2><p class="badge">contact sheet audited · candidate</p><p>Colored cast panels with bevels and recessed hardware plus separate wood boards; coherent miniature props.</p><p class="meta">4 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/architecture-1/library.blend">Blender library</a> · <a href="families/architecture-1/manifest.json">Manifest</a> · <a href="families/architecture-1/validation.json">GLB checks</a> · <a href="families/architecture-1/visual-review.json">Visual review</a> · <a href="sources/architecture-1.py">Authoring source</a></p><p class="assets"><a href="families/architecture-1/models/platform-blue.glb">platform-blue</a> · <a href="families/architecture-1/models/platform-coral.glb">platform-coral</a> · <a href="families/architecture-1/models/platform-cream.glb">platform-cream</a> · <a href="families/architecture-1/models/wood-platform.glb">wood-platform</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;platform-coral&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog&quot;,
+      &quot;visual_sheet&quot;: &quot;observed-metatile-00.png&quot;,
+      &quot;evidence&quot;: &quot;Colored large panel cells with corner fasteners and lower/right edge bands; rectangular 3x2 composition from user brief.&quot;,
+      &quot;wood_context&quot;: &quot;binary-assets.json context-10-0-10, Tile_Layout_TS10, PalSet_Airship; physical joinery is authored interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually verified during authoring.&quot;,
+      &quot;Fine wood and plaster variation is synthesized image PBR, not scanned material.&quot;,
+      &quot;Rear construction and dimensions are artistic reconstruction; no exact assembled ROM object mapping.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;platform-cream&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog&quot;,
+      &quot;visual_sheet&quot;: &quot;observed-metatile-00.png&quot;,
+      &quot;evidence&quot;: &quot;Colored large panel cells with corner fasteners and lower/right edge bands; rectangular 3x2 composition from user brief.&quot;,
+      &quot;wood_context&quot;: &quot;binary-assets.json context-10-0-10, Tile_Layout_TS10, PalSet_Airship; physical joinery is authored interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually verified during authoring.&quot;,
+      &quot;Fine wood and plaster variation is synthesized image PBR, not scanned material.&quot;,
+      &quot;Rear construction and dimensions are artistic reconstruction; no exact assembled ROM object mapping.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;platform-blue&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog&quot;,
+      &quot;visual_sheet&quot;: &quot;observed-metatile-00.png&quot;,
+      &quot;evidence&quot;: &quot;Colored large panel cells with corner fasteners and lower/right edge bands; rectangular 3x2 composition from user brief.&quot;,
+      &quot;wood_context&quot;: &quot;binary-assets.json context-10-0-10, Tile_Layout_TS10, PalSet_Airship; physical joinery is authored interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually verified during authoring.&quot;,
+      &quot;Fine wood and plaster variation is synthesized image PBR, not scanned material.&quot;,
+      &quot;Rear construction and dimensions are artistic reconstruction; no exact assembled ROM object mapping.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;wood-platform&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog&quot;,
+      &quot;visual_sheet&quot;: &quot;observed-metatile-00.png&quot;,
+      &quot;evidence&quot;: &quot;Colored large panel cells with corner fasteners and lower/right edge bands; rectangular 3x2 composition from user brief.&quot;,
+      &quot;wood_context&quot;: &quot;binary-assets.json context-10-0-10, Tile_Layout_TS10, PalSet_Airship; physical joinery is authored interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually verified during authoring.&quot;,
+      &quot;Fine wood and plaster variation is synthesized image PBR, not scanned material.&quot;,
+      &quot;Rear construction and dimensions are artistic reconstruction; no exact assembled ROM object mapping.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/architecture-2/preview.png"><img loading="lazy" src="families/architecture-2/preview.png" alt="Rendered exported GLB contact sheet: architecture-2"></a><div class="body"><h2>architecture-2</h2><p class="badge">contact sheet audited · candidate</p><p>Separated wood boards, castle masonry and door hardware visible. Correct material response.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/architecture-2/library.blend">Blender library</a> · <a href="families/architecture-2/manifest.json">Manifest</a> · <a href="families/architecture-2/validation.json">GLB checks</a> · <a href="families/architecture-2/visual-review.json">Visual review</a> · <a href="sources/architecture-2.py">Authoring source</a></p><p class="assets"><a href="families/architecture-2/models/airship-hull.glb">airship-hull</a> · <a href="families/architecture-2/models/castle-door.glb">castle-door</a> · <a href="families/architecture-2/models/castle-wall.glb">castle-wall</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;castle-wall&quot;,
+    &quot;source_basis&quot;: [
+      &quot;Tile_Layout_TS2-156 / TILE2_SOLIDBRICK: Solid Bowser castle style brick&quot;
+    ],
+    &quot;author_limitations&quot;: [
+      &quot;Source-inspired reinterpretation, not a pixel-exact reconstruction.&quot;,
+      &quot;Rendered appearance requires central queue inspection.&quot;,
+      &quot;Hardware may project slightly beyond nominal depth; actual dimensions recorded.&quot;,
+      &quot;Synthesized repeating timber grain; no photographic texture scans.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;castle-door&quot;,
+    &quot;source_basis&quot;: [
+      &quot;Tile_Layout_TS2-151..154 / TILE2_ENDDOOR_UL, UR, LL, LR: rectangular final door quadrants&quot;
+    ],
+    &quot;author_limitations&quot;: [
+      &quot;Source-inspired reinterpretation, not a pixel-exact reconstruction.&quot;,
+      &quot;Rendered appearance requires central queue inspection.&quot;,
+      &quot;Hardware may project slightly beyond nominal depth; actual dimensions recorded.&quot;,
+      &quot;Synthesized repeating timber grain; no photographic texture scans.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;airship-hull&quot;,
+    &quot;source_basis&quot;: [
+      &quot;Tile_Layout_TS10-226..229 / TILE10_WOODH: horizontal logs&quot;,
+      &quot;Tile_Layout_TS10-249..254 / WOODBOTTOM, LEDGE, REARTIP&quot;,
+      &quot;context-10-0-10 / PalSet_Airship&quot;
+    ],
+    &quot;author_limitations&quot;: [
+      &quot;Source-inspired reinterpretation, not a pixel-exact reconstruction.&quot;,
+      &quot;Rendered appearance requires central queue inspection.&quot;,
+      &quot;Hardware may project slightly beyond nominal depth; actual dimensions recorded.&quot;,
+      &quot;Synthesized repeating timber grain; no photographic texture scans.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/blocks-1/preview.png"><img loading="lazy" src="families/blocks-1/preview.png" alt="Rendered exported GLB contact sheet: blocks-1"></a><div class="body"><h2>blocks-1</h2><p class="badge">contact sheet audited · candidate</p><p>Detailed inset metal plates, fasteners and separated brick/mortar visible. Materials render correctly.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/blocks-1/library.blend">Blender library</a> · <a href="families/blocks-1/manifest.json">Manifest</a> · <a href="families/blocks-1/validation.json">GLB checks</a> · <a href="families/blocks-1/visual-review.json">Visual review</a> · <a href="sources/blocks-1.py">Authoring source</a></p><p class="assets"><a href="families/blocks-1/models/brick-block.glb">brick-block</a> · <a href="families/blocks-1/models/question-block.glb">question-block</a> · <a href="families/blocks-1/models/used-block.glb">used-block</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;question-block&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;observed-metatile-00.png&quot;,
+      &quot;question_reference&quot;: &quot;observed-metatile-2a3e8b18f2562fd1892d&quot;,
+      &quot;used_reference&quot;: &quot;observed-metatile-2bfb0a8c6f4893db93ca&quot;,
+      &quot;notes&quot;: &quot;Golden square and corner marks observed; depth, material wear and bonded masonry are authored interpretation. Stone and ice are brief-driven variants, not verified ROM identities.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually verified by author; central queue must inspect.&quot;,
+      &quot;Raster microdetail is repeated; no unique hand-painted wear map.&quot;,
+      &quot;Fastener slots use inset dark inserts, not boolean-cut screw heads.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;used-block&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;observed-metatile-00.png&quot;,
+      &quot;question_reference&quot;: &quot;observed-metatile-2a3e8b18f2562fd1892d&quot;,
+      &quot;used_reference&quot;: &quot;observed-metatile-2bfb0a8c6f4893db93ca&quot;,
+      &quot;notes&quot;: &quot;Golden square and corner marks observed; depth, material wear and bonded masonry are authored interpretation. Stone and ice are brief-driven variants, not verified ROM identities.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually verified by author; central queue must inspect.&quot;,
+      &quot;Raster microdetail is repeated; no unique hand-painted wear map.&quot;,
+      &quot;Fastener slots use inset dark inserts, not boolean-cut screw heads.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;brick-block&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;observed-metatile-00.png&quot;,
+      &quot;question_reference&quot;: &quot;observed-metatile-2a3e8b18f2562fd1892d&quot;,
+      &quot;used_reference&quot;: &quot;observed-metatile-2bfb0a8c6f4893db93ca&quot;,
+      &quot;notes&quot;: &quot;Golden square and corner marks observed; depth, material wear and bonded masonry are authored interpretation. Stone and ice are brief-driven variants, not verified ROM identities.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually verified by author; central queue must inspect.&quot;,
+      &quot;Raster microdetail is repeated; no unique hand-painted wear map.&quot;,
+      &quot;Fastener slots use inset dark inserts, not boolean-cut screw heads.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/blocks-2/preview.png"><img loading="lazy" src="families/blocks-2/preview.png" alt="Rendered exported GLB contact sheet: blocks-2"></a><div class="body"><h2>blocks-2</h2><p class="badge">contact sheet audited · candidate</p><p>Stone and ice details visible. Earlier preview cropped top; current framing corrected.</p><p class="meta">2 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/blocks-2/library.blend">Blender library</a> · <a href="families/blocks-2/manifest.json">Manifest</a> · <a href="families/blocks-2/validation.json">GLB checks</a> · <a href="families/blocks-2/visual-review.json">Visual review</a> · <a href="sources/blocks-2.py">Authoring source</a></p><p class="assets"><a href="families/blocks-2/models/ice-block.glb">ice-block</a> · <a href="families/blocks-2/models/stone-block.glb">stone-block</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;stone-block&quot;,
+    &quot;source_basis&quot;: {
+      &quot;definition&quot;: &quot;Tile_Layout_TS2-156&quot;,
+      &quot;symbol&quot;: &quot;TILE2_SOLIDBRICK&quot;,
+      &quot;image&quot;: &quot;binary-metatile-4dfe1dcd42ca879b337e&quot;,
+      &quot;context&quot;: &quot;context-2-1-22&quot;,
+      &quot;interpretation&quot;: &quot;Castle solid brick framed square silhouette; granular grey stone is a material reinterpretation, not an exact palette match.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored reconstruction; render and visual acceptance pending central queue.&quot;,
+      &quot;Image maps use repeated UV swatches; no unique large-scale weathering bake.&quot;,
+      &quot;Fine cracks are shallow modeled relief; this is one dressed stone, not brick courses.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;ice-block&quot;,
+    &quot;source_basis&quot;: {
+      &quot;definition&quot;: &quot;Tile_Layout_TS4_TS12-58&quot;,
+      &quot;symbol&quot;: &quot;TILE12_ICEBLOCK&quot;,
+      &quot;image&quot;: &quot;binary-metatile-cacc009f82aaaa75b66f&quot;,
+      &quot;context&quot;: &quot;context-12-0-12&quot;,
+      &quot;interpretation&quot;: &quot;16x16 rounded square, pale cyan border and diagonal white highlights; depth and fractures are authored.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored reconstruction; render and visual acceptance pending central queue.&quot;,
+      &quot;Image maps use repeated UV swatches; no unique large-scale weathering bake.&quot;,
+      &quot;Ice refraction depends on viewer support for KHR_materials_transmission.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/character-kit-1/preview.png"><img loading="lazy" src="families/character-kit-1/preview.png" alt="Rendered exported GLB contact sheet: character-kit-1"></a><div class="body"><h2>character-kit-1</h2><p class="badge">contact sheet audited · candidate</p><p>Recognizable Mario figure, cap and boot; cloth/leather maps and stitches visible. Body shoulders visibly segmented and face shaded by cap; miniature style.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/character-kit-1/library.blend">Blender library</a> · <a href="families/character-kit-1/manifest.json">Manifest</a> · <a href="families/character-kit-1/validation.json">GLB checks</a> · <a href="families/character-kit-1/visual-review.json">Visual review</a> · <a href="sources/character-kit-1.py">Authoring source</a></p><p class="assets"><a href="families/character-kit-1/models/mario-body.glb">mario-body</a> · <a href="families/character-kit-1/models/mario-boot.glb">mario-boot</a> · <a href="families/character-kit-1/models/mario-cap.glb">mario-cap</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;mario-body&quot;,
+    &quot;source_basis&quot;: [
+      &quot;Shared design/style.json&quot;,
+      &quot;catalog/observed-player-pose-00.png: observed compact Mario cap/nose/boot silhouette&quot;,
+      &quot;catalog/README.md: runtime observed composites preferred to diagnostic templates&quot;,
+      &quot;observed-assets.json: observed-player-pose-d7804d3e8042e9765221, 16x16 runtime pose&quot;,
+      &quot;Requested red shirt, blue overalls and white M badge; material/construction details are authored interpretation&quot;
+    ],
+    &quot;author_limitations&quot;: [
+      &quot;Authored fallback; no Blender execution or render inspected by author&quot;,
+      &quot;Static multipart mesh; overlapping anatomical joins, no rig or deformation weights&quot;,
+      &quot;Fine stitches may require distance LOD&quot;,
+      &quot;Tail and protective shell excluded: other forms outside assigned asset IDs&quot;,
+      &quot;Slip-on Mario boots intentionally omit laces&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;mario-cap&quot;,
+    &quot;source_basis&quot;: [
+      &quot;Shared design/style.json&quot;,
+      &quot;catalog/observed-player-pose-00.png: observed compact Mario cap/nose/boot silhouette&quot;,
+      &quot;catalog/README.md: runtime observed composites preferred to diagnostic templates&quot;,
+      &quot;observed-assets.json: observed-player-pose-d7804d3e8042e9765221, 16x16 runtime pose&quot;,
+      &quot;Requested red shirt, blue overalls and white M badge; material/construction details are authored interpretation&quot;
+    ],
+    &quot;author_limitations&quot;: [
+      &quot;Authored fallback; no Blender execution or render inspected by author&quot;,
+      &quot;Static multipart mesh; overlapping anatomical joins, no rig or deformation weights&quot;,
+      &quot;Fine stitches may require distance LOD&quot;,
+      &quot;Tail and protective shell excluded: other forms outside assigned asset IDs&quot;,
+      &quot;Slip-on Mario boots intentionally omit laces&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;mario-boot&quot;,
+    &quot;source_basis&quot;: [
+      &quot;Shared design/style.json&quot;,
+      &quot;catalog/observed-player-pose-00.png: observed compact Mario cap/nose/boot silhouette&quot;,
+      &quot;catalog/README.md: runtime observed composites preferred to diagnostic templates&quot;,
+      &quot;observed-assets.json: observed-player-pose-d7804d3e8042e9765221, 16x16 runtime pose&quot;,
+      &quot;Requested red shirt, blue overalls and white M badge; material/construction details are authored interpretation&quot;
+    ],
+    &quot;author_limitations&quot;: [
+      &quot;Authored fallback; no Blender execution or render inspected by author&quot;,
+      &quot;Static multipart mesh; overlapping anatomical joins, no rig or deformation weights&quot;,
+      &quot;Fine stitches may require distance LOD&quot;,
+      &quot;Tail and protective shell excluded: other forms outside assigned asset IDs&quot;,
+      &quot;Slip-on Mario boots intentionally omit laces&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/character-kit-2/preview.png"><img loading="lazy" src="families/character-kit-2/preview.png" alt="Rendered exported GLB contact sheet: character-kit-2"></a><div class="body"><h2>character-kit-2</h2><p class="badge">contact sheet audited · candidate</p><p>Glove, shell straps and buckles visible. Tail fur is rigid geometric spikes and remains stylized.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/character-kit-2/library.blend">Blender library</a> · <a href="families/character-kit-2/manifest.json">Manifest</a> · <a href="families/character-kit-2/validation.json">GLB checks</a> · <a href="families/character-kit-2/visual-review.json">Visual review</a> · <a href="sources/character-kit-2.py">Authoring source</a></p><p class="assets"><a href="families/character-kit-2/models/hammer-suit-shell.glb">hammer-suit-shell</a> · <a href="families/character-kit-2/models/mario-glove.glb">mario-glove</a> · <a href="families/character-kit-2/models/raccoon-tail.glb">raccoon-tail</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;mario-glove&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;sheet&quot;: &quot;binary-player-templates-00.png and binary-player-templates-01.png&quot;,
+      &quot;suit&quot;: &quot;Big&quot;,
+      &quot;reference_combination&quot;: &quot;player-Big-PF00&quot;,
+      &quot;qualification&quot;: &quot;Suit templates are diagnostic, animation reachability unverified. Surface construction is an authored interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Static unrigged right-hand accessory; overlapping finger/palm construction is not a unified deformation cage.&quot;,
+      &quot;Interior modeled at cuff only; no complete finger cavities.&quot;,
+      &quot;Not rendered or visually reviewed during isolated code authoring.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;raccoon-tail&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;sheet&quot;: &quot;binary-player-templates-00.png and binary-player-templates-01.png&quot;,
+      &quot;suit&quot;: &quot;Leaf / Tanooki&quot;,
+      &quot;reference_combination&quot;: &quot;player-Leaf-PF00&quot;,
+      &quot;qualification&quot;: &quot;Suit templates are diagnostic, animation reachability unverified. Surface construction is an authored interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Fur is solid low-poly tufts plus baked microtexture, not a strand groom.&quot;,
+      &quot;Static curve; no skinning or tail animation.&quot;,
+      &quot;Not rendered or visually reviewed during isolated code authoring.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;hammer-suit-shell&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;sheet&quot;: &quot;binary-player-templates-00.png and binary-player-templates-01.png&quot;,
+      &quot;suit&quot;: &quot;Hammer&quot;,
+      &quot;reference_combination&quot;: &quot;player-Hammer-PF00&quot;,
+      &quot;qualification&quot;: &quot;Suit templates are diagnostic, animation reachability unverified. Surface construction is an authored interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Scute layout and leather harness are interpretive additions, not recovered pixel details.&quot;,
+      &quot;Shell interior is simplified for accessory use.&quot;,
+      &quot;Not rendered or visually reviewed during isolated code authoring.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/clouds/preview.png"><img loading="lazy" src="families/clouds/preview.png" alt="Rendered exported GLB contact sheet: clouds"></a><div class="body"><h2>clouds</h2><p class="badge">contact sheet audited · candidate</p><p>Cloud is a unified opaque white sculpt with soft lobes and subtle eye folds, not volumetric vapor. Green platform has recessed hardware and strong surface microtexture.</p><p class="meta">2 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/clouds/library.blend">Blender library</a> · <a href="families/clouds/manifest.json">Manifest</a> · <a href="families/clouds/validation.json">GLB checks</a> · <a href="families/clouds/visual-review.json">Visual review</a> · <a href="sources/clouds.py">Authoring source</a></p><p class="assets"><a href="families/clouds/models/cloud.glb">cloud</a> · <a href="families/clouds/models/platform-green.glb">platform-green</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;cloud&quot;,
+    &quot;source_basis&quot;: &quot;World 1-1 source semantic cloud or green large-platform definitions; new volumetric PBR interpretation, not recovered hidden geometry.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Visual quality requires central rendered review.&quot;,
+      &quot;Cloud is opaque authored geometry with diffuse PBR, not a participating atmospheric volume.&quot;,
+      &quot;Exact source silhouette is adapted by runtime normalization.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;platform-green&quot;,
+    &quot;source_basis&quot;: &quot;World 1-1 source semantic cloud or green large-platform definitions; new volumetric PBR interpretation, not recovered hidden geometry.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Visual quality requires central rendered review.&quot;,
+      &quot;Cloud is opaque authored geometry with diffuse PBR, not a participating atmospheric volume.&quot;,
+      &quot;Exact source silhouette is adapted by runtime normalization.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/creatures-1/preview.png"><img loading="lazy" src="families/creatures-1/preview.png" alt="Rendered exported GLB contact sheet: creatures-1"></a><div class="body"><h2>creatures-1</h2><p class="badge">contact sheet audited · candidate</p><p>Recognizable Goomba and Koopas with visible eyes, shell and surface detail. Stylized figurines.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/creatures-1/library.blend">Blender library</a> · <a href="families/creatures-1/manifest.json">Manifest</a> · <a href="families/creatures-1/validation.json">GLB checks</a> · <a href="families/creatures-1/visual-review.json">Visual review</a> · <a href="sources/creatures-1.py">Authoring source</a></p><p class="assets"><a href="families/creatures-1/models/goomba.glb">goomba</a> · <a href="families/creatures-1/models/koopa-green.glb">koopa-green</a> · <a href="families/creatures-1/models/koopa-red.glb">koopa-red</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;goomba&quot;,
+    &quot;source_basis&quot;: {
+      &quot;contract&quot;: &quot;smb3-photoreal/design/style.json&quot;,
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/observed-sprite-group-00.png&quot;,
+      &quot;evidence&quot;: &quot;Observed first sprite groups support broad Goomba cap and short footwear; catalog semantic identities are unresolved. Koopa proportions and color variants follow task silhouette brief, not an identified catalog pose.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored without Blender execution or render inspection by the asset worker.&quot;,
+      &quot;Separate overlapping anatomical surfaces; no welded rig-ready topology.&quot;,
+      &quot;Static neutral pose, no skeleton or animation.&quot;,
+      &quot;Texture detail is reusable UV material swatches; no unique curvature or cavity bake.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;koopa-green&quot;,
+    &quot;source_basis&quot;: {
+      &quot;contract&quot;: &quot;smb3-photoreal/design/style.json&quot;,
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/observed-sprite-group-00.png&quot;,
+      &quot;evidence&quot;: &quot;Observed first sprite groups support broad Goomba cap and short footwear; catalog semantic identities are unresolved. Koopa proportions and color variants follow task silhouette brief, not an identified catalog pose.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored without Blender execution or render inspection by the asset worker.&quot;,
+      &quot;Separate overlapping anatomical surfaces; no welded rig-ready topology.&quot;,
+      &quot;Static neutral pose, no skeleton or animation.&quot;,
+      &quot;Texture detail is reusable UV material swatches; no unique curvature or cavity bake.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;koopa-red&quot;,
+    &quot;source_basis&quot;: {
+      &quot;contract&quot;: &quot;smb3-photoreal/design/style.json&quot;,
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/observed-sprite-group-00.png&quot;,
+      &quot;evidence&quot;: &quot;Observed first sprite groups support broad Goomba cap and short footwear; catalog semantic identities are unresolved. Koopa proportions and color variants follow task silhouette brief, not an identified catalog pose.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored without Blender execution or render inspection by the asset worker.&quot;,
+      &quot;Separate overlapping anatomical surfaces; no welded rig-ready topology.&quot;,
+      &quot;Static neutral pose, no skeleton or animation.&quot;,
+      &quot;Texture detail is reusable UV material swatches; no unique curvature or cavity bake.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/creatures-2/preview.png"><img loading="lazy" src="families/creatures-2/preview.png" alt="Rendered exported GLB contact sheet: creatures-2"></a><div class="body"><h2>creatures-2</h2><p class="badge">contact sheet audited · candidate</p><p>Beetle and Spiny identifiable with shell, spikes and appendages. Stylized figurines.</p><p class="meta">2 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/creatures-2/library.blend">Blender library</a> · <a href="families/creatures-2/manifest.json">Manifest</a> · <a href="families/creatures-2/validation.json">GLB checks</a> · <a href="families/creatures-2/visual-review.json">Visual review</a> · <a href="sources/creatures-2.py">Authoring source</a></p><p class="assets"><a href="families/creatures-2/models/buzzy-beetle.glb">buzzy-beetle</a> · <a href="families/creatures-2/models/spiny.glb">spiny</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;buzzy-beetle&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json:objectDescriptors&quot;,
+      &quot;symbol&quot;: &quot;OBJ_BUZZYBEATLE&quot;,
+      &quot;object_id&quot;: 112,
+      &quot;label&quot;: &quot;ObjP70&quot;,
+      &quot;rom_offset&quot;: 33303,
+      &quot;source&quot;: &quot;PRG/prg004.asm:420&quot;,
+      &quot;resolution&quot;: &quot;unresolved&quot;,
+      &quot;silhouette_basis&quot;: &quot;User family brief plus semantic ROM descriptor; original PNG frame not claimed verified&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored without executing Blender or inspecting renders; central queue must verify appearance and runtime export.&quot;,
+      &quot;Source descriptors are unresolved for reachable frame assembly and palette; silhouettes and colors follow the supplied family brief, not a claimed exact sprite reconstruction.&quot;,
+      &quot;Static separate anatomical meshes; foot pivots are provided, without armature or animation.&quot;,
+      &quot;Fine material detail uses repeated UV swatches, not unique hand-painted anatomical texture maps.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;spiny&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json:objectDescriptors&quot;,
+      &quot;symbol&quot;: &quot;OBJ_SPINY&quot;,
+      &quot;object_id&quot;: 113,
+      &quot;label&quot;: &quot;ObjP71&quot;,
+      &quot;rom_offset&quot;: 33317,
+      &quot;source&quot;: &quot;PRG/prg004.asm:422&quot;,
+      &quot;resolution&quot;: &quot;unresolved&quot;,
+      &quot;silhouette_basis&quot;: &quot;User family brief plus semantic ROM descriptor; original PNG frame not claimed verified&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored without executing Blender or inspecting renders; central queue must verify appearance and runtime export.&quot;,
+      &quot;Source descriptors are unresolved for reachable frame assembly and palette; silhouettes and colors follow the supplied family brief, not a claimed exact sprite reconstruction.&quot;,
+      &quot;Static separate anatomical meshes; foot pivots are provided, without armature or animation.&quot;,
+      &quot;Fine material detail uses repeated UV swatches, not unique hand-painted anatomical texture maps.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/items-1/preview.png"><img loading="lazy" src="families/items-1/preview.png" alt="Rendered exported GLB contact sheet: items-1"></a><div class="body"><h2>items-1</h2><p class="badge">contact sheet audited · candidate</p><p>Metal coin, mushrooms and leaf show baked surface response; isolated mushroom label partly occluded in grid. Objects visible.</p><p class="meta">4 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/items-1/library.blend">Blender library</a> · <a href="families/items-1/manifest.json">Manifest</a> · <a href="families/items-1/validation.json">GLB checks</a> · <a href="families/items-1/visual-review.json">Visual review</a> · <a href="sources/items-1.py">Authoring source</a></p><p class="assets"><a href="families/items-1/models/coin.glb">coin</a> · <a href="families/items-1/models/one-up.glb">one-up</a> · <a href="families/items-1/models/super-leaf.glb">super-leaf</a> · <a href="families/items-1/models/super-mushroom.glb">super-mushroom</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;coin&quot;,
+    &quot;source_basis&quot;: {
+      &quot;brief&quot;: &quot;User collectible-family brief and shared style.json&quot;,
+      &quot;catalog&quot;: &quot;observed-sprite-group-00.png; observed-assets.json&quot;,
+      &quot;evidence&quot;: &quot;Coin shown as upright gold rim and vertical interior mark; circular 1-unit reconstruction and numeral 1 follow explicit brief.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored but not rendered or visually inspected by this worker.&quot;,
+      &quot;Organic relief and surface microdetail are artistic reconstruction, not ROM-derived topology.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;super-mushroom&quot;,
+    &quot;source_basis&quot;: {
+      &quot;brief&quot;: &quot;User collectible-family brief and shared style.json&quot;,
+      &quot;catalog&quot;: &quot;observed-sprite-group-00.png; observed-assets.json&quot;,
+      &quot;evidence&quot;: &quot;Catalog inspected; exact named mushroom/leaf reference not established.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored but not rendered or visually inspected by this worker.&quot;,
+      &quot;Organic relief and surface microdetail are artistic reconstruction, not ROM-derived topology.&quot;,
+      &quot;No confidently labeled asset-specific catalog sprite identified; silhouette follows the supplied brief and recognizable collectible conventions.&quot;,
+      &quot;Evaluated triangle count 9520 exceeds approximate 8000 prop target.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;one-up&quot;,
+    &quot;source_basis&quot;: {
+      &quot;brief&quot;: &quot;User collectible-family brief and shared style.json&quot;,
+      &quot;catalog&quot;: &quot;observed-sprite-group-00.png; observed-assets.json&quot;,
+      &quot;evidence&quot;: &quot;Catalog inspected; exact named mushroom/leaf reference not established.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored but not rendered or visually inspected by this worker.&quot;,
+      &quot;Organic relief and surface microdetail are artistic reconstruction, not ROM-derived topology.&quot;,
+      &quot;No confidently labeled asset-specific catalog sprite identified; silhouette follows the supplied brief and recognizable collectible conventions.&quot;,
+      &quot;Evaluated triangle count 9520 exceeds approximate 8000 prop target.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;super-leaf&quot;,
+    &quot;source_basis&quot;: {
+      &quot;brief&quot;: &quot;User collectible-family brief and shared style.json&quot;,
+      &quot;catalog&quot;: &quot;observed-sprite-group-00.png; observed-assets.json&quot;,
+      &quot;evidence&quot;: &quot;Catalog inspected; exact named mushroom/leaf reference not established.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored but not rendered or visually inspected by this worker.&quot;,
+      &quot;Organic relief and surface microdetail are artistic reconstruction, not ROM-derived topology.&quot;,
+      &quot;No confidently labeled asset-specific catalog sprite identified; silhouette follows the supplied brief and recognizable collectible conventions.&quot;,
+      &quot;Evaluated triangle count 9598 exceeds approximate 8000 prop target.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/items-2/preview.png"><img loading="lazy" src="families/items-2/preview.png" alt="Rendered exported GLB contact sheet: items-2"></a><div class="body"><h2>items-2</h2><p class="badge">contact sheet audited · candidate</p><p>Music/POW boxes detailed and readable; star and flower clean physical prop styling. Star label partly occluded in grid.</p><p class="meta">4 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/items-2/library.blend">Blender library</a> · <a href="families/items-2/manifest.json">Manifest</a> · <a href="families/items-2/validation.json">GLB checks</a> · <a href="families/items-2/visual-review.json">Visual review</a> · <a href="sources/items-2.py">Authoring source</a></p><p class="assets"><a href="families/items-2/models/fire-flower.glb">fire-flower</a> · <a href="families/items-2/models/music-block.glb">music-block</a> · <a href="families/items-2/models/pow-block.glb">pow-block</a> · <a href="families/items-2/models/star.glb">star</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;star&quot;,
+    &quot;source_basis&quot;: &quot;OBJ_POWERUP_STARMAN=12; Star_Palettes ROM offset 10165; PUp_StarOrSuitFrames offset 10250. Five-point silhouette and paired eyes interpreted from collectible identity; no context-resolved sprite verified.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Authored reconstruction; central render and visual inspection pending.&quot;,
+      &quot;No animation or baked ambient occlusion.&quot;,
+      &quot;Microdetail uses reusable UV swatches; seam placement requires visual inspection.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;fire-flower&quot;,
+    &quot;source_basis&quot;: &quot;OBJ_POWERUP_FIREFLOWER=25; PowerUp_Palettes offset 66873. Oval concentric flower face, stem and two leaves; organic petal relief is an authored interpretation.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Authored reconstruction; central render and visual inspection pending.&quot;,
+      &quot;No animation or baked ambient occlusion.&quot;,
+      &quot;Microdetail uses reusable UV swatches; seam placement requires visual inspection.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;music-block&quot;,
+    &quot;source_basis&quot;: &quot;LATP_Notes offset 71301 and LATR_Notes offset 71333 in PRG/prg008.asm. Ivory cubic body and raised eighth note from brief; exact metatile variant not established.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Authored reconstruction; central render and visual inspection pending.&quot;,
+      &quot;No animation or baked ambient occlusion.&quot;,
+      &quot;Microdetail uses reusable UV swatches; seam placement requires visual inspection.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;pow-block&quot;,
+    &quot;source_basis&quot;: &quot;Vs_POWPatterns offset 79337, bytes [185,187,153,155,137,139]; Vs_POWHeight offset 79343. Dark blue casing, light bumpers and POW wordmark; depth and mechanical fittings are authored.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Authored reconstruction; central render and visual inspection pending.&quot;,
+      &quot;No animation or baked ambient occlusion.&quot;,
+      &quot;Microdetail uses reusable UV swatches; seam placement requires visual inspection.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/mechanisms-1/preview.png"><img loading="lazy" src="families/mechanisms-1/preview.png" alt="Rendered exported GLB contact sheet: mechanisms-1"></a><div class="body"><h2>mechanisms-1</h2><p class="badge">contact sheet audited · candidate</p><p>Cannon, bullet and hammer show metal/wood microtexture; cannon barrel has actual depth.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/mechanisms-1/library.blend">Blender library</a> · <a href="families/mechanisms-1/manifest.json">Manifest</a> · <a href="families/mechanisms-1/validation.json">GLB checks</a> · <a href="families/mechanisms-1/visual-review.json">Visual review</a> · <a href="sources/mechanisms-1.py">Authoring source</a></p><p class="assets"><a href="families/mechanisms-1/models/bullet-bill.glb">bullet-bill</a> · <a href="families/mechanisms-1/models/cannon.glb">cannon</a> · <a href="families/mechanisms-1/models/hammer.glb">hammer</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;cannon&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;binary-assets.json&quot;,
+      &quot;definition&quot;: &quot;Tile_Layout_TS1-118&quot;,
+      &quot;labels&quot;: [
+        &quot;TILE1_CANNONTOP1&quot;,
+        &quot;TILE1_CANNONTOP2&quot;,
+        &quot;TILE1_CANNONMID&quot;
+      ],
+      &quot;example_variant&quot;: &quot;binary-metatile-4c8f85e0f8a15da87cb4&quot;,
+      &quot;inspected_png&quot;: &quot;binary-clips/binary-metatile-4c8f85e0f8a15da87cb4.png&quot;,
+      &quot;interpretation&quot;: &quot;Stacked upright cannon support and projecting muzzle; depth, trunnions, bore and bands are authored reconstruction.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Central queue render and visual inspection pending.&quot;,
+      &quot;Source-inspired reconstruction; not an exact ROM sprite extrusion.&quot;,
+      &quot;Wear maps are reusable swatches, not unique whole-object curvature bakes.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;bullet-bill&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;binary-assets.json&quot;,
+      &quot;descriptor&quot;: 120,
+      &quot;label&quot;: &quot;OBJ_BULLETBILL&quot;,
+      &quot;source&quot;: &quot;PRG/prg004.asm:428&quot;,
+      &quot;rom_offset&quot;: 33339,
+      &quot;interpretation&quot;: &quot;Compact rounded projectile, stern white eyes, clenched gloves; descriptor sprite assembly is unresolved in catalog.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Central queue render and visual inspection pending.&quot;,
+      &quot;Source-inspired reconstruction; not an exact ROM sprite extrusion.&quot;,
+      &quot;Wear maps are reusable swatches, not unique whole-object curvature bakes.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;hammer&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;binary-assets.json&quot;,
+      &quot;descriptor&quot;: 129,
+      &quot;label&quot;: &quot;OBJ_HAMMERBRO&quot;,
+      &quot;source&quot;: &quot;PRG/prg004.asm:445&quot;,
+      &quot;interpretation&quot;: &quot;Hammer-family identity only. Heavy transverse head and narrow handle are brief-driven; no verified standalone projectile sprite was identified.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Central queue render and visual inspection pending.&quot;,
+      &quot;Source-inspired reconstruction; not an exact ROM sprite extrusion.&quot;,
+      &quot;Wear maps are reusable swatches, not unique whole-object curvature bakes.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/mechanisms-2/preview.png"><img loading="lazy" src="families/mechanisms-2/preview.png" alt="Rendered exported GLB contact sheet: mechanisms-2"></a><div class="body"><h2>mechanisms-2</h2><p class="badge">contact sheet audited · candidate</p><p>Chain Chomp and spike trap coherent physical props; firebar uses stylized rigid glowing flames, not real fire.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/mechanisms-2/library.blend">Blender library</a> · <a href="families/mechanisms-2/manifest.json">Manifest</a> · <a href="families/mechanisms-2/validation.json">GLB checks</a> · <a href="families/mechanisms-2/visual-review.json">Visual review</a> · <a href="sources/mechanisms-2.py">Authoring source</a></p><p class="assets"><a href="families/mechanisms-2/models/chain-chomp.glb">chain-chomp</a> · <a href="families/mechanisms-2/models/firebar.glb">firebar</a> · <a href="families/mechanisms-2/models/spike-trap.glb">spike-trap</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;firebar&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json; catalog/README.md&quot;,
+      &quot;interpretation&quot;: &quot;User brief and recognizable source-inspired silhouette; no verified assembled sprite match.&quot;,
+      &quot;resolution&quot;: &quot;No exact semantic sprite established for this prop; authored mechanical interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually validated during authoring.&quot;,
+      &quot;Static pose; no animation clips or physics.&quot;,
+      &quot;Microtexture swatches are UV projected; physical edge chips supplement generic texture wear.&quot;,
+      &quot;Fire is stylized solid emissive geometry, not a fluid or volumetric simulation.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;spike-trap&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json; catalog/README.md&quot;,
+      &quot;interpretation&quot;: &quot;User brief and recognizable source-inspired silhouette; no verified assembled sprite match.&quot;,
+      &quot;resolution&quot;: &quot;No exact semantic sprite established for this prop; authored mechanical interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually validated during authoring.&quot;,
+      &quot;Static pose; no animation clips or physics.&quot;,
+      &quot;Microtexture swatches are UV projected; physical edge chips supplement generic texture wear.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;chain-chomp&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json; catalog/README.md&quot;,
+      &quot;interpretation&quot;: &quot;User brief and recognizable source-inspired silhouette; no verified assembled sprite match.&quot;,
+      &quot;descriptor&quot;: &quot;OBJ_CHAINCHOMP, id 137, ObjP89, PRG/prg004.asm:396&quot;,
+      &quot;resolution&quot;: &quot;unresolved specialized compositor; not a pixel-exact reconstruction&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually validated during authoring.&quot;,
+      &quot;Static pose; no animation clips or physics.&quot;,
+      &quot;Microtexture swatches are UV projected; physical edge chips supplement generic texture wear.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/pipes-1/preview.png"><img loading="lazy" src="families/pipes-1/preview.png" alt="Rendered exported GLB contact sheet: pipes-1"></a><div class="body"><h2>pipes-1</h2><p class="badge">contact sheet audited · candidate</p><p>Hollow pipes, flanges, bolts and enamel highlights visible.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/pipes-1/library.blend">Blender library</a> · <a href="families/pipes-1/manifest.json">Manifest</a> · <a href="families/pipes-1/validation.json">GLB checks</a> · <a href="families/pipes-1/visual-review.json">Visual review</a> · <a href="sources/pipes-1.py">Authoring source</a></p><p class="assets"><a href="families/pipes-1/models/pipe-gold.glb">pipe-gold</a> · <a href="families/pipes-1/models/pipe-green.glb">pipe-green</a> · <a href="families/pipes-1/models/pipe-red.glb">pipe-red</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;pipe-green&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;definitions&quot;: [
+        &quot;Tile_Layout_TS1-173&quot;,
+        &quot;Tile_Layout_TS1-174&quot;
+      ],
+      &quot;symbols&quot;: [
+        &quot;TILE1_PIPETB1_L&quot;,
+        &quot;TILE1_PIPETB1_R&quot;
+      ],
+      &quot;visual_catalog&quot;: &quot;binary-metatiles-00.png&quot;,
+      &quot;interpretation&quot;: &quot;Wide mouth over narrower vertical barrel; colors from requested family.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored code only: Blender execution, export and visual inspection pending central queue.&quot;,
+      &quot;All variants share 2 x 2 x 3 dimensions; red and gold heights were unspecified.&quot;,
+      &quot;Industrial joints, fasteners and wear are interpretive additions, not literal ROM details.&quot;,
+      &quot;Bore is open through the base; scene ground or receiving pipe supplies its termination.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;pipe-red&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;definitions&quot;: [
+        &quot;Tile_Layout_TS1-173&quot;,
+        &quot;Tile_Layout_TS1-174&quot;
+      ],
+      &quot;symbols&quot;: [
+        &quot;TILE1_PIPETB1_L&quot;,
+        &quot;TILE1_PIPETB1_R&quot;
+      ],
+      &quot;visual_catalog&quot;: &quot;binary-metatiles-00.png&quot;,
+      &quot;interpretation&quot;: &quot;Wide mouth over narrower vertical barrel; colors from requested family.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored code only: Blender execution, export and visual inspection pending central queue.&quot;,
+      &quot;All variants share 2 x 2 x 3 dimensions; red and gold heights were unspecified.&quot;,
+      &quot;Industrial joints, fasteners and wear are interpretive additions, not literal ROM details.&quot;,
+      &quot;Bore is open through the base; scene ground or receiving pipe supplies its termination.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;pipe-gold&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;definitions&quot;: [
+        &quot;Tile_Layout_TS1-173&quot;,
+        &quot;Tile_Layout_TS1-174&quot;
+      ],
+      &quot;symbols&quot;: [
+        &quot;TILE1_PIPETB1_L&quot;,
+        &quot;TILE1_PIPETB1_R&quot;
+      ],
+      &quot;visual_catalog&quot;: &quot;binary-metatiles-00.png&quot;,
+      &quot;interpretation&quot;: &quot;Wide mouth over narrower vertical barrel; colors from requested family.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored code only: Blender execution, export and visual inspection pending central queue.&quot;,
+      &quot;All variants share 2 x 2 x 3 dimensions; red and gold heights were unspecified.&quot;,
+      &quot;Industrial joints, fasteners and wear are interpretive additions, not literal ROM details.&quot;,
+      &quot;Bore is open through the base; scene ground or receiving pipe supplies its termination.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/pipes-2/preview.png"><img loading="lazy" src="families/pipes-2/preview.png" alt="Rendered exported GLB contact sheet: pipes-2"></a><div class="body"><h2>pipes-2</h2><p class="badge">contact sheet audited · candidate</p><p>Elbow and short pipe geometry clear. Strong orange-peel roughness is authored styling.</p><p class="meta">2 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/pipes-2/library.blend">Blender library</a> · <a href="families/pipes-2/manifest.json">Manifest</a> · <a href="families/pipes-2/validation.json">GLB checks</a> · <a href="families/pipes-2/visual-review.json">Visual review</a> · <a href="sources/pipes-2.py">Authoring source</a></p><p class="assets"><a href="families/pipes-2/models/pipe-elbow.glb">pipe-elbow</a> · <a href="families/pipes-2/models/pipe-short.glb">pipe-short</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;pipe-elbow&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;/Users/stephenhung/Documents/Codex/2026-09-08/o/outputs/smb3-rom-assets/catalog&quot;,
+      &quot;json&quot;: &quot;binary-asset-manifest.json&quot;,
+      &quot;symbols&quot;: [
+        &quot;TILE1_PIPETB1_L&quot;,
+        &quot;TILE1_PIPETB1_R&quot;,
+        &quot;TILE1_PIPEH1_B&quot;,
+        &quot;TILE1_PIPEH_T&quot;
+      ],
+      &quot;viewed_sheet&quot;: &quot;binary-metatiles-00.png&quot;,
+      &quot;basis&quot;: &quot;Paired pipe top/bottom tiles and horizontal barrel tiles: broad collar, narrower barrel, green enamel. Rounded elbow is an authored adaptation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored code only; Blender execution and visual review belong to central queue.&quot;,
+      &quot;Elbow sweep, flange hardware and wear are physical interpretations, not pixel-exact ROM geometry.&quot;,
+      &quot;Wear textures repeat; no unique object-space dirt or baked ambient occlusion.&quot;,
+      &quot;Bores remain open at the floor; no artificial black cap or ground plane is included.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;pipe-short&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;/Users/stephenhung/Documents/Codex/2026-09-08/o/outputs/smb3-rom-assets/catalog&quot;,
+      &quot;json&quot;: &quot;binary-asset-manifest.json&quot;,
+      &quot;symbols&quot;: [
+        &quot;TILE1_PIPETB1_L&quot;,
+        &quot;TILE1_PIPETB1_R&quot;,
+        &quot;TILE1_PIPEH1_B&quot;,
+        &quot;TILE1_PIPEH_T&quot;
+      ],
+      &quot;viewed_sheet&quot;: &quot;binary-metatiles-00.png&quot;,
+      &quot;basis&quot;: &quot;Paired pipe top/bottom tiles and horizontal barrel tiles: broad collar, narrower barrel, green enamel. Rounded elbow is an authored adaptation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored code only; Blender execution and visual review belong to central queue.&quot;,
+      &quot;Elbow sweep, flange hardware and wear are physical interpretations, not pixel-exact ROM geometry.&quot;,
+      &quot;Wear textures repeat; no unique object-space dirt or baked ambient occlusion.&quot;,
+      &quot;Bores remain open at the floor; no artificial black cap or ground plane is included.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/set-dressing-1/preview.png"><img loading="lazy" src="families/set-dressing-1/preview.png" alt="Rendered exported GLB contact sheet: set-dressing-1"></a><div class="body"><h2>set-dressing-1</h2><p class="badge">contact sheet audited · candidate</p><p>Grass and reeds thin geometry, rock cluster visibly low-poly/faceted, material maps visible.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/set-dressing-1/library.blend">Blender library</a> · <a href="families/set-dressing-1/manifest.json">Manifest</a> · <a href="families/set-dressing-1/validation.json">GLB checks</a> · <a href="families/set-dressing-1/visual-review.json">Visual review</a> · <a href="sources/set-dressing-1.py">Authoring source</a></p><p class="assets"><a href="families/set-dressing-1/models/grass-clump.glb">grass-clump</a> · <a href="families/set-dressing-1/models/reeds.glb">reeds</a> · <a href="families/set-dressing-1/models/rock-cluster.glb">rock-cluster</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;rock-cluster&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;evidence&quot;: &quot;TILE1_LITTLE_BUSH and TILE1_BUSH_UL/UR/BL/BR describe compact layered environment foliage; 16-pixel block scale from shared contract.&quot;,
+      &quot;interpretation&quot;: &quot;Natural set-dressing interpretation; no direct loose-rock, grass, or reed semantic reference found. No claimed exact ROM match.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Central queue render and visual review required.&quot;,
+      &quot;No authored alternate LOD meshes or wind animation; compact base topology only.&quot;,
+      &quot;Baked microdetail is generic material grain; foliage veins are represented by folded geometry.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;grass-clump&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;evidence&quot;: &quot;TILE1_LITTLE_BUSH and TILE1_BUSH_UL/UR/BL/BR describe compact layered environment foliage; 16-pixel block scale from shared contract.&quot;,
+      &quot;interpretation&quot;: &quot;Natural set-dressing interpretation; no direct loose-rock, grass, or reed semantic reference found. No claimed exact ROM match.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Central queue render and visual review required.&quot;,
+      &quot;No authored alternate LOD meshes or wind animation; compact base topology only.&quot;,
+      &quot;Baked microdetail is generic material grain; foliage veins are represented by folded geometry.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;reeds&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;evidence&quot;: &quot;TILE1_LITTLE_BUSH and TILE1_BUSH_UL/UR/BL/BR describe compact layered environment foliage; 16-pixel block scale from shared contract.&quot;,
+      &quot;interpretation&quot;: &quot;Natural set-dressing interpretation; no direct loose-rock, grass, or reed semantic reference found. No claimed exact ROM match.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Central queue render and visual review required.&quot;,
+      &quot;No authored alternate LOD meshes or wind animation; compact base topology only.&quot;,
+      &quot;Baked microdetail is generic material grain; foliage veins are represented by folded geometry.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/set-dressing-2/preview.png"><img loading="lazy" src="families/set-dressing-2/preview.png" alt="Rendered exported GLB contact sheet: set-dressing-2"></a><div class="body"><h2>set-dressing-2</h2><p class="badge">contact sheet audited · candidate</p><p>Gate metal scrollwork, crate slats and fence rails visible. Wood grain exaggerated but readable as physical prop detail.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/set-dressing-2/library.blend">Blender library</a> · <a href="families/set-dressing-2/manifest.json">Manifest</a> · <a href="families/set-dressing-2/validation.json">GLB checks</a> · <a href="families/set-dressing-2/visual-review.json">Visual review</a> · <a href="sources/set-dressing-2.py">Authoring source</a></p><p class="assets"><a href="families/set-dressing-2/models/metal-gate.glb">metal-gate</a> · <a href="families/set-dressing-2/models/wood-crate.glb">wood-crate</a> · <a href="families/set-dressing-2/models/wood-fence.glb">wood-fence</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;wood-crate&quot;,
+    &quot;source_basis&quot;: &quot;TILE4_LARGEWOOD_UL / TILE4_LONGWOOD_M: framed rectangular wooden block vocabulary; catalog binary-metatiles-00.png visually inspected.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually reviewed during authoring.&quot;,
+      &quot;Repeated 512px material swatches; no unique baked ambient occlusion.&quot;,
+      &quot;LOD1 simplification needs central visual review.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;wood-fence&quot;,
+    &quot;source_basis&quot;: &quot;TILE1_LITTLEFENCE: repeated posts and horizontal rails; catalog binary-metatiles-00.png visually inspected.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually reviewed during authoring.&quot;,
+      &quot;Repeated 512px material swatches; no unique baked ambient occlusion.&quot;,
+      &quot;LOD1 simplification needs central visual review.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;metal-gate&quot;,
+    &quot;source_basis&quot;: &quot;Original wrought-iron companion design; no exact gate ROM identification established.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually reviewed during authoring.&quot;,
+      &quot;Repeated 512px material swatches; no unique baked ambient occlusion.&quot;,
+      &quot;LOD1 simplification needs central visual review.&quot;,
+      &quot;Gate is static; leaves and hardware are separately editable but unrigged.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/terrain-1/preview.png"><img loading="lazy" src="families/terrain-1/preview.png" alt="Rendered exported GLB contact sheet: terrain-1"></a><div class="body"><h2>terrain-1</h2><p class="badge">contact sheet audited · candidate</p><p>Grass blades, pebbles and ground layers visible. Surface remains clean miniature style, not verified photoreal.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/terrain-1/library.blend">Blender library</a> · <a href="families/terrain-1/manifest.json">Manifest</a> · <a href="families/terrain-1/validation.json">GLB checks</a> · <a href="families/terrain-1/visual-review.json">Visual review</a> · <a href="sources/terrain-1.py">Authoring source</a></p><p class="assets"><a href="families/terrain-1/models/ground-grass.glb">ground-grass</a> · <a href="families/terrain-1/models/ground-sand.glb">ground-sand</a> · <a href="families/terrain-1/models/ground-soil.glb">ground-soil</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;ground-grass&quot;,
+    &quot;source_basis&quot;: {
+      &quot;definition&quot;: &quot;Tile_Layout_TS1-83&quot;,
+      &quot;symbol&quot;: &quot;TILE1_GROUNDTM&quot;,
+      &quot;image&quot;: &quot;binary-clips/binary-metatile-a685531faf40b75b48d8.png&quot;,
+      &quot;context&quot;: &quot;context-1-0-1&quot;,
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;interpretation&quot;: &quot;Source tile silhouette and repeating ground role; material microstructure and depth are authored interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not visually reviewed until the central queue renders it.&quot;,
+      &quot;Nominal 1 m envelope; surface height varies and grass blades end below 1 m.&quot;,
+      &quot;Same-asset substrate joins tile in X/Y; scattered details are kept inside tile bounds. Cross-family upper edges differ.&quot;,
+      &quot;Material swatches are 512 px. No scanned material source.&quot;,
+      &quot;Interior cut faces retained for independent tile use.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;ground-soil&quot;,
+    &quot;source_basis&quot;: {
+      &quot;definition&quot;: &quot;Tile_Layout_TS1-84&quot;,
+      &quot;symbol&quot;: &quot;TILE1_GROUNDMM&quot;,
+      &quot;image&quot;: &quot;binary-clips/binary-metatile-7703daa188dd301288d1.png&quot;,
+      &quot;context&quot;: &quot;context-1-0-1&quot;,
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;interpretation&quot;: &quot;Source tile silhouette and repeating ground role; material microstructure and depth are authored interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not visually reviewed until the central queue renders it.&quot;,
+      &quot;Nominal 1 m envelope; surface height varies and grass blades end below 1 m.&quot;,
+      &quot;Same-asset substrate joins tile in X/Y; scattered details are kept inside tile bounds. Cross-family upper edges differ.&quot;,
+      &quot;Material swatches are 512 px. No scanned material source.&quot;,
+      &quot;Interior cut faces retained for independent tile use.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;ground-sand&quot;,
+    &quot;source_basis&quot;: {
+      &quot;definition&quot;: &quot;Tile_Layout_TS9-86&quot;,
+      &quot;symbol&quot;: &quot;TILE9_BRICK_UM&quot;,
+      &quot;image&quot;: &quot;binary-clips/binary-metatile-86d2d767fa6e41f5dc32.png&quot;,
+      &quot;context&quot;: &quot;context-9-0-9&quot;,
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;interpretation&quot;: &quot;Source tile silhouette and repeating ground role; material microstructure and depth are authored interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not visually reviewed until the central queue renders it.&quot;,
+      &quot;Nominal 1 m envelope; surface height varies and grass blades end below 1 m.&quot;,
+      &quot;Same-asset substrate joins tile in X/Y; scattered details are kept inside tile bounds. Cross-family upper edges differ.&quot;,
+      &quot;Material swatches are 512 px. No scanned material source.&quot;,
+      &quot;Interior cut faces retained for independent tile use.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/terrain-2/preview.png"><img loading="lazy" src="families/terrain-2/preview.png" alt="Rendered exported GLB contact sheet: terrain-2"></a><div class="body"><h2>terrain-2</h2><p class="badge">contact sheet audited · candidate</p><p>Snow cap, separated masonry and wood boards visible with material variation.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/terrain-2/library.blend">Blender library</a> · <a href="families/terrain-2/manifest.json">Manifest</a> · <a href="families/terrain-2/validation.json">GLB checks</a> · <a href="families/terrain-2/visual-review.json">Visual review</a> · <a href="sources/terrain-2.py">Authoring source</a></p><p class="assets"><a href="families/terrain-2/models/ground-snow.glb">ground-snow</a> · <a href="families/terrain-2/models/ground-stone.glb">ground-stone</a> · <a href="families/terrain-2/models/ground-wood.glb">ground-wood</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;ground-snow&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;definition&quot;: &quot;Tile_Layout_TS4_TS12-35&quot;,
+      &quot;symbol&quot;: &quot;TILE12_SNOWBLOCK_UM&quot;,
+      &quot;clip&quot;: &quot;binary-metatile-aff0fcc9032781b3e828&quot;,
+      &quot;interpretation&quot;: &quot;Source modular silhouette; realistic material and structural details are authored interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually inspected during authoring.&quot;,
+      &quot;Tile pitch is 4 along X; end faces retained. Masonry bevel seams remain visible.&quot;,
+      &quot;Snow uses opaque compacted crust, without volumetric scattering.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;ground-stone&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;definition&quot;: &quot;Tile_Layout_TS18-80&quot;,
+      &quot;symbol&quot;: &quot;TILE18_BRICKFLOOR&quot;,
+      &quot;clip&quot;: &quot;binary-metatile-74301bee8cfabbd00713&quot;,
+      &quot;interpretation&quot;: &quot;Source modular silhouette; realistic material and structural details are authored interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually inspected during authoring.&quot;,
+      &quot;Tile pitch is 4 along X; end faces retained. Masonry bevel seams remain visible.&quot;,
+      &quot;Surface wear is deterministic and repeats per segment.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;ground-wood&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog/binary-assets.json&quot;,
+      &quot;definition&quot;: &quot;Tile_Layout_TS4_TS12-75&quot;,
+      &quot;symbol&quot;: &quot;TILE4_LONGWOOD_M&quot;,
+      &quot;clip&quot;: &quot;binary-metatile-c2afb31ee45bc5564ce2&quot;,
+      &quot;interpretation&quot;: &quot;Source modular silhouette; realistic material and structural details are authored interpretation.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Not rendered or visually inspected during authoring.&quot;,
+      &quot;Tile pitch is 4 along X; end faces retained. Masonry bevel seams remain visible.&quot;,
+      &quot;Surface wear is deterministic and repeats per segment.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/vegetation-1/preview.png"><img loading="lazy" src="families/vegetation-1/preview.png" alt="Rendered exported GLB contact sheet: vegetation-1"></a><div class="body"><h2>vegetation-1</h2><p class="badge">contact sheet audited · candidate</p><p>Refined dense tiny elliptical curled leaves now replace large angular cardboard-like blades. Actual updated render shows a substantially smoother silhouette and restrained green variation. UV-space midrib and branch-vein normal map embedded; small veins not individually discernible at contact-sheet scale. Still an authored miniature shrub interpretation, not photoreal certification.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/vegetation-1/library.blend">Blender library</a> · <a href="families/vegetation-1/manifest.json">Manifest</a> · <a href="families/vegetation-1/validation.json">GLB checks</a> · <a href="families/vegetation-1/visual-review.json">Visual review</a> · <a href="sources/vegetation-1.py">Authoring source</a></p><p class="assets"><a href="families/vegetation-1/models/bush.glb">bush</a> · <a href="families/vegetation-1/models/hill-green.glb">hill-green</a> · <a href="families/vegetation-1/models/hill-tall.glb">hill-tall</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;hill-green&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;/Users/stephenhung/Documents/Codex/2026-09-08/o/outputs/smb3-rom-assets/catalog&quot;,
+      &quot;visual_reference&quot;: &quot;observed-metatile-00.png&quot;,
+      &quot;semantic_reference&quot;: &quot;binary-asset-manifest.json&quot;,
+      &quot;bush_symbols&quot;: [
+        &quot;TILE1_LITTLE_BUSH&quot;,
+        &quot;TILE1_BUSH_UL&quot;,
+        &quot;TILE1_BUSH_UR&quot;,
+        &quot;TILE1_BUSH_FUL&quot;,
+        &quot;TILE1_BUSH_FUR&quot;
+      ],
+      &quot;hill_symbols&quot;: [
+        &quot;TILE11_HILL_PEAK&quot;,
+        &quot;TILE11_HILL_LSLOPE&quot;,
+        &quot;TILE11_HILL_RSLOPE&quot;
+      ],
+      &quot;interpretation&quot;: &quot;Rounded crowns, upright hill sides and overlapping bush lobes; depth and botanical detail are authored reinterpretations, not ROM geometry.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored procedural interpretation; central render review pending&quot;,
+      &quot;Leaf sheets are opaque two-sided surfaces without physical thickness&quot;,
+      &quot;Both hills obey 4 by 3 requested silhouette bounds; tall variant has steeper shoulders&quot;,
+      &quot;No wind rig; overlapping bush cores remain independently editable&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;hill-tall&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;/Users/stephenhung/Documents/Codex/2026-09-08/o/outputs/smb3-rom-assets/catalog&quot;,
+      &quot;visual_reference&quot;: &quot;observed-metatile-00.png&quot;,
+      &quot;semantic_reference&quot;: &quot;binary-asset-manifest.json&quot;,
+      &quot;bush_symbols&quot;: [
+        &quot;TILE1_LITTLE_BUSH&quot;,
+        &quot;TILE1_BUSH_UL&quot;,
+        &quot;TILE1_BUSH_UR&quot;,
+        &quot;TILE1_BUSH_FUL&quot;,
+        &quot;TILE1_BUSH_FUR&quot;
+      ],
+      &quot;hill_symbols&quot;: [
+        &quot;TILE11_HILL_PEAK&quot;,
+        &quot;TILE11_HILL_LSLOPE&quot;,
+        &quot;TILE11_HILL_RSLOPE&quot;
+      ],
+      &quot;interpretation&quot;: &quot;Rounded crowns, upright hill sides and overlapping bush lobes; depth and botanical detail are authored reinterpretations, not ROM geometry.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored procedural interpretation; central render review pending&quot;,
+      &quot;Leaf sheets are opaque two-sided surfaces without physical thickness&quot;,
+      &quot;Both hills obey 4 by 3 requested silhouette bounds; tall variant has steeper shoulders&quot;,
+      &quot;No wind rig; overlapping bush cores remain independently editable&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;bush&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;/Users/stephenhung/Documents/Codex/2026-09-08/o/outputs/smb3-rom-assets/catalog&quot;,
+      &quot;visual_reference&quot;: &quot;observed-metatile-00.png&quot;,
+      &quot;semantic_reference&quot;: &quot;binary-asset-manifest.json&quot;,
+      &quot;bush_symbols&quot;: [
+        &quot;TILE1_LITTLE_BUSH&quot;,
+        &quot;TILE1_BUSH_UL&quot;,
+        &quot;TILE1_BUSH_UR&quot;,
+        &quot;TILE1_BUSH_FUL&quot;,
+        &quot;TILE1_BUSH_FUR&quot;
+      ],
+      &quot;hill_symbols&quot;: [
+        &quot;TILE11_HILL_PEAK&quot;,
+        &quot;TILE11_HILL_LSLOPE&quot;,
+        &quot;TILE11_HILL_RSLOPE&quot;
+      ],
+      &quot;interpretation&quot;: &quot;Rounded crowns, upright hill sides and overlapping bush lobes; depth and botanical detail are authored reinterpretations, not ROM geometry.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Authored procedural interpretation; central render review pending&quot;,
+      &quot;Leaf sheets are opaque two-sided surfaces without physical thickness&quot;,
+      &quot;Both hills obey 4 by 3 requested silhouette bounds; tall variant has steeper shoulders&quot;,
+      &quot;No wind rig; overlapping bush cores remain independently editable&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/vegetation-2/preview.png"><img loading="lazy" src="families/vegetation-2/preview.png" alt="Rendered exported GLB contact sheet: vegetation-2"></a><div class="body"><h2>vegetation-2</h2><p class="badge">contact sheet audited · candidate</p><p>Fern, vine and mushroom tree render with materials. Mushroom canopy and leaves visibly stylized/faceted.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/vegetation-2/library.blend">Blender library</a> · <a href="families/vegetation-2/manifest.json">Manifest</a> · <a href="families/vegetation-2/validation.json">GLB checks</a> · <a href="families/vegetation-2/visual-review.json">Visual review</a> · <a href="sources/vegetation-2.py">Authoring source</a></p><p class="assets"><a href="families/vegetation-2/models/fern.glb">fern</a> · <a href="families/vegetation-2/models/mushroom-tree.glb">mushroom-tree</a> · <a href="families/vegetation-2/models/vine.glb">vine</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;fern&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog&quot;,
+      &quot;symbols&quot;: [
+        &quot;TILE1_LITTLE_BUSH&quot;,
+        &quot;TILE3_BGBUSH_L/M/R&quot;
+      ],
+      &quot;visual_reference&quot;: &quot;observed-metatile-00.png: rounded green bush crowns and layered borders&quot;,
+      &quot;interpretation&quot;: &quot;Botanical interpretation; fern and mushroom-tree are not verified exact named ROM objects.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Central queue render review pending; no visual quality claim.&quot;,
+      &quot;Deterministic material swatches are not photographic scans.&quot;,
+      &quot;Thin closed leaves use low polygon folded laminae; no botanical vein scan.&quot;,
+      &quot;Nominal bounds exclude small rock bevel changes.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;vine&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog&quot;,
+      &quot;symbols&quot;: [
+        &quot;TILE1_VINE&quot;,
+        &quot;OBJ_GROWINGVINE&quot;
+      ],
+      &quot;visual_reference&quot;: &quot;observed-metatile-00.png: rounded green bush crowns and layered borders&quot;,
+      &quot;interpretation&quot;: &quot;Botanical interpretation; fern and mushroom-tree are not verified exact named ROM objects.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Central queue render review pending; no visual quality claim.&quot;,
+      &quot;Deterministic material swatches are not photographic scans.&quot;,
+      &quot;Thin closed leaves use low polygon folded laminae; no botanical vein scan.&quot;,
+      &quot;Nominal bounds exclude small rock bevel changes.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;mushroom-tree&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;smb3-rom-assets/catalog&quot;,
+      &quot;symbols&quot;: [
+        &quot;TILE1_BUSH_UL/UR&quot;,
+        &quot;TILE11_HILL_PEAK&quot;
+      ],
+      &quot;visual_reference&quot;: &quot;observed-metatile-00.png: rounded green bush crowns and layered borders&quot;,
+      &quot;interpretation&quot;: &quot;Botanical interpretation; fern and mushroom-tree are not verified exact named ROM objects.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Central queue render review pending; no visual quality claim.&quot;,
+      &quot;Deterministic material swatches are not photographic scans.&quot;,
+      &quot;Thin closed leaves use low polygon folded laminae; no botanical vein scan.&quot;,
+      &quot;Nominal bounds exclude small rock bevel changes.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/worldmap-1/preview.png"><img loading="lazy" src="families/worldmap-1/preview.png" alt="Rendered exported GLB contact sheet: worldmap-1"></a><div class="body"><h2>worldmap-1</h2><p class="badge">contact sheet audited · candidate</p><p>Castle and fortress masonry, flags, arched wood doors clear; mushroom house spots appear eye-like rings, requiring art review against source.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/worldmap-1/library.blend">Blender library</a> · <a href="families/worldmap-1/manifest.json">Manifest</a> · <a href="families/worldmap-1/validation.json">GLB checks</a> · <a href="families/worldmap-1/visual-review.json">Visual review</a> · <a href="sources/worldmap-1.py">Authoring source</a></p><p class="assets"><a href="families/worldmap-1/models/map-castle.glb">map-castle</a> · <a href="families/worldmap-1/models/map-fortress.glb">map-fortress</a> · <a href="families/worldmap-1/models/map-house.glb">map-house</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;map-castle&quot;,
+    &quot;source_basis&quot;: &quot;ROM catalog worldmap-metatiles-00.png: spotted mushroom-house silhouettes in row 5; crenellated gate/building silhouettes in lower architectural rows. WORLDMAP.md and worldmap-assets.json inspected. Architectural depth, joinery and PBR surfaces are authored interpretations; no ROM textures embedded.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Unrendered authoring; central visual QA required.&quot;,
+      &quot;Closed miniature buildings; no accessible interiors.&quot;,
+      &quot;Surface textures are baked or synthesized, not scanned.&quot;,
+      &quot;Windows and arrow slits use dark inset geometry, not cut-through openings.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;map-fortress&quot;,
+    &quot;source_basis&quot;: &quot;ROM catalog worldmap-metatiles-00.png: spotted mushroom-house silhouettes in row 5; crenellated gate/building silhouettes in lower architectural rows. WORLDMAP.md and worldmap-assets.json inspected. Architectural depth, joinery and PBR surfaces are authored interpretations; no ROM textures embedded.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Unrendered authoring; central visual QA required.&quot;,
+      &quot;Closed miniature buildings; no accessible interiors.&quot;,
+      &quot;Surface textures are baked or synthesized, not scanned.&quot;,
+      &quot;Windows and arrow slits use dark inset geometry, not cut-through openings.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;map-house&quot;,
+    &quot;source_basis&quot;: &quot;ROM catalog worldmap-metatiles-00.png: spotted mushroom-house silhouettes in row 5; crenellated gate/building silhouettes in lower architectural rows. WORLDMAP.md and worldmap-assets.json inspected. Architectural depth, joinery and PBR surfaces are authored interpretations; no ROM textures embedded.&quot;,
+    &quot;author_limitations&quot;: [
+      &quot;Unrendered authoring; central visual QA required.&quot;,
+      &quot;Closed miniature buildings; no accessible interiors.&quot;,
+      &quot;Surface textures are baked or synthesized, not scanned.&quot;,
+      &quot;Windows and arrow slits use dark inset geometry, not cut-through openings.&quot;
+    ]
+  }
+]</pre></details></div></article><article><a href="families/worldmap-2/preview.png"><img loading="lazy" src="families/worldmap-2/preview.png" alt="Rendered exported GLB contact sheet: worldmap-2"></a><div class="body"><h2>worldmap-2</h2><p class="badge">contact sheet audited · candidate</p><p>Boat plank detail, bridge ropes/boards and lock hardware visible; lock shackle has visibly angular segments.</p><p class="meta">3 GLBs · build done · current structural evidence verified</p><p class="links"><a href="families/worldmap-2/library.blend">Blender library</a> · <a href="families/worldmap-2/manifest.json">Manifest</a> · <a href="families/worldmap-2/validation.json">GLB checks</a> · <a href="families/worldmap-2/visual-review.json">Visual review</a> · <a href="sources/worldmap-2.py">Authoring source</a></p><p class="assets"><a href="families/worldmap-2/models/map-boat.glb">map-boat</a> · <a href="families/worldmap-2/models/map-bridge.glb">map-bridge</a> · <a href="families/worldmap-2/models/map-lock.glb">map-lock</a></p><details><summary>Source correspondence and author limitations</summary><p>Author statements below are provenance notes, not independent equivalence checks. Later visual review above may supersede author-time review status.</p><pre>[
+  {
+    &quot;asset&quot;: &quot;map-bridge&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;/Users/stephenhung/Documents/Codex/2026-09-08/o/outputs/smb3-rom-assets/catalog/worldmap-assets.json&quot;,
+      &quot;visual_reference&quot;: &quot;worldmap-metatiles-00.png&quot;,
+      &quot;interpretation&quot;: &quot;Source-inspired silhouette, not a pixel-exact reconstruction; physical construction follows family brief.&quot;,
+      &quot;bridge_context&quot;: &quot;WORLDMAP.md: world 3 phases 0/1 bridges down; authored as a fixed span.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Pending central Blender render and visual inspection.&quot;,
+      &quot;No rig, animation or collision mesh.&quot;,
+      &quot;Microdetail is tileable image PBR; wear is not individually baked per part.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;map-lock&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;/Users/stephenhung/Documents/Codex/2026-09-08/o/outputs/smb3-rom-assets/catalog/worldmap-assets.json&quot;,
+      &quot;visual_reference&quot;: &quot;worldmap-metatiles-00.png&quot;,
+      &quot;interpretation&quot;: &quot;Source-inspired silhouette, not a pixel-exact reconstruction; physical construction follows family brief.&quot;,
+      &quot;bridge_context&quot;: &quot;WORLDMAP.md: world 3 phases 0/1 bridges down; authored as a fixed span.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Pending central Blender render and visual inspection.&quot;,
+      &quot;No rig, animation or collision mesh.&quot;,
+      &quot;Microdetail is tileable image PBR; wear is not individually baked per part.&quot;
+    ]
+  },
+  {
+    &quot;asset&quot;: &quot;map-boat&quot;,
+    &quot;source_basis&quot;: {
+      &quot;catalog&quot;: &quot;/Users/stephenhung/Documents/Codex/2026-09-08/o/outputs/smb3-rom-assets/catalog/worldmap-assets.json&quot;,
+      &quot;visual_reference&quot;: &quot;worldmap-metatiles-00.png&quot;,
+      &quot;interpretation&quot;: &quot;Source-inspired silhouette, not a pixel-exact reconstruction; physical construction follows family brief.&quot;,
+      &quot;bridge_context&quot;: &quot;WORLDMAP.md: world 3 phases 0/1 bridges down; authored as a fixed span.&quot;
+    },
+    &quot;author_limitations&quot;: [
+      &quot;Pending central Blender render and visual inspection.&quot;,
+      &quot;No rig, animation or collision mesh.&quot;,
+      &quot;Microdetail is tileable image PBR; wear is not individually baked per part.&quot;
+    ]
+  }
+]</pre></details></div></article></main><footer><h2>Reproduce and refresh</h2><pre># Run from the original workspace root. Requires authenticated Codex CLI
+# at work/photoreal-swarm/runtime/node_modules/.bin/codex.
+python3 outputs/smb3-photoreal/tools/swarm.py author --workers 24
+
+# Build/render all authored families, including extra-build-jobs.json.
+# This queue has exactly two Blender slots; run only one queue process.
+python3 outputs/smb3-photoreal/tools/build_queue.py --max-wait 7200
+
+# Alternatively, rebuild/resume selected families after editing their build.py.
+python3 outputs/smb3-photoreal/tools/build_queue.py --families blocks-1 clouds --max-wait 1800
+
+# Refresh this gallery and report after builds or visual reviews.
+python3 outputs/smb3-photoreal/tools/build_gallery.py</pre><p>Build scripts currently use /Volumes/Blender/Blender.app/Contents/MacOS/Blender. Update the BLENDER constant if installed elsewhere. A matching SHA-256 for each preview and GLB is required before this page counts a recorded audit as current.</p></footer></html>

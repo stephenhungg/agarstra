@@ -1,0 +1,193 @@
+{
+  "items": [
+    {
+      "id": "645eb014-b40b-45a2-9ead-53727b009b8e",
+      "type": "image",
+      "status": "completed",
+      "model": "nano_banana_2",
+      "params": {
+        "prompt": "Create an exceptionally polished editorial 3D illustration for agarstra, a software product that turns retro game ROMs into editable playable 3D worlds. Original fictional design, no existing game characters, no text, no labels, no logos, no UI. Sophisticated miniature game-world art direction, physically tactile materials, precise soft shadows, restrained pale ivory, moss green, cobalt blue, charcoal palette with a small acid yellow accent. Wide 16:9 composition, premium design studio quality. A dreamlike landscape emerging from a small unbranded charcoal game cartridge, floating architectural islands and bright green sculptural foliage, block-like pixels on the left gradually becoming smooth beautifully modeled geometry on the right. Broad clean ivory negative space across the top and center so a website wordmark can overlay legibly. Objects concentrated at the bottom and right. Soft daylight, highly art-directed, playful but refined.",
+        "aspect_ratio": "16:9",
+        "input_images": [],
+        "width": 2752,
+        "height": 1536,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "results": {
+        "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224601_645eb014-b40b-45a2-9ead-53727b009b8e.png",
+        "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224601_645eb014-b40b-45a2-9ead-53727b009b8e_min.webp"
+      },
+      "createdAt": 1788907561.869082
+    },
+    {
+      "id": "950a1cbc-38c8-4dce-8fd2-a9132f328e10",
+      "type": "image",
+      "status": "completed",
+      "model": "nano_banana_2",
+      "params": {
+        "prompt": "Create an exceptionally polished editorial 3D illustration for agarstra, a software product that turns retro game ROMs into editable playable 3D worlds. Original fictional design, no existing game characters, no text, no labels, no logos, no UI. Sophisticated miniature game-world art direction, physically tactile materials, precise soft shadows, restrained pale ivory, moss green, cobalt blue, charcoal palette with a small acid yellow accent. Wide 16:9 composition, premium design studio quality. A complete fictional side-scrolling garden game environment as a large floating sculptural diorama, mossy stone platforms, a winding cobalt stream, rounded carefully modeled trees, brass collectible rings, small stone archways. No characters. Three-quarter camera, rich macro texture, soft cream backdrop, the world fills the frame.",
+        "aspect_ratio": "16:9",
+        "input_images": [],
+        "width": 2752,
+        "height": 1536,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "results": {
+        "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224602_950a1cbc-38c8-4dce-8fd2-a9132f328e10.png",
+        "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224602_950a1cbc-38c8-4dce-8fd2-a9132f328e10_min.webp"
+      },
+      "createdAt": 1788907562.126187
+    },
+    {
+      "id": "83b9a593-276c-4d96-a37f-c55f33bf94cd",
+      "type": "image",
+      "status": "completed",
+      "model": "nano_banana_2",
+      "params": {
+        "prompt": "Create an exceptionally polished editorial 3D illustration for agarstra, a software product that turns retro game ROMs into editable playable 3D worlds. Original fictional design, no existing game characters, no text, no labels, no logos, no UI. Sophisticated miniature game-world art direction, physically tactile materials, precise soft shadows, restrained pale ivory, moss green, cobalt blue, charcoal palette with a small acid yellow accent. Wide 16:9 composition, premium design studio quality. A miniature industrial game world with coral-orange enamel machines, a charming original small mechanical beetle made from brushed metal, cobalt power cables and modular factory platforms. Refined workshop diorama, tactile rubber metal ceramic, cinematic close camera, no text or interface.",
+        "aspect_ratio": "16:9",
+        "input_images": [],
+        "width": 2752,
+        "height": 1536,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "results": {
+        "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224602_83b9a593-276c-4d96-a37f-c55f33bf94cd.png",
+        "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224602_83b9a593-276c-4d96-a37f-c55f33bf94cd_min.webp"
+      },
+      "createdAt": 1788907562.297573
+    },
+    {
+      "id": "aef8f3c9-98bc-49bc-b21a-c94d841089a3",
+      "type": "image",
+      "status": "completed",
+      "model": "nano_banana_2",
+      "params": {
+        "prompt": "Create an exceptionally polished editorial 3D illustration for agarstra, a software product that turns retro game ROMs into editable playable 3D worlds. Original fictional design, no existing game characters, no text, no labels, no logos, no UI. Sophisticated miniature game-world art direction, physically tactile materials, precise soft shadows, restrained pale ivory, moss green, cobalt blue, charcoal palette with a small acid yellow accent. Wide 16:9 composition, premium design studio quality. A crystalline ice game environment with translucent cobalt and aqua ice, sculptural snowy terraces, small mirrored geometric crystals and weathered white stone archways floating above a pale blue background. Side-on isometric game diorama, exceptionally beautiful material separation and lighting.",
+        "aspect_ratio": "16:9",
+        "input_images": [],
+        "width": 2752,
+        "height": 1536,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "results": {
+        "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224601_aef8f3c9-98bc-49bc-b21a-c94d841089a3.png",
+        "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224601_aef8f3c9-98bc-49bc-b21a-c94d841089a3_min.webp"
+      },
+      "createdAt": 1788907561.811088
+    },
+    {
+      "id": "61939118-96d0-4d7a-9ff7-3b6cc2d1201f",
+      "type": "image",
+      "status": "completed",
+      "model": "nano_banana_2",
+      "params": {
+        "prompt": "Create an exceptionally polished editorial 3D illustration for agarstra, a software product that turns retro game ROMs into editable playable 3D worlds. Original fictional design, no existing game characters, no text, no labels, no logos, no UI. Sophisticated miniature game-world art direction, physically tactile materials, precise soft shadows, restrained pale ivory, moss green, cobalt blue, charcoal palette with a small acid yellow accent. Wide 16:9 composition, premium design studio quality. An exploded assembly of an original game-world terrain tile: raw square pixel mosaic base, wireframe geometry layer, smooth clay mesh layer, finished moss-green stone and foliage layer hovering above. Elegant spatial separation, quiet ivory background, technical editorial object study, no arrows or labels, one cohesive dimensional composition.",
+        "aspect_ratio": "16:9",
+        "input_images": [],
+        "width": 2752,
+        "height": 1536,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "results": {
+        "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224602_61939118-96d0-4d7a-9ff7-3b6cc2d1201f.png",
+        "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224602_61939118-96d0-4d7a-9ff7-3b6cc2d1201f_min.webp"
+      },
+      "createdAt": 1788907562.385993
+    },
+    {
+      "id": "0bff0c61-2907-4584-9f47-0421045ff03a",
+      "type": "image",
+      "status": "completed",
+      "model": "nano_banana_2",
+      "params": {
+        "prompt": "Create an exceptionally polished editorial 3D illustration for agarstra, a software product that turns retro game ROMs into editable playable 3D worlds. Original fictional design, no existing game characters, no text, no labels, no logos, no UI. Sophisticated miniature game-world art direction, physically tactile materials, precise soft shadows, restrained pale ivory, moss green, cobalt blue, charcoal palette with a small acid yellow accent. Wide 16:9 composition, premium design studio quality. Macro editorial product photograph of a fictional unbranded charcoal retro game cartridge, partially translucent frosted casing revealing a pristine cobalt circuit board and gold pins. A few small lime and stone cubes suspended nearby. Physical artifact on warm ivory surface, crisp contact shadows, soft natural studio light, balanced wide composition.",
+        "aspect_ratio": "16:9",
+        "input_images": [],
+        "width": 2752,
+        "height": 1536,
+        "resolution": "2k",
+        "batch_size": 1,
+        "input_image": null,
+        "application": null,
+        "surface": null
+      },
+      "results": {
+        "rawUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224601_0bff0c61-2907-4584-9f47-0421045ff03a.png",
+        "minUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224601_0bff0c61-2907-4584-9f47-0421045ff03a_min.webp"
+      },
+      "createdAt": 1788907561.911005
+    }
+  ],
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "645eb014-b40b-45a2-9ead-53727b009b8e",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224601_645eb014-b40b-45a2-9ead-53727b009b8e.png"
+    },
+    {
+      "index": 1,
+      "job_id": "950a1cbc-38c8-4dce-8fd2-a9132f328e10",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224602_950a1cbc-38c8-4dce-8fd2-a9132f328e10.png"
+    },
+    {
+      "index": 2,
+      "job_id": "83b9a593-276c-4d96-a37f-c55f33bf94cd",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224602_83b9a593-276c-4d96-a37f-c55f33bf94cd.png"
+    },
+    {
+      "index": 3,
+      "job_id": "aef8f3c9-98bc-49bc-b21a-c94d841089a3",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224601_aef8f3c9-98bc-49bc-b21a-c94d841089a3.png"
+    },
+    {
+      "index": 4,
+      "job_id": "61939118-96d0-4d7a-9ff7-3b6cc2d1201f",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224602_61939118-96d0-4d7a-9ff7-3b6cc2d1201f.png"
+    },
+    {
+      "index": 5,
+      "job_id": "0bff0c61-2907-4584-9f47-0421045ff03a",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_224601_0bff0c61-2907-4584-9f47-0421045ff03a.png"
+    }
+  ],
+  "all_found": true
+}

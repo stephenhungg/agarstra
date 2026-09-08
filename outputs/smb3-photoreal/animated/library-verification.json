@@ -1,0 +1,115 @@
+{
+  "savedLibraryReadback": true,
+  "jointCount": 25,
+  "defaultPlaybackChangedJoints": 24,
+  "changedJoints": [
+    "ANIM_body",
+    "ANIM_body.001",
+    "ANIM_body.002",
+    "ANIM_body.003",
+    "ANIM_head",
+    "ANIM_head.001",
+    "ANIM_head.002",
+    "ANIM_head.003",
+    "ANIM_left_arm",
+    "ANIM_left_arm.001",
+    "ANIM_left_arm.002",
+    "ANIM_left_leaf",
+    "ANIM_left_leg",
+    "ANIM_left_leg.001",
+    "ANIM_left_leg.002",
+    "ANIM_left_leg.003",
+    "ANIM_right_arm",
+    "ANIM_right_arm.001",
+    "ANIM_right_arm.002",
+    "ANIM_right_leaf",
+    "ANIM_right_leg",
+    "ANIM_right_leg.001",
+    "ANIM_right_leg.002",
+    "ANIM_right_leg.003"
+  ],
+  "defaultTracks": {
+    "ANIM_body": [
+      "walk"
+    ],
+    "ANIM_body.001": [
+      "walk"
+    ],
+    "ANIM_body.002": [
+      "walk"
+    ],
+    "ANIM_body.003": [
+      "walk"
+    ],
+    "ANIM_body.004": [
+      "bite"
+    ],
+    "ANIM_head": [
+      "walk"
+    ],
+    "ANIM_head.001": [
+      "walk"
+    ],
+    "ANIM_head.002": [
+      "walk"
+    ],
+    "ANIM_head.003": [
+      "bite"
+    ],
+    "ANIM_left_arm": [
+      "walk"
+    ],
+    "ANIM_left_arm.001": [
+      "walk"
+    ],
+    "ANIM_left_arm.002": [
+      "walk"
+    ],
+    "ANIM_left_leaf": [
+      "bite"
+    ],
+    "ANIM_left_leg": [
+      "walk"
+    ],
+    "ANIM_left_leg.001": [
+      "walk"
+    ],
+    "ANIM_left_leg.002": [
+      "walk"
+    ],
+    "ANIM_left_leg.003": [
+      "walk"
+    ],
+    "ANIM_right_arm": [
+      "walk"
+    ],
+    "ANIM_right_arm.001": [
+      "walk"
+    ],
+    "ANIM_right_arm.002": [
+      "walk"
+    ],
+    "ANIM_right_leaf": [
+      "bite"
+    ],
+    "ANIM_right_leg": [
+      "walk"
+    ],
+    "ANIM_right_leg.001": [
+      "walk"
+    ],
+    "ANIM_right_leg.002": [
+      "walk"
+    ],
+    "ANIM_right_leg.003": [
+      "walk"
+    ]
+  },
+  "actionCount": 89,
+  "frameRange": [
+    1,
+    61
+  ],
+  "fps": 30,
+  "unpackedImages": []
+}

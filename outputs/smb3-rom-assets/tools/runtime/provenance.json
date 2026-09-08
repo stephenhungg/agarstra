@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "frames": 220,
+  "verifiedAssetUses": 25463,
+  "nonFirstAliasUses": 10652,
+  "mappedBanks1k": [
+    4,
+    8,
+    9,
+    79,
+    83,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103
+  ],
+  "aliasTest": [
+    {
+      "id": "000000001817170f00000000181f1808:000000112233445566778899:sprite",
+      "mapped": [
+        0
+      ]
+    },
+    {
+      "id": "000000001817170f00000000181f1808:000000112233445566778899:sprite",
+      "mapped": [
+        166
+      ]
+    },
+    {
+      "id": "000000001817170f00000000181f1808:000000112233445566778899:sprite",
+      "mapped": [
+        0,
+        166
+      ]
+    }
+  ],
+  "checks": [
+    "stable identity across bank aliases",
+    "per-frame provenance does not leak prior banks",
+    "multiple actual sources retained when used in one frame",
+    "all active sources match original ROM bytes",
+    "live mapping differs from first matching alias"
+  ]
+}

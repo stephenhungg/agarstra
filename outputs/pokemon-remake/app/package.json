@@ -1,0 +1,1 @@
+{"name":"pokemon-remake-workbench","version":"0.1.0","private":true,"type":"module","main":"electron.cjs","scripts":{"build":"node prepare.mjs && vite build","start":"npm run build && electron .","smoke":"npm run build && electron . --smoke"},"dependencies":{"three":"0.180.0"},"devDependencies":{"electron":"38.2.0","vite":"7.1.7"}}

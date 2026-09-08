@@ -1,0 +1,24 @@
+[
+  {
+    "scenario": "jump-scroll-stomp-coin-blocks",
+    "frames": 550,
+    "pixels": 33792000,
+    "mismatch": 0,
+    "first": null,
+    "emulationMismatch": 0,
+    "unresolved": 0,
+    "elapsedMs": 4686,
+    "uniqueAssets": 157
+  },
+  {
+    "scenario": "death-worldmap",
+    "frames": 600,
+    "pixels": 36864000,
+    "mismatch": 0,
+    "first": null,
+    "emulationMismatch": 0,
+    "unresolved": 0,
+    "elapsedMs": 4856,
+    "uniqueAssets": 822
+  }
+]

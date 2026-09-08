@@ -1,0 +1,8 @@
+id,role,type,source,status,blocking_defects
+squirtle,first battle creature,GLB,no mesh produced,pending,reference generation rejected; no alternate-provider retry
+cottage,two Pallet houses,GLB + Blender,models/cottage-v2.glb,changes-required,soft glossy roof; baked window reflections; remaining scene quality review
+broadleaf-tree,town boundary,GLB + Blender,environment/tree/tree.glb,changes-required,narrow tufted crown; bark color and leaf material
+trainer,player presentation,none,ROM positions currently shown as ring,pending,mesh and animation absent
+laboratory,Oak lab exterior,GLB + Blender,models/laboratory-v1.glb,changes-required,blue recessed vent cap; soft roof; baked glazing
+terrain,town surfaces,PBR runtime mesh,app/terrain.js,changes-required,brown/dry scanned surface; sparse grass; water depth and flowers absent
+charmander-existing,battle opponent candidate,skinned GLB + Blender,models/charmander-existing-v1.glb,inspection,clip semantics and GLB deformation review; materials and tail flame; CC BY-NC

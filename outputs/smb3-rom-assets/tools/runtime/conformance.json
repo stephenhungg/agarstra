@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "cases": 48,
+  "pixels": 6144,
+  "checks": [
+    "even and odd tile bank selection",
+    "top tile clears low bit without subtracting twice",
+    "horizontal flip",
+    "vertical flip swaps both halves and rows",
+    "sprite background priority variants"
+  ],
+  "scope": "direct synthetic 8x16 renderer conformance; separate from recomposition parity"
+}

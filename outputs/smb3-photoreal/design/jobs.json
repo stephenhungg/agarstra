@@ -1,0 +1,217 @@
+[
+  {
+    "id": "blocks-1",
+    "assets": [
+      "question-block",
+      "used-block",
+      "brick-block"
+    ],
+    "brief": "Source-recognizable golden question block with inset embossed question mark, countersunk corner bolts, weathered enamel and bevels; worn used block with inset panels; real masonry brick block with recessed mortar; granular fortress stone and frosted ice variants. No pixel extrusions."
+  },
+  {
+    "id": "blocks-2",
+    "assets": [
+      "stone-block",
+      "ice-block"
+    ],
+    "brief": "Source-recognizable golden question block with inset embossed question mark, countersunk corner bolts, weathered enamel and bevels; worn used block with inset panels; real masonry brick block with recessed mortar; granular fortress stone and frosted ice variants. No pixel extrusions."
+  },
+  {
+    "id": "pipes-1",
+    "assets": [
+      "pipe-green",
+      "pipe-red",
+      "pipe-gold"
+    ],
+    "brief": "Hollow cast enamel metal pipes: thick rolled rim, real dark interior geometry, flanged segment joints, subtle casting imperfections and scratches. Each rooted at floor; pipe-green should be 2 units diameter and 3 high. Real cylinder and torus tessellation, not block approximations."
+  },
+  {
+    "id": "pipes-2",
+    "assets": [
+      "pipe-elbow",
+      "pipe-short"
+    ],
+    "brief": "Hollow cast enamel metal pipes: thick rolled rim, real dark interior geometry, flanged segment joints, subtle casting imperfections and scratches. Each rooted at floor; pipe-green should be 2 units diameter and 3 high. Real cylinder and torus tessellation, not block approximations."
+  },
+  {
+    "id": "terrain-1",
+    "assets": [
+      "ground-grass",
+      "ground-soil",
+      "ground-sand"
+    ],
+    "brief": "Modular terrain segments with layers, soil clods, stones, dense small grass blades at top, natural dry sand ripples, compacted snow, rough fortress masonry, aged wood planks. 4 units wide, 1 high, depth2; root floor. Continuous tileable edges where possible. PBR surfaces must survive glTF."
+  },
+  {
+    "id": "terrain-2",
+    "assets": [
+      "ground-snow",
+      "ground-stone",
+      "ground-wood"
+    ],
+    "brief": "Modular terrain segments with layers, soil clods, stones, dense small grass blades at top, natural dry sand ripples, compacted snow, rough fortress masonry, aged wood planks. 4 units wide, 1 high, depth2; root floor. Continuous tileable edges where possible. PBR surfaces must survive glTF."
+  },
+  {
+    "id": "vegetation-1",
+    "assets": [
+      "hill-green",
+      "hill-tall",
+      "bush"
+    ],
+    "brief": "Reinterpret actual SMB3 rounded hill/bush silhouettes with organic layered vegetation, rounded topiary-like dense foliage and real irregular leaf geometry and underlying earthy rock, avoiding smooth shiny green balloons. Leaf planes may be leaves but model cannot be a single billboard. Hill width4 height3; bush width2 height1. Preserve lushgreen readable shape."
+  },
+  {
+    "id": "vegetation-2",
+    "assets": [
+      "fern",
+      "vine",
+      "mushroom-tree"
+    ],
+    "brief": "Reinterpret actual SMB3 rounded hill/bush silhouettes with organic layered vegetation, rounded topiary-like dense foliage and real irregular leaf geometry and underlying earthy rock, avoiding smooth shiny green balloons. Leaf planes may be leaves but model cannot be a single billboard. Hill width4 height3; bush width2 height1. Preserve lushgreen readable shape."
+  },
+  {
+    "id": "architecture-1",
+    "assets": [
+      "platform-coral",
+      "platform-cream",
+      "platform-blue",
+      "wood-platform"
+    ],
+    "brief": "Source raised rectangular colored platforms become thick painted plaster/wood architectural panels with rounded corners, recessed corner bolts and rear supports; platforms width3 height2 depth.5. Weathered wood airship plank hull and blackened castle brick. Layered materials, bevels, mechanical construction detail."
+  },
+  {
+    "id": "architecture-2",
+    "assets": [
+      "castle-wall",
+      "castle-door",
+      "airship-hull"
+    ],
+    "brief": "Source raised rectangular colored platforms become thick painted plaster/wood architectural panels with rounded corners, recessed corner bolts and rear supports; platforms width3 height2 depth.5. Weathered wood airship plank hull and blackened castle brick. Layered materials, bevels, mechanical construction detail."
+  },
+  {
+    "id": "items-1",
+    "assets": [
+      "coin",
+      "super-mushroom",
+      "one-up",
+      "super-leaf"
+    ],
+    "brief": "Detailed source-recognizable collectibles: machined gold coin with milled edges embossed numeral1, organic spotted mushroom red or green, veined warm leaf, bevelled fivepoint luminous star, flower with organic petals, smooth ivory note block with raised note mark, darkblue POWblock. Real materials and readable silhouettes; coin diameter1 thickness.14."
+  },
+  {
+    "id": "items-2",
+    "assets": [
+      "star",
+      "fire-flower",
+      "music-block",
+      "pow-block"
+    ],
+    "brief": "Detailed source-recognizable collectibles: machined gold coin with milled edges embossed numeral1, organic spotted mushroom red or green, veined warm leaf, bevelled fivepoint luminous star, flower with organic petals, smooth ivory note block with raised note mark, darkblue POWblock. Real materials and readable silhouettes; coin diameter1 thickness.14."
+  },
+  {
+    "id": "creatures-1",
+    "assets": [
+      "goomba",
+      "koopa-green",
+      "koopa-red"
+    ],
+    "brief": "Detailed organic/armored creatures following SMB3 source silhouettes: Goomba ochre mushroom cap broad scowling eyes and short brown shoes, turtleKoopa shell scutes and cream belly, darkblue rounded beetle shell, redspikedspiny shell. Sculpted continuous surfaces, eyelids/brows, proper skin/leather/shell roughness; no simple toyblob. Static meshes plus named foot pivots ifeasy. Rootbottomcenter, goomba height1 andkoopa1.5."
+  },
+  {
+    "id": "creatures-2",
+    "assets": [
+      "buzzy-beetle",
+      "spiny"
+    ],
+    "brief": "Detailed organic/armored creatures following SMB3 source silhouettes: Goomba ochre mushroom cap broad scowling eyes and short brown shoes, turtleKoopa shell scutes and cream belly, darkblue rounded beetle shell, redspikedspiny shell. Sculpted continuous surfaces, eyelids/brows, proper skin/leather/shell roughness; no simple toyblob. Static meshes plus named foot pivots ifeasy. Rootbottomcenter, goomba height1 andkoopa1.5."
+  },
+  {
+    "id": "mechanisms-1",
+    "assets": [
+      "cannon",
+      "bullet-bill",
+      "hammer"
+    ],
+    "brief": "Weathered blackcast-iron cannon with bore and ironbands, recognizable BulletBill with stern eyes and riveted body, heavy steelhammer withwoodenhandle, articulatedfirebarchain, worn metalspiketrap, glossy blackChomp metalcreature withhollowjaw individualteeth and chainlinks. Model mechanicalconnections and realedgewear."
+  },
+  {
+    "id": "mechanisms-2",
+    "assets": [
+      "firebar",
+      "spike-trap",
+      "chain-chomp"
+    ],
+    "brief": "Weathered blackcast-iron cannon with bore and ironbands, recognizable BulletBill with stern eyes and riveted body, heavy steelhammer withwoodenhandle, articulatedfirebarchain, worn metalspiketrap, glossy blackChomp metalcreature withhollowjaw individualteeth and chainlinks. Model mechanicalconnections and realedgewear."
+  },
+  {
+    "id": "aquatic-1",
+    "assets": [
+      "cheep-cheep",
+      "blooper",
+      "piranha-plant"
+    ],
+    "brief": "Detailed source-recognizable fish redscales whitebelly expressiveeyes fins, squidmantle andtentacles, spottedredPiranhaPlant withhollowmouth teeth greenstem leaves, skeletalKoopa bones shell, spectral roundBoo withlargeopenmouth tongue. Distinct materials and continuous geometry; noflatpixeltileupsampling. Avoid claiming anatomicalphotorealism fromproceduralproxies."
+  },
+  {
+    "id": "aquatic-2",
+    "assets": [
+      "dry-bones",
+      "boo"
+    ],
+    "brief": "Detailed source-recognizable fish redscales whitebelly expressiveeyes fins, squidmantle andtentacles, spottedredPiranhaPlant withhollowmouth teeth greenstem leaves, skeletalKoopa bones shell, spectral roundBoo withlargeopenmouth tongue. Distinct materials and continuous geometry; noflatpixeltileupsampling. Avoid claiming anatomicalphotorealism fromproceduralproxies."
+  },
+  {
+    "id": "worldmap-1",
+    "assets": [
+      "map-castle",
+      "map-fortress",
+      "map-house"
+    ],
+    "brief": "Detailed architectural worldmapicons: smallcastle withstonemasonry battlements blueflags, fortress, mushroomroofhouse, woodropebridge, ironpadlock, smallwoodboat. Recognizable silhouette; realtimber/granularstone/cloth/metal materials. Meshheight1to3, bottomcenter. Make standalone assets readable fromside andthreequarter."
+  },
+  {
+    "id": "worldmap-2",
+    "assets": [
+      "map-bridge",
+      "map-lock",
+      "map-boat"
+    ],
+    "brief": "Detailed architectural worldmapicons: smallcastle withstonemasonry battlements blueflags, fortress, mushroomroofhouse, woodropebridge, ironpadlock, smallwoodboat. Recognizable silhouette; realtimber/granularstone/cloth/metal materials. Meshheight1to3, bottomcenter. Make standalone assets readable fromside andthreequarter."
+  },
+  {
+    "id": "set-dressing-1",
+    "assets": [
+      "rock-cluster",
+      "grass-clump",
+      "reeds"
+    ],
+    "brief": "Grounded environmentdressing withroughstoneclusters, grassclumps with variedblades, wetlandreeds, weatheredcrateplanks nails joins, woodfencegrain andironhinges, wroughtirongate. Highvalue naturalmaterial detail; mutedrelative tohero andinteractivegoldblocks. Efficient gameplayLODs."
+  },
+  {
+    "id": "set-dressing-2",
+    "assets": [
+      "wood-crate",
+      "wood-fence",
+      "metal-gate"
+    ],
+    "brief": "Grounded environmentdressing withroughstoneclusters, grassclumps with variedblades, wetlandreeds, weatheredcrateplanks nails joins, woodfencegrain andironhinges, wroughtirongate. Highvalue naturalmaterial detail; mutedrelative tohero andinteractivegoldblocks. Efficient gameplayLODs."
+  },
+  {
+    "id": "character-kit-1",
+    "assets": [
+      "mario-body",
+      "mario-cap",
+      "mario-boot"
+    ],
+    "brief": "Author source-recognizable Mario clothing/accessory kit with actual stitching seamgeometry, capwhiteMbadge, bootsole weltlaces ifappropriate, paddedleathergloves, fur-liketaperedstripedtail, darkprotectiveshell. Mainmario-body detailedcompactplumber shape recognizablemustache eyes browsredcap redshirtblueoverallsbrassbuttons, anatomicallyconnectedroundedforms. This is a reviewedfallback; generatedhero mayreplaceit. Rootbottomcenter height1.5. No armsout Tposeforfinalstaticbody; handsat sidesapart slightly."
+  },
+  {
+    "id": "character-kit-2",
+    "assets": [
+      "mario-glove",
+      "raccoon-tail",
+      "hammer-suit-shell"
+    ],
+    "brief": "Author source-recognizable Mario clothing/accessory kit with actual stitching seamgeometry, capwhiteMbadge, bootsole weltlaces ifappropriate, paddedleathergloves, fur-liketaperedstripedtail, darkprotectiveshell. Mainmario-body detailedcompactplumber shape recognizablemustache eyes browsredcap redshirtblueoverallsbrassbuttons, anatomicallyconnectedroundedforms. This is a reviewedfallback; generatedhero mayreplaceit. Rootbottomcenter height1.5. No armsout Tposeforfinalstaticbody; handsat sidesapart slightly."
+  }
+]

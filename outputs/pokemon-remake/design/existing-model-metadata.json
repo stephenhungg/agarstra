@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-09-08T22:45:24.483609+00:00",
+  "scope": "Public listing metadata only; no model archive requested or downloaded",
+  "models": [
+    {
+      "metadataURL": "https://api.sketchfab.com/v3/models/d2a9a7962613438387880a195cd8a1df",
+      "uid": "d2a9a7962613438387880a195cd8a1df",
+      "name": "Bulbasaur Pokemon [Animated]",
+      "creator": "prozip",
+      "creatorProfile": "https://sketchfab.com/quachkimson2000",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "isDownloadable": true,
+      "animationCount": 9,
+      "faceCount": 5372,
+      "vertexCount": 11096,
+      "description": ""
+    },
+    {
+      "metadataURL": "https://api.sketchfab.com/v3/models/cd7ee496f0564ccba2276960071b4a85",
+      "uid": "cd7ee496f0564ccba2276960071b4a85",
+      "name": "0004 Charmander 3D",
+      "creator": "anak3d",
+      "creatorProfile": "https://sketchfab.com/anak3d1234",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "isDownloadable": true,
+      "animationCount": 1,
+      "faceCount": 36284,
+      "vertexCount": 18172,
+      "description": "**!!! IMPORTANT IF YOU WANT TO USE THIS ASSET IN YOUR PROJECT PLEASE DON\u2019T FORGET TO LIST CREDIT TO ME. THANK YOU !!!**\n\nI like Pokemon, you like Pokemon, everyone likes Pokemon.\n\nI model, texture, and animate in Blender. Follow me for more Pokemon models.\n\nThank You."
+    },
+    {
+      "metadataURL": "https://api.sketchfab.com/v3/models/5e87772128314247839920f3f2073b8d",
+      "uid": "5e87772128314247839920f3f2073b8d",
+      "name": "Pokemon Crystal GBC style models",
+      "creator": "Saku",
+      "creatorProfile": "https://sketchfab.com/Saq95",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "isDownloadable": true,
+      "animationCount": 0,
+      "faceCount": 14054,
+      "vertexCount": 7313,
+      "description": "Some pretty rough 3D models inspired by Pokemon Crystal on the Gameboy Color!\n\nModels are rigged somewhat hastily and I had to make some changes to the materials for this upload \nThese are up for download so feel free to use them as long as you mention me !"
+    }
+  ]
+}

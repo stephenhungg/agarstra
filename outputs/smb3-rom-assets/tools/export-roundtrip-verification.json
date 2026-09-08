@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "old": "outputs/smb3-rom-assets/blender/glb/tile-a76793605446b3cf2113.glb",
+  "new": "outputs/smb3-demo/public/assets/source-glb/tile-a76793605446b3cf2113.glb",
+  "checks": [
+    "actual Blender GLB import roundtrip",
+    "world geometry bounds equal original source GLB",
+    "asset_id and full source_provenance retained",
+    "catalog translation removed"
+  ],
+  "original": {
+    "bounds": [
+      [
+        0.0,
+        -0.06,
+        -0.5
+      ],
+      [
+        0.375,
+        0.06,
+        -0.0625
+      ]
+    ],
+    "vertexCount": 376,
+    "extras": [
+      {
+        "asset_id": "tile-a76793605446b3cf2113",
+        "source_provenance": "{\"id\":\"tile-a76793605446b3cf2113\",\"width\":8,\"height\":8,\"indices\":[0,0,0,0,0,0,0,0,3,3,3,0,0,0,0,0,1,1,1,3,0,0,0,0,1,1,1,1,3,0,0,0,2,2,3,3,3,0,0,0,2,3,3,2,2,3,0,0,2,3,3,2,2,3,0,0,2,2,2,3,3,0,0,0],\"rawHex\":\"00e0f0f83864641800e01008f8fcfcf8\",\"rawSHA256\":\"5546abd1bdd5d41586db0faa6ee85191840b224e1d25ead64946df0bbb571dc0\",\"paletteId\":\"palette-47202458a9d0\",\"kind\":\"sprite\",\"romSources\":[{\"tileIndex\":62,\"romOffset\":263152,\"chrOffset\":992,\"bank1k\":0},{\"tileIndex\":2062,\"romOffset\":295152,\"chrOffset\":32992,\"bank1k\":32},{\"tileIndex\":4158,\"romOffset\":328688,\"chrOffset\":66528,\"bank1k\":64},{\"tileIndex\":4414,\"romOffset\":332784,\"chrOffset\":70624,\"bank1k\":68},{\"tileIndex\":5318,\"romOffset\":347248,\"chrOffset\":85088,\"bank1k\":83},{\"tileIndex\":5438,\"romOffset\":349168,\"chrOffset\":87008,\"bank1k\":84}],\"atlas\":{\"file\":\"observed-colored-tiles-00.png\",\"x\":423,\"y\":33,\"width\":24,\"height\":24,\"scale\":3,\"index\":46},\"runtimeAssetId\":\"00e0f0f83864641800e01008f8fcfcf8:ffffb00019bcc7d1ff000000:sprite\",\"sourceIdentity\":\"00e0f0f83864641800e01008f8fcfcf8:ffffb00019bcc7d1ff000000:sprite\"}"
+      }
+    ],
+    "translations": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "materials": [
+      "NES_00_00_00",
+      "NES_bc_19_00",
+      "NES_ff_d1_c7"
+    ]
+  },
+  "reexported": {
+    "bounds": [
+      [
+        0.0,
+        -0.06,
+        -0.5
+      ],
+      [
+        0.375,
+        0.06,
+        -0.0625
+      ]
+    ],
+    "vertexCount": 376,
+    "extras": [
+      {
+        "asset_id": "tile-a76793605446b3cf2113",
+        "source_provenance": "{\"id\":\"tile-a76793605446b3cf2113\",\"width\":8,\"height\":8,\"indices\":[0,0,0,0,0,0,0,0,3,3,3,0,0,0,0,0,1,1,1,3,0,0,0,0,1,1,1,1,3,0,0,0,2,2,3,3,3,0,0,0,2,3,3,2,2,3,0,0,2,3,3,2,2,3,0,0,2,2,2,3,3,0,0,0],\"rawHex\":\"00e0f0f83864641800e01008f8fcfcf8\",\"rawSHA256\":\"5546abd1bdd5d41586db0faa6ee85191840b224e1d25ead64946df0bbb571dc0\",\"paletteId\":\"palette-47202458a9d0\",\"kind\":\"sprite\",\"romSources\":[{\"tileIndex\":62,\"romOffset\":263152,\"chrOffset\":992,\"bank1k\":0},{\"tileIndex\":2062,\"romOffset\":295152,\"chrOffset\":32992,\"bank1k\":32},{\"tileIndex\":4158,\"romOffset\":328688,\"chrOffset\":66528,\"bank1k\":64},{\"tileIndex\":4414,\"romOffset\":332784,\"chrOffset\":70624,\"bank1k\":68},{\"tileIndex\":5318,\"romOffset\":347248,\"chrOffset\":85088,\"bank1k\":83},{\"tileIndex\":5438,\"romOffset\":349168,\"chrOffset\":87008,\"bank1k\":84}],\"atlas\":{\"file\":\"observed-colored-tiles-00.png\",\"x\":423,\"y\":33,\"width\":24,\"height\":24,\"scale\":3,\"index\":46},\"runtimeAssetId\":\"00e0f0f83864641800e01008f8fcfcf8:ffffb00019bcc7d1ff000000:sprite\",\"sourceIdentity\":\"00e0f0f83864641800e01008f8fcfcf8:ffffb00019bcc7d1ff000000:sprite\"}"
+      }
+    ],
+    "translations": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "materials": [
+      "NES_00_00_00",
+      "NES_bc_19_00",
+      "NES_ff_d1_c7"
+    ]
+  }
+}

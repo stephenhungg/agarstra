@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' file: blob:; font-src 'self'; worker-src 'self' blob:;"
+    />
+    <title>SMB3 — Asset Lab</title>
+  </head>
+  <body>
+    <header class="titlebar">
+      <div class="wordmark">RE<span>:</span>PLAY</div>
+      <span class="edition">BINARY → OBJECTS → WORLD</span>
+      <div class="header-right">
+        <span class="status-dot"></span><span id="connection">LOADING ROM</span
+        ><button
+          id="fullscreen"
+          class="icon-button"
+          title="Fullscreen"
+          aria-label="Toggle fullscreen"
+        >
+          ⛶
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="chapter-row">
+        <div>
+          <span class="eyebrow">SUPER MARIO BROS. 3</span>
+          <h1>A world, reconstructed.</h1>
+        </div>
+        <div class="chapter-note">
+          Original simulation.<br />Rebuilt in Blender.
+        </div>
+      </div>
+      <div class="workspace">
+        <section class="play-column" aria-label="Playable game">
+          <div
+            class="stage"
+            id="stage"
+            tabindex="0"
+            aria-label="Game. Arrow keys to move, X or Space to jump, Z to run. Tab switches renderer."
+          >
+            <canvas id="photoreal"></canvas><canvas id="world" hidden></canvas>
+            <canvas id="original" width="256" height="240" hidden></canvas>
+            <canvas id="source-patches" width="256" height="192" hidden aria-hidden="true"></canvas>
+            <div class="stage-top">
+              <span class="scene-label" id="scene-label">WORLD 1–1</span
+              ><span class="render-label" id="render-label">REMODELED</span>
+            </div>
+            <div class="start-overlay" id="start-overlay">
+              <div class="start-card">
+                <span class="eyebrow">ROM-DRIVEN · PBR MATERIALS</span>
+                <h2>Built from<br />the ROM.</h2>
+                <button id="play" class="primary-button">
+                  Play World 1–1 <span>↗</span>
+                </button>
+                <p>Arrows to move · X to jump · Z to run</p>
+              </div>
+            </div>
+            <div class="pause-pill" id="pause-pill" hidden>
+              PAUSED <span>Press P to resume</span>
+            </div>
+            <div class="coverage-overlay" id="coverage-overlay" hidden>
+              <div class="start-card">
+                <span class="eyebrow">WORLD 1–1 DEMO</span>
+                <h2 id="coverage-title">Try again.</h2>
+                <p id="coverage-message">The world map is not remodeled yet. Replay this level, or continue in the original view.</p>
+                <button id="coverage-retry" class="primary-button">Replay World 1–1</button>
+                <button id="coverage-original" class="secondary-button">Continue in original view</button>
+              </div>
+            </div>
+            <div class="loading-overlay" id="loading-overlay">
+              <span class="loader"></span>
+              <p id="loading-text">Opening World 1…</p>
+              <button id="choose-rom" class="secondary-button" hidden>
+                Choose ROM
+              </button>
+            </div>
+          </div>
+          <div class="transport">
+            <div class="segmented" role="group" aria-label="Renderer">
+              <button id="modern-mode" class="selected">Remodeled</button>
+              <button id="source-mode">Source 3D</button>
+              <button id="original-mode">Original</button>
+            </div>
+            <span class="tab-hint"><kbd>tab</kbd> to switch</span>
+            <div class="transport-right">
+              <button
+                id="pause"
+                class="text-button"
+                title="Pause or resume (P)"
+              >
+                Pause</button
+              ><button
+                id="restart"
+                class="text-button"
+                title="Restart level (R)"
+              >
+                Restart ↺
+              </button>
+            </div>
+          </div>
+        </section>
+        <aside class="side-panel">
+          <div class="source-block">
+            <div class="panel-heading">
+              <span>THE ORIGINAL</span><span class="live-tag">LIVE</span>
+            </div>
+            <canvas id="reference" width="256" height="240"></canvas>
+            <div class="source-caption">
+              <span>1988 / NES</span><span>SAME GAME STATE</span>
+            </div>
+          </div>
+          <div class="lighting-block">
+            <div class="panel-heading"><span>LIGHTING</span></div>
+            <div class="light-options">
+              <button id="source-colors" class="light-option selected">
+                <span class="light-swatch exact"></span><span>ROM colors</span>
+              </button>
+              <button id="daylight" class="light-option">
+                <span class="light-swatch day"></span
+                ><span>Daylight</span></button
+              ><button id="dusk" class="light-option">
+                <span class="light-swatch dusk"></span><span>Dusk</span>
+              </button>
+            </div>
+          </div>
+          <div class="asset-tools">
+            <button id="inspect-assets" class="secondary-button">
+              Inspect live assets</button
+            ><button id="reload-assets" class="text-button">
+              Reload Blender edits</button
+            ><button id="verify-assets" class="text-button">
+              Verify current frame
+            </button>
+            <div id="verification-label"></div>
+          </div>
+          <div class="controls-block">
+            <div class="panel-heading"><span>MAKE YOUR MOVE</span></div>
+            <div class="control-row">
+              <span>Move</span>
+              <div><kbd>←</kbd><kbd>→</kbd></div>
+            </div>
+            <div class="control-row"><span>Jump</span><kbd>X / space</kbd></div>
+            <div class="control-row"><span>Run / grab</span><kbd>Z</kbd></div>
+            <div class="control-row"><span>Pause</span><kbd>P</kbd></div>
+          </div>
+          <div class="sound-block">
+            <button id="sound" class="sound-button" aria-pressed="false">
+              <span>Original audio</span><span id="sound-state">OFF</span>
+            </button>
+          </div>
+          <div class="telemetry">
+            <span id="fps">— fps</span><span id="frame">frame 0</span>
+          </div>
+        </aside>
+      </div>
+      <footer>
+        <div>
+          <span class="footer-dot"></span>PLAYABLE STUDY
+          <span class="footer-divider">/</span> WORLD 1–1
+        </div>
+        <p>
+          Source-defined placement. Individually modeled assets. Original
+          gameplay.
+        </p>
+      </footer>
+    </main>
+    <dialog id="asset-dialog">
+      <div class="asset-dialog-head">
+        <div>
+          <span class="eyebrow">ROM ASSET INSPECTOR</span>
+          <h2>Every tile, traced.</h2>
+        </div>
+        <button id="close-assets" class="text-button">Close ×</button>
+      </div>
+      <p id="asset-summary"></p>
+      <div class="asset-inspector">
+        <div id="asset-grid"></div>
+        <div id="asset-detail">
+          <canvas id="asset-zoom" width="8" height="8"></canvas>
+          <pre id="asset-provenance">
+Select an asset to inspect its source.</pre
+          >
+        </div>
+      </div>
+    </dialog>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

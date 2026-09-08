@@ -1,0 +1,30 @@
+{
+  "name": "smb3-asset-lab",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "main": "electron.cjs",
+  "scripts": {
+    "build": "vite build",
+    "start": "npm run build && electron .",
+    "demo": "electron .",
+    "smoke": "electron . --smoke",
+    "test": "node tests/test.mjs && node tests/mode-test.mjs && node tests/interaction-test.mjs && node tests/semantic-test.mjs && node tests/source-patches-test.mjs && node tests/animation-renderer-test.mjs && node tests/production-gate-test.mjs && node tests/package-test.mjs && node tests/runtime-reload-test.mjs && node tests/runtime-reload-test.mjs",
+    "package": "node scripts/package.mjs",
+    "package:prototype": "node scripts/package.mjs --prototype",
+    "package:check": "node scripts/package.mjs --preflight",
+    "test:package": "node tests/package-test.mjs",
+    "start:prototype": "npm run build:prototype && electron . --prototype",
+    "demo:prototype": "electron . --prototype",
+    "build:prototype": "ASSET_PROFILE=prototype vite build",
+    "smoke:prototype": "electron . --prototype --smoke",
+    "test:enforcement": "node tests/production-gate-test.mjs && node tests/runtime-reload-test.mjs && node tests/package-test.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "electron": "38.2.0",
+    "vite": "7.1.7"
+  }
+}

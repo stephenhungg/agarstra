@@ -1,0 +1,4 @@
+interface:
+  display_name: "ROM Remake"
+  short_description: "Build ROM remake pipelines with verified visual gates"
+  default_prompt: "Use $rom-remake to inspect the current pipeline, close its next production gap, and verify provenance, visual acceptance, and playable delivery for the requested scope."

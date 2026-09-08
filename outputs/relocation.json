@@ -1,0 +1,25 @@
+{
+  "from": "/Users/stephenhung/Documents/Codex/2026-09-08/o",
+  "to": "/Users/stephenhung/Documents/GitHub/agarstra",
+  "moved": [
+    {
+      "name": "outputs",
+      "sameDirectoryInode": true
+    },
+    {
+      "name": "work",
+      "sameDirectoryInode": true
+    }
+  ],
+  "compatibilityLinks": [
+    {
+      "path": "/Users/stephenhung/Documents/Codex/2026-09-08/o/outputs",
+      "target": "/Users/stephenhung/Documents/GitHub/agarstra/outputs"
+    },
+    {
+      "path": "/Users/stephenhung/Documents/Codex/2026-09-08/o/work",
+      "target": "/Users/stephenhung/Documents/GitHub/agarstra/work"
+    }
+  ],
+  "timestamp": 1788903800.590471
+}

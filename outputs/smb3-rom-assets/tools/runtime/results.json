@@ -1,0 +1,72 @@
+[
+  {
+    "frame": 1390,
+    "mismatch": 0,
+    "playfield": 0,
+    "assets": 83,
+    "tiles": 992,
+    "sprites": 4,
+    "unresolved": 0,
+    "first": []
+  },
+  {
+    "frame": 1420,
+    "mismatch": 0,
+    "playfield": 0,
+    "assets": 83,
+    "tiles": 992,
+    "sprites": 4,
+    "unresolved": 0,
+    "first": []
+  },
+  {
+    "frame": 1450,
+    "mismatch": 0,
+    "playfield": 0,
+    "assets": 83,
+    "tiles": 992,
+    "sprites": 4,
+    "unresolved": 0,
+    "first": []
+  },
+  {
+    "frame": 1500,
+    "mismatch": 0,
+    "playfield": 0,
+    "assets": 88,
+    "tiles": 992,
+    "sprites": 6,
+    "unresolved": 0,
+    "first": []
+  },
+  {
+    "frame": 1550,
+    "mismatch": 0,
+    "playfield": 0,
+    "assets": 92,
+    "tiles": 992,
+    "sprites": 2,
+    "unresolved": 0,
+    "first": []
+  },
+  {
+    "frame": 1600,
+    "mismatch": 0,
+    "playfield": 0,
+    "assets": 101,
+    "tiles": 992,
+    "sprites": 8,
+    "unresolved": 0,
+    "first": []
+  },
+  {
+    "frame": 1649,
+    "mismatch": 0,
+    "playfield": 0,
+    "assets": 100,
+    "tiles": 992,
+    "sprites": 9,
+    "unresolved": 0,
+    "first": []
+  }
+]

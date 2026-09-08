@@ -1,0 +1,427 @@
+/* Agarstra brand adaptations on the original editorial layout. */
+:root {
+  --agarstra-acid: #d7ff6d;
+  --agarstra-dark: #111b15;
+}
+::selection {
+  background: var(--agarstra-acid);
+  color: #111b15;
+}
+.nav-brand {
+  letter-spacing: -0.065em;
+  font-size: 24px;
+}
+.agarstra-hero .hero-shell {
+  color: #101510;
+}
+.agarstra-hero .hero-backdrop {
+  background: #eeeee7;
+}
+.hero-art {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 55%;
+}
+.agarstra-hero-wash {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 244, 237, 0.12) 25%,
+    rgba(244, 244, 237, 0) 50%,
+    rgba(244, 244, 237, 0.9) 100%
+  );
+}
+.agarstra-hero .hero-content {
+  padding: 64px 32px 56px;
+}
+.agarstra-hero .hero-company {
+  padding-right: 50px;
+}
+.agarstra-wordmark {
+  display: flex;
+  align-items: flex-start;
+  white-space: nowrap;
+  font-size: clamp(100px, 16.5vw, 264px);
+  letter-spacing: -0.09em;
+  line-height: 0.86;
+  font-weight: 600;
+}
+.agarstra-mark {
+  font-size: 0.24em;
+  letter-spacing: 0;
+  line-height: 1;
+  padding-top: 0.1em;
+  margin-left: 0.12em;
+}
+.agarstra-kicker {
+  font-size: 16px;
+  margin-top: 26px;
+  letter-spacing: -0.035em;
+}
+.agarstra-hero .hero-services {
+  font-size: 17px;
+  gap: 9px;
+  padding-left: 10px;
+}
+.hero-status {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  letter-spacing: 0.01em;
+  margin-top: 23px;
+}
+.hero-status i {
+  background: #294d2b;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #d7ff6d80;
+}
+.agarstra-hero .hero-crosses {
+  color: #10151055;
+}
+.agarstra-hero .hero-description {
+  padding-right: 60px;
+  gap: 30px;
+}
+.agarstra-hero .hero-description h1 {
+  text-indent: 0;
+  max-width: 490px;
+  color: #101510;
+  font-size: clamp(36px, 3.35vw, 54px);
+  line-height: 0.98;
+  font-weight: 600;
+  letter-spacing: -0.055em;
+}
+.agarstra-hero .hero-description h1 > span {
+  color: #101510;
+}
+.hero-description h1 small {
+  display: block;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  margin-top: 22px;
+  max-width: 385px;
+}
+.hero-explore {
+  font-size: 13px;
+  white-space: nowrap;
+  border-bottom: 1px solid #10151077;
+  padding-bottom: 9px;
+}
+.hero-explore span {
+  margin-left: 20px;
+}
+.agarstra-hero .team-contact-photo {
+  width: 100px;
+  background: #fff;
+}
+.agarstra-hero .team-contact-photo img {
+  object-position: 40% center;
+}
+.agarstra-hero .team-contact-card {
+  padding: 22px 18px;
+  gap: 24px;
+}
+.agarstra-hero .team-name {
+  font-size: 22px;
+  margin-top: 12px;
+}
+.hero-art-credit {
+  position: absolute;
+  bottom: 16px;
+  right: 32px;
+  font-size: 9px;
+  letter-spacing: 0.025em;
+  color: #3b413b;
+}
+.stage-tile {
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 18px;
+  gap: 12px;
+}
+.stage-tile .stage-number {
+  font-size: 11px;
+  color: #777;
+}
+.stage-tile strong {
+  font-size: clamp(20px, 2.5vw, 40px);
+  font-weight: 600;
+  letter-spacing: -0.06em;
+}
+.stage-tile > span:last-child {
+  font-size: 11px;
+  color: #60665f;
+}
+.agarstra-worlds .projects-heading h2 {
+  font-size: clamp(62px, 8.8vw, 144px);
+}
+.agarstra-worlds .projects-heading > p {
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 500;
+  margin-top: 25px;
+}
+.agarstra-worlds .projects-description {
+  padding-top: 20px;
+}
+.projects-description small {
+  display: block;
+  margin-top: 28px;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.agarstra-worlds .project-visual {
+  aspect-ratio: 1.55;
+}
+.agarstra-worlds .project-logo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  background: #f5f5f5;
+  color: #111b15;
+  border-radius: 50%;
+  font-size: 23px;
+}
+.concept-label {
+  position: absolute;
+  bottom: 26px;
+  left: 24px;
+  color: #111b15;
+  background: #f5f5f5d9;
+  backdrop-filter: blur(10px);
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+  letter-spacing: 0.02em;
+}
+@media (min-width: 1600px) {
+  .agarstra-hero .hero-company {
+    max-width: 1250px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .agarstra-hero .hero-content {
+    padding: 60px 26px 58px;
+  }
+  .agarstra-hero .hero-description {
+    padding-right: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .agarstra-hero .team-contact {
+    width: 35%;
+  }
+  .agarstra-hero .hero-description {
+    width: 65%;
+  }
+  .agarstra-hero .hero-services {
+    font-size: 13px;
+  }
+  .agarstra-kicker {
+    font-size: 13px;
+  }
+  .stage-tile {
+    padding: 15px;
+  }
+  .stage-tile > span:last-child {
+    font-size: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .agarstra-hero .first-screen {
+    height: auto;
+    min-height: 790px;
+  }
+  .agarstra-hero .hero-shell {
+    min-height: 730px;
+    height: auto;
+  }
+  .agarstra-hero .hero-content {
+    min-height: 730px;
+    padding: 40px 16px 48px;
+    gap: 48px;
+  }
+  .agarstra-hero .hero-top {
+    display: block;
+  }
+  .agarstra-hero .hero-company {
+    width: 100%;
+    padding: 0;
+  }
+  .agarstra-wordmark {
+    font-size: 20.6vw;
+  }
+  .agarstra-kicker {
+    font-size: 12px;
+    margin-top: 18px;
+  }
+  .agarstra-hero .hero-services {
+    width: 100%;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 7px 14px;
+    font-size: 10px;
+    margin-top: 24px;
+  }
+  .hero-status {
+    width: 100%;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  .agarstra-hero .hero-crosses {
+    display: none;
+  }
+  .agarstra-hero .hero-bottom {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 28px;
+  }
+  .agarstra-hero .hero-description {
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+  .agarstra-hero .hero-description h1 {
+    font-size: 40px;
+    max-width: 315px;
+  }
+  .hero-description h1 small {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 16px;
+    max-width: 310px;
+  }
+  .hero-explore {
+    font-size: 12px;
+  }
+  .agarstra-hero .team-contact {
+    width: 100%;
+    max-width: 360px;
+    min-height: 105px;
+  }
+  .agarstra-hero .team-contact-photo {
+    width: 95px;
+  }
+  .agarstra-hero .team-contact-card {
+    padding: 15px 18px;
+    flex-direction: row;
+    gap: 12px;
+    align-items: flex-end;
+  }
+  .agarstra-hero .team-role {
+    font-size: 10px;
+  }
+  .agarstra-hero .team-company {
+    font-size: 10px;
+  }
+  .agarstra-hero .team-name {
+    font-size: 17px;
+    margin-top: 8px;
+  }
+  .agarstra-hero .team-contact-card .pill {
+    gap: 14px;
+    font-size: 10px;
+  }
+  .hero-art {
+    object-position: 67% 42%;
+  }
+  .agarstra-hero-wash {
+    background: linear-gradient(
+      180deg,
+      #f4f4ed66 0%,
+      #f4f4ed33 25%,
+      #f4f4eddd 55%,
+      #f4f4ed 100%
+    );
+  }
+  .hero-art-credit {
+    right: 16px;
+    font-size: 8px;
+    bottom: 15px;
+  }
+  .stage-tile {
+    padding: 15px;
+    min-height: 130px;
+    aspect-ratio: auto;
+  }
+  .stage-tile strong {
+    font-size: 30px;
+  }
+  .agarstra-worlds .projects-top {
+    margin-bottom: 30px;
+  }
+  .agarstra-worlds .projects-heading > p {
+    font-size: 14px;
+    margin-top: 18px;
+  }
+  .agarstra-worlds .projects-description {
+    padding: 0;
+  }
+  .projects-description small {
+    margin-top: 14px;
+  }
+  .agarstra-worlds .project-bar {
+    padding: 16px;
+  }
+  .agarstra-worlds .project-bar h3 {
+    font-size: 15px;
+  }
+  .agarstra-worlds .project-bar > div {
+    gap: 10px;
+  }
+  .agarstra-worlds .project-logo {
+    width: 36px;
+    height: 36px;
+    right: 15px;
+    bottom: 15px;
+  }
+  .concept-label {
+    left: 16px;
+    bottom: 20px;
+    font-size: 9px;
+  }
+  .menu-bottom-contact a:last-child {
+    font-size: 24px;
+  }
+}
+@media (max-width: 359px) {
+  .agarstra-hero .team-contact-photo {
+    width: 72px;
+  }
+  .agarstra-hero .team-contact-card {
+    padding: 14px 12px;
+  }
+  .agarstra-hero .team-contact-card .pill {
+    gap: 8px;
+  }
+  .agarstra-hero .team-name {
+    font-size: 15px;
+  }
+}
+
+.agarstra-hero .hero-grain {
+  opacity: 0.025;
+}
+@media (max-width: 767px) {
+  .agarstra-hero .hero-description {
+    order: 0;
+  }
+  .agarstra-hero .team-contact {
+    order: 1;
+  }
+}

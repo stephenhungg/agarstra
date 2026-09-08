@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "booted to level",
+      "ok": true,
+      "detail": {
+        "frame": 1391,
+        "x": 24,
+        "y": 162
+      }
+    },
+    {
+      "name": "gamepad disconnect preserves held keyboard input",
+      "ok": true
+    },
+    {
+      "name": "gamepad disconnect releases its held input",
+      "ok": true
+    },
+    {
+      "name": "original toggle preserves simulation",
+      "ok": true
+    },
+    {
+      "name": "modern toggle restores canvas",
+      "ok": true
+    },
+    {
+      "name": "right input moves original player",
+      "ok": true,
+      "detail": {
+        "from": 24,
+        "to": 32
+      }
+    },
+    {
+      "name": "jump raises original player",
+      "ok": true,
+      "detail": {
+        "from": 162,
+        "to": 112
+      }
+    },
+    {
+      "name": "lighting preserves simulation",
+      "ok": true
+    },
+    {
+      "name": "reset reproduces start",
+      "ok": true
+    },
+    {
+      "name": "pause holds simulation",
+      "ok": true
+    },
+    {
+      "name": "Blender models loaded",
+      "ok": true,
+      "detail": [
+        "pipe",
+        "goomba",
+        "mario"
+      ]
+    },
+    {
+      "name": "embedded Blender textures loaded",
+      "ok": true,
+      "detail": {
+        "textureCount": 45
+      }
+    },
+    {
+      "name": "3D terrain exists",
+      "ok": true,
+      "detail": {
+        "tiles": 24
+      }
+    },
+    {
+      "name": "WebGL produces draw calls",
+      "ok": true,
+      "detail": {
+        "frame": 99,
+        "calls": 262,
+        "triangles": 133434,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "name": "audio worklet starts",
+      "ok": true
+    },
+    {
+      "name": "native keyboard drives live simulation",
+      "ok": true,
+      "detail": {
+        "before": {
+          "frame": 1391,
+          "x": 24,
+          "y": 162
+        },
+        "after": {
+          "frame": 1423,
+          "x": 46,
+          "y": 132
+        }
+      }
+    },
+    {
+      "name": "native P key pauses",
+      "ok": true
+    },
+    {
+      "name": "native Tab key changes view without advancing paused ROM",
+      "ok": true
+    }
+  ],
+  "frame": 1429,
+  "renderer": {
+    "calls": 262,
+    "triangles": 133434
+  },
+  "scope": "World 1-1 experimental 3D reconstruction; no full-game fidelity claim"
+}

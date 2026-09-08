@@ -1,0 +1,289 @@
+{
+  "fps": 30,
+  "method": "In-place rigid part NLA clips",
+  "assets": [
+    {
+      "asset_id": "mario-body",
+      "path": "models/mario-body.glb",
+      "sha256": "2bc65ed6aedd0ca94685ec530ff04247835cb319fe870dd56e4b30ae5e05123c",
+      "bytes": 12282940,
+      "bindBoundsBlender": [
+        [
+          -0.4153144657611847,
+          -0.2748785614967346,
+          0.0
+        ],
+        [
+          0.4153144657611847,
+          0.2748785614967346,
+          1.5
+        ]
+      ],
+      "bindBoundsMaxError": 0.0,
+      "movingParts": [
+        "body",
+        "left_leg",
+        "left_arm",
+        "right_leg",
+        "right_arm",
+        "head"
+      ],
+      "meshCount": 28,
+      "materialCount": 11,
+      "embeddedImages": 33,
+      "clips": [
+        {
+          "name": "idle",
+          "channels": 2,
+          "duration": 2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "channels": 8,
+          "duration": 0.8,
+          "loop": true
+        },
+        {
+          "name": "run",
+          "channels": 8,
+          "duration": 0.6,
+          "loop": true
+        },
+        {
+          "name": "jump-rise",
+          "channels": 5,
+          "duration": 0.2,
+          "loop": false
+        },
+        {
+          "name": "jump-fall",
+          "channels": 5,
+          "duration": 0.2,
+          "loop": false
+        },
+        {
+          "name": "death",
+          "channels": 5,
+          "duration": 0.4,
+          "loop": false
+        }
+      ],
+      "limitations": [
+        "Rigid part transforms; no skinned deformation or facial rig"
+      ],
+      "sourcePath": "outputs/smb3-photoreal/families/character-kit-1/models/mario-body.glb",
+      "sourceSHA256": "89fcf41bcd03b74449be527694dbd9327e80e9be6f35fd0545623202155105f0"
+    },
+    {
+      "asset_id": "goomba",
+      "path": "models/goomba.glb",
+      "sha256": "c03fbf2355e2a5a54d80eaecfda61ee59a70d34092afc8cb8ae95dd88eba89f4",
+      "bytes": 6039756,
+      "bindBoundsBlender": [
+        [
+          -0.5185638070106506,
+          -0.33707866072654724,
+          0.0
+        ],
+        [
+          0.518255352973938,
+          0.3329668939113617,
+          1.0
+        ]
+      ],
+      "bindBoundsMaxError": 0.0,
+      "movingParts": [
+        "body",
+        "left_leg",
+        "right_leg"
+      ],
+      "meshCount": 8,
+      "materialCount": 6,
+      "embeddedImages": 18,
+      "clips": [
+        {
+          "name": "idle",
+          "channels": 1,
+          "duration": 2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "channels": 5,
+          "duration": 0.8,
+          "loop": true
+        },
+        {
+          "name": "squash",
+          "channels": 1,
+          "duration": 0.2,
+          "loop": false
+        }
+      ],
+      "limitations": [
+        "Rigid part transforms; no skinned deformation or facial rig"
+      ],
+      "sourcePath": "outputs/smb3-photoreal/families/creatures-1/models/goomba.glb",
+      "sourceSHA256": "c1f69f75ac1f35498fed95d19aed3b7e20a912100f5c2094f018d2c5b09f56d4"
+    },
+    {
+      "asset_id": "koopa-green",
+      "path": "models/koopa-green.glb",
+      "sha256": "d5c6e3f00801d3c6b017e5c51ec44d1b1b159b91409ad944e122e5bfd42730ff",
+      "bytes": 8221728,
+      "bindBoundsBlender": [
+        [
+          -0.4126279652118683,
+          -0.4934798777103424,
+          0.0
+        ],
+        [
+          0.4126279652118683,
+          0.49347984790802,
+          1.5
+        ]
+      ],
+      "bindBoundsMaxError": 0.0,
+      "movingParts": [
+        "body",
+        "left_leg",
+        "left_arm",
+        "right_leg",
+        "right_arm",
+        "head"
+      ],
+      "meshCount": 19,
+      "materialCount": 8,
+      "embeddedImages": 24,
+      "clips": [
+        {
+          "name": "idle",
+          "channels": 2,
+          "duration": 2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "channels": 8,
+          "duration": 1,
+          "loop": true
+        },
+        {
+          "name": "shell",
+          "channels": 12,
+          "duration": 0.26666666666666666,
+          "loop": false
+        }
+      ],
+      "limitations": [
+        "Rigid part transforms; no skinned deformation or facial rig"
+      ],
+      "sourcePath": "outputs/smb3-photoreal/families/creatures-1/models/koopa-green.glb",
+      "sourceSHA256": "233fce63e3fa84934a3b3931f629b4ff92ce41f93f8d9f5a2b8f03d6140a2653"
+    },
+    {
+      "asset_id": "koopa-red",
+      "path": "models/koopa-red.glb",
+      "sha256": "7cba620a4bfd16b858612e06a1a14838f26a13fd2cd797b4406df2bbb388cd51",
+      "bytes": 8241548,
+      "bindBoundsBlender": [
+        [
+          -0.4126279652118683,
+          -0.4934798777103424,
+          0.0
+        ],
+        [
+          0.4126279652118683,
+          0.49347984790802,
+          1.5
+        ]
+      ],
+      "bindBoundsMaxError": 0.0,
+      "movingParts": [
+        "body",
+        "left_leg",
+        "left_arm",
+        "right_leg",
+        "right_arm",
+        "head"
+      ],
+      "meshCount": 19,
+      "materialCount": 8,
+      "embeddedImages": 24,
+      "clips": [
+        {
+          "name": "idle",
+          "channels": 2,
+          "duration": 2,
+          "loop": true
+        },
+        {
+          "name": "walk",
+          "channels": 8,
+          "duration": 1,
+          "loop": true
+        },
+        {
+          "name": "shell",
+          "channels": 12,
+          "duration": 0.26666666666666666,
+          "loop": false
+        }
+      ],
+      "limitations": [
+        "Rigid part transforms; no skinned deformation or facial rig"
+      ],
+      "sourcePath": "outputs/smb3-photoreal/families/creatures-1/models/koopa-red.glb",
+      "sourceSHA256": "f60e5c27ccfb048bbdc5f51d9c2ae9f940412777174c2529b484be82f6cb7f61"
+    },
+    {
+      "asset_id": "piranha-plant",
+      "path": "models/piranha-plant.glb",
+      "sha256": "0728f049075313a7c4abe981af7ed13d6fa92b0256ad9ec56bafca6226fe39cb",
+      "bytes": 6071268,
+      "bindBoundsBlender": [
+        [
+          -0.6844794154167175,
+          -0.5001565217971802,
+          0.0
+        ],
+        [
+          0.6844794154167175,
+          0.5001565217971802,
+          2.2765538692474365
+        ]
+      ],
+      "bindBoundsMaxError": 2.384185791015625e-07,
+      "movingParts": [
+        "body",
+        "head",
+        "left_leaf",
+        "right_leaf"
+      ],
+      "meshCount": 9,
+      "materialCount": 6,
+      "embeddedImages": 18,
+      "clips": [
+        {
+          "name": "idle",
+          "channels": 2,
+          "duration": 2,
+          "loop": true
+        },
+        {
+          "name": "bite",
+          "channels": 5,
+          "duration": 0.8,
+          "loop": true
+        }
+      ],
+      "limitations": [
+        "Rigid part transforms; no skinned deformation or facial rig",
+        "Bite uses head compression; original model has no separate jaw mesh"
+      ],
+      "sourcePath": "outputs/smb3-photoreal/families/aquatic-1/models/piranha-plant.glb",
+      "sourceSHA256": "391368fa0ac6c6d6d4af8fe71b195c014ff6f4e93f4182004bdfa5c56a51bd79"
+    }
+  ]
+}
