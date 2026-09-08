@@ -1,5 +1,5 @@
 {
-  "status": "generated-awaiting-visual-review",
+  "status": "generated-and-reviewed-playable-candidate-not-photoreal",
   "sourceMethod": "direct source sprite image-to-3D; no generated concept image",
   "sourcePNG": "work/pokemon/source/pokefirered/graphics/trainers/front_pics/red_front_pic.png",
   "sourcePNGSHA256": "4442795842373b5045041f7207619799160edcc9e0124e19996e46401ed149f0",
@@ -74,5 +74,28 @@
   "resultURL": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_232122_997118f4-c40c-41da-adef-b775bc878a95.glb",
   "resultSHA256": "c3b5282f1d3d95128a1247a981c0df89fcb31880443de7ff4043e79bab8fcb29",
   "resultBytes": 9458084,
-  "cliFinishedUTC": "2026-09-08T23:27:42.889087+00:00"
+  "cliFinishedUTC": "2026-09-08T23:27:42.889087+00:00",
+  "candidates": {
+    "v1": {
+      "path": "models/trainer-direct-v1.glb",
+      "sha256": "e0928e00efe5acb3d6b0b2fca055185a02da66a31bc6041208d1125f7273e356"
+    },
+    "v2": {
+      "path": "models/trainer-direct-v2.glb",
+      "sha256": "fd14343ce1c070bdd3bd51c6c01b8c871bf26f81f7206c57466bb33270c1fe74"
+    }
+  },
+  "review": {
+    "geometry": "recognizable source cap/vest/jeans/shoes and backpack; fully 3D, stylized proportions, faceted surfaces",
+    "rig": "24 bones, 31,112 triangles, one skinned mesh",
+    "materials": "single base-color texture; PBR texture set not delivered; local nonmetallic roughness/emission corrections",
+    "animation": "provider idle preserved; new local walk uses measured ankle-target IK with original rig and baked transform tracks",
+    "limitations": [
+      "not photoreal approved",
+      "battle upper-body pose and held ball retained during walk",
+      "hands/face/backpack and textures need refinement",
+      "no separate cloth/skin/shoe materials or generated PBR detail maps",
+      "runtime source-distance placement and scene acceptance owned by root integration"
+    ]
+  }
 }

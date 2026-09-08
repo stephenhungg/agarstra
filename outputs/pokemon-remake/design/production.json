@@ -14,22 +14,28 @@
       "PalletTown",
       "PalletTown_PlayersHouse_1F",
       "PalletTown_PlayersHouse_2F",
-      "PalletTown_ProfessorOaksLab"
+      "PalletTown_ProfessorOaksLab",
+      "Route1"
     ],
     "full_game": false,
     "dialog": "source printer and visible-window presentation",
-    "battle": "rigged Charmander v2 with source-timed idle; other creature sprites; native menus/HP; independent effects incomplete"
+    "battle": "rigged Charmander v2 with source-timed idle; other creature sprites; native menus/HP; independent effects incomplete",
+    "player": "Direct extracted trainer sprite to skinned mesh candidate, with local idle/walk integration; stylized, battle upper-body pose still needs correction"
   },
   "local_rom_search": "User-provided archive extracted locally and matched against independently rebuilt pret source byte for byte.",
   "parallel_work": {
-    "source": "firered_source",
-    "bridge": "gba_bridge_probe"
+    "completed_local_workers": [
+      "Route1/checkpoints",
+      "trainer walk",
+      "tree canopy candidate"
+    ],
+    "requested_task": "Pok\u00e9mon player and NPC rendering; isolated worktree setup requested via Codex app"
   },
   "next_actions": [
-    "Author and verify source-event character motion; existing Charmander clip is not an acceptable battle animation",
-    "Replace trainer markers and creature billboards with reviewed rigged geometry",
-    "Refine cottage/lab roofs, trees and dry terrain against source and target",
-    "Expand scene/effect coverage with original-input replay evidence"
+    "Replace NPC markers with source-faithful rendering in separate requested task; improve player upper-body pose",
+    "Verify and refine attack animations and independent battle effects",
+    "Refine cottage/lab roofs, tree canopy/materials, water and vegetation",
+    "Expand scene coverage using native input replay; no photoreal acceptance yet"
   ],
   "rom": "source/rom-identity.json",
   "rom_verified": true,
@@ -40,7 +46,9 @@
     "bulbasaur": "Native image generation output moderation rejection (other), request c9e80f30-62aa-49da-ac16-dd6846bcdbaf. No image/model produced; no alternate-provider generation retry.",
     "cottage-v2": "Actual GLB and editable Blender source exported, independent front/back/gameplay reviews performed; source doorway/roof identity improved. Runtime door anchor matches original warp coordinates. Changes required for soft glossy roof and baked window reflections; not photoreal approved.",
     "laboratory-v2": "Closed cap geometry repair and matte roof integrated; glazing and tile softness still changes required",
-    "charmander-v2": "Existing model revised with symmetric stance, subdued material and exact idle; integrated species4 opponent; not photoreal-approved"
+    "charmander-v2": "Existing model revised with symmetric stance, subdued material and exact idle; integrated species4 opponent; not photoreal-approved",
+    "trainer-v2": "Direct extracted64x64 trainer sprite to image_to_3d completed;24bones, original idle preserved, locally authored1second walk. Exact GLB and WebGL checked; source walking integration corrected to tileTransitionState/displacement. Stylized and raised arms remain.",
+    "tree-v2": "Broader crown and lower triangle count; runtime leaves too dark and angular. Candidate kept separate; v1 still active."
   },
   "battle_checkpoint": {
     "source": "runtime-core/checkpoints/first-battle.state",
@@ -51,10 +59,17 @@
     "input_only": true,
     "full_replay_verified": true
   },
-  "creature_input": "Existing Charmander FBX offered by Milos Cerny imported: 60 bones, original clip, GLB candidate. CC BY-NC 4.0; credit and license preserved. Not generated or photoreal-approved. Actual GLB skin reviewed; clip is an apparent rig demonstration with neck distortion, not approved for battle. No model changes during review.",
+  "creature_input": "Existing creator Charmander FBX reused under CC BY-NC4.0 with credits preserved. V2 replaces the original rig demonstration with a verified local idle and fixed feet/root. Integrated as opponent species4; not a sprite conversion or photoreal-approved asset.",
   "modeling_method": {
     "preferred": "extracted source sprites and dimensions directly constrain Blender geometry, followed by materials, rig, GLB and runtime review",
     "intermediate_generated_image": "optional visual exploration, not a required mesh input or identity authority",
     "limits": "Sprite pixels do not encode hidden geometry, depth, topology or a rig. These remain authored/inferred."
+  },
+  "camera": {
+    "projection": "orthographic",
+    "pitch_degrees": 30,
+    "yaw_degrees": 0,
+    "behavior": "temporary orbit and zoom, ease home on release",
+    "controls": "Pointer drag orbits within readable angle limits; scroll temporarily zooms. Release restores north-up30degrees and zoom1. Source-position tracking outdoors, room framing indoors, separate fixed battle camera."
   }
 }

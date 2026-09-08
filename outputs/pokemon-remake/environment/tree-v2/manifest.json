@@ -1,0 +1,53 @@
+{
+  "id": "pallet-boundary-broadleaf-tree-v2",
+  "status": "candidate; changes-required for photoreal target",
+  "asset": "../../models/tree-v2.glb",
+  "editableSource": "../../models/tree-v2.blend",
+  "source": "../../source/PalletTown-source.png",
+  "sourceMapping": "29 perimeter trees from scene-layout.json; visual interpretation only",
+  "sourceMetatileIDs": [
+    28,
+    30
+  ],
+  "nominalHeight": 3.8,
+  "dimensionsWidthDepthHeight": [
+    3.5912537574768066,
+    3.499403953552246,
+    3.799999713897705
+  ],
+  "origin": "grounded trunk root",
+  "gltfUp": "+Y",
+  "triangles": 43886,
+  "materials": 2,
+  "bytes": 11334056,
+  "leafCount": 3840,
+  "glbSHA256": "a3e36ae2253ac7a34a73b83ce3ac94ffc584dda1e95dc58d5e0bfde963272aea",
+  "preservedV1SHA256": "0488d72b777a728a65c0789d9688a75f125c9a7ba49fb1f402ba07f4a948193b",
+  "review": "../../verification/tree-v2/REVIEW.md",
+  "reviewJSON": "../../verification/tree-v2/review.json",
+  "authoring": "author_tree.py",
+  "construction": "Retained generated scaffold plus seeded local branch and leaf revision",
+  "newGenerationJobs": 0,
+  "downloads": 0,
+  "limitations": [
+    "Actual Three.js foliage remains too dark.",
+    "Leaves have conspicuous angular outlines and overly uniform material.",
+    "Bark remains uniformly brown despite restored normal map.",
+    "Several old bare branch stubs remain.",
+    "No wind or physical leaf transmission.",
+    "Wider crown can obscure adjacent scene content; final assembled town sightlines require review."
+  ],
+  "hashes": {
+    "tree-v2.glb": "a3e36ae2253ac7a34a73b83ce3ac94ffc584dda1e95dc58d5e0bfde963272aea",
+    "tree-v2.blend": "92d573e5f979abcc3c42921acf6420f3754734f3b69a5d30b41f339a918148e4",
+    "source/PalletTown-source.png": "34639dbc6c0fbeb08246f50126ccff7e475b0443099e4ed8bb062a352167595d",
+    "front.png": "629b4d90516319b32c07a024b2067d124b2bb90b780c1b772887b779c7ea2f10",
+    "back.png": "eac9f88db78a570e2583bae914ceef13d5685539059127e8e7113f13e27a29a6",
+    "gameplay.png": "43f7859b96f2eade689e0625d2528a42194d71021ae91edcad32bb6a726b5a94",
+    "comparison-v1-left-v2-right.png": "6d7981ad4894d9e2897bae535e17df4a29f64456bfd083334cffa9fed32c2ecb",
+    "runtime-29.png": "225b4cd04887aa246360ed9bc5bf6f49a6c7762cceeee6fb106173997913001d",
+    "runtime-29.json": "9ecd4ffe4019bb33f05167c11b4b23ab0bd831b952bbd925da6a3d7fc9b6d210",
+    "export-inspection.json": "1ea82f063103404506b3ba847fa75d1e199c04956db0a5369749086a8f64fced",
+    "actual-export-review.blend": "356f7e6ae2d54f298b91dc4f6629d6d050b193d1c0bda54185af11915c9171db"
+  }
+}

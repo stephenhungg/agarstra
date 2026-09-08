@@ -1,3 +1,1 @@
-import path from 'node:path';
-import {fileURLToPath} from 'node:url';
-export default{resolve:{alias:{three:path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../../app/node_modules/three')}},server:{fs:{allow:[path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../../../..')]}}};
+import path from 'node:path';import{fileURLToPath}from'node:url';const here=path.dirname(fileURLToPath(import.meta.url)),three=path.resolve(here,'../../app/node_modules/three');export default{resolve:{alias:[{find:'three/addons',replacement:three+'/examples/jsm'},{find:/^three$/,replacement:three+'/build/three.module.js'}]},server:{fs:{allow:[path.resolve(here,'../../../..')]}}};

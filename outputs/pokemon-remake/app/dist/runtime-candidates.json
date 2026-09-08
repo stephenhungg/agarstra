@@ -27,5 +27,12 @@
       -8.721854527493633e-08,
       0.27358004450798035
     ]
+  },
+  "trainer": {
+    "file": "trainer-direct-v3.glb",
+    "sha256": "971ec6a4d9a6348a9ceb30509029bad021b66031a8fb8a4ac496b9e4a0a2a294",
+    "height": 1.4,
+    "status": "candidate-not-photoreal-approved",
+    "source": "Extracted trainer sprite directly to skinned mesh; locally authored walk and relaxed arms."
   }
 }

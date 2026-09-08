@@ -3,8 +3,15 @@ import bpy,json,hashlib,math,sys
 from pathlib import Path
 from mathutils import Vector
 root=Path('/Users/stephenhung/Documents/GitHub/agarstra');out=root/'outputs/pokemon-remake/verification/trainer-direct';glb=Path(sys.argv[sys.argv.index('--')+1]) if '--' in sys.argv else root/'outputs/pokemon-remake/models/trainer-direct-v1.glb'
+clipName=sys.argv[sys.argv.index('--')+2] if '--' in sys.argv and len(sys.argv)>sys.argv.index('--')+2 else None
+if clipName:out=out/(glb.stem+'-'+clipName);out.mkdir(exist_ok=True)
 bpy.ops.wm.read_factory_settings(use_empty=True);bpy.context.scene.render.fps=30;bpy.ops.import_scene.gltf(filepath=str(glb));scene=bpy.context.scene
 meshes=[o for o in scene.objects if o.type=='MESH' and any(m.type=='ARMATURE' for m in o.modifiers)];rigs=[o for o in scene.objects if o.type=='ARMATURE'];actions=[{'name':a.name,'frames':list(a.frame_range)} for a in bpy.data.actions]
+if clipName:
+ selected=next(a for a in bpy.data.actions if a.name==clipName)
+ for r in rigs:
+  for track in r.animation_data.nla_tracks:track.mute=True
+  r.animation_data.action=selected
 def vertices():
  points=[];dg=bpy.context.evaluated_depsgraph_get()
  for obj in meshes:
@@ -12,7 +19,7 @@ def vertices():
  return points
 def bounds(points):return {'min':[min(p[i] for p in points) for i in range(3)],'max':[max(p[i] for p in points) for i in range(3)]}
 active=[{'rig':r.name,'action':r.animation_data.action.name if r.animation_data and r.animation_data.action else None,'nlaTracks':len(r.animation_data.nla_tracks) if r.animation_data else 0} for r in rigs]
-frame0=min((a['frames'][0] for a in actions),default=0);frame1=max((a['frames'][1] for a in actions),default=0);frames=sorted(set(round(frame0+(frame1-frame0)*t) for t in [0,.25,.5,.75,1]))
+frame0=selected.frame_range[0] if clipName else min((a['frames'][0] for a in actions),default=0);frame1=selected.frame_range[1] if clipName else max((a['frames'][1] for a in actions),default=0);frames=sorted(set(round(frame0+(frame1-frame0)*t) for t in [0,.25,.5,.75,1]))
 scene.frame_set(round(frame0));initial=vertices();b=bounds(initial);height=b['max'][2]-b['min'][2];center=Vector([(lo+hi)/2 for lo,hi in zip(b['min'],b['max'])]);samples=[]
 for frame in frames:
  scene.frame_set(frame);points=vertices();samples.append({'frame':frame,'seconds':frame/30,'bounds':bounds(points),'maxVertexTravelFromFirst':max((a-b).length for a,b in zip(points,initial))})
@@ -29,4 +36,4 @@ for name,offset in [('front',(height*.3,-height*3,height*.25)),('back',(-height*
  camera.location=center+Vector(offset);camera.rotation_euler=(center-camera.location).to_track_quat('-Z','Y').to_euler()
  for frame in frames if name=='front' else [frames[0]]:
   scene.frame_set(frame);scene.render.filepath=str(out/f'{name}-frame-{frame}.png');bpy.ops.render.render(write_still=True)
-scene.frame_set(frames[0]);bpy.ops.wm.save_as_mainfile(filepath=str(root/'outputs/pokemon-remake/models/trainer-direct-v1.blend'));print(json.dumps(report))
+scene.frame_set(frames[0]);bpy.ops.wm.save_as_mainfile(filepath=str(out/'reimport-review.blend') if clipName else str(root/'outputs/pokemon-remake/models/trainer-direct-v1.blend'));print(json.dumps(report))

@@ -1,0 +1,31 @@
+{
+  "status": "verified-scoped-playable-prototype",
+  "photorealApproved": false,
+  "checks": {
+    "integration": 33,
+    "realInput": 11,
+    "passed": true
+  },
+  "camera": {
+    "defaultPitch": 30,
+    "defaultYaw": 0,
+    "projection": "orthographic",
+    "behavior": "temporary orbit/zoom; ease home on release"
+  },
+  "sha256": {
+    "app/game-camera.js": "30725dc86ac6ecf69a7511f50f767e3454183e10868b367d033d843336d81aae",
+    "app/main.js": "231f7f708b15582447dbb83d72e8f6fba0937ee2102a7c2761c7fb70195e457e",
+    "app/avatar.js": "a8907de19ffae387ba29963498cd70ffb28aa3b88f5f778e48d2cf407537e4b5",
+    "app/electron.cjs": "044d09dfe9859c84d1b4903e8921f7c4f42d3eaf99d09312bd43ea92c022903e",
+    "design/runtime-candidates.json": "c637d3b2965418b644b4cde9ce60dc7bebfcd47c2b5b6ca4670afd1d8d16932c",
+    "app/dist/assets/index-BUBPHy1h.js": "ec5d85e671d95edb99376b32fe3787a1fb6b8e8cd863925d4a4d056ac7a7623c"
+  },
+  "captures": [
+    "player.png",
+    "interior.png",
+    "route1-entry.png",
+    "dialog.png",
+    "first-battle.png"
+  ],
+  "review": "Inspected actual30degree town and held-drag captures. Characters/building fronts readable. Real drag changed heading by44.94degrees; release restored30degree north-up and zoom1 in both town/Route1. Candidate art, raised player arms, NPC rings, rigid grass, flat water and map-edge composition still need work. Not photoreal acceptance."
+}

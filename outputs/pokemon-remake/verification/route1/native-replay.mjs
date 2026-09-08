@@ -3,4 +3,9 @@ const require=createRequire(import.meta.url),out=path.dirname(fileURLToPath(impo
 core.loadState(fs.readFileSync(root+'/outputs/pokemon-remake/runtime-core/checkpoints/first-attack.state'));
 let s=readFireRedState(core);for(let i=0;i<80&&s.battle.active;i++){step(8,1);s=step(180,0);}
 for(let i=0;i<16;i++){step(8,1);s=step(90,0);}
-fs.writeFileSync(out+'/post-battle.state',core.saveState());fs.writeFileSync(out+'/post-battle-observed.json',JSON.stringify(s,null,2));fs.writeFileSync(out+'/native-inputs.json',JSON.stringify(inputs,null,2));fs.writeFileSync(out+'/native-events.json',JSON.stringify(events,null,2));console.log('POST',s.map,s.player);core.destroy();
+fs.writeFileSync(out+'/post-battle.state',core.saveState());fs.writeFileSync(out+'/post-battle-observed.json',JSON.stringify(s,null,2));fs.writeFileSync(out+'/native-inputs.json',JSON.stringify(inputs,null,2));fs.writeFileSync(out+'/native-events.json',JSON.stringify(events,null,2));console.log('POST',s.map,s.player);
+function until(test,keys,max=600){for(let i=0;i<max;i++){s=step(1,keys);if(test(s)){step(1,0);return s;}}throw Error('Native movement target not reached: '+JSON.stringify({map:s.map,player:s.player}));}
+until(s=>s.map?.name==='PalletTown',128);s=step(40,0);fs.writeFileSync(out+'/post-starter-pallet.state',core.saveState());
+until(s=>s.player?.worldX<=12,32);s=step(20,0);
+until(s=>s.player?.worldY<=3,64,400);step(20,0);until(s=>s.player?.worldX>=13,16,100);step(20,0);until(s=>s.player?.worldY<=2,64,100);for(let i=0;i<12;i++){step(8,1);step(90,0);}until(s=>s.map?.name==='Route1',64,400);s=step(25,0);
+fs.writeFileSync(out+'/route1-entry.state',core.saveState());fs.writeFileSync(out+'/route1-entry-observed.json',JSON.stringify(s,null,2));fs.writeFileSync(out+'/native-inputs.json',JSON.stringify(inputs,null,2));fs.writeFileSync(out+'/native-events.json',JSON.stringify(events,null,2));console.log('ROUTE',s.map,s.player);core.destroy();

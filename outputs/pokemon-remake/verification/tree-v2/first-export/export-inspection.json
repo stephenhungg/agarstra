@@ -1,0 +1,71 @@
+{
+  "status": "candidate; pending image review",
+  "glbSHA256": "eb0a11a0802f57a1e9ca69a23308a42fc22a5b141436b7e63c59893b7598602d",
+  "bytes": 6720296,
+  "meshCount": 2,
+  "materialCount": 2,
+  "triangles": 43886,
+  "boundsBlender": {
+    "min": [
+      -1.778658390045166,
+      -1.789629578590393,
+      0.0
+    ],
+    "max": [
+      1.8125954866409302,
+      1.709774374961853,
+      3.799999713897705
+    ]
+  },
+  "dimensions": [
+    3.5912537574768066,
+    3.499403953552246,
+    3.799999713897705
+  ],
+  "gltfUp": "+Y",
+  "origin": "grounded trunk root at origin; canopy is intentionally asymmetric",
+  "images": [
+    {
+      "name": "Tree v2 authored leaf veins",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "Tree v2 brown bark 2K",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true
+    }
+  ],
+  "gltfMaterials": [
+    {
+      "doubleSided": true,
+      "name": "Tree v2 brown bark",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8899999856948853
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Tree v2 broad leaves",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.7200000286102295
+      }
+    }
+  ],
+  "externalResources": [],
+  "actualExportReimported": true
+}

@@ -1,0 +1,8 @@
+16:49:47 | INFO: Data are loaded, start creating Blender stuff
+16:49:47 | INFO: Blender create Mesh node char1
+16:49:47 | INFO: glTF import finished in 0.17s
+Info: Saved as "trainer-direct-v3.blend"
+{"sourceSHA256": "fd14343ce1c070bdd3bd51c6c01b8c871bf26f81f7206c57466bb33270c1fe74", "candidateSHA256": "971ec6a4d9a6348a9ceb30509029bad021b66031a8fb8a4ac496b9e4a0a2a294", "changed": [{"clip": "idle", "node": "LeftArm", "samples": 121, "outputAccessor": 49}, {"clip": "idle", "node": "RightArm", "samples": 121, "outputAccessor": 61}, {"clip": "idle", "node": "LeftForeArm", "samples": 121, "outputAccessor": 52}, {"clip": "idle", "node": "RightForeArm", "samples": 121, "outputAccessor": 64}, {"clip": "walk", "node": "LeftArm", "samples": 31, "outputAccessor": 226}, {"clip": "walk", "node": "RightArm", "samples": 31, "outputAccessor": 227}, {"clip": "walk", "node": "LeftForeArm", "samples": 31, "outputAccessor": 228}, {"clip": "walk", "node": "RightForeArm", "samples": 31, "outputAccessor": 229}], "allOtherBinaryBytesUnchanged": true, "status": "candidate-pending-visual-review"}
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:35:28)
+
+Blender quit

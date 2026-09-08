@@ -1,0 +1,896 @@
+{
+  "checkpoint": "post-starter-pallet",
+  "sha256": "4bf4f58c1676700a62f862b4c3c35b1182013169521fe1ada498f2b86297469a",
+  "startCheckpoint": "first-attack",
+  "startSHA256": "b5aca0d2df2b09ee31f571212543d48341ba0a8089eb9a22ca5eac0f58fc006c",
+  "startFrame": 32015,
+  "endFrame": 39019,
+  "inputs": [
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 180,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 8,
+      "keys": 1
+    },
+    {
+      "frames": 90,
+      "keys": 0
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 128
+    },
+    {
+      "frames": 1,
+      "keys": 0
+    },
+    {
+      "frames": 40,
+      "keys": 0
+    }
+  ],
+  "method": "Original controller inputs only; no game-state patching. Exact full replay to Route1 verified in verification/route1/source-results.json.",
+  "verification": "verification/route1/source-results.json"
+}

@@ -1,20 +1,20 @@
 INFO Draco mesh compression is available, use library at /Volumes/Blender/Blender.app/Contents/Resources/4.5/scripts/addons_core/io_scene_gltf2/libextern_draco.dylib
-16:33:44 | INFO: Starting glTF 2.0 export
-16:33:44 | INFO: Extracting primitive: Tree_v2_connected_branch_scaffold
-16:33:44 | INFO: Primitives created: 1
-16:33:45 | INFO: Extracting primitive: Tree_v2_broadleaf_crown
-16:33:45 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
-16:33:45 | INFO: Primitives created: 1
-16:33:45 | INFO: Finished glTF 2.0 export in 0.10801887512207031 s
+16:38:17 | INFO: Starting glTF 2.0 export
+16:38:17 | INFO: Extracting primitive: Tree_v2_connected_branch_scaffold
+16:38:17 | INFO: Primitives created: 1
+16:38:17 | INFO: Extracting primitive: Tree_v2_broadleaf_crown
+16:38:17 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+16:38:18 | INFO: Primitives created: 1
+16:38:18 | INFO: Finished glTF 2.0 export in 0.372452974319458 s
 
-Info: Packed 1 file(s)
+Info: No new files have been packed
 Info: Saved as "tree-v2.blend"
 {
   "status": "candidate awaiting actual export review",
   "seed": 894517,
   "sourceBlend": "outputs/pokemon-remake/environment/tree/tree.blend",
   "sourceGLBSHA256": "0488d72b777a728a65c0789d9688a75f125c9a7ba49fb1f402ba07f4a948193b",
-  "glbSHA256": "eb0a11a0802f57a1e9ca69a23308a42fc22a5b141436b7e63c59893b7598602d",
+  "glbSHA256": "a3e36ae2253ac7a34a73b83ce3ac94ffc584dda1e95dc58d5e0bfde963272aea",
   "triangles": 43886,
   "29InstanceTriangles": 1272694,
   "previous29InstanceTriangles": 1784254,

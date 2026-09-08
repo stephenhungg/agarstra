@@ -1,0 +1,69 @@
+{
+  "status": "changes-required",
+  "technicalChecksPassed": true,
+  "photorealApproved": false,
+  "automaticPromotionRecommended": false,
+  "glbSHA256": "a3e36ae2253ac7a34a73b83ce3ac94ffc584dda1e95dc58d5e0bfde963272aea",
+  "v1Preserved": true,
+  "improvements": [
+    "Broader rounded crown at the same 3.8 height",
+    "More depth and fuller boundary canopy",
+    "Brown bark replaces green tint",
+    "43,886 triangles instead of 61,526",
+    "All three maps embedded at reduced texture budget"
+  ],
+  "defects": [
+    "Actual Three.js foliage remains too dark.",
+    "Leaves have conspicuous angular outlines and overly uniform material.",
+    "Bark remains uniformly brown despite restored normal map.",
+    "Several old bare branch stubs remain.",
+    "No wind or physical leaf transmission.",
+    "Wider crown can obscure adjacent scene content; final assembled town sightlines require review."
+  ],
+  "runtimeEvidence": {
+    "instances": 29,
+    "resolution": [
+      1280,
+      900
+    ],
+    "visibleDrawCalls": 59,
+    "visibleTriangles": 1272696,
+    "sharedUniqueGeometries": 3,
+    "synchronousRenderMs": {
+      "samples": 45,
+      "median": 0.4000000059604645,
+      "p95": 0.9000000059604645,
+      "min": 0.29999998211860657,
+      "max": 1.0999999940395355
+    },
+    "limitation": "Isolated synthetic tree-only scene; not whole-game performance or scene approval."
+  },
+  "evidence": [
+    "front.png",
+    "back.png",
+    "gameplay.png",
+    "comparison-v1-left-v2-right.png",
+    "runtime-29.png",
+    "runtime-29.json",
+    "export-inspection.json",
+    "actual-export-review.blend"
+  ],
+  "noNewGenerationOrDownloads": true,
+  "imagesVisuallyInspected": [
+    "front.png",
+    "back.png",
+    "gameplay.png",
+    "comparison-v1-left-v2-right.png",
+    "runtime-29.png"
+  ],
+  "evidenceSHA256": {
+    "front.png": "629b4d90516319b32c07a024b2067d124b2bb90b780c1b772887b779c7ea2f10",
+    "back.png": "eac9f88db78a570e2583bae914ceef13d5685539059127e8e7113f13e27a29a6",
+    "gameplay.png": "43f7859b96f2eade689e0625d2528a42194d71021ae91edcad32bb6a726b5a94",
+    "comparison-v1-left-v2-right.png": "6d7981ad4894d9e2897bae535e17df4a29f64456bfd083334cffa9fed32c2ecb",
+    "runtime-29.png": "225b4cd04887aa246360ed9bc5bf6f49a6c7762cceeee6fb106173997913001d",
+    "runtime-29.json": "9ecd4ffe4019bb33f05167c11b4b23ab0bd831b952bbd925da6a3d7fc9b6d210",
+    "export-inspection.json": "1ea82f063103404506b3ba847fa75d1e199c04956db0a5369749086a8f64fced",
+    "actual-export-review.blend": "356f7e6ae2d54f298b91dc4f6629d6d050b193d1c0bda54185af11915c9171db"
+  }
+}

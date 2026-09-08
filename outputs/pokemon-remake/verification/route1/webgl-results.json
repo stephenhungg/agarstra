@@ -1,0 +1,408 @@
+{
+  "passed": true,
+  "samples": {
+    "gameplay": {
+      "state": {
+        "frame": 40715,
+        "callback2": 134571445,
+        "phase": "overworld",
+        "map": {
+          "group": 3,
+          "number": 19,
+          "name": "Route1",
+          "width": 24,
+          "height": 40
+        },
+        "player": {
+          "id": 0,
+          "spriteId": 0,
+          "graphicsId": 0,
+          "localId": 255,
+          "mapGroup": 3,
+          "mapNumber": 0,
+          "isPlayer": true,
+          "hidden": false,
+          "spriteInvisible": false,
+          "visible": true,
+          "offScreen": false,
+          "tileX": 13,
+          "tileY": 39,
+          "previousTileX": 13,
+          "previousTileY": 39,
+          "worldX": 13,
+          "worldY": 39,
+          "x": 13,
+          "y": 39,
+          "visualOffsetX": 0,
+          "visualOffsetY": 0,
+          "facing": "up",
+          "direction": 2,
+          "movementDirection": 2,
+          "moving": false,
+          "elevation": 3,
+          "animation": 5,
+          "animationFrame": 1,
+          "source": {
+            "objectAddress": 33779256,
+            "spriteAddress": 33687100
+          },
+          "runningState": 0,
+          "tileTransitionState": 0,
+          "avatarFlags": 1
+        },
+        "objectEvents": [
+          {
+            "id": 0,
+            "spriteId": 0,
+            "graphicsId": 0,
+            "localId": 255,
+            "mapGroup": 3,
+            "mapNumber": 0,
+            "isPlayer": true,
+            "hidden": false,
+            "spriteInvisible": false,
+            "visible": true,
+            "offScreen": false,
+            "tileX": 13,
+            "tileY": 39,
+            "previousTileX": 13,
+            "previousTileY": 39,
+            "worldX": 13,
+            "worldY": 39,
+            "x": 13,
+            "y": 39,
+            "visualOffsetX": 0,
+            "visualOffsetY": 0,
+            "facing": "up",
+            "direction": 2,
+            "movementDirection": 2,
+            "moving": false,
+            "elevation": 3,
+            "animation": 5,
+            "animationFrame": 1,
+            "source": {
+              "objectAddress": 33779256,
+              "spriteAddress": 33687100
+            },
+            "runningState": 0,
+            "tileTransitionState": 0,
+            "avatarFlags": 1
+          },
+          {
+            "id": 2,
+            "spriteId": 3,
+            "graphicsId": 23,
+            "localId": 1,
+            "mapGroup": 3,
+            "mapNumber": 0,
+            "isPlayer": false,
+            "hidden": false,
+            "spriteInvisible": false,
+            "visible": true,
+            "offScreen": false,
+            "tileX": 12,
+            "tileY": 42,
+            "previousTileX": 12,
+            "previousTileY": 42,
+            "worldX": 12,
+            "worldY": 42,
+            "x": 12,
+            "y": 42,
+            "visualOffsetX": 0,
+            "visualOffsetY": 0,
+            "facing": "right",
+            "direction": 4,
+            "movementDirection": 4,
+            "moving": false,
+            "elevation": 3,
+            "animation": 7,
+            "animationFrame": 3,
+            "source": {
+              "objectAddress": 33779328,
+              "spriteAddress": 33687304
+            }
+          }
+        ],
+        "battle": {
+          "active": false,
+          "flags": 28,
+          "outcome": 2,
+          "battlers": []
+        },
+        "source": {
+          "rom": "BPRE-0",
+          "verifiedSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+          "saveBlock1": 33707400
+        }
+      },
+      "report": {
+        "status": "candidate",
+        "map": "Route1",
+        "width": 24,
+        "height": 40,
+        "source": {
+          "commit": "c75f352304d529f6ba92d4f74b9cf8b5c3810788",
+          "mapDataSHA256": "9463ad026e56bc9bbe4b533bf8284217c7b6da16ccc2126e055ffc6f1e3da65c",
+          "sourceCompositeSHA256": "b0513e03ebd629fdecf0171a919aaaa0e22efb21ca3bdda6998ecb4879678bd5",
+          "attributeFiles": {
+            "data/tilesets/primary/general/metatile_attributes.bin": "1f62a949da41adca90ad36ca3597754bee953a8f21781f32aedf6158922c89cb",
+            "data/tilesets/secondary/pallet_town/metatile_attributes.bin": "8af5fbc8c32e5d0de4fe66735603d46ecd3506c42fcbe8b6cac744496a25203a"
+          }
+        },
+        "trees": {
+          "loaded": true,
+          "count": 69,
+          "primitives": 2,
+          "height": 2.9
+        },
+        "tallGrassCells": 178,
+        "ledges": 61,
+        "pathQuads": 2482,
+        "connections": [
+          {
+            "map": "MAP_VIRIDIAN_CITY",
+            "offset": -12,
+            "direction": "up"
+          },
+          {
+            "map": "MAP_PALLET_TOWN",
+            "offset": 0,
+            "direction": "down"
+          }
+        ],
+        "heightPolicy": "Source elevation 0/3 denotes collision layers, not metric terrain height. Walkable floor remains y=0. Low .28-tile-high south-facing ledge berms occupy actual MB_JUMP_SOUTH cells; no invented continuous terraces or independent collision.",
+        "limitations": [
+          "Source-faithful layout with candidate trees and materials; not photoreal acceptance.",
+          "Only local ledge relief is authored; source elevation 0/3 is a collision layer and does not establish physical terrain height.",
+          "Quarter-tile source path mask; markers are interim trainer/NPC visuals.",
+          "No independent collision, encounters, ledge jumps or map transition simulation."
+        ]
+      },
+      "playerPosition": [
+        13,
+        0.12,
+        39
+      ],
+      "actors": [
+        {
+          "id": 0,
+          "visible": true,
+          "x": 13,
+          "y": 0.12,
+          "z": 39
+        }
+      ],
+      "drawCalls": 84,
+      "triangles": 4276720
+    },
+    "overview": {
+      "state": {
+        "frame": 40715,
+        "callback2": 134571445,
+        "phase": "overworld",
+        "map": {
+          "group": 3,
+          "number": 19,
+          "name": "Route1",
+          "width": 24,
+          "height": 40
+        },
+        "player": {
+          "id": 0,
+          "spriteId": 0,
+          "graphicsId": 0,
+          "localId": 255,
+          "mapGroup": 3,
+          "mapNumber": 0,
+          "isPlayer": true,
+          "hidden": false,
+          "spriteInvisible": false,
+          "visible": true,
+          "offScreen": false,
+          "tileX": 13,
+          "tileY": 39,
+          "previousTileX": 13,
+          "previousTileY": 39,
+          "worldX": 13,
+          "worldY": 39,
+          "x": 13,
+          "y": 39,
+          "visualOffsetX": 0,
+          "visualOffsetY": 0,
+          "facing": "up",
+          "direction": 2,
+          "movementDirection": 2,
+          "moving": false,
+          "elevation": 3,
+          "animation": 5,
+          "animationFrame": 1,
+          "source": {
+            "objectAddress": 33779256,
+            "spriteAddress": 33687100
+          },
+          "runningState": 0,
+          "tileTransitionState": 0,
+          "avatarFlags": 1
+        },
+        "objectEvents": [
+          {
+            "id": 0,
+            "spriteId": 0,
+            "graphicsId": 0,
+            "localId": 255,
+            "mapGroup": 3,
+            "mapNumber": 0,
+            "isPlayer": true,
+            "hidden": false,
+            "spriteInvisible": false,
+            "visible": true,
+            "offScreen": false,
+            "tileX": 13,
+            "tileY": 39,
+            "previousTileX": 13,
+            "previousTileY": 39,
+            "worldX": 13,
+            "worldY": 39,
+            "x": 13,
+            "y": 39,
+            "visualOffsetX": 0,
+            "visualOffsetY": 0,
+            "facing": "up",
+            "direction": 2,
+            "movementDirection": 2,
+            "moving": false,
+            "elevation": 3,
+            "animation": 5,
+            "animationFrame": 1,
+            "source": {
+              "objectAddress": 33779256,
+              "spriteAddress": 33687100
+            },
+            "runningState": 0,
+            "tileTransitionState": 0,
+            "avatarFlags": 1
+          },
+          {
+            "id": 2,
+            "spriteId": 3,
+            "graphicsId": 23,
+            "localId": 1,
+            "mapGroup": 3,
+            "mapNumber": 0,
+            "isPlayer": false,
+            "hidden": false,
+            "spriteInvisible": false,
+            "visible": true,
+            "offScreen": false,
+            "tileX": 12,
+            "tileY": 42,
+            "previousTileX": 12,
+            "previousTileY": 42,
+            "worldX": 12,
+            "worldY": 42,
+            "x": 12,
+            "y": 42,
+            "visualOffsetX": 0,
+            "visualOffsetY": 0,
+            "facing": "right",
+            "direction": 4,
+            "movementDirection": 4,
+            "moving": false,
+            "elevation": 3,
+            "animation": 7,
+            "animationFrame": 3,
+            "source": {
+              "objectAddress": 33779328,
+              "spriteAddress": 33687304
+            }
+          }
+        ],
+        "battle": {
+          "active": false,
+          "flags": 28,
+          "outcome": 2,
+          "battlers": []
+        },
+        "source": {
+          "rom": "BPRE-0",
+          "verifiedSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+          "saveBlock1": 33707400
+        }
+      },
+      "report": {
+        "status": "candidate",
+        "map": "Route1",
+        "width": 24,
+        "height": 40,
+        "source": {
+          "commit": "c75f352304d529f6ba92d4f74b9cf8b5c3810788",
+          "mapDataSHA256": "9463ad026e56bc9bbe4b533bf8284217c7b6da16ccc2126e055ffc6f1e3da65c",
+          "sourceCompositeSHA256": "b0513e03ebd629fdecf0171a919aaaa0e22efb21ca3bdda6998ecb4879678bd5",
+          "attributeFiles": {
+            "data/tilesets/primary/general/metatile_attributes.bin": "1f62a949da41adca90ad36ca3597754bee953a8f21781f32aedf6158922c89cb",
+            "data/tilesets/secondary/pallet_town/metatile_attributes.bin": "8af5fbc8c32e5d0de4fe66735603d46ecd3506c42fcbe8b6cac744496a25203a"
+          }
+        },
+        "trees": {
+          "loaded": true,
+          "count": 69,
+          "primitives": 2,
+          "height": 2.9
+        },
+        "tallGrassCells": 178,
+        "ledges": 61,
+        "pathQuads": 2482,
+        "connections": [
+          {
+            "map": "MAP_VIRIDIAN_CITY",
+            "offset": -12,
+            "direction": "up"
+          },
+          {
+            "map": "MAP_PALLET_TOWN",
+            "offset": 0,
+            "direction": "down"
+          }
+        ],
+        "heightPolicy": "Source elevation 0/3 denotes collision layers, not metric terrain height. Walkable floor remains y=0. Low .28-tile-high south-facing ledge berms occupy actual MB_JUMP_SOUTH cells; no invented continuous terraces or independent collision.",
+        "limitations": [
+          "Source-faithful layout with candidate trees and materials; not photoreal acceptance.",
+          "Only local ledge relief is authored; source elevation 0/3 is a collision layer and does not establish physical terrain height.",
+          "Quarter-tile source path mask; markers are interim trainer/NPC visuals.",
+          "No independent collision, encounters, ledge jumps or map transition simulation."
+        ]
+      },
+      "playerPosition": [
+        13,
+        0.12,
+        39
+      ],
+      "actors": [
+        {
+          "id": 0,
+          "visible": true,
+          "x": 13,
+          "y": 0.12,
+          "z": 39
+        }
+      ],
+      "drawCalls": 84,
+      "triangles": 4276720
+    }
+  },
+  "playerModelVisibilityHook": "pass",
+  "messages": [
+    {
+      "level": 0,
+      "message": "[vite] connecting..."
+    },
+    {
+      "level": 0,
+      "message": "[vite] connected."
+    },
+    {
+      "level": 2,
+      "message": "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged."
+    }
+  ]
+}

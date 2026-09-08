@@ -1,0 +1,7 @@
+MATERIAL Material.001
+NODES [('Principled BSDF', 'BSDF_PRINCIPLED', [('Base Color', [('Image Texture', 'TEX_IMAGE')]), ('Metallic', [('Separate Color', 'SEPARATE_COLOR')]), ('Roughness', [('Separate Color', 'SEPARATE_COLOR')]), ('Normal', [('Normal Map', 'NORMAL_MAP')])]), ('Material Output', 'OUTPUT_MATERIAL', [('Surface', [('Principled BSDF', 'BSDF_PRINCIPLED')])]), ('Image Texture', 'TEX_IMAGE', []), ('Separate Color', 'SEPARATE_COLOR', [('Color', [('Image Texture.001', 'TEX_IMAGE')])]), ('Image Texture.001', 'TEX_IMAGE', []), ('Normal Map', 'NORMAL_MAP', [('Color', [('Image Texture.002', 'TEX_IMAGE')])]), ('Image Texture.002', 'TEX_IMAGE', [])]
+IMAGES [('texture_pbr_20250901', (4096, 4096)), ('texture_pbr_20250901_metallic-texture_pbr_20250901_roughness', (4096, 4096)), ('texture_pbr_20250901_normal', (4096, 4096))]
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:35:28)
+Read blend: "/Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/environment/tree/tree.blend"
+
+Blender quit

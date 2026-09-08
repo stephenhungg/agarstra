@@ -1,0 +1,61 @@
+{
+  "sourceSHA256": "fd14343ce1c070bdd3bd51c6c01b8c871bf26f81f7206c57466bb33270c1fe74",
+  "candidateSHA256": "971ec6a4d9a6348a9ceb30509029bad021b66031a8fb8a4ac496b9e4a0a2a294",
+  "changed": [
+    {
+      "clip": "idle",
+      "node": "LeftArm",
+      "samples": 121,
+      "outputAccessor": 49
+    },
+    {
+      "clip": "idle",
+      "node": "RightArm",
+      "samples": 121,
+      "outputAccessor": 61
+    },
+    {
+      "clip": "idle",
+      "node": "LeftForeArm",
+      "samples": 121,
+      "outputAccessor": 52
+    },
+    {
+      "clip": "idle",
+      "node": "RightForeArm",
+      "samples": 121,
+      "outputAccessor": 64
+    },
+    {
+      "clip": "walk",
+      "node": "LeftArm",
+      "samples": 31,
+      "outputAccessor": 226
+    },
+    {
+      "clip": "walk",
+      "node": "RightArm",
+      "samples": 31,
+      "outputAccessor": 227
+    },
+    {
+      "clip": "walk",
+      "node": "LeftForeArm",
+      "samples": 31,
+      "outputAccessor": 228
+    },
+    {
+      "clip": "walk",
+      "node": "RightForeArm",
+      "samples": 31,
+      "outputAccessor": 229
+    }
+  ],
+  "allOtherBinaryBytesUnchanged": true,
+  "status": "candidate-scoped-arm-improvement; gameplay-integration-review-pending",
+  "candidateBlendSHA256": "6e52013949a8abde97d51f911673d166bddcccdb8e18dda424c935baf3f8c42f",
+  "visualReview": {
+    "observed": "Lowered arms, connected shoulders, softly bent elbows in inspected front/side idle and walk images. Original hands and stance retained.",
+    "scope": "isolated Three.js GLB rendering only; no gameplay acceptance"
+  }
+}

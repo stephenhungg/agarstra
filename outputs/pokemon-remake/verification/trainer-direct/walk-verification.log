@@ -1,0 +1,13 @@
+16:39:26 | INFO: Data are loaded, start creating Blender stuff
+16:39:26 | INFO: Blender create Mesh node char1
+16:39:27 | INFO: glTF import finished in 0.43s
+16:39:27 | INFO: Data are loaded, start creating Blender stuff
+16:39:27 | INFO: Blender create Mesh node char1
+16:39:27 | INFO: glTF import finished in 0.40s
+16:39:28 | INFO: Data are loaded, start creating Blender stuff
+16:39:28 | INFO: Blender create Mesh node char1
+16:39:29 | INFO: glTF import finished in 0.65s
+{"passed": true, "candidateSHA256": "fd14343ce1c070bdd3bd51c6c01b8c871bf26f81f7206c57466bb33270c1fe74", "idlePreservationMaxErrorByFrame": {"1": 0.0, "31": 0.0, "61": 0.0, "91": 0.0, "121": 0.0}, "walkMaxVertexTravel": 0.35480519826015844, "walkLoopMaxVertexError": 0.0, "walkRootHorizontalTravel": 5.8813592060830236e-08, "contact": {"Left": {"minSole": -0.0008485137950628996, "maxSole": 0.08391057699918747, "maxPlantedError": 0.0005191770032979548, "ankleYTravel": 0.31995393708348274}, "Right": {"minSole": 9.381770723848604e-06, "maxSole": 0.08409939706325531, "maxPlantedError": 0.00021723180543631315, "ankleYTravel": 0.32000188529491425}}, "bones": 24, "vertices": 31278, "clips": ["idle", "walk"]}
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:35:28)
+
+Blender quit

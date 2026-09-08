@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "default": "post-starter-ready",
+  "entries": [
+    {
+      "id": "pallet-town",
+      "label": "Pallet Town · original start",
+      "file": "pallet-town.state",
+      "sha256": "1a10057c43fe2504adaf008551decde9a106e0fb244dcc636a167bc4c4dfe7ab",
+      "bytes": 397312,
+      "frame": 11979,
+      "map": {
+        "group": 3,
+        "number": 0,
+        "name": "PalletTown",
+        "width": 24,
+        "height": 20
+      },
+      "player": {
+        "worldX": 6,
+        "worldY": 8,
+        "facing": "down"
+      }
+    },
+    {
+      "id": "post-starter-pallet",
+      "label": "Pallet Town · after starter battle",
+      "file": "post-starter-pallet.state",
+      "sha256": "4bf4f58c1676700a62f862b4c3c35b1182013169521fe1ada498f2b86297469a",
+      "bytes": 397312,
+      "frame": 39019,
+      "map": {
+        "group": 3,
+        "number": 0,
+        "name": "PalletTown",
+        "width": 24,
+        "height": 20
+      },
+      "player": {
+        "worldX": 16,
+        "worldY": 13,
+        "facing": "down"
+      }
+    },
+    {
+      "id": "post-starter-ready",
+      "label": "Pallet Town · ready to explore",
+      "file": "post-starter-ready.state",
+      "sha256": "fa39d4852fd8f1e4b8d770c9d46398379fd84ed19a429e6be978ab9705c6a0c6",
+      "bytes": 397312,
+      "frame": 39079,
+      "map": {
+        "group": 3,
+        "number": 0,
+        "name": "PalletTown",
+        "width": 24,
+        "height": 20
+      },
+      "player": {
+        "worldX": 16,
+        "worldY": 14,
+        "facing": "down"
+      }
+    },
+    {
+      "id": "route1-entry",
+      "label": "Route 1 · south entrance",
+      "file": "route1-entry.state",
+      "sha256": "6641dd09a0d51a4f49c868351930c2af58a25dbe64a2eddd0af04c5d0b6e7ccf",
+      "bytes": 397312,
+      "frame": 40715,
+      "map": {
+        "group": 3,
+        "number": 19,
+        "name": "Route1",
+        "width": 24,
+        "height": 40
+      },
+      "player": {
+        "worldX": 13,
+        "worldY": 39,
+        "facing": "up"
+      }
+    },
+    {
+      "id": "first-battle",
+      "label": "First battle",
+      "file": "first-battle.state",
+      "sha256": "05c7bdfb454f830c4c202f9733665faf5f1227d6c2550e18edeb3c29d2a0c0be",
+      "bytes": 397312,
+      "frame": 30451,
+      "map": {
+        "group": 4,
+        "number": 3,
+        "name": "PalletTown_ProfessorOaksLab",
+        "width": 13,
+        "height": 14
+      },
+      "player": null
+    },
+    {
+      "id": "first-attack",
+      "label": "After first turn",
+      "file": "first-attack.state",
+      "sha256": "b5aca0d2df2b09ee31f571212543d48341ba0a8089eb9a22ca5eac0f58fc006c",
+      "bytes": 397312,
+      "frame": 32015,
+      "map": {
+        "group": 4,
+        "number": 3,
+        "name": "PalletTown_ProfessorOaksLab",
+        "width": 13,
+        "height": 14
+      },
+      "player": null
+    }
+  ]
+}

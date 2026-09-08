@@ -1,5 +1,19 @@
 const studies = [
   {
+    name: "A place to begin again.",
+    type: "Village study",
+    image: "forest-village",
+    description:
+      "A miniature forest village with terracotta rooftops, mossy trees and a stone bridge over a jade stream.",
+  },
+  {
+    name: "Beyond the edge of the map.",
+    type: "Coastal world",
+    image: "coastal-world",
+    description:
+      "A sculpted island coastline with a lighthouse, harbor cottages and winding paths above a translucent sea.",
+  },
+  {
     name: "A world, reimagined.",
     type: "World building",
     image: "world",
@@ -32,7 +46,7 @@ export default function Projects() {
   return (
     <section id="worlds" className="projects-section agarstra-worlds">
       <div className="projects-top">
-        <p className="project-count">(04) / Visual explorations</p>
+        <p className="project-count">(06) / Visual explorations</p>
         <div className="projects-heading">
           <h2 data-heading>
             Imagine
@@ -79,8 +93,8 @@ export default function Projects() {
                 <img
                   className="project-image"
                   src={`/agarstra/${s.image}.jpg`}
-                  width="2752"
-                  height="1536"
+                  width="1600"
+                  height="900"
                   alt={s.description}
                   loading="lazy"
                 />

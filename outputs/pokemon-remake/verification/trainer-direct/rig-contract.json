@@ -198,5 +198,19 @@
       ]
     }
   ],
-  "note": "Each quaternion/translation/scale is original local glTF transform. Bone longitudinal direction is local +Y; use actual hierarchy/rest quaternion when layering local rotations; do not assume world axes equal local axes."
+  "note": "Each quaternion/translation/scale is original local glTF transform. Bone longitudinal direction is local +Y; use actual hierarchy/rest quaternion when layering local rotations; do not assume world axes equal local axes.",
+  "finalCandidate": {
+    "path": "models/trainer-direct-v2.glb",
+    "sha256": "fd14343ce1c070bdd3bd51c6c01b8c871bf26f81f7206c57466bb33270c1fe74"
+  },
+  "clips": {
+    "idle": 4.0333333015441895,
+    "walk": 1
+  },
+  "walkDistancePerCycleModelUnits": 0.64,
+  "walkTime": "(cumulativeSourceDistance / (.64 * actorUniformScale)) % 1",
+  "idleInitialHeight": 1.572857080027461,
+  "idleInitialGroundOffset": 0.01074284128844738,
+  "walkGroundOffset": 0,
+  "importerWarning": "Blender importer uses 100x leg display lengths; local authoring repairs only lengths while preserving joint origins/rotations. Three.js baked clips do not depend on bone display length."
 }

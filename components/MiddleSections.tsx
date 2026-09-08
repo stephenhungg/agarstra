@@ -15,7 +15,7 @@ const stages = [
     title: "Read the original.",
     description:
       "Extract graphics and observe game state. Keep every source connection visible, from the ROM to the object on screen.",
-    image: "cartridge",
+    image: "sprite-to-world",
     tags: ["Graphics", "Game state", "Source provenance"],
   },
   {
@@ -29,7 +29,7 @@ const stages = [
     title: "Keep the game alive.",
     description:
       "Export to GLB and render new assets over original gameplay. Movement, rules and timing stay with the game you started with.",
-    image: "world",
+    image: "forest-village",
     tags: ["GLB", "Original simulation", "Asset reload"],
   },
   {

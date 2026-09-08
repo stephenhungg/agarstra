@@ -1,0 +1,29 @@
+[
+  {
+    "file": "forest-village.jpg",
+    "provider": "Higgsfield",
+    "model": "GPT Image 2",
+    "jobId": "bc47d2af-c225-48af-9cba-27a10845e879",
+    "createdAt": "2026-09-08T23:56:19.450242Z",
+    "prompt": "Premium art-directed 3D miniature concept illustration for Agarstra, a classic-game remastering tool. Tactile clay and carved wood, soft realistic lighting, sophisticated sage green, ivory and acid-lime palette with subtle warm orange accents. Beautiful crafted game diorama, strong spatial composition, no text, no logos, no UI, not a screenshot. Landscape 16:9. An intricate miniature forest village on a square cutaway terrain base floating against warm ivory studio background. Tiny cream cottages with terracotta roofs, rounded mossy trees, winding paths and a little stone bridge over a turquoise stream. Isometric three-quarter view, late afternoon sunlight, exquisite material detail, inviting depth. Scene fills frame with generous edge breathing room.",
+    "kind": "AI-generated concept art; not gameplay"
+  },
+  {
+    "file": "coastal-world.jpg",
+    "provider": "Higgsfield",
+    "model": "GPT Image 2",
+    "jobId": "d5d55634-1ac9-4e26-9ee6-1259524cb2ac",
+    "createdAt": "2026-09-08T23:56:20.592219Z",
+    "prompt": "Premium art-directed 3D miniature concept illustration for Agarstra, a classic-game remastering tool. Tactile clay and carved wood, soft realistic lighting, sophisticated sage green, ivory and acid-lime palette with subtle warm orange accents. Beautiful crafted game diorama, strong spatial composition, no text, no logos, no UI, not a screenshot. Landscape 16:9. A cinematic miniature coastal adventure world, winding grassy cliff paths, tiny white lighthouse, terracotta-roof harbor cottages and weathered stone steps above translucent jade ocean. Tiny sailboat in harbor. Layers of distant islands in soft fog, warm sun from upper left, a striking sweeping composition with shoreline diagonal. No people.",
+    "kind": "AI-generated concept art; not gameplay"
+  },
+  {
+    "file": "sprite-to-world.jpg",
+    "provider": "Higgsfield",
+    "model": "GPT Image 2",
+    "jobId": "e41cf11e-4c2c-4503-b387-a186a4a8180b",
+    "createdAt": "2026-09-08T23:56:21.662385Z",
+    "prompt": "Premium art-directed 3D miniature concept illustration for Agarstra, a classic-game remastering tool. Tactile clay and carved wood, soft realistic lighting, sophisticated sage green, ivory and acid-lime palette with subtle warm orange accents. Beautiful crafted game diorama, strong spatial composition, no text, no logos, no UI, not a screenshot. Landscape 16:9. A museum-quality conceptual diptych embodied in one coherent still life: on the left a flat square board made of carefully arranged small pixel tiles showing a simple tree, cottage and path; the same tree cottage and path rise into richly detailed sculpted 3D miniatures on the right, joined by ordered floating tiles and fine wireframe geometry. Warm ivory seamless background, studio lighting, orthographic three-quarter view, restrained sage foliage and burnt-orange roof. Clearly legible planar to volumetric transformation, no arrows, no text.",
+    "kind": "AI-generated concept art; not gameplay"
+  }
+]

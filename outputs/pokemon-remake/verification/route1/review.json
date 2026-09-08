@@ -1,0 +1,31 @@
+{
+  "status": "candidate-functional-verified",
+  "visualStatus": "changes-required-for-photoreal-target",
+  "reviewedAt": "2026-09-08T23:40:43.760485+00:00",
+  "files": {
+    "app/route1.js": "aa08571e601e9c524f83a249a724335ee496f9ca49886a92ba5e267da6384e86",
+    "source/route1-layout.json": "4a4fe8663a18c3556ce60660a87a56390c88d7049bd1f5260b27e4ffcee28f3e",
+    "verification/route1/gameplay.png": "49eee12d90feaf8bfdeba514a0b1ab389daf26085bfd3340e0e278cbdb9437f0",
+    "verification/route1/overview.png": "5c8a33a955cba497b8d4209d10419e46282bf8597d88688152d93b95d8701004",
+    "verification/route1/source-results.json": "de6b31c399ac842d9f854f3457911d8d4715282f506d6879f1a7d858f02adc6f",
+    "verification/route1/webgl-results.json": "8e8cba148ba092a3bde2d533ae9a2e60e68a73a7ce73f0ed3550b3d627bb89ac",
+    "verification/route1/post-starter-pallet.state": "4bf4f58c1676700a62f862b4c3c35b1182013169521fe1ada498f2b86297469a",
+    "verification/route1/route1-entry.state": "6641dd09a0d51a4f49c868351930c2af58a25dbe64a2eddd0af04c5d0b6e7ccf"
+  },
+  "observations": [
+    "Complete 24x40 source Route1 layout visible in overview; path branches and 178 tall-grass cells match original composite.",
+    "Actual loaded tree GLB used in 69 source-position instances; no new art generation.",
+    "All 61 MB_JUMP_SOUTH ledge cells have local south-facing relief; no world-height interpretation imposed on collision-layer elevation.",
+    "Final gameplay view hides live neighboring-map objects outside Route1 bounds and keeps camera aim inside the route.",
+    "Player marker follows original coordinates and replacement visibility hook works."
+  ],
+  "remainingDefects": [
+    "Ledge faces are simple regular blocks; need natural soil/stone construction.",
+    "Tall grass uses sparse rigid blade candidates, not final vegetation.",
+    "Existing repeated tree crown limitations persist.",
+    "Neighboring connected maps are outside this module; map edges are visible in isolated captures.",
+    "Sign has placeholder geometry; NPCs/player remain markers until root integration.",
+    "Source path is quantized to quarter-tile subcells and has visible edge stepping."
+  ],
+  "verification": "Eight source checks including byte-identical native input replay; standalone actual Electron/WebGL overview and gameplay captures passed. Root owns routing, source controller and integrated acceptance."
+}

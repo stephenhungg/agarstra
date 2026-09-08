@@ -30,6 +30,6 @@
     "texture_prompt": "Photoreal cinematic reconstruction; warm earth and muted green scenery, distinct PBR materials, soft natural daylight. Preserve the source trainer identity: red and white cap, red vest over dark shirt, blue jeans and sneakers, fully clothed. Realistic woven cotton, denim grain, stitching, fabric folds and shoe rubber; natural skin and hair, readable clothing color blocks. One full-body humanoid with separate limbs. The direct sprite supplies identity; reconstruct depth instead of a flat pixel cutout. No pedestal or extra figures.",
     "topology": "triangle"
   },
-  "result_url": null,
-  "status": "in_progress"
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_232122_997118f4-c40c-41da-adef-b775bc878a95.glb",
+  "status": "completed"
 }

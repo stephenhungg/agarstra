@@ -1,0 +1,15 @@
+{
+  "idle": {
+    "samples": 5,
+    "legFootVertices": 4839,
+    "maxDeformedLegFootError": 0.0
+  },
+  "walk": {
+    "samples": 31,
+    "legFootVertices": 4839,
+    "maxDeformedLegFootError": 0.0,
+    "loopMaxVertexError": 0.0
+  },
+  "sha256": "971ec6a4d9a6348a9ceb30509029bad021b66031a8fb8a4ac496b9e4a0a2a294",
+  "passed": true
+}

@@ -1,28 +1,28 @@
 {
   "performance": {
     "cameraPosition": [
-      27,
-      30,
-      40
+      9.640845070422536,
+      23.999999999999993,
+      51.069219381653056
     ],
     "cameraTarget": [
-      11.5,
+      9.640845070422536,
       0,
       9.5
     ],
     "mode": "live original simulation and town rendering",
-    "elapsedMs": 2542.399999976158,
-    "simulationFrames": 136,
+    "elapsedMs": 2076.2000000178814,
+    "simulationFrames": 124,
     "viewport": [
       2880,
       1562
     ],
     "pixelRatio": 2,
     "samples": 240,
-    "medianFrameMs": 8.300000011920929,
-    "p95FrameMs": 10.199999988079071,
-    "drawCalls": 121,
-    "triangles": 2312026
+    "medianFrameMs": 8.400000005960464,
+    "p95FrameMs": 9.700000017881393,
+    "drawCalls": 98,
+    "triangles": 1726682
   },
   "town": {
     "map": "PalletTown",
@@ -117,7 +117,7 @@
       ]
     },
     "limitations": [
-      "trainer and NPCs use temporary markers",
+      "source actors are supplied by the scene-level character renderer",
       "laboratory candidate requires vent/roof/material revision",
       "terrain materials are candidates; flowers absent"
     ]
@@ -176,7 +176,7 @@
       }
     },
     {
-      "name": "3D marker follows source coordinates",
+      "name": "3D player follows source coordinates",
       "ok": true
     },
     {
@@ -188,7 +188,7 @@
       "ok": true,
       "detail": {
         "sourceActors": 3,
-        "renderedActors": 3
+        "renderedActors": 2
       }
     },
     {
@@ -251,6 +251,90 @@
     {
       "name": "checkpoint reset clears battle and dialog overlays",
       "ok": true
+    },
+    {
+      "name": "rigged trainer replaces player marker",
+      "ok": true
+    },
+    {
+      "name": "source movement selects walk clip and changes feet",
+      "ok": true,
+      "detail": {
+        "file": "trainer-direct-v3.glb",
+        "sha256": "971ec6a4d9a6348a9ceb30509029bad021b66031a8fb8a4ac496b9e4a0a2a294",
+        "height": 1.4,
+        "skinnedMeshes": 1,
+        "clips": [
+          "idle",
+          "walk"
+        ],
+        "status": "candidate-not-photoreal-approved",
+        "frame": 11992,
+        "mode": "walk",
+        "groundY": -0.006142552798678813,
+        "sourcePosition": [
+          6.25,
+          8
+        ],
+        "feet": [
+          [
+            0.01700692823684058,
+            0.09473153472086421,
+            -0.23243260914843766
+          ],
+          [
+            -0.24792401369216943,
+            0.11437314657658282,
+            0.1215010495477511
+          ]
+        ],
+        "walkWeight": 0.9327944872602503
+      }
+    },
+    {
+      "name": "paused trainer pose is stable",
+      "ok": true
+    },
+    {
+      "name": "trainer returns to idle on checkpoint reset",
+      "ok": true
+    },
+    {
+      "name": "gameplay camera is orthographic with a north-up home angle",
+      "ok": true
+    },
+    {
+      "name": "source north projects up and east projects right without diagonal skew",
+      "ok": true
+    },
+    {
+      "name": "native walk from Pallet switches to Route 1 without reset",
+      "ok": true,
+      "detail": {
+        "frame": 40715,
+        "map": "Route1"
+      }
+    },
+    {
+      "name": "home heading and zoom survive map transition",
+      "ok": true
+    },
+    {
+      "name": "Route 1 uses source-positioned player model",
+      "ok": true
+    },
+    {
+      "name": "paused camera has no drift",
+      "ok": true
+    },
+    {
+      "name": "lab retains existing 3D props alongside source NPCs",
+      "ok": true,
+      "detail": {
+        "map": "PalletTown_ProfessorOaksLab",
+        "props": 1,
+        "npcs": 4
+      }
     }
   ],
   "asset": {
@@ -270,10 +354,45 @@
   },
   "limitations": [
     "Asset review stage; no photoreal acceptance yet",
-    "Four world scenes and first battle verified; characters/effects and remaining game coverage are incomplete"
+    "Pallet Town, Route 1, three interiors and first battle; NPCs, effects and remaining 3D game coverage are incomplete"
   ],
   "state": {
-    "frame": 12116,
+    "camera": {
+      "projection": "orthographic",
+      "behavior": "return-on-release",
+      "defaultPitchDegrees": 30,
+      "pitchDegrees": 29.999999999999993,
+      "yawDegrees": 0,
+      "interactive": true,
+      "dragging": false,
+      "returning": false,
+      "position": [
+        9.640845070422536,
+        23.999999999999993,
+        51.069219381653056
+      ],
+      "target": [
+        9.640845070422536,
+        0,
+        9.5
+      ],
+      "quaternion": [
+        -0.2588190451025207,
+        0,
+        0,
+        0.9659258262890684
+      ],
+      "zoom": 1,
+      "frustum": [
+        -10.140845070422536,
+        10.140845070422536,
+        5.5,
+        -5.5
+      ],
+      "active": "gameplay",
+      "orbitEnabled": false
+    },
+    "frame": 12104,
     "paused": true,
     "assetReport": {
       "file": "cottage-v2.glb",
@@ -291,6 +410,170 @@
       "clips": []
     },
     "error": null,
+    "characters": {
+      "status": "source-sprite-fallback",
+      "source": {
+        "romSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+        "sprites": 33687100,
+        "objVRAM": 100728832,
+        "objPalette": 83886592
+      },
+      "frame": 12104,
+      "map": "PalletTown",
+      "actors": [
+        {
+          "key": "3:0:1:1:23",
+          "id": 1,
+          "localId": 1,
+          "graphicsId": 23,
+          "isPlayer": false,
+          "facing": "up",
+          "moving": false,
+          "offScreen": false,
+          "visible": true,
+          "position": [
+            5,
+            0.02,
+            15
+          ],
+          "spriteId": 1,
+          "width": 16,
+          "height": 32,
+          "opaquePixels": 208,
+          "bottom": 30,
+          "pixelHash": "e1958d9c",
+          "tileNumber": 20,
+          "paletteNumber": 4,
+          "hFlip": false,
+          "vFlip": false,
+          "animation": 5,
+          "animationCommand": 1,
+          "sourceAddress": 33687168,
+          "tileAddress": 100729472,
+          "paletteAddress": 83886720,
+          "imagesAddress": 138020488
+        },
+        {
+          "key": "3:0:2:2:27",
+          "id": 2,
+          "localId": 2,
+          "graphicsId": 27,
+          "isPlayer": false,
+          "facing": "right",
+          "moving": false,
+          "offScreen": true,
+          "visible": true,
+          "position": [
+            15,
+            0.02,
+            17
+          ],
+          "spriteId": 3,
+          "width": 16,
+          "height": 32,
+          "opaquePixels": 183,
+          "bottom": 30,
+          "pixelHash": "7ded89ad",
+          "tileNumber": 28,
+          "paletteNumber": 5,
+          "hFlip": true,
+          "vFlip": false,
+          "animation": 7,
+          "animationCommand": 1,
+          "sourceAddress": 33687304,
+          "tileAddress": 100729728,
+          "paletteAddress": 83886752,
+          "imagesAddress": 138020800
+        }
+      ],
+      "unsupported": [],
+      "limitations": [
+        "2D source actors in a 3D scene; no photoreal acceptance",
+        "Only active source ObjectEvents exist; no off-map actor simulation",
+        "Affine/8bpp actors, source mosaic and OBJ blending are not reconstructed"
+      ]
+    },
+    "avatar": {
+      "file": "trainer-direct-v3.glb",
+      "sha256": "971ec6a4d9a6348a9ceb30509029bad021b66031a8fb8a4ac496b9e4a0a2a294",
+      "height": 1.4,
+      "skinnedMeshes": 1,
+      "clips": [
+        "idle",
+        "walk"
+      ],
+      "status": "candidate-not-photoreal-approved",
+      "frame": 12104,
+      "mode": "walk",
+      "groundY": -0.002360305726510064,
+      "sourcePosition": [
+        4.625,
+        10
+      ],
+      "feet": [
+        [
+          0.02242923649403572,
+          0.11466755399598531,
+          0.23112327572801483
+        ],
+        [
+          0.1995043545724,
+          0.1109533833778875,
+          -0.12012196873278391
+        ]
+      ],
+      "walkWeight": 0.8469355801087368
+    },
+    "avatarPosition": [
+      4.625,
+      -0.002360305726510064,
+      10
+    ],
+    "avatarVisible": true,
+    "route1": {
+      "status": "candidate",
+      "map": "Route1",
+      "width": 24,
+      "height": 40,
+      "source": {
+        "commit": "c75f352304d529f6ba92d4f74b9cf8b5c3810788",
+        "mapDataSHA256": "9463ad026e56bc9bbe4b533bf8284217c7b6da16ccc2126e055ffc6f1e3da65c",
+        "sourceCompositeSHA256": "b0513e03ebd629fdecf0171a919aaaa0e22efb21ca3bdda6998ecb4879678bd5",
+        "attributeFiles": {
+          "data/tilesets/primary/general/metatile_attributes.bin": "1f62a949da41adca90ad36ca3597754bee953a8f21781f32aedf6158922c89cb",
+          "data/tilesets/secondary/pallet_town/metatile_attributes.bin": "8af5fbc8c32e5d0de4fe66735603d46ecd3506c42fcbe8b6cac744496a25203a"
+        }
+      },
+      "trees": {
+        "loaded": true,
+        "count": 69,
+        "primitives": 2,
+        "height": 2.9
+      },
+      "tallGrassCells": 178,
+      "ledges": 61,
+      "pathQuads": 2482,
+      "connections": [
+        {
+          "map": "MAP_VIRIDIAN_CITY",
+          "offset": -12,
+          "direction": "up"
+        },
+        {
+          "map": "MAP_PALLET_TOWN",
+          "offset": 0,
+          "direction": "down"
+        }
+      ],
+      "heightPolicy": "Source elevation 0/3 denotes collision layers, not metric terrain height. Walkable floor remains y=0. Low .28-tile-high south-facing ledge berms occupy actual MB_JUMP_SOUTH cells; no invented continuous terraces or independent collision.",
+      "limitations": [
+        "Source-faithful layout with candidate trees and materials; not photoreal acceptance.",
+        "Only local ledge relief is authored; source elevation 0/3 is a collision layer and does not establish physical terrain height.",
+        "Quarter-tile source path mask; source actor sprites are supplied by the scene-level character renderer.",
+        "No independent collision, encounters, ledge jumps or map transition simulation."
+      ]
+    },
+    "route1Visible": false,
     "battle": {
       "status": "candidate",
       "source": "Live FireRed OBJ VRAM, palette, sprite transforms and battle RAM",
@@ -460,36 +743,60 @@
           "sourceMapSHA256": "a1ca472215cd91f5128360af49880035be67b82fb43120758826a21e6a8d803f"
         }
       },
-      "activeMap": "PalletTown_PlayersHouse_1F",
+      "activeMap": "PalletTown_ProfessorOaksLab",
       "actorPositions": [
         {
           "id": 0,
-          "x": 4,
-          "z": 5.3125,
-          "visible": true
+          "x": 6,
+          "z": 9.9375,
+          "visible": false
         },
         {
           "id": 1,
-          "x": 8,
+          "x": 3,
+          "z": 11,
+          "visible": false
+        },
+        {
+          "id": 2,
+          "x": 2,
+          "z": 10,
+          "visible": false
+        },
+        {
+          "id": 3,
+          "x": 11,
+          "z": 10,
+          "visible": false
+        },
+        {
+          "id": 4,
+          "x": 9,
           "z": 4,
           "visible": true
+        },
+        {
+          "id": 5,
+          "x": 6,
+          "z": 3,
+          "visible": false
         }
       ],
       "limitations": [
         "source-linked candidate geometry; not photoreal approved",
-        "trainer and NPC actors remain temporary markers",
+        "source actors are supplied by the scene-level character renderer",
         "source 2D furniture footprints are mapped; vertical forms and lighting are interpreted",
         "cutaway walls preserve gameplay visibility"
       ]
     },
     "dialog": {
-      "frame": 12116,
+      "frame": 12104,
       "dialog": null,
       "windows": [],
       "auxiliary": []
     },
     "semantic": {
-      "frame": 12116,
+      "frame": 12104,
       "callback2": 134571445,
       "phase": "overworld",
       "map": {
@@ -511,30 +818,30 @@
         "spriteInvisible": false,
         "visible": true,
         "offScreen": false,
-        "tileX": 6,
-        "tileY": 8,
-        "previousTileX": 6,
-        "previousTileY": 8,
-        "worldX": 6,
-        "worldY": 8,
-        "x": 6,
-        "y": 8,
+        "tileX": 4,
+        "tileY": 10,
+        "previousTileX": 5,
+        "previousTileY": 10,
+        "worldX": 4.625,
+        "worldY": 10,
+        "x": 4.625,
+        "y": 10,
         "visualOffsetX": 0,
         "visualOffsetY": 0,
-        "facing": "down",
-        "direction": 1,
-        "movementDirection": 1,
+        "facing": "left",
+        "direction": 3,
+        "movementDirection": 3,
         "moving": false,
         "elevation": 3,
-        "animation": 4,
-        "animationFrame": 1,
+        "animation": 6,
+        "animationFrame": 2,
         "source": {
           "objectAddress": 33779256,
           "spriteAddress": 33687100
         },
-        "runningState": 0,
-        "tileTransitionState": 0,
-        "avatarFlags": 33
+        "runningState": 2,
+        "tileTransitionState": 1,
+        "avatarFlags": 1
       },
       "objectEvents": [
         {
@@ -549,30 +856,30 @@
           "spriteInvisible": false,
           "visible": true,
           "offScreen": false,
-          "tileX": 6,
-          "tileY": 8,
-          "previousTileX": 6,
-          "previousTileY": 8,
-          "worldX": 6,
-          "worldY": 8,
-          "x": 6,
-          "y": 8,
+          "tileX": 4,
+          "tileY": 10,
+          "previousTileX": 5,
+          "previousTileY": 10,
+          "worldX": 4.625,
+          "worldY": 10,
+          "x": 4.625,
+          "y": 10,
           "visualOffsetX": 0,
           "visualOffsetY": 0,
-          "facing": "down",
-          "direction": 1,
-          "movementDirection": 1,
+          "facing": "left",
+          "direction": 3,
+          "movementDirection": 3,
           "moving": false,
           "elevation": 3,
-          "animation": 4,
-          "animationFrame": 1,
+          "animation": 6,
+          "animationFrame": 2,
           "source": {
             "objectAddress": 33779256,
             "spriteAddress": 33687100
           },
-          "runningState": 0,
-          "tileTransitionState": 0,
-          "avatarFlags": 33
+          "runningState": 2,
+          "tileTransitionState": 1,
+          "avatarFlags": 1
         },
         {
           "id": 1,
@@ -659,11 +966,119 @@
   "playability": {
     "checks": [
       {
+        "name": "pallet-town camera responds to held drag",
+        "ok": true,
+        "detail": {
+          "before": 0,
+          "dragged": -44.94238156209987
+        }
+      },
+      {
+        "name": "pallet-town camera returns to30degree north-up home",
+        "ok": true,
+        "detail": {
+          "projection": "orthographic",
+          "behavior": "return-on-release",
+          "defaultPitchDegrees": 30,
+          "pitchDegrees": 29.999999999999993,
+          "yawDegrees": 0,
+          "interactive": true,
+          "dragging": false,
+          "returning": false,
+          "position": [
+            9.640845070422536,
+            23.999999999999993,
+            51.069219381653056
+          ],
+          "target": [
+            9.640845070422536,
+            0,
+            9.5
+          ],
+          "quaternion": [
+            -0.2588190451025207,
+            0,
+            0,
+            0.9659258262890684
+          ],
+          "zoom": 1,
+          "frustum": [
+            -10.140845070422536,
+            10.140845070422536,
+            5.5,
+            -5.5
+          ],
+          "active": "gameplay",
+          "orbitEnabled": false
+        }
+      },
+      {
+        "name": "pallet-town temporary zoom returns home",
+        "ok": true,
+        "detail": {
+          "zoomed": 0.9419364622182996
+        }
+      },
+      {
+        "name": "route1-entry camera responds to held drag",
+        "ok": true,
+        "detail": {
+          "before": 0,
+          "dragged": -44.94238156209987
+        }
+      },
+      {
+        "name": "route1-entry camera returns to30degree north-up home",
+        "ok": true,
+        "detail": {
+          "projection": "orthographic",
+          "behavior": "return-on-release",
+          "defaultPitchDegrees": 30,
+          "pitchDegrees": 29.999999999999993,
+          "yawDegrees": 0,
+          "interactive": true,
+          "dragging": false,
+          "returning": false,
+          "position": [
+            13,
+            23.999999999999993,
+            70.06921938165306
+          ],
+          "target": [
+            13,
+            0,
+            28.5
+          ],
+          "quaternion": [
+            -0.2588190451025207,
+            0,
+            0,
+            0.9659258262890684
+          ],
+          "zoom": 1,
+          "frustum": [
+            -10.140845070422536,
+            10.140845070422536,
+            5.5,
+            -5.5
+          ],
+          "active": "gameplay",
+          "orbitEnabled": false
+        }
+      },
+      {
+        "name": "route1-entry temporary zoom returns home",
+        "ok": true,
+        "detail": {
+          "zoomed": 0.936848418631859
+        }
+      },
+      {
         "name": "real keyboard moves player",
         "ok": true,
         "detail": {
-          "before": 6,
-          "after": 6.5
+          "before": 16,
+          "after": 16.5
         }
       },
       {

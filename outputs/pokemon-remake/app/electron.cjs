@@ -7,8 +7,27 @@ ipcMain.handle('progress:save',(_,bytes)=>progress.save(saveFile,bytes));
 ipcMain.handle('progress:load',()=>progress.load(saveFile));
 ipcMain.handle('rom:load',()=>{const b=fs.readFileSync(romFile),sha1=crypto.createHash('sha1').update(b).digest('hex');if(sha1!=='41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc')throw Error('This adapter requires verified FireRed 1.0');return {bytes:new Uint8Array(b),sha1};});
 app.whenReady().then(async()=>{Menu.setApplicationMenu(null);const win=new BrowserWindow({width:1440,height:960,minWidth:1000,minHeight:760,backgroundColor:'#e9e8e0',webPreferences:{preload:path.join(__dirname,'preload.cjs'),contextIsolation:true,nodeIntegration:false}});win.webContents.on('console-message',(_,level,msg)=>console.log('[renderer]',msg));win.webContents.on('render-process-gone',(_,details)=>console.error(details));await win.loadFile(path.join(__dirname,'dist/index.html'));
-if(process.argv.includes('--smoke')){const out=path.resolve(__dirname,'../verification/workbench');fs.mkdirSync(out,{recursive:true});try{await new Promise((resolve,reject)=>{let n=0;const timer=setInterval(async()=>{try{if(await win.webContents.executeJavaScript('Boolean(window.review?.ready)')){clearInterval(timer);resolve();}else if(n++>120){clearInterval(timer);reject(Error('startup timeout'));}}catch(e){clearInterval(timer);reject(e)}},250)});const result=await win.webContents.executeJavaScript('window.review.verify()');fs.writeFileSync(path.join(out,'results.json'),JSON.stringify(result,null,2));await new Promise(r=>setTimeout(r,1500));fs.writeFileSync(path.join(out,'workbench.png'),(await win.webContents.capturePage()).toPNG());for(const name of ['dialog','interior','first-battle','moves','first-attack']){await win.webContents.executeJavaScript(`window.review.captureScenario(${JSON.stringify(name)})`);await new Promise(r=>setTimeout(r,100));fs.writeFileSync(path.join(out,`${name}.png`),(await win.webContents.capturePage()).toPNG());}const sleep=ms=>new Promise(r=>setTimeout(r,ms)),uiChecks=[];
+if(process.argv.includes('--smoke')){const out=path.resolve(__dirname,'../verification/workbench');fs.mkdirSync(out,{recursive:true});try{await new Promise((resolve,reject)=>{let n=0;const timer=setInterval(async()=>{try{if(await win.webContents.executeJavaScript('Boolean(window.review?.ready)')){clearInterval(timer);resolve();}else if(n++>120){clearInterval(timer);reject(Error('startup timeout'));}}catch(e){clearInterval(timer);reject(e)}},250)});const result=await win.webContents.executeJavaScript('window.review.verify()');fs.writeFileSync(path.join(out,'results.json'),JSON.stringify(result,null,2));await new Promise(r=>setTimeout(r,1500));fs.writeFileSync(path.join(out,'workbench.png'),(await win.webContents.capturePage()).toPNG());for(const name of ['player','post-starter-pallet','route1-entry','dialog','interior','laboratory','first-battle','moves','first-attack']){await win.webContents.executeJavaScript(`window.review.captureScenario(${JSON.stringify(name)})`);await new Promise(r=>setTimeout(r,100));fs.writeFileSync(path.join(out,`${name}.png`),(await win.webContents.capturePage()).toPNG());}const sleep=ms=>new Promise(r=>setTimeout(r,ms)),uiChecks=[];
 const uiCheck=(name,ok,detail)=>uiChecks.push({name,ok,detail});
+for(const name of ['pallet-town','route1-entry']){
+await win.webContents.executeJavaScript(`window.review.loadCheckpoint('${name}').then(()=>window.review.pause(true))`);
+const cameraBefore=await win.webContents.executeJavaScript('window.review.state.camera');
+win.webContents.sendInputEvent({type:'mouseDown',x:500,y:400,button:'left',clickCount:1});
+win.webContents.sendInputEvent({type:'mouseMove',x:650,y:460,button:'left'});
+await sleep(80);
+const dragged=await win.webContents.executeJavaScript('window.review.state.camera');
+uiCheck(`${name} camera responds to held drag`,dragged.dragging&&Math.abs(dragged.yawDegrees-cameraBefore.yawDegrees)>1,{before:cameraBefore.yawDegrees,dragged:dragged.yawDegrees});
+fs.writeFileSync(path.join(out,`${name}-camera-drag.png`),(await win.webContents.capturePage()).toPNG());
+win.webContents.sendInputEvent({type:'mouseUp',x:650,y:460,button:'left',clickCount:1});
+await sleep(1600);
+const returned=await win.webContents.executeJavaScript('window.review.state.camera');
+uiCheck(`${name} camera returns to30degree north-up home`,!returned.returning&&!returned.dragging&&Math.abs(returned.pitchDegrees-30)<.01&&Math.abs(returned.yawDegrees)<.01&&Math.abs(returned.zoom-1)<.001,returned);
+win.webContents.sendInputEvent({type:'mouseWheel',x:500,y:400,deltaY:-180,deltaX:0});
+await sleep(35);
+const zoomed=await win.webContents.executeJavaScript('window.review.state.camera.zoom');
+await sleep(1600);
+uiCheck(`${name} temporary zoom returns home`,Math.abs(zoomed-1)>.01&&Math.abs(await win.webContents.executeJavaScript('window.review.state.camera.zoom')-1)<.001,{zoomed});
+}
 win.focus();await win.webContents.executeJavaScript("document.getElementById('play-town').click()");await sleep(350);
 const before=await win.webContents.executeJavaScript('window.review.state.semantic.player.worldX');
 win.webContents.sendInputEvent({type:'keyDown',keyCode:'Right'});await sleep(250);win.webContents.sendInputEvent({type:'keyUp',keyCode:'Right'});

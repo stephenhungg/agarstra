@@ -1,0 +1,39 @@
+{
+  "ready": true,
+  "error": null,
+  "passed": true,
+  "sha256": "a3e36ae2253ac7a34a73b83ce3ac94ffc584dda1e95dc58d5e0bfde963272aea",
+  "instances": 29,
+  "height": 3.799999713897705,
+  "renderResolution": [
+    1280,
+    900
+  ],
+  "shadowResolution": [
+    2048,
+    2048
+  ],
+  "drawCalls": 59,
+  "uniqueGeometries": 3,
+  "textures": 4,
+  "synchronousRenderMs": {
+    "samples": 45,
+    "median": 0.4000000059604645,
+    "p95": 0.9000000059604645,
+    "min": 0.29999998211860657,
+    "max": 1.0999999940395355
+  },
+  "limitations": [
+    "Isolated 29-tree scene; does not include terrain, buildings, characters, source core or final runtime camera.",
+    "Synchronous gl.finish timing, not a whole-game FPS benchmark.",
+    "Visible draw/triangle counters exclude the additional shadow pass.",
+    "Visual candidate, not photoreal acceptance."
+  ],
+  "messages": [
+    {
+      "level": 2,
+      "message": "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged."
+    }
+  ],
+  "visibleTriangles": 1272696
+}

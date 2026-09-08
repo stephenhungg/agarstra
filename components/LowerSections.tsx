@@ -17,7 +17,7 @@ const roles = [
   {
     name: "The observer.",
     role: "01 / Extract",
-    image: "cartridge",
+    image: "sprite-to-world",
     description:
       "Connect graphics and live state to the ROM bytes, banks, and frames that produced them.",
   },
@@ -38,7 +38,7 @@ const roles = [
   {
     name: "The reviewer.",
     role: "04 / Refine",
-    image: "world",
+    image: "coastal-world",
     description:
       "Return visible defects to the author. Revision and current acceptance belong between a build and a release.",
   },

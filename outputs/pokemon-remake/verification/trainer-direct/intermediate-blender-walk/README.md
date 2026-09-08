@@ -1,0 +1,1 @@
+These Blender previews inspect the local walk export before the final merge preserving original idle. Final candidate evidence is ../webgl-results.json, ../webgl-*.png and ../walk-verification.json, bound to SHA256 fd14343ce1c070bdd3bd51c6c01b8c871bf26f81f7206c57466bb33270c1fe74.

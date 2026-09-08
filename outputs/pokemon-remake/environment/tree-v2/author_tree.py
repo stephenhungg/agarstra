@@ -41,18 +41,20 @@ def linked_image(socket):
         for inp in node.inputs:queue.extend(l.from_node for l in inp.links)
     return None
 source_color=linked_image('Base Color')
-color=source_color.copy();color.name='Tree v2 brown bark 2K';color.scale(2048,2048)
+# Load byte-extracted embedded maps directly. A copied packed Image can lose its
+# loaded pixel buffer and must not silently flatten the revised material.
+color=bpy.data.images.load(str(OUT/'source-bark-base.png'),check_existing=False);color.name='Tree v2 brown bark 2K';color.scale(2048,2048)
 pixels=np.empty(len(color.pixels),dtype=np.float32);color.pixels.foreach_get(pixels)
 rgba=pixels.reshape(-1,4);lum=rgba[:,:3]@np.array([.2126,.7152,.0722],dtype=np.float32)
 variation=np.clip(.6+lum*1.2,.6,1.55)
-rgba[:,:3]=variation[:,None]*np.array([.19,.105,.049],dtype=np.float32);rgba[:,3]=1
+rgba[:,:3]=variation[:,None]*np.array([.29,.16,.075],dtype=np.float32);rgba[:,3]=1
 color.pixels.foreach_set(pixels);color.pack()
 bark=bpy.data.materials.new('Tree v2 brown bark');bark.use_nodes=True
 bs=bark.node_tree.nodes.get('Principled BSDF');bs.inputs['Roughness'].default_value=.89;bs.inputs['Metallic'].default_value=0
 node=bark.node_tree.nodes.new('ShaderNodeTexImage');node.image=color;bark.node_tree.links.new(node.outputs['Color'],bs.inputs['Base Color'])
-source_normal=linked_image('Normal')
+source_normal=bpy.data.images.load(str(OUT/'source-bark-normal.png'),check_existing=False)
 if source_normal:
-    normal=source_normal.copy();normal.name='Tree v2 bark normal 2K';normal.scale(2048,2048);normal.colorspace_settings.name='Non-Color';normal.pack()
+    normal=source_normal;normal.name='Tree v2 bark normal 2K';normal.colorspace_settings.name='Non-Color';normal.scale(2048,2048);normal.pack()
     node=bark.node_tree.nodes.new('ShaderNodeTexImage');node.image=normal;nm=bark.node_tree.nodes.new('ShaderNodeNormalMap');nm.inputs['Strength'].default_value=.55;bark.node_tree.links.new(node.outputs['Color'],nm.inputs['Color']);bark.node_tree.links.new(nm.outputs['Normal'],bs.inputs['Normal'])
 
 def tube(anchor,points,radii,sides=5):
@@ -124,7 +126,7 @@ edge=np.minimum(1,np.abs(u-.5)*2);mid=np.exp(-((u-.5)/.012)**2)
 branches=np.exp(-((np.mod(v*8+np.abs(u-.5)*2,1)-.5)/.045)**2)
 grain=np.random.default_rng(1244).normal(0,.018,(N,N)).astype(np.float32)
 intensity=.91+.10*(1-edge)+.045*np.sin(v*math.pi)+grain-.1*branches+.08*mid
-leaf_pixels=np.ones((N,N,4),dtype=np.float32);leaf_pixels[:,:,:3]=intensity[:,:,None]*np.array([.075,.18,.025],dtype=np.float32)
+leaf_pixels=np.ones((N,N,4),dtype=np.float32);leaf_pixels[:,:,:3]=intensity[:,:,None]*np.array([.12,.24,.038],dtype=np.float32)
 leaf_image=bpy.data.images.new('Tree v2 authored leaf veins',width=N,height=N,alpha=True);leaf_image.pixels.foreach_set(leaf_pixels.reshape(-1));leaf_image.pack()
 leaf_mat=bpy.data.materials.new('Tree v2 broad leaves');leaf_mat.use_nodes=True;leaf_mat.use_backface_culling=False
 lbs=leaf_mat.node_tree.nodes.get('Principled BSDF');lbs.inputs['Roughness'].default_value=.72

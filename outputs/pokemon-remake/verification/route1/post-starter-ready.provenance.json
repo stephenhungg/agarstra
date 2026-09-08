@@ -1,0 +1,87 @@
+{
+  "sourceCheckpoint": "post-starter-pallet.state",
+  "sourceSHA256": "4bf4f58c1676700a62f862b4c3c35b1182013169521fe1ada498f2b86297469a",
+  "inputs": [
+    {
+      "frames": 60,
+      "keys": 0
+    }
+  ],
+  "noInputFrames": 60,
+  "frame": 39079,
+  "sha256": "fa39d4852fd8f1e4b8d770c9d46398379fd84ed19a429e6be978ab9705c6a0c6",
+  "map": {
+    "group": 3,
+    "number": 0,
+    "name": "PalletTown",
+    "width": 24,
+    "height": 20
+  },
+  "player": {
+    "id": 0,
+    "spriteId": 0,
+    "graphicsId": 0,
+    "localId": 255,
+    "mapGroup": 3,
+    "mapNumber": 0,
+    "isPlayer": true,
+    "hidden": false,
+    "spriteInvisible": false,
+    "visible": true,
+    "offScreen": false,
+    "tileX": 16,
+    "tileY": 14,
+    "previousTileX": 16,
+    "previousTileY": 14,
+    "worldX": 16,
+    "worldY": 14,
+    "x": 16,
+    "y": 14,
+    "visualOffsetX": 0,
+    "visualOffsetY": 0,
+    "facing": "down",
+    "direction": 1,
+    "movementDirection": 1,
+    "moving": false,
+    "elevation": 3,
+    "animation": 4,
+    "animationFrame": 1,
+    "source": {
+      "objectAddress": 33779256,
+      "spriteAddress": 33687100
+    },
+    "runningState": 0,
+    "tileTransitionState": 0,
+    "avatarFlags": 33
+  },
+  "verification": {
+    "passed": true,
+    "rightProbes": [
+      {
+        "frames": 12,
+        "keys": 16,
+        "worldX": 16.25,
+        "worldY": 14,
+        "runningState": 2,
+        "tileTransitionState": 1
+      },
+      {
+        "frames": 16,
+        "keys": 16,
+        "worldX": 16.5,
+        "worldY": 14,
+        "runningState": 2,
+        "tileTransitionState": 1
+      },
+      {
+        "frames": 32,
+        "keys": 16,
+        "worldX": 17.5,
+        "worldY": 14,
+        "runningState": 2,
+        "tileTransitionState": 1
+      }
+    ]
+  },
+  "method": "Exactly 60 native no-input frames allow the automatic doorway exit to complete. No RAM or source-state edits."
+}

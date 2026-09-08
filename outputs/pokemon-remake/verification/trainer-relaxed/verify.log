@@ -1,0 +1,16 @@
+16:49:48 | INFO: Data are loaded, start creating Blender stuff
+16:49:48 | INFO: Blender create Mesh node char1
+16:49:48 | INFO: glTF import finished in 0.22s
+16:49:48 | INFO: Data are loaded, start creating Blender stuff
+16:49:48 | INFO: Blender create Mesh node char1
+16:49:49 | INFO: glTF import finished in 0.18s
+16:49:49 | INFO: Data are loaded, start creating Blender stuff
+16:49:49 | INFO: Blender create Mesh node char1
+16:49:49 | INFO: glTF import finished in 0.29s
+16:49:50 | INFO: Data are loaded, start creating Blender stuff
+16:49:50 | INFO: Blender create Mesh node char1
+16:49:50 | INFO: glTF import finished in 0.31s
+{"idle": {"samples": 5, "legFootVertices": 4839, "maxDeformedLegFootError": 0.0}, "walk": {"samples": 31, "legFootVertices": 4839, "maxDeformedLegFootError": 0.0, "loopMaxVertexError": 0.0}, "sha256": "971ec6a4d9a6348a9ceb30509029bad021b66031a8fb8a4ac496b9e4a0a2a294", "passed": true}
+Blender 4.5.0 (hash 8cb6b388974a built 2025-07-15 01:35:28)
+
+Blender quit
