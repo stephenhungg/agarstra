@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "checkedAt": "2026-09-09T00:05:25.922Z",
+  "checks": [
+    {
+      "name": "original ancestor transforms preserved",
+      "passed": true
+    },
+    {
+      "name": "one-shot attack evaluates requested elapsed source time",
+      "passed": true
+    },
+    {
+      "name": "one-shot clamps at endpoint",
+      "passed": true
+    },
+    {
+      "name": "rewinding finished action restores exact pose",
+      "passed": true
+    },
+    {
+      "name": "paused source time freezes pose",
+      "passed": true
+    },
+    {
+      "name": "idle can resume after one-shot",
+      "passed": true
+    },
+    {
+      "name": "faint pose holds endpoint",
+      "passed": true
+    },
+    {
+      "name": "missing clip is reported, never guessed",
+      "passed": true
+    },
+    {
+      "name": "invalid time rejected",
+      "passed": true
+    },
+    {
+      "name": "static arena accepts GLB without selected animation",
+      "passed": true
+    },
+    {
+      "name": "hash mismatch rejected",
+      "passed": true
+    },
+    {
+      "name": "disposed model cannot animate",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Animation interpolation fixture validates runtime seeking and lifecycle; it does not claim visual acceptance of creature GLBs."
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "scope": "FireRed first rival battle in Oak's lab, all three starter choices",
-  "status": "Blender authoring and runtime integration in progress",
+  "status": "Lab, Bulbasaur, Charmander and native-event combat integrated as art candidates; Squirtle in final review",
   "romSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
   "sourceCommit": "ef8839d",
   "ownership": {
@@ -98,7 +98,7 @@
       "PalletTown_ProfessorOaksLab"
     ]
   },
-  "visualAcceptance": "pending actual Blender renders and runtime review",
+  "visualAcceptance": "Source-faithful stylized candidates, not hyperreal-approved",
   "priorWork": "Camera/player changes set aside on Vault; friend owns replacement",
   "sourceReferences": [
     {
@@ -128,6 +128,7 @@
     "sourceEventChecks": 10,
     "clipLoaderChecks": 12,
     "appBuild": "passed",
-    "fullAppSmoke": "in progress"
+    "fullAppSmoke": "passed 34 integration + 11 control/save checks with lab and Charmander",
+    "isolatedBattleWebGL": "passed 12 checks including native attack replay and paused model loading"
   }
 }

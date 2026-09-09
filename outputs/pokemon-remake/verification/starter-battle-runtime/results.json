@@ -1,0 +1,998 @@
+{
+  "ready": true,
+  "error": null,
+  "checks": [
+    {
+      "name": "pending model leaves live source sprite",
+      "ok": true
+    },
+    {
+      "name": "paused late GLB load does not step source",
+      "ok": true,
+      "detail": {
+        "before": 30452,
+        "after": 30452
+      }
+    },
+    {
+      "name": "late Charmander appears without a new paint call",
+      "ok": true,
+      "detail": [
+        {
+          "id": 0,
+          "species": 1,
+          "visible": true,
+          "position": [
+            -3.936,
+            0.00200726163960091,
+            1.9869673333385611
+          ],
+          "presentation": "source-sprite",
+          "clip": null,
+          "sourceOffsets": {
+            "x": 0,
+            "y": 1
+          },
+          "pixelHash": "7bbe736f"
+        },
+        {
+          "id": 1,
+          "species": 4,
+          "visible": true,
+          "position": [
+            4,
+            -0.04,
+            -3
+          ],
+          "presentation": "rigged-3d-candidate",
+          "clip": "idle",
+          "sourceOffsets": {
+            "x": 0,
+            "y": 0
+          },
+          "pixelHash": "666be7c1"
+        }
+      ]
+    },
+    {
+      "name": "arena loads exact registered bytes",
+      "ok": true,
+      "detail": {
+        "status": "ready",
+        "model": {
+          "status": "candidate-loader-only-not-visual-acceptance",
+          "url": "http://127.0.0.1:5173/models/battle-arena-v1.glb",
+          "sha256": "de1c8044b448d0840cbf8cf04490b2433b0dba260629c060617913bc80207fdc",
+          "bytes": 8725768,
+          "hierarchyPreserved": true,
+          "up": "+Y",
+          "front": "+Z (asset convention; visually verify)",
+          "bounds": {
+            "min": [
+              -100,
+              -0.45000001788139343,
+              -65
+            ],
+            "max": [
+              100,
+              60,
+              95
+            ],
+            "size": [
+              200,
+              60.45000001788139,
+              160
+            ]
+          },
+          "height": 60.45000001788139,
+          "groundOffset": 0.45000001788139343,
+          "meshCount": 22,
+          "nodeCount": 24,
+          "boneCount": 0,
+          "skinnedMeshes": [],
+          "clips": [],
+          "selectedClip": null,
+          "animationReady": false,
+          "staticOnly": true,
+          "availableActions": {},
+          "sourceSeconds": null,
+          "disposed": false
+        }
+      }
+    },
+    {
+      "name": "scene submits real WebGL geometry",
+      "ok": true,
+      "detail": {
+        "calls": 49,
+        "triangles": 184738
+      }
+    },
+    {
+      "name": "repeated paused paint preserves complete source bytes",
+      "ok": true
+    },
+    {
+      "name": "3D actors keep fixed stage anchors and original offsets",
+      "ok": true,
+      "detail": [
+        {
+          "id": 0,
+          "species": 1,
+          "visible": true,
+          "position": [
+            -3.936,
+            0.00200726163960091,
+            1.9869673333385611
+          ],
+          "presentation": "source-sprite",
+          "clip": null,
+          "sourceOffsets": {
+            "x": 0,
+            "y": 1
+          },
+          "pixelHash": "7bbe736f"
+        },
+        {
+          "id": 1,
+          "species": 4,
+          "visible": true,
+          "position": [
+            4,
+            -0.04,
+            -3
+          ],
+          "presentation": "rigged-3d-candidate",
+          "clip": "idle",
+          "sourceOffsets": {
+            "x": 0,
+            "y": 0
+          },
+          "pixelHash": "666be7c1"
+        }
+      ]
+    },
+    {
+      "name": "real first turn changes source HP to 11 and 14",
+      "ok": true,
+      "detail": [
+        11,
+        14
+      ]
+    },
+    {
+      "name": "checkpoint replay preserves full emulator bytes",
+      "ok": true
+    },
+    {
+      "name": "checkpoint replay reproduces action event frames",
+      "ok": true,
+      "detail": [
+        {
+          "id": "30610:0:attack",
+          "frame": 30610,
+          "battlerId": 0,
+          "species": 1,
+          "action": "attack",
+          "moveId": 33,
+          "targetId": 1,
+          "signal": "native-move-script"
+        },
+        {
+          "id": "30652:1:hit",
+          "frame": 30652,
+          "battlerId": 1,
+          "species": 4,
+          "action": "hit",
+          "signal": "CONTROLLER_HITANIMATION"
+        },
+        {
+          "id": "31290:1:attack",
+          "frame": 31290,
+          "battlerId": 1,
+          "species": 4,
+          "action": "attack",
+          "moveId": 10,
+          "targetId": 0,
+          "signal": "native-move-script"
+        },
+        {
+          "id": "31323:0:hit",
+          "frame": 31323,
+          "battlerId": 0,
+          "species": 1,
+          "action": "hit",
+          "signal": "CONTROLLER_HITANIMATION"
+        }
+      ]
+    },
+    {
+      "name": "native attack and hit signals are both observed",
+      "ok": true
+    },
+    {
+      "name": "native Fight opens original move selection",
+      "ok": true,
+      "detail": {
+        "mode": "moves",
+        "battlerId": 0,
+        "cursor": 0,
+        "items": [
+          {
+            "index": 0,
+            "move": 33,
+            "label": "TACKLE",
+            "pp": 35,
+            "maxPP": 35,
+            "type": "NORMAL"
+          },
+          {
+            "index": 1,
+            "move": 45,
+            "label": "GROWL",
+            "pp": 40,
+            "maxPP": 40,
+            "type": "NORMAL"
+          },
+          {
+            "index": 2,
+            "move": 0,
+            "label": "—",
+            "pp": 0,
+            "maxPP": 0,
+            "type": null
+          },
+          {
+            "index": 3,
+            "move": 0,
+            "label": "—",
+            "pp": 0,
+            "maxPP": 0,
+            "type": null
+          }
+        ],
+        "nativeWindowId": 3
+      }
+    }
+  ],
+  "passed": true,
+  "sourceFrames": [
+    {
+      "frame": 30618,
+      "event": {
+        "id": "30610:0:attack",
+        "frame": 30610,
+        "battlerId": 0,
+        "species": 1,
+        "action": "attack",
+        "moveId": 33,
+        "targetId": 1,
+        "signal": "native-move-script"
+      },
+      "actors": [
+        {
+          "id": 0,
+          "species": 1,
+          "visible": true,
+          "position": [
+            -2.624,
+            0.07953699611939097,
+            1.9602626470177444
+          ],
+          "presentation": "source-sprite",
+          "clip": null,
+          "sourceOffsets": {
+            "x": 16,
+            "y": 0
+          },
+          "pixelHash": "7bbe736f"
+        },
+        {
+          "id": 1,
+          "species": 4,
+          "visible": false,
+          "position": [
+            4,
+            -0.04,
+            -3
+          ],
+          "presentation": "rigged-3d-candidate",
+          "clip": "idle",
+          "sourceOffsets": {
+            "x": 0,
+            "y": 0
+          },
+          "pixelHash": "666be7c1"
+        }
+      ]
+    },
+    {
+      "frame": 30660,
+      "event": {
+        "id": "30652:1:hit",
+        "frame": 30652,
+        "battlerId": 1,
+        "species": 4,
+        "action": "hit",
+        "signal": "CONTROLLER_HITANIMATION"
+      },
+      "actors": [
+        {
+          "id": 0,
+          "species": 1,
+          "visible": true,
+          "position": [
+            -3.936,
+            0.07953699611939097,
+            1.9602626470177444
+          ],
+          "presentation": "source-sprite",
+          "clip": null,
+          "sourceOffsets": {
+            "x": 0,
+            "y": 0
+          },
+          "pixelHash": "7bbe736f"
+        },
+        {
+          "id": 1,
+          "species": 4,
+          "visible": true,
+          "position": [
+            4,
+            -0.04,
+            -3
+          ],
+          "presentation": "rigged-3d-candidate",
+          "clip": "hit",
+          "sourceOffsets": {
+            "x": 0,
+            "y": 0
+          },
+          "pixelHash": "666be7c1"
+        }
+      ]
+    },
+    {
+      "frame": 31298,
+      "event": {
+        "id": "31290:1:attack",
+        "frame": 31290,
+        "battlerId": 1,
+        "species": 4,
+        "action": "attack",
+        "moveId": 10,
+        "targetId": 0,
+        "signal": "native-move-script"
+      },
+      "actors": [
+        {
+          "id": 0,
+          "species": 1,
+          "visible": false,
+          "position": [
+            -3.936,
+            0.07953699611939097,
+            1.9602626470177444
+          ],
+          "presentation": "source-sprite",
+          "clip": null,
+          "sourceOffsets": {
+            "x": 0,
+            "y": 0
+          },
+          "pixelHash": "7bbe736f"
+        },
+        {
+          "id": 1,
+          "species": 4,
+          "visible": true,
+          "position": [
+            4,
+            -0.04,
+            -3
+          ],
+          "presentation": "rigged-3d-candidate",
+          "clip": "attack",
+          "sourceOffsets": {
+            "x": 0,
+            "y": 0
+          },
+          "pixelHash": "666be7c1"
+        }
+      ]
+    },
+    {
+      "frame": 31331,
+      "event": {
+        "id": "31323:0:hit",
+        "frame": 31323,
+        "battlerId": 0,
+        "species": 1,
+        "action": "hit",
+        "signal": "CONTROLLER_HITANIMATION"
+      },
+      "actors": [
+        {
+          "id": 0,
+          "species": 1,
+          "visible": true,
+          "position": [
+            -3.936,
+            0.07953699611939097,
+            1.9602626470177444
+          ],
+          "presentation": "source-sprite",
+          "clip": null,
+          "sourceOffsets": {
+            "x": 0,
+            "y": 0
+          },
+          "pixelHash": "7bbe736f"
+        },
+        {
+          "id": 1,
+          "species": 4,
+          "visible": true,
+          "position": [
+            4,
+            -0.04,
+            -3
+          ],
+          "presentation": "rigged-3d-candidate",
+          "clip": "attack",
+          "sourceOffsets": {
+            "x": 0,
+            "y": 0
+          },
+          "pixelHash": "666be7c1"
+        }
+      ]
+    }
+  ],
+  "report": {
+    "status": "candidate",
+    "source": "Live FireRed OBJ VRAM, palette, sprite transforms and battle RAM",
+    "updates": 3135,
+    "sourceFrames": 30503,
+    "registryError": null,
+    "registeredSpecies": [
+      4
+    ],
+    "models": {
+      "1": {
+        "species": 4,
+        "file": "charmander-battle-v3.glb",
+        "status": "ready",
+        "model": {
+          "status": "candidate-loader-only-not-visual-acceptance",
+          "url": "http://127.0.0.1:5173/models/charmander-battle-v3.glb",
+          "sha256": "67c110390c1965d430434b2fcc8544b51c575667ff315a6df09fd7d0bbe75627",
+          "bytes": 14423480,
+          "hierarchyPreserved": true,
+          "up": "+Y",
+          "front": "+Z (asset convention; visually verify)",
+          "bounds": {
+            "min": [
+              -0.23782911917321775,
+              -0.0012709185182993997,
+              -0.5193804380694066
+            ],
+            "max": [
+              0.23782777606931801,
+              0.5941976732661054,
+              0.1374021934975939
+            ],
+            "size": [
+              0.47565689524253574,
+              0.5954685917844048,
+              0.6567826315670005
+            ]
+          },
+          "height": 0.5954685917844048,
+          "groundOffset": 0.0012709185182993997,
+          "meshCount": 2,
+          "nodeCount": 66,
+          "boneCount": 60,
+          "skinnedMeshes": [
+            {
+              "name": "Mesh",
+              "bones": 60,
+              "vertices": 7621,
+              "bindMode": "attached"
+            },
+            {
+              "name": "Mesh_1",
+              "bones": 60,
+              "vertices": 167,
+              "bindMode": "attached"
+            }
+          ],
+          "clips": [
+            {
+              "name": "idle",
+              "duration": 3,
+              "tracks": 180
+            },
+            {
+              "name": "attack",
+              "duration": 1,
+              "tracks": 180
+            },
+            {
+              "name": "growl",
+              "duration": 1.2000000476837158,
+              "tracks": 180
+            },
+            {
+              "name": "hit",
+              "duration": 0.6000000238418579,
+              "tracks": 180
+            },
+            {
+              "name": "faint",
+              "duration": 1.399999976158142,
+              "tracks": 180
+            }
+          ],
+          "selectedClip": "idle",
+          "animationReady": true,
+          "staticOnly": false,
+          "availableActions": {
+            "idle": {
+              "clip": "idle",
+              "duration": 3
+            },
+            "attack": {
+              "clip": "attack",
+              "duration": 1
+            },
+            "hit": {
+              "clip": "hit",
+              "duration": 0.6000000238418579
+            },
+            "faint": {
+              "clip": "faint",
+              "duration": 1.399999976158142
+            },
+            "growl": {
+              "clip": "growl",
+              "duration": 1.2000000476837158
+            }
+          },
+          "sourceSeconds": 510.7027751035955,
+          "disposed": false,
+          "event": null,
+          "nativeFrame": 30503
+        }
+      }
+    },
+    "arena": {
+      "status": "ready",
+      "model": {
+        "status": "candidate-loader-only-not-visual-acceptance",
+        "url": "http://127.0.0.1:5173/models/battle-arena-v1.glb",
+        "sha256": "de1c8044b448d0840cbf8cf04490b2433b0dba260629c060617913bc80207fdc",
+        "bytes": 8725768,
+        "hierarchyPreserved": true,
+        "up": "+Y",
+        "front": "+Z (asset convention; visually verify)",
+        "bounds": {
+          "min": [
+            -100,
+            -0.45000001788139343,
+            -65
+          ],
+          "max": [
+            100,
+            60,
+            95
+          ],
+          "size": [
+            200,
+            60.45000001788139,
+            160
+          ]
+        },
+        "height": 60.45000001788139,
+        "groundOffset": 0.45000001788139343,
+        "meshCount": 22,
+        "nodeCount": 24,
+        "boneCount": 0,
+        "skinnedMeshes": [],
+        "clips": [],
+        "selectedClip": null,
+        "animationReady": false,
+        "staticOnly": true,
+        "availableActions": {},
+        "sourceSeconds": null,
+        "disposed": false
+      }
+    },
+    "events": [
+      {
+        "id": "30610:0:attack",
+        "frame": 30610,
+        "battlerId": 0,
+        "species": 1,
+        "action": "attack",
+        "moveId": 33,
+        "targetId": 1,
+        "signal": "native-move-script"
+      },
+      {
+        "id": "30652:1:hit",
+        "frame": 30652,
+        "battlerId": 1,
+        "species": 4,
+        "action": "hit",
+        "signal": "CONTROLLER_HITANIMATION"
+      },
+      {
+        "id": "31290:1:attack",
+        "frame": 31290,
+        "battlerId": 1,
+        "species": 4,
+        "action": "attack",
+        "moveId": 10,
+        "targetId": 0,
+        "signal": "native-move-script"
+      },
+      {
+        "id": "31323:0:hit",
+        "frame": 31323,
+        "battlerId": 0,
+        "species": 1,
+        "action": "hit",
+        "signal": "CONTROLLER_HITANIMATION"
+      },
+      {
+        "id": "30610:0:attack",
+        "frame": 30610,
+        "battlerId": 0,
+        "species": 1,
+        "action": "attack",
+        "moveId": 33,
+        "targetId": 1,
+        "signal": "native-move-script"
+      },
+      {
+        "id": "30652:1:hit",
+        "frame": 30652,
+        "battlerId": 1,
+        "species": 4,
+        "action": "hit",
+        "signal": "CONTROLLER_HITANIMATION"
+      },
+      {
+        "id": "31290:1:attack",
+        "frame": 31290,
+        "battlerId": 1,
+        "species": 4,
+        "action": "attack",
+        "moveId": 10,
+        "targetId": 0,
+        "signal": "native-move-script"
+      },
+      {
+        "id": "31323:0:hit",
+        "frame": 31323,
+        "battlerId": 0,
+        "species": 1,
+        "action": "hit",
+        "signal": "CONTROLLER_HITANIMATION"
+      }
+    ],
+    "modelLoadStatus": "ready",
+    "modelError": null,
+    "creatureModel": {
+      "status": "candidate-loader-only-not-visual-acceptance",
+      "url": "http://127.0.0.1:5173/models/charmander-battle-v3.glb",
+      "sha256": "67c110390c1965d430434b2fcc8544b51c575667ff315a6df09fd7d0bbe75627",
+      "bytes": 14423480,
+      "hierarchyPreserved": true,
+      "up": "+Y",
+      "front": "+Z (asset convention; visually verify)",
+      "bounds": {
+        "min": [
+          -0.23782911917321775,
+          -0.0012709185182993997,
+          -0.5193804380694066
+        ],
+        "max": [
+          0.23782777606931801,
+          0.5941976732661054,
+          0.1374021934975939
+        ],
+        "size": [
+          0.47565689524253574,
+          0.5954685917844048,
+          0.6567826315670005
+        ]
+      },
+      "height": 0.5954685917844048,
+      "groundOffset": 0.0012709185182993997,
+      "meshCount": 2,
+      "nodeCount": 66,
+      "boneCount": 60,
+      "skinnedMeshes": [
+        {
+          "name": "Mesh",
+          "bones": 60,
+          "vertices": 7621,
+          "bindMode": "attached"
+        },
+        {
+          "name": "Mesh_1",
+          "bones": 60,
+          "vertices": 167,
+          "bindMode": "attached"
+        }
+      ],
+      "clips": [
+        {
+          "name": "idle",
+          "duration": 3,
+          "tracks": 180
+        },
+        {
+          "name": "attack",
+          "duration": 1,
+          "tracks": 180
+        },
+        {
+          "name": "growl",
+          "duration": 1.2000000476837158,
+          "tracks": 180
+        },
+        {
+          "name": "hit",
+          "duration": 0.6000000238418579,
+          "tracks": 180
+        },
+        {
+          "name": "faint",
+          "duration": 1.399999976158142,
+          "tracks": 180
+        }
+      ],
+      "selectedClip": "idle",
+      "animationReady": true,
+      "staticOnly": false,
+      "availableActions": {
+        "idle": {
+          "clip": "idle",
+          "duration": 3
+        },
+        "attack": {
+          "clip": "attack",
+          "duration": 1
+        },
+        "hit": {
+          "clip": "hit",
+          "duration": 0.6000000238418579
+        },
+        "faint": {
+          "clip": "faint",
+          "duration": 1.399999976158142
+        },
+        "growl": {
+          "clip": "growl",
+          "duration": 1.2000000476837158
+        }
+      },
+      "sourceSeconds": 510.7027751035955,
+      "disposed": false,
+      "event": null,
+      "nativeFrame": 30503
+    },
+    "modelBattlerId": 1,
+    "limitations": [
+      "Only registered species use candidate 3D assets; missing or rejected assets keep live source sprites.",
+      "Authored clips respond to observed native move-script and hit/faint controller edges; clip motion is presentation only.",
+      "An update starting midway through an animation cannot recover unobserved earlier event time.",
+      "Source affine deformation, palette flashes and separate attack-effect sprites/background effects are not rebuilt for models.",
+      "Native party/bag menus use exact source pixels."
+    ],
+    "modelCredit": [
+      "Charmander original rig by Milos Cerny http://www.miloscerny.com/",
+      "Charmander original model by Guilherme Lauck https://sketchfab.com/guilauck"
+    ],
+    "modelLicense": "See individual registry asset licenses; existing Charmander CC BY-NC 4.0"
+  },
+  "actors": [
+    {
+      "id": 0,
+      "species": 1,
+      "visible": true,
+      "position": [
+        -3.936,
+        0.00200726163960091,
+        1.9869673333385611
+      ],
+      "presentation": "source-sprite",
+      "clip": null,
+      "sourceOffsets": {
+        "x": 0,
+        "y": 1
+      },
+      "pixelHash": "7bbe736f"
+    },
+    {
+      "id": 1,
+      "species": 4,
+      "visible": true,
+      "position": [
+        4,
+        -0.04,
+        -3
+      ],
+      "presentation": "rigged-3d-candidate",
+      "clip": "idle",
+      "sourceOffsets": {
+        "x": 0,
+        "y": 0
+      },
+      "pixelHash": "666be7c1"
+    }
+  ],
+  "events": [
+    {
+      "id": "30610:0:attack",
+      "frame": 30610,
+      "battlerId": 0,
+      "species": 1,
+      "action": "attack",
+      "moveId": 33,
+      "targetId": 1,
+      "signal": "native-move-script"
+    },
+    {
+      "id": "30652:1:hit",
+      "frame": 30652,
+      "battlerId": 1,
+      "species": 4,
+      "action": "hit",
+      "signal": "CONTROLLER_HITANIMATION"
+    },
+    {
+      "id": "31290:1:attack",
+      "frame": 31290,
+      "battlerId": 1,
+      "species": 4,
+      "action": "attack",
+      "moveId": 10,
+      "targetId": 0,
+      "signal": "native-move-script"
+    },
+    {
+      "id": "31323:0:hit",
+      "frame": 31323,
+      "battlerId": 0,
+      "species": 1,
+      "action": "hit",
+      "signal": "CONTROLLER_HITANIMATION"
+    }
+  ],
+  "finalHP": [
+    11,
+    14
+  ],
+  "frame": 30503,
+  "render": {
+    "calls": 49,
+    "triangles": 184738
+  },
+  "wide": {
+    "position": [
+      0,
+      10.189179507612652,
+      24.355682441456086
+    ],
+    "frustum": [
+      -16.118518518518517,
+      16.118518518518517,
+      6.8,
+      -6.8
+    ],
+    "actors": [
+      {
+        "id": 0,
+        "species": 1,
+        "visible": true,
+        "position": [
+          -3.936,
+          0.00200726163960091,
+          1.9869673333385611
+        ],
+        "presentation": "source-sprite",
+        "clip": null,
+        "sourceOffsets": {
+          "x": 0,
+          "y": 1
+        },
+        "pixelHash": "7bbe736f"
+      },
+      {
+        "id": 1,
+        "species": 4,
+        "visible": true,
+        "position": [
+          4,
+          -0.04,
+          -3
+        ],
+        "presentation": "rigged-3d-candidate",
+        "clip": "idle",
+        "sourceOffsets": {
+          "x": 0,
+          "y": 0
+        },
+        "pixelHash": "666be7c1"
+      }
+    ]
+  },
+  "portrait": {
+    "position": [
+      0,
+      18.734679130273985,
+      49.165197474988986
+    ],
+    "frustum": [
+      -9,
+      9,
+      15,
+      -15
+    ],
+    "actors": [
+      {
+        "id": 0,
+        "species": 1,
+        "visible": true,
+        "position": [
+          -3.936,
+          0.00200726163960091,
+          1.9869673333385611
+        ],
+        "presentation": "source-sprite",
+        "clip": null,
+        "sourceOffsets": {
+          "x": 0,
+          "y": 1
+        },
+        "pixelHash": "7bbe736f"
+      },
+      {
+        "id": 1,
+        "species": 4,
+        "visible": true,
+        "position": [
+          4,
+          -0.04,
+          -3
+        ],
+        "presentation": "rigged-3d-candidate",
+        "clip": "idle",
+        "sourceOffsets": {
+          "x": 0,
+          "y": 0
+        },
+        "pixelHash": "666be7c1"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "level": "debug",
+      "message": "[vite] connecting..."
+    },
+    {
+      "level": "debug",
+      "message": "[vite] connected."
+    },
+    {
+      "level": "warning",
+      "message": "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "artifactSha256": "de1c8044b448d0840cbf8cf04490b2433b0dba260629c060617913bc80207fdc",
+  "profile": "prototype",
+  "status": "candidate-reviewed-for-integration",
+  "photorealApproved": false,
+  "reference": "/Users/matthewkim/Documents/ChatGPT/agarstra/outputs/pokemon-remake/environment/starter-battle/oak-lab-gpt-image-2.png",
+  "inspected": [
+    "gameplay.png",
+    "wide.png",
+    "portrait.png"
+  ],
+  "observations": [
+    "Actual imported GLB shows oak cabinetry, books, laboratory apparatus, stone tile floor and sage combat inlays.",
+    "The two source combat anchors are clear of furniture.",
+    "Gameplay and wide views fill with the room and floor, without island-edge void.",
+    "The broader portrait diagnostic shows a tile-grid end line near the bottom, followed by continuous textured floor. Runtime uses a tighter portrait span.",
+    "Procedural materials and botanical forms are simpler and more stylized than the generated photographic target."
+  ],
+  "remaining": [
+    "Review integrated Three.js lighting and creature contact in the actual game.",
+    "Additional texture/optical/detail refinement is needed before any photoreal acceptance claim."
+  ],
+  "sourceSimulationChanged": false
+}

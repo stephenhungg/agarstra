@@ -1,0 +1,71 @@
+{
+  "asset": "charmander-battle-v3.glb",
+  "sha256": "67c110390c1965d430434b2fcc8544b51c575667ff315a6df09fd7d0bbe75627",
+  "status": "candidate-usable-for-runtime-review",
+  "assetVisualReview": "Actual GLB reimport renders inspected. Scratch uses shoulder/elbow/wrist articulation with spine twist and tail counterbalance. Feet remain planted. Growl now opens jaw, head and chest participate. Hit recoils spine and head. Faint bends torso and head into a sustained exhaustion slump.",
+  "technical": {
+    "skinBones": 60,
+    "triangles": 13760,
+    "height": 0.5954684702446684,
+    "groundOffset": 0.001270898967050016,
+    "embeddedDependencies": true
+  },
+  "clips": [
+    {
+      "name": "attack",
+      "durationSeconds": 1.0,
+      "maxFootTravel": 5.159392574602567e-08,
+      "loopError": 0.0,
+      "maxTravel": 0.2933319096003722
+    },
+    {
+      "name": "faint",
+      "durationSeconds": 1.4,
+      "maxFootTravel": 5.159392574602567e-08,
+      "loopError": 0.2815872271719155,
+      "maxTravel": 0.28158745124841195
+    },
+    {
+      "name": "growl",
+      "durationSeconds": 1.2,
+      "maxFootTravel": 5.159392574602567e-08,
+      "loopError": 0.0,
+      "maxTravel": 0.04537870807629882
+    },
+    {
+      "name": "hit",
+      "durationSeconds": 0.6,
+      "maxFootTravel": 5.159392574602567e-08,
+      "loopError": 0.0,
+      "maxTravel": 0.05261323166293922
+    },
+    {
+      "name": "idle",
+      "durationSeconds": 3.0,
+      "maxFootTravel": 0.0,
+      "loopError": 0.0,
+      "maxTravel": 0.004174551935819849
+    }
+  ],
+  "evidence": {
+    "idle-000.png": "0ba9f872baf3bf6ba2d08da5145e04e7b35640e3927f51d8e59d08c10a83cff6",
+    "hit-007.png": "ec4450532efdfdad50464db28e448aef107b39f6842939ce1d26a6bf13c62ec5",
+    "attack-008.png": "2134eb66953861d50ba48b93d9f1262a3f78fc8553efdb14735a68fb3e1f28c6",
+    "attack-021.png": "944794645e61f0dccbcd43617e1fac34780a536870e0761179cc52b37b3a063d",
+    "faint-042.png": "a7252e1c002ef85783e75ecf9687035ba061cb924835eec660136500bf6d18db",
+    "attack-030.png": "52cb60cdd90cb79ae761dfa9c311758d07e8a490046e677028f493944f18d24d",
+    "attack-000.png": "2d945d378f00c13b522b185e43922a41b2fda9b60bd23e7a44c8c8da3206f138",
+    "attack-013.png": "b597da30fdc290943f4fbfba448a32bb1f937f2e38e47422e35f77d05b3a3f29",
+    "idle-045.png": "c0b3e5e611916f2aede90c8b78c62707e205096ba164428a6cad9c1939a625a9",
+    "growl-014.png": "bb6d317a6926f56b94a1efb1b90093eca5e062fe7d4a587ea04b8d4c4d28381c",
+    "back.png": "02250bf662b1045ad6d495431b1b9b58bf08ae9fc1d4c5267f923bb51dff00eb"
+  },
+  "limitations": [
+    "Faint is a slump, not full collapse.",
+    "Tail tip is a solid emissive material, not simulated flame.",
+    "Existing horns, dark eyes and coarse scales differ from source sprite; no hyperreal or source-identity acceptance.",
+    "Runtime camera, event triggers and blend transitions require actual game verification."
+  ],
+  "license": "CC BY-NC 4.0; source credit in adjacent license file",
+  "sourceOwnership": "No original asset files modified"
+}

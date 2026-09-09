@@ -1,0 +1,18 @@
+{
+  "sha256": "de1c8044b448d0840cbf8cf04490b2433b0dba260629c060617913bc80207fdc",
+  "bytes": 8725768,
+  "meshes": 22,
+  "materials": 22,
+  "embeddedImages": 16,
+  "triangles": 78608,
+  "externalDependencies": 0,
+  "bakedLights": false,
+  "sourceCoordinatesPreserved": true,
+  "validatedActualGLB": true,
+  "importedMeshObjects": 22,
+  "renders": [
+    "gameplay.png",
+    "wide.png",
+    "portrait.png"
+  ]
+}

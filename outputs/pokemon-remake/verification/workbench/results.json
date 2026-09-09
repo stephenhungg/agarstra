@@ -1,28 +1,28 @@
 {
   "performance": {
     "cameraPosition": [
-      9.640845070422536,
+      9.990066225165563,
       23.999999999999993,
       51.069219381653056
     ],
     "cameraTarget": [
-      9.640845070422536,
+      9.990066225165563,
       0,
       9.5
     ],
     "mode": "live original simulation and town rendering",
-    "elapsedMs": 2076.2000000178814,
-    "simulationFrames": 124,
+    "elapsedMs": 19209.60000000894,
+    "simulationFrames": 1122,
     "viewport": [
       2880,
-      1562
+      1510
     ],
     "pixelRatio": 2,
     "samples": 240,
-    "medianFrameMs": 8.400000005960464,
-    "p95FrameMs": 9.700000017881393,
-    "drawCalls": 98,
-    "triangles": 1726682
+    "medianFrameMs": 79.59999999403954,
+    "p95FrameMs": 111.59999999403954,
+    "drawCalls": 117,
+    "triangles": 2329016
   },
   "town": {
     "map": "PalletTown",
@@ -367,12 +367,12 @@
       "dragging": false,
       "returning": false,
       "position": [
-        9.640845070422536,
+        9.990066225165563,
         23.999999999999993,
         51.069219381653056
       ],
       "target": [
-        9.640845070422536,
+        9.990066225165563,
         0,
         9.5
       ],
@@ -384,15 +384,15 @@
       ],
       "zoom": 1,
       "frustum": [
-        -10.140845070422536,
-        10.140845070422536,
+        -10.490066225165563,
+        10.490066225165563,
         5.5,
         -5.5
       ],
       "active": "gameplay",
       "orbitEnabled": false
     },
-    "frame": 12104,
+    "frame": 13102,
     "paused": true,
     "assetReport": {
       "file": "cottage-v2.glb",
@@ -418,7 +418,7 @@
         "objVRAM": 100728832,
         "objPalette": 83886592
       },
-      "frame": 12104,
+      "frame": 13102,
       "map": "PalletTown",
       "actors": [
         {
@@ -459,7 +459,7 @@
           "localId": 2,
           "graphicsId": 27,
           "isPlayer": false,
-          "facing": "right",
+          "facing": "up",
           "moving": false,
           "offScreen": true,
           "visible": true,
@@ -471,14 +471,14 @@
           "spriteId": 3,
           "width": 16,
           "height": 32,
-          "opaquePixels": 183,
+          "opaquePixels": 242,
           "bottom": 30,
-          "pixelHash": "7ded89ad",
+          "pixelHash": "775521bd",
           "tileNumber": 28,
           "paletteNumber": 5,
-          "hFlip": true,
+          "hFlip": false,
           "vFlip": false,
-          "animation": 7,
+          "animation": 5,
           "animationCommand": 1,
           "sourceAddress": 33687304,
           "tileAddress": 100729728,
@@ -503,31 +503,31 @@
         "walk"
       ],
       "status": "candidate-not-photoreal-approved",
-      "frame": 12104,
-      "mode": "walk",
-      "groundY": -0.002360305726510064,
+      "frame": 13102,
+      "mode": "idle",
+      "groundY": 0.014636481890783933,
       "sourcePosition": [
-        4.625,
-        10
+        6,
+        8
       ],
       "feet": [
         [
-          0.02242923649403572,
-          0.11466755399598531,
-          0.23112327572801483
+          0.23216998426626745,
+          0.08114109883469056,
+          0.09623226306208821
         ],
         [
-          0.1995043545724,
-          0.1109533833778875,
-          -0.12012196873278391
+          -0.1992242789836034,
+          0.14566125429132376,
+          -0.2560445650431893
         ]
       ],
-      "walkWeight": 0.8469355801087368
+      "walkWeight": 0
     },
     "avatarPosition": [
-      4.625,
-      -0.002360305726510064,
-      10
+      6,
+      0.014636481890783933,
+      8
     ],
     "avatarVisible": true,
     "route1": {
@@ -579,79 +579,175 @@
       "source": "Live FireRed OBJ VRAM, palette, sprite transforms and battle RAM",
       "updates": 20,
       "sourceFrames": 32015,
-      "modelLoadStatus": "ready",
-      "modelError": null,
-      "creatureModel": {
-        "status": "candidate-loader-only-not-visual-acceptance",
-        "url": "file:///Users/stephenhung/Documents/GitHub/agarstra/outputs/pokemon-remake/app/dist/models/charmander-existing-v2.glb",
-        "sha256": "ad78d6f71b421d5f3ce534806b2f816d160647be282276152dca03a25c6ce7e6",
-        "bytes": 14277756,
-        "hierarchyPreserved": true,
-        "up": "+Y",
-        "front": "+Z (asset convention; visually verify)",
-        "bounds": {
-          "min": [
-            -0.23782911917321775,
-            -0.0012709185182993997,
-            -0.5193804380694066
-          ],
-          "max": [
-            0.23782777606931801,
-            0.5941976732661054,
-            0.1374021934975939
-          ],
-          "size": [
-            0.47565689524253574,
-            0.5954685917844048,
-            0.6567826315670005
-          ]
-        },
-        "height": 0.5954685917844048,
-        "groundOffset": 0.0012709185182993997,
-        "meshCount": 2,
-        "nodeCount": 66,
-        "boneCount": 60,
-        "skinnedMeshes": [
-          {
-            "name": "Mesh",
-            "bones": 60,
-            "vertices": 7621,
-            "bindMode": "attached"
-          },
-          {
-            "name": "Mesh_1",
-            "bones": 60,
-            "vertices": 167,
-            "bindMode": "attached"
+      "registryError": null,
+      "registeredSpecies": [
+        4
+      ],
+      "models": {
+        "1": {
+          "species": 4,
+          "file": "charmander-battle-v3.glb",
+          "status": "ready",
+          "model": {
+            "status": "candidate-loader-only-not-visual-acceptance",
+            "url": "file:///Users/matthewkim/Documents/ChatGPT/agarstra/outputs/pokemon-remake/app/dist/models/charmander-battle-v3.glb",
+            "sha256": "67c110390c1965d430434b2fcc8544b51c575667ff315a6df09fd7d0bbe75627",
+            "bytes": 14423480,
+            "hierarchyPreserved": true,
+            "up": "+Y",
+            "front": "+Z (asset convention; visually verify)",
+            "bounds": {
+              "min": [
+                -0.23782911917321775,
+                -0.0012709185182993997,
+                -0.5193804380694066
+              ],
+              "max": [
+                0.23782777606931801,
+                0.5941976732661054,
+                0.1374021934975939
+              ],
+              "size": [
+                0.47565689524253574,
+                0.5954685917844048,
+                0.6567826315670005
+              ]
+            },
+            "height": 0.5954685917844048,
+            "groundOffset": 0.0012709185182993997,
+            "meshCount": 2,
+            "nodeCount": 66,
+            "boneCount": 60,
+            "skinnedMeshes": [
+              {
+                "name": "Mesh",
+                "bones": 60,
+                "vertices": 7621,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Mesh_1",
+                "bones": 60,
+                "vertices": 167,
+                "bindMode": "attached"
+              }
+            ],
+            "clips": [
+              {
+                "name": "idle",
+                "duration": 3,
+                "tracks": 180
+              },
+              {
+                "name": "attack",
+                "duration": 1,
+                "tracks": 180
+              },
+              {
+                "name": "growl",
+                "duration": 1.2000000476837158,
+                "tracks": 180
+              },
+              {
+                "name": "hit",
+                "duration": 0.6000000238418579,
+                "tracks": 180
+              },
+              {
+                "name": "faint",
+                "duration": 1.399999976158142,
+                "tracks": 180
+              }
+            ],
+            "selectedClip": "idle",
+            "animationReady": true,
+            "staticOnly": false,
+            "availableActions": {
+              "idle": {
+                "clip": "idle",
+                "duration": 3
+              },
+              "attack": {
+                "clip": "attack",
+                "duration": 1
+              },
+              "hit": {
+                "clip": "hit",
+                "duration": 0.6000000238418579
+              },
+              "faint": {
+                "clip": "faint",
+                "duration": 1.399999976158142
+              },
+              "growl": {
+                "clip": "growl",
+                "duration": 1.2000000476837158
+              }
+            },
+            "sourceSeconds": 0,
+            "disposed": false
           }
-        ],
-        "clips": [
-          {
-            "name": "idle",
-            "duration": 3,
-            "tracks": 180
-          }
-        ],
-        "selectedClip": "idle",
-        "animationReady": true,
-        "staticOnly": false,
-        "sourceSeconds": null,
-        "disposed": false
+        }
       },
+      "arena": {
+        "status": "ready",
+        "model": {
+          "status": "candidate-loader-only-not-visual-acceptance",
+          "url": "file:///Users/matthewkim/Documents/ChatGPT/agarstra/outputs/pokemon-remake/app/dist/models/battle-arena-v1.glb",
+          "sha256": "de1c8044b448d0840cbf8cf04490b2433b0dba260629c060617913bc80207fdc",
+          "bytes": 8725768,
+          "hierarchyPreserved": true,
+          "up": "+Y",
+          "front": "+Z (asset convention; visually verify)",
+          "bounds": {
+            "min": [
+              -100,
+              -0.45000001788139343,
+              -65
+            ],
+            "max": [
+              100,
+              60,
+              95
+            ],
+            "size": [
+              200,
+              60.45000001788139,
+              160
+            ]
+          },
+          "height": 60.45000001788139,
+          "groundOffset": 0.45000001788139343,
+          "meshCount": 22,
+          "nodeCount": 24,
+          "boneCount": 0,
+          "skinnedMeshes": [],
+          "clips": [],
+          "selectedClip": null,
+          "animationReady": false,
+          "staticOnly": true,
+          "availableActions": {},
+          "sourceSeconds": null,
+          "disposed": false
+        }
+      },
+      "events": [],
+      "modelLoadStatus": "loading",
+      "modelError": null,
+      "creatureModel": null,
       "modelBattlerId": null,
       "limitations": [
-        "One opponent Charmander uses a reviewed rigged 3D candidate; other creatures retain source-pixel billboards.",
-        "The 3D candidate retains coarse color detail and a solid emissive tail tip; it is not photoreal approved.",
-        "Battle stage is a presentation blockout, not a reconstruction of every battle terrain.",
-        "3D motion follows source x2/y2 offsets and visibility; source affine deformation, palette flashes and separate attack-effect sprites/background effects are not rebuilt for the model.",
-        "Native party/bag menus use exact source pixels.",
-        "Only an authored idle is played; no invented attack animation, combat simulation, damage calculation or independent animation timers."
+        "Only registered species use candidate 3D assets; missing or rejected assets keep live source sprites.",
+        "Authored clips respond to observed native move-script and hit/faint controller edges; clip motion is presentation only.",
+        "An update starting midway through an animation cannot recover unobserved earlier event time.",
+        "Source affine deformation, palette flashes and separate attack-effect sprites/background effects are not rebuilt for models.",
+        "Native party/bag menus use exact source pixels."
       ],
       "modelCredit": [
-        "Charmander rig created by Milos Cerny and downloaded at http://www.miloscerny.com/",
-        "3D model created by Guilherme Lauck https://sketchfab.com/guilauck"
+        "Charmander original rig by Milos Cerny http://www.miloscerny.com/",
+        "Charmander original model by Guilherme Lauck https://sketchfab.com/guilauck"
       ],
-      "modelLicense": "CC BY-NC 4.0"
+      "modelLicense": "See individual registry asset licenses; existing Charmander CC BY-NC 4.0"
     },
     "battleState": {
       "active": false,
@@ -790,13 +886,13 @@
       ]
     },
     "dialog": {
-      "frame": 12104,
+      "frame": 13102,
       "dialog": null,
       "windows": [],
       "auxiliary": []
     },
     "semantic": {
-      "frame": 12104,
+      "frame": 13102,
       "callback2": 134571445,
       "phase": "overworld",
       "map": {
@@ -818,30 +914,30 @@
         "spriteInvisible": false,
         "visible": true,
         "offScreen": false,
-        "tileX": 4,
-        "tileY": 10,
-        "previousTileX": 5,
-        "previousTileY": 10,
-        "worldX": 4.625,
-        "worldY": 10,
-        "x": 4.625,
-        "y": 10,
+        "tileX": 6,
+        "tileY": 8,
+        "previousTileX": 6,
+        "previousTileY": 8,
+        "worldX": 6,
+        "worldY": 8,
+        "x": 6,
+        "y": 8,
         "visualOffsetX": 0,
         "visualOffsetY": 0,
-        "facing": "left",
-        "direction": 3,
-        "movementDirection": 3,
+        "facing": "down",
+        "direction": 1,
+        "movementDirection": 1,
         "moving": false,
         "elevation": 3,
-        "animation": 6,
-        "animationFrame": 2,
+        "animation": 4,
+        "animationFrame": 1,
         "source": {
           "objectAddress": 33779256,
           "spriteAddress": 33687100
         },
-        "runningState": 2,
-        "tileTransitionState": 1,
-        "avatarFlags": 1
+        "runningState": 0,
+        "tileTransitionState": 0,
+        "avatarFlags": 33
       },
       "objectEvents": [
         {
@@ -856,30 +952,30 @@
           "spriteInvisible": false,
           "visible": true,
           "offScreen": false,
-          "tileX": 4,
-          "tileY": 10,
-          "previousTileX": 5,
-          "previousTileY": 10,
-          "worldX": 4.625,
-          "worldY": 10,
-          "x": 4.625,
-          "y": 10,
+          "tileX": 6,
+          "tileY": 8,
+          "previousTileX": 6,
+          "previousTileY": 8,
+          "worldX": 6,
+          "worldY": 8,
+          "x": 6,
+          "y": 8,
           "visualOffsetX": 0,
           "visualOffsetY": 0,
-          "facing": "left",
-          "direction": 3,
-          "movementDirection": 3,
+          "facing": "down",
+          "direction": 1,
+          "movementDirection": 1,
           "moving": false,
           "elevation": 3,
-          "animation": 6,
-          "animationFrame": 2,
+          "animation": 4,
+          "animationFrame": 1,
           "source": {
             "objectAddress": 33779256,
             "spriteAddress": 33687100
           },
-          "runningState": 2,
-          "tileTransitionState": 1,
-          "avatarFlags": 1
+          "runningState": 0,
+          "tileTransitionState": 0,
+          "avatarFlags": 33
         },
         {
           "id": 1,
@@ -937,12 +1033,12 @@
           "y": 17,
           "visualOffsetX": 0,
           "visualOffsetY": 0,
-          "facing": "right",
-          "direction": 4,
-          "movementDirection": 4,
+          "facing": "up",
+          "direction": 2,
+          "movementDirection": 2,
           "moving": false,
           "elevation": 3,
-          "animation": 7,
+          "animation": 5,
           "animationFrame": 1,
           "source": {
             "objectAddress": 33779328,
@@ -970,7 +1066,7 @@
         "ok": true,
         "detail": {
           "before": 0,
-          "dragged": -44.94238156209987
+          "dragged": -46.49006622516555
         }
       },
       {
@@ -986,12 +1082,12 @@
           "dragging": false,
           "returning": false,
           "position": [
-            9.640845070422536,
+            9.990066225165563,
             23.999999999999993,
             51.069219381653056
           ],
           "target": [
-            9.640845070422536,
+            9.990066225165563,
             0,
             9.5
           ],
@@ -1003,8 +1099,8 @@
           ],
           "zoom": 1,
           "frustum": [
-            -10.140845070422536,
-            10.140845070422536,
+            -10.490066225165563,
+            10.490066225165563,
             5.5,
             -5.5
           ],
@@ -1016,7 +1112,7 @@
         "name": "pallet-town temporary zoom returns home",
         "ok": true,
         "detail": {
-          "zoomed": 0.9419364622182996
+          "zoomed": 0.9548704207855047
         }
       },
       {
@@ -1024,7 +1120,7 @@
         "ok": true,
         "detail": {
           "before": 0,
-          "dragged": -44.94238156209987
+          "dragged": -46.490066225165556
         }
       },
       {
@@ -1057,8 +1153,8 @@
           ],
           "zoom": 1,
           "frustum": [
-            -10.140845070422536,
-            10.140845070422536,
+            -10.490066225165563,
+            10.490066225165563,
             5.5,
             -5.5
           ],
@@ -1070,7 +1166,7 @@
         "name": "route1-entry temporary zoom returns home",
         "ok": true,
         "detail": {
-          "zoomed": 0.936848418631859
+          "zoomed": 0.9549155278074519
         }
       },
       {

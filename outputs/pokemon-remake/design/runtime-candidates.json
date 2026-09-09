@@ -34,5 +34,49 @@
     "height": 1.4,
     "status": "candidate-not-photoreal-approved",
     "source": "Extracted trainer sprite directly to skinned mesh; locally authored walk and relaxed arms."
+  },
+  "battle": {
+    "scope": "First rival fight in Professor Oak lab, starter trio",
+    "species": {
+      "4": {
+        "file": "charmander-battle-v3.glb",
+        "sha256": "67c110390c1965d430434b2fcc8544b51c575667ff315a6df09fd7d0bbe75627",
+        "height": 3.5,
+        "clips": {
+          "idle": "idle",
+          "attack": "attack",
+          "hit": "hit",
+          "faint": "faint",
+          "growl": "growl"
+        },
+        "status": "candidate-animated-not-photoreal-approved"
+      },
+      "1": {
+        "file": "bulbasaur-battle-v1.glb",
+        "sha256": "699d26aa7633c51487187c084ded7af6c0d7a92d455a123a6b063d29514ca7c7",
+        "height": 2.5,
+        "clips": {
+          "idle": "idle",
+          "attack": "attack",
+          "growl": "growl",
+          "hit": "hit",
+          "faint": "faint"
+        },
+        "status": "source-authored-stylized-candidate",
+        "source": "Original FireRed Bulbasaur sprite reconstructed directly in Blender; no generated creature reference"
+      }
+    },
+    "status": "Lab, Bulbasaur and Charmander ready for candidate demo; Squirtle final review pending",
+    "arena": {
+      "file": "battle-arena-v1.glb",
+      "sha256": "de1c8044b448d0840cbf8cf04490b2433b0dba260629c060617913bc80207fdc",
+      "scale": 1,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "status": "candidate-blender-reimport-reviewed"
+    }
   }
 }

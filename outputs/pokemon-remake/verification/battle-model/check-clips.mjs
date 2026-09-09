@@ -1,0 +1,35 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
+import {createBattleModel} from '../../app/battle-model.js';
+const originalFetch=globalThis.fetch,original=fs.readFileSync(new URL('./idle-fixture.glb',import.meta.url));
+const jsonLength=original.readUInt32LE(12),definition=JSON.parse(original.subarray(20,20+jsonLength)),binary=original.subarray(20+jsonLength);
+definition.animations.push({...structuredClone(definition.animations[0]),name:'attack'},{...structuredClone(definition.animations[0]),name:'faint'});
+let json=Buffer.from(JSON.stringify(definition));json=Buffer.concat([json,Buffer.alloc((4-json.length%4)%4,32)]);
+const header=Buffer.alloc(20);header.writeUInt32LE(0x46546c67,0);header.writeUInt32LE(2,4);header.writeUInt32LE(20+json.length+binary.length,8);header.writeUInt32LE(json.length,12);header.writeUInt32LE(0x4e4f534a,16);
+const bytes=Buffer.concat([header,json,binary]),sha256=crypto.createHash('sha256').update(bytes).digest('hex');
+globalThis.fetch=async()=>new Response(bytes);
+const checks=[];const check=(name,fn)=>{fn();checks.push({name,passed:true});};let model,arena;
+try{
+  model=await createBattleModel({}, {url:'fixture.glb',sha256});const node=model.group.getObjectByName('FixtureTriangle');
+  check('original ancestor transforms preserved',()=>assert.equal(model.group.getObjectByName('FixtureAncestor').position.y,.1));
+  model.setPose('attack',.25);const attack=node.position.y;
+  check('one-shot attack evaluates requested elapsed source time',()=>assert.ok(Math.abs(attack-.1)<1e-6));
+  model.setPose('attack',2);
+  check('one-shot clamps at endpoint',()=>assert.ok(Math.abs(node.position.y)<1e-6));
+  model.setPose('attack',.25);
+  check('rewinding finished action restores exact pose',()=>assert.equal(node.position.y,attack));
+  model.setPose('attack',.25);
+  check('paused source time freezes pose',()=>assert.equal(node.position.y,attack));
+  model.setTime(.5);
+  check('idle can resume after one-shot',()=>{assert.equal(model.report.selectedClip,'idle');assert.ok(Math.abs(node.position.y-.2)<1e-6);});
+  model.setPose('faint',5);
+  check('faint pose holds endpoint',()=>assert.ok(Math.abs(node.position.y)<1e-6));
+  check('missing clip is reported, never guessed',()=>assert.equal(model.setPose('missing',0),false));
+  check('invalid time rejected',()=>assert.throws(()=>model.setPose('attack',NaN),RangeError));
+  arena=await createBattleModel({}, {url:'fixture.glb',sha256,clips:{}});
+  check('static arena accepts GLB without selected animation',()=>{assert.equal(arena.report.staticOnly,true);assert.equal(arena.report.selectedClip,null);assert.equal(arena.setTime(1),false);});
+  await assert.rejects(createBattleModel({}, {url:'fixture.glb',sha256:'0'.repeat(64)}),/SHA256 mismatch/);checks.push({name:'hash mismatch rejected',passed:true});
+  model.dispose();model.dispose();check('disposed model cannot animate',()=>assert.throws(()=>model.setTime(0),/disposed/));
+  const report={passed:true,checkedAt:new Date().toISOString(),checks,limitations:['Animation interpolation fixture validates runtime seeking and lifecycle; it does not claim visual acceptance of creature GLBs.']};fs.writeFileSync(new URL('./clip-checks.json',import.meta.url),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({passed:true,checks:checks.length}));
+}finally{model?.dispose();arena?.dispose();globalThis.fetch=originalFetch;}

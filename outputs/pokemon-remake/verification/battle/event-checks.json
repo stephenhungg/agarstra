@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "checkedAt": "2026-09-09T00:04:25.932Z",
+  "checks": [
+    {
+      "name": "real first turn emits exactly Tackle, target hit, Scratch, target hit",
+      "passed": true
+    },
+    {
+      "name": "original battle HP remains 11 and 14",
+      "passed": true
+    },
+    {
+      "name": "checkpoint rewind and replay reproduce identical event ids and timing",
+      "passed": true
+    },
+    {
+      "name": "replayed original bytes remain identical",
+      "passed": true
+    },
+    {
+      "name": "reading animation events does not alter native simulation",
+      "passed": true
+    },
+    {
+      "name": "fixture Squirtle Tail Whip requests status pose, never attack or hit",
+      "passed": true
+    },
+    {
+      "name": "persistent move script does not retrigger each frame",
+      "passed": true
+    },
+    {
+      "name": "Growl requests only native attacker status pose",
+      "passed": true
+    },
+    {
+      "name": "faint requires active native faint controller command",
+      "passed": true
+    },
+    {
+      "name": "battle exit clears presentation events",
+      "passed": true
+    }
+  ],
+  "events": [
+    {
+      "id": "30610:0:attack",
+      "frame": 30610,
+      "battlerId": 0,
+      "species": 1,
+      "action": "attack",
+      "moveId": 33,
+      "targetId": 1,
+      "signal": "native-move-script"
+    },
+    {
+      "id": "30652:1:hit",
+      "frame": 30652,
+      "battlerId": 1,
+      "species": 4,
+      "action": "hit",
+      "signal": "CONTROLLER_HITANIMATION"
+    },
+    {
+      "id": "31290:1:attack",
+      "frame": 31290,
+      "battlerId": 1,
+      "species": 4,
+      "action": "attack",
+      "moveId": 10,
+      "targetId": 0,
+      "signal": "native-move-script"
+    },
+    {
+      "id": "31323:0:hit",
+      "frame": 31323,
+      "battlerId": 0,
+      "species": 1,
+      "action": "hit",
+      "signal": "CONTROLLER_HITANIMATION"
+    }
+  ],
+  "romSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+  "source": {
+    "commit": "c75f352304d529f6ba92d4f74b9cf8b5c3810788",
+    "move": "src/battle_anim.c DoMoveAnim / LaunchBattleAnimation",
+    "hitAndFaint": "src/battle_controller_player.c and battle_controller_opponent.c"
+  },
+  "limitations": [
+    "Squirtle, status-pose, and faint cases here are isolated observer fixtures. Real ROM replay verifies Bulbasaur versus Charmander first turn.",
+    "Models and visible GLB animation require separate browser rendering verification.",
+    "Transitions are detected at observed source frames; an initial mid-animation snapshot has no earlier observation history."
+  ]
+}

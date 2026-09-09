@@ -1,14 +1,15 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {createRequire} from 'node:module';
+import {fileURLToPath} from 'node:url';
 import {GbaAdapter} from '../../runtime-core/gba-adapter.mjs';
 import {readFireRedState} from '../../runtime-core/firered-state.mjs';
 import {readBattlePresentation} from '../../app/battle.js';
 
-const root=new URL('../../../../',import.meta.url).pathname;
-const bridge=root+'work/pokemon/bridge-probe/';
+const root=fileURLToPath(new URL('../../../../',import.meta.url));
+const bridge=fileURLToPath(new URL('../../runtime-core/vendor/',import.meta.url));
 const require=createRequire(import.meta.url);
-const module=await require(bridge+'mgba.cjs')({locateFile:p=>bridge+'package/dist/mgba/'+p});
+const module=await require(bridge+'mgba.js')({locateFile:p=>bridge+p});
 const core=new GbaAdapter(module,fs.readFileSync(root+'work/pokemon/rom/firered-user.gba'));
 const checks=[];const check=(name,ok,detail)=>{checks.push({name,ok,detail});assert.ok(ok,name);};
 const start=fs.readFileSync(new URL('../../runtime-core/checkpoints/first-battle.state',import.meta.url));

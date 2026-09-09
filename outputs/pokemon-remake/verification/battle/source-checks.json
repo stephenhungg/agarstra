@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checkedAt": "2026-09-08T23:25:23.329Z",
+  "checkedAt": "2026-09-09T00:02:47.144Z",
   "checks": [
     {
       "name": "presentation leaves all serialized core bytes unchanged",
@@ -294,6 +294,7 @@
         "status": 0,
         "controller": 135165501,
         "command": 18,
+        "commandActive": true,
         "sprite": {
           "spriteId": 6,
           "visible": true,
@@ -348,6 +349,7 @@
         "status": 0,
         "controller": 134437529,
         "command": 53,
+        "commandActive": false,
         "sprite": {
           "spriteId": 8,
           "visible": true,
@@ -439,6 +441,14 @@
         "sourceAddress": 33686732
       }
     ],
+    "animation": {
+      "active": false,
+      "moveId": 0,
+      "attackerId": 0,
+      "targetId": 0,
+      "power": 0,
+      "sourceAddress": 33783521
+    },
     "activeMove": null,
     "nativeMenuFallback": false,
     "source": "BPRE-0 / matching pret c75f3523"
@@ -474,6 +484,7 @@
         "status": 0,
         "controller": 135166345,
         "command": 20,
+        "commandActive": true,
         "sprite": {
           "spriteId": 6,
           "visible": true,
@@ -528,6 +539,7 @@
         "status": 0,
         "controller": 134437529,
         "command": 53,
+        "commandActive": false,
         "sprite": {
           "spriteId": 8,
           "visible": true,
@@ -725,6 +737,14 @@
         "sourceAddress": 33686816
       }
     ],
+    "animation": {
+      "active": false,
+      "moveId": 0,
+      "attackerId": 0,
+      "targetId": 0,
+      "power": 0,
+      "sourceAddress": 33783521
+    },
     "activeMove": null,
     "nativeMenuFallback": false,
     "source": "BPRE-0 / matching pret c75f3523"
@@ -760,6 +780,7 @@
         "status": 0,
         "controller": 135165501,
         "command": 18,
+        "commandActive": true,
         "sprite": {
           "spriteId": 6,
           "visible": true,
@@ -814,6 +835,7 @@
         "status": 0,
         "controller": 134437529,
         "command": 53,
+        "commandActive": false,
         "sprite": {
           "spriteId": 8,
           "visible": true,
@@ -905,6 +927,14 @@
         "sourceAddress": 33686732
       }
     ],
+    "animation": {
+      "active": false,
+      "moveId": 10,
+      "attackerId": 1,
+      "targetId": 0,
+      "power": 0,
+      "sourceAddress": 33783521
+    },
     "activeMove": null,
     "nativeMenuFallback": false,
     "source": "BPRE-0 / matching pret c75f3523"

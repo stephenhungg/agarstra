@@ -1,0 +1,11 @@
+Charmander existing creator asset, battle v3 adaptation
+
+License: CC BY-NC 4.0
+Source: https://www.miloscerny.com/download-charmander
+
+Required creator attribution:
+Charmander rig created by Milos Cerny and downloaded at http://www.miloscerny.com/
+3D model created by Guilherme Lauck https://sketchfab.com/guilauck
+
+Adaptation: retained v2 restrained skin material, bent-arm stance, three-second idle, and localized emissive tail-tip material. Added articulated Scratch, Growl, hit recoil, and exhaustion slump clips. Original geometry and rig are creator assets, not newly generated or extracted from a ROM.
+Original license terms: https://creativecommons.org/licenses/by-nc/4.0/legalcode

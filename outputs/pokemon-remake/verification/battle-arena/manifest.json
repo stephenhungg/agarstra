@@ -1,0 +1,65 @@
+{
+  "referenceJob": "08e8185c-4820-4843-b681-9ec31be4b55a",
+  "scene": "Oak research laboratory, first FireRed starter battle",
+  "sourceMap": "PalletTown_ProfessorOaksLab",
+  "combatAnchors": {
+    "player": [
+      -4,
+      0,
+      3
+    ],
+    "opponent": [
+      4,
+      -0.04,
+      -3
+    ]
+  },
+  "clearCombatZone": {
+    "x": [
+      -9,
+      9
+    ],
+    "z": [
+      -7,
+      7
+    ]
+  },
+  "materials": 24,
+  "textureImages": 18,
+  "limitations": [
+    "Authored interpretation of the generated target, not extracted hidden ROM geometry.",
+    "Lighting requires runtime lights/environment; Blender area lights are not embedded.",
+    "Specimen glass and small scientific apparatus remain simplified at gameplay distance."
+  ],
+  "reference": "/Users/matthewkim/Documents/ChatGPT/agarstra/outputs/pokemon-remake/environment/starter-battle/oak-lab-gpt-image-2.png",
+  "referenceSha256": "ad2028fa62d349b6d591d6a42e202c3ca5653f648a842a17390e9db56a3c1dc3",
+  "blend": "/Users/matthewkim/Documents/ChatGPT/agarstra/outputs/pokemon-remake/models/battle-arena-v1.blend",
+  "glb": "/Users/matthewkim/Documents/ChatGPT/agarstra/outputs/pokemon-remake/models/battle-arena-v1.glb",
+  "sha256": "de1c8044b448d0840cbf8cf04490b2433b0dba260629c060617913bc80207fdc",
+  "scale": 1,
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "up": "+Y",
+  "front": "+Z",
+  "origin": "existing battle presentation world origin",
+  "stageSurfaceY": -0.05,
+  "sourceSimulationChanged": false,
+  "artisticStatus": "candidate, awaiting actual runtime review",
+  "technical": {
+    "sha256": "de1c8044b448d0840cbf8cf04490b2433b0dba260629c060617913bc80207fdc",
+    "bytes": 8725768,
+    "meshes": 22,
+    "materials": 22,
+    "embeddedImages": 16,
+    "triangles": 78608,
+    "externalDependencies": 0,
+    "bakedLights": false,
+    "sourceCoordinatesPreserved": true,
+    "validatedActualGLB": true
+  },
+  "authorScriptSha256": "bb5c9c93134c37b6de026f22da6dcae2afe1c144b1f0ae91786a6ccaf8b1d146",
+  "finalizerSha256": "d9ac9ab56ebf05f70f95fe50324f145df7b0615a0cc9fb3a1cb1f7dd57c8ece9"
+}
