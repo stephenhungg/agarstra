@@ -2,7 +2,7 @@
   "status": "verified-scoped-playable-prototype",
   "photorealApproved": false,
   "checks": {
-    "integration": 33,
+    "integration": 34,
     "realInput": 11,
     "passed": true
   },
@@ -14,11 +14,13 @@
   },
   "sha256": {
     "app/game-camera.js": "30725dc86ac6ecf69a7511f50f767e3454183e10868b367d033d843336d81aae",
-    "app/main.js": "231f7f708b15582447dbb83d72e8f6fba0937ee2102a7c2761c7fb70195e457e",
+    "app/main.js": "b8e11fec026e8b083c05d7040b1785ad1a3800a64ba642e960dbff056f2b36e3",
     "app/avatar.js": "a8907de19ffae387ba29963498cd70ffb28aa3b88f5f778e48d2cf407537e4b5",
-    "app/electron.cjs": "044d09dfe9859c84d1b4903e8921f7c4f42d3eaf99d09312bd43ea92c022903e",
-    "design/runtime-candidates.json": "c637d3b2965418b644b4cde9ce60dc7bebfcd47c2b5b6ca4670afd1d8d16932c",
-    "app/dist/assets/index-BUBPHy1h.js": "ec5d85e671d95edb99376b32fe3787a1fb6b8e8cd863925d4a4d056ac7a7623c"
+    "app/characters.js": "323c8ddcf3811e7178998a4265b670c5e1086b55413d69699efdad84900eadbe",
+    "app/character-source.mjs": "fccdec097fda747b0153d90d299f9d73dce7b599079d2d3b1d0a2b53d5d21ad4",
+    "app/electron.cjs": "db162dd87e2aee2fe17134290ef817c4417c5903b224546be610467ca34b0c22",
+    "design/runtime-candidates.json": "7c993a8344b78743e8b65721b83dd971a4652fc2a16cd36a6e2c9c432aa2c74d",
+    "app/dist/assets/index-DFp1gh-O.js": "57a545d944940f0d5740d72baafd9a38167f0adaa270205a68a64d6f8e52a41b"
   },
   "captures": [
     "player.png",
@@ -27,5 +29,5 @@
     "dialog.png",
     "first-battle.png"
   ],
-  "review": "Inspected actual30degree town and held-drag captures. Characters/building fronts readable. Real drag changed heading by44.94degrees; release restored30degree north-up and zoom1 in both town/Route1. Candidate art, raised player arms, NPC rings, rigid grass, flat water and map-edge composition still need work. Not photoreal acceptance."
+  "review": "Actual30degree town/interior screenshots inspected: original source NPC sprites nowvisible; trainer arms relaxed in v3. Source walking, preserved lab3D props, native transitions and camera return pass. Pixel NPCs, stylized trainer, rough vegetation, flat water, softroof and broader3D coverage remain incomplete; no photorealacceptance."
 }

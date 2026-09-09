@@ -10,7 +10,7 @@ Visible controls: Explore town, Battle, Pause, Sound, Save progress, Resume save
 
 ## Verified scope
 
-Latest smoke passed 33 integration checks and 11 actual Electron mouse/keyboard/button checks. Covered: source simulation and deterministic restore, coordinates and doors, printer dialog, battle menus/HP/damage, pause/reset, rigged player idle/walk, native Pallet-to-Route1 replay, screen direction alignment, fixed camera across transitions, actual drag/scroll response and automatic return, immediate starting movement, and persistent save/resume. Results/captures: verification/workbench/. Exact build/source hashes and visual review: delivery.json there.
+Latest smoke passed 34 integration checks and 11 actual Electron mouse/keyboard/button checks. Covered: source simulation and deterministic restore, coordinates and doors, printer dialog, battle menus/HP/damage, pause/reset, rigged player idle/walk, native Pallet-to-Route1 replay, screen direction alignment, fixed camera across transitions, actual drag/scroll response and automatic return, immediate starting movement, and persistent save/resume. Results/captures: verification/workbench/. Exact build/source hashes and visual review: delivery.json there.
 
 Short local town sample: 228 simulated frames in 3.81 seconds, median render interval 15.3 ms, p95 20.7 ms at 2880×1562. This is not full-game performance or input-latency coverage. Eighteen independent save checks from the previous delivery remain valid; checkpoint preparation now verifies six state hashes/sizes/magic.
 
@@ -22,12 +22,14 @@ Rendered scenes: Pallet Town, Route1, player house1F/2F, Oak’s lab, first batt
 
 Active environment: cottagev2, laboratoryv2, original treev1, revised lawn/terrain and daylight HDR. Treev2 is a separately reviewed candidate; broad crown improved but dark/angular leaves prevent visual promotion. Source-aligned Route1 uses candidate grass/ledges and native transition checkpoint with exact input replay.
 
-Player: trainer-direct-v2.glb SHA fd14343ce1c070bdd3bd51c6c01b8c871bf26f81f7206c57466bb33270c1fe74. Direct extracted trainer sprite→image_to_3d job completed, no generated concept image. Preserved24-bone rig/idle; authored1-second walk, nominal.64model-unit stride before scaling. Source movement selects walk using tileTransitionState and displacement, not ObjectEvent.singleMovementActive. Pause/rewind stable. Stylized, with raised battle-pose arms still needing correction.
+Player: trainer-direct-v3.glb SHA971ec6a4d9a6348a9ceb30509029bad021b66031a8fb8a4ac496b9e4a0a2a294. Direct extracted trainer sprite→image_to_3d job completed, no generated concept image. Preserved24-bone rig/idle; authored1-second walk, nominal.64model-unit stride before scaling. Source movement selects walk using tileTransitionState and displacement, not ObjectEvent.singleMovementActive. Pause/rewind stable. V3 lowers the arms and adds walk counter-swing; crouched stance and stylized facial/material detail remain.
 
 Opponent Charmander: charmander-existing-v2.glb, SHA ad78d6f71b421d5f3ce534806b2f816d160647be282276152dca03a25c6ce7e6. Existing creator model under CC BY-NC4.0; credits preserved. Verified local idle replaces unsuitable rig demonstration, original skin preserved. Coarse texture/solid flame tip and missing attack-specific motion remain. Other creatures use source sprites.
 
 ## Separate character task and next work
 
-User requested a new task responsible for player/NPC sprites. Codex app creation requested as “Pokémon player and NPC rendering”, isolated worktree, client-new-thread:76098502-bbbe-44ee-a07c-593c2be45a9f. Detailed prompt points to current canonical files and asks for source-faithful NPC rendering, player pose improvement, isolated module/patch and screenshots; no camera ownership. Creation returned queued; do not invent a ready thread ID or duplicate it.
+Character task01a08368-3b4d-7501-a203-04a07c64704b (“Pokémon player and NPC rendering”) completed isolated commitddcf666b. Its source character renderer and relaxed trainer v3 are now copied/integrated into canonical app. Native VRAM/palette sprites replace missing human rings; original source frame/facing/script hiding retained. Existing3D lab props preserved. Normal app reopened in session53265 after45 integration/input checks passed. Actual town/interior/lab captures in verification/workbench. NPCs remain2D, not photorealmodels.
 
-No photoreal asset/scene acceptance and no95% claim. Remaining: NPC marker replacement, player pose, battle effects, materials/geometry refinement, map-edge composition, and broader3D map coverage. Prior Squirtle/Bulbasaur image-generation rejections remain recorded; do not reroute those rejected requests. Preserve unrelated root Next.js work.
+Active local art workers: source-aligned water inlet replacing flat rectangle; Route1 natural grass/ledges/flowers; cottagev3 roof repair. Their files are candidates and must be reviewed in runtime before selection.
+
+No photoreal asset/scene acceptance and no95% claim. Remaining: NPC photoreal geometry, player stance/material refinement, battle effects, materials/geometry refinement, map-edge composition, and broader3D map coverage. Prior Squirtle/Bulbasaur image-generation rejections remain recorded; do not reroute those rejected requests. Preserve unrelated root Next.js work.

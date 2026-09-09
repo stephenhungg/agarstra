@@ -20,16 +20,17 @@
     "full_game": false,
     "dialog": "source printer and visible-window presentation",
     "battle": "rigged Charmander v2 with source-timed idle; other creature sprites; native menus/HP; independent effects incomplete",
-    "player": "Direct extracted trainer sprite to skinned mesh candidate, with local idle/walk integration; stylized, battle upper-body pose still needs correction"
+    "player": "Direct extracted trainer sprite to skinned trainer v3 with relaxed arms and source-timed idle/walk; stylized and crouched stance still changes-required",
+    "npcs": "Integrated original animated sprite fallback from live OBJ VRAM/palettes; correct source identity/facing/clock across town, Route1 and interiors. NPC3D/photoreal remains incomplete."
   },
   "local_rom_search": "User-provided archive extracted locally and matched against independently rebuilt pret source byte for byte.",
   "parallel_work": {
-    "completed_local_workers": [
-      "Route1/checkpoints",
-      "trainer walk",
-      "tree canopy candidate"
-    ],
-    "requested_task": "Pok\u00e9mon player and NPC rendering; isolated worktree setup requested via Codex app"
+    "character_task": "01a08368-3b4d-7501-a203-04a07c64704b; renderer andv3 nowintegrated",
+    "active_visual_workers": [
+      "pond source inlet materials/depth",
+      "Route1 grass ledges flowers",
+      "cottage roofv3"
+    ]
   },
   "next_actions": [
     "Replace NPC markers with source-faithful rendering in separate requested task; improve player upper-body pose",
@@ -48,7 +49,8 @@
     "laboratory-v2": "Closed cap geometry repair and matte roof integrated; glazing and tile softness still changes required",
     "charmander-v2": "Existing model revised with symmetric stance, subdued material and exact idle; integrated species4 opponent; not photoreal-approved",
     "trainer-v2": "Direct extracted64x64 trainer sprite to image_to_3d completed;24bones, original idle preserved, locally authored1second walk. Exact GLB and WebGL checked; source walking integration corrected to tileTransitionState/displacement. Stylized and raised arms remain.",
-    "tree-v2": "Broader crown and lower triangle count; runtime leaves too dark and angular. Candidate kept separate; v1 still active."
+    "tree-v2": "Broader crown and lower triangle count; runtime leaves too dark and angular. Candidate kept separate; v1 still active.",
+    "trainer-v3": "Relaxed arms and walk counter-swing; lower body unchanged, actual map-camera screenshots and source walking passed. Source directmesh provenance retained."
   },
   "battle_checkpoint": {
     "source": "runtime-core/checkpoints/first-battle.state",

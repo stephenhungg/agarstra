@@ -19,7 +19,7 @@ Arrows move/select, X or Space confirms, Z cancels, Enter is Start, Shift is Sel
 - Original mGBA simulation controls rules, collisions, movement, dialog, combat and timing. Presentation reads memory; it does not invent damage or run a second game simulation.
 - Pallet Town has two cottage instances, the laboratory exterior, 29 trees, source-aligned PBR terrain, fences and signs. Source doorway anchors align with all three buildings.
 - Route 1 has source-aligned paths, grass and ledges; native movement, encounters and transitions remain controlled by the ROM.
-- Player house 1F/2F and Oak’s laboratory have source-aligned 3D interiors. The player uses a skinned trainer candidate with idle and walking; NPCs remain temporary markers pending the separate character rendering task.
+- Player house 1F/2F and Oak’s laboratory have source-aligned 3D interiors. The player uses a skinned trainer candidate with idle and walking; NPCs now use their original animated sprites decoded from live source graphics memory. Unmodeled player forms use the same fallback.
 - Dialog follows the actual source text printer. Unsupported text/choice layouts preserve cropped source UI pixels.
 - First battle displays a rigged Charmander candidate with authored source-clock idle, other original creature cutouts, HP, levels, native command and move menus, PP and source sprite motion. Party/bag menus still use the original framebuffer. Separate attack effects and battle background effects are not reconstructed.
 - Other maps and unsupported full-screen menus use clearly labeled live original graphics so the game remains playable. Original view can also be selected manually. Full-game 3D replacement is not implemented.
@@ -34,7 +34,7 @@ The existing Charmander candidate was imported from an independently authored FB
 
 ## Quality status
 
-No photoreal assets or scenes are approved. Cottage roof detail and baked reflections need repair. The laboratory vent cap is repaired; roof and glazing still need repair. Trees have narrow crowns; the revised lawn is denser, while water and vegetation need further work. Interiors use candidate geometry/materials. The trainer has a working walk but retains raised arms from its source battle pose. NPC replacements and accepted creature motion are unfinished. No fidelity percentage is claimed.
+No photoreal assets or scenes are approved. Cottage roof detail and baked reflections need repair. The laboratory vent cap is repaired; roof and glazing still need repair. Trees have narrow crowns; the revised lawn is denser, while water and vegetation need further work. Interiors use candidate geometry/materials. Trainer v3 has a working walk and relaxed arms, while its crouched stance and face/material detail remain unfinished. NPCs render correctly as sprites; their photoreal3D replacements and accepted creature motion remain unfinished. No fidelity percentage is claimed.
 
 ## Verification
 
