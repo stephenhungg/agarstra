@@ -1,0 +1,35 @@
+{
+  "status": "source-guided candidate pending reference comparison and GLB reimport",
+  "sha256": "699d26aa7633c51487187c084ded7af6c0d7a92d455a123a6b063d29514ca7c7",
+  "source": "environment/starter-battle/bulbasaur-source-front.png",
+  "method": "Tailored continuous loft surfaces, voxel union, anatomical skin weight blending, custom four-leg deform skeleton, geometric bulb grooves and embedded vertex color patches",
+  "rigBones": 17,
+  "triangles": 63880,
+  "clips": [
+    {
+      "name": "idle",
+      "seconds": 3.0
+    },
+    {
+      "name": "attack",
+      "seconds": 1.1
+    },
+    {
+      "name": "hit",
+      "seconds": 0.6
+    },
+    {
+      "name": "faint",
+      "seconds": 1.4
+    },
+    {
+      "name": "growl",
+      "seconds": 1.2
+    }
+  ],
+  "limitations": [
+    "Stylized PBR geometry, not a photoreal reconstruction.",
+    "Growl is head/neck/body display without a jaw-open morph.",
+    "No production acceptance until imported motion and source identity are inspected."
+  ]
+}

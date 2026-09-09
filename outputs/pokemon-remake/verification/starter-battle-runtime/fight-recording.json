@@ -1,0 +1,90 @@
+{
+  "path": "/Volumes/Vault/dev/agarstra-model-work/starter-battle-fight.mp4",
+  "frames": 400,
+  "fps": 20,
+  "durationSeconds": 20,
+  "sourceFrames": 1080,
+  "state": {
+    "frame": 31531,
+    "index": 1080,
+    "hp": [
+      11,
+      14
+    ],
+    "events": [
+      {
+        "id": "30610:0:attack",
+        "frame": 30610,
+        "battlerId": 0,
+        "species": 1,
+        "action": "attack",
+        "moveId": 33,
+        "targetId": 1,
+        "signal": "native-move-script"
+      },
+      {
+        "id": "30652:1:hit",
+        "frame": 30652,
+        "battlerId": 1,
+        "species": 4,
+        "action": "hit",
+        "signal": "CONTROLLER_HITANIMATION"
+      },
+      {
+        "id": "31290:1:attack",
+        "frame": 31290,
+        "battlerId": 1,
+        "species": 4,
+        "action": "attack",
+        "moveId": 10,
+        "targetId": 0,
+        "signal": "native-move-script"
+      },
+      {
+        "id": "31323:0:hit",
+        "frame": 31323,
+        "battlerId": 0,
+        "species": 1,
+        "action": "hit",
+        "signal": "CONTROLLER_HITANIMATION"
+      }
+    ],
+    "actors": [
+      {
+        "id": 0,
+        "species": 1,
+        "visible": true,
+        "position": [
+          -4,
+          -0.04,
+          3
+        ],
+        "presentation": "rigged-3d-candidate",
+        "clip": "idle",
+        "sourceOffsets": {
+          "x": 0,
+          "y": 0
+        },
+        "pixelHash": "7bbe736f"
+      },
+      {
+        "id": 1,
+        "species": 4,
+        "visible": true,
+        "position": [
+          4,
+          -0.04,
+          -3
+        ],
+        "presentation": "rigged-3d-candidate",
+        "clip": "idle",
+        "sourceOffsets": {
+          "x": 0,
+          "y": 0
+        },
+        "pixelHash": "666be7c1"
+      }
+    ]
+  },
+  "method": "Actual hidden Electron capturePage of source-driven Three.js battle and native HUD; silent preview"
+}

@@ -64,9 +64,23 @@
         },
         "status": "source-authored-stylized-candidate",
         "source": "Original FireRed Bulbasaur sprite reconstructed directly in Blender; no generated creature reference"
+      },
+      "7": {
+        "file": "squirtle-battle-v1.glb",
+        "sha256": "6cc80b3cb84aeec0e4f077b907ba324be38f2dec8ddbdb83244572214522114b",
+        "height": 2.7,
+        "clips": {
+          "idle": "idle",
+          "attack": "attack",
+          "hit": "hit",
+          "faint": "faint",
+          "tailWhip": "tailWhip"
+        },
+        "status": "source-authored-stylized-candidate",
+        "source": "Original FireRed Squirtle sprite reconstructed directly in Blender; no generated creature reference"
       }
     },
-    "status": "Lab, Bulbasaur and Charmander ready for candidate demo; Squirtle final review pending",
+    "status": "Oak lab and all three starter species integrated as art candidates",
     "arena": {
       "file": "battle-arena-v1.glb",
       "sha256": "de1c8044b448d0840cbf8cf04490b2433b0dba260629c060617913bc80207fdc",

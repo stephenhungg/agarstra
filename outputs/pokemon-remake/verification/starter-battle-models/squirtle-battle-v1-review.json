@@ -1,0 +1,436 @@
+{
+  "glb": "outputs/pokemon-remake/models/squirtle-battle-v1.glb",
+  "sha256": "6cc80b3cb84aeec0e4f077b907ba324be38f2dec8ddbdb83244572214522114b",
+  "bytes": 4932880,
+  "triangles": 91698,
+  "skinBones": 19,
+  "height": 2.2428875458426774,
+  "groundOffset": -0.006064127665013075,
+  "up": "+Y",
+  "front": "+Z, visual inspection required",
+  "rootPositions": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "clips": [
+    {
+      "name": "attack",
+      "durationSeconds": 1.0,
+      "sampledFrameCount": 5,
+      "samples": [
+        {
+          "frame": 0,
+          "bounds": {
+            "min": [
+              -0.8634076118469238,
+              -0.6639999747276306,
+              0.006064127665013075
+            ],
+            "max": [
+              0.8634076118469238,
+              0.9832716584205627,
+              2.2489516735076904
+            ]
+          },
+          "maxVertexDisplacement": 3.03925246810483e-07
+        },
+        {
+          "frame": 8,
+          "bounds": {
+            "min": [
+              -0.863407552242279,
+              -0.5231877565383911,
+              0.006223489996045828
+            ],
+            "max": [
+              0.863407552242279,
+              0.9793850779533386,
+              2.245133399963379
+            ]
+          },
+          "maxVertexDisplacement": 0.276925680617495
+        },
+        {
+          "frame": 22,
+          "bounds": {
+            "min": [
+              -0.8634077906608582,
+              -0.8855338096618652,
+              0.005955339875072241
+            ],
+            "max": [
+              0.8634077906608582,
+              0.9676770567893982,
+              2.190563440322876
+            ]
+          },
+          "maxVertexDisplacement": 0.44976982267427396
+        },
+        {
+          "frame": 30,
+          "bounds": {
+            "min": [
+              -0.8634076118469238,
+              -0.6639999747276306,
+              0.006064127665013075
+            ],
+            "max": [
+              0.8634076118469238,
+              0.9832716584205627,
+              2.2489516735076904
+            ]
+          },
+          "maxVertexDisplacement": 3.03925246810483e-07
+        }
+      ],
+      "maxFootTravel": 0.004452595651033435,
+      "loopError": 0.0,
+      "maxTravel": 0.8151685451482953
+    },
+    {
+      "name": "faint",
+      "durationSeconds": 1.4,
+      "sampledFrameCount": 5,
+      "samples": [
+        {
+          "frame": 0,
+          "bounds": {
+            "min": [
+              -0.8634076118469238,
+              -0.6639999151229858,
+              0.006064127665013075
+            ],
+            "max": [
+              0.8634076118469238,
+              0.9832716584205627,
+              2.2489514350891113
+            ]
+          },
+          "maxVertexDisplacement": 4.915124923727108e-07
+        },
+        {
+          "frame": 10,
+          "bounds": {
+            "min": [
+              -0.8634076714515686,
+              -0.8361058235168457,
+              0.005972512997686863
+            ],
+            "max": [
+              0.8634076118469238,
+              0.964004635810852,
+              2.203623056411743
+            ]
+          },
+          "maxVertexDisplacement": 0.3739870308051892
+        },
+        {
+          "frame": 32,
+          "bounds": {
+            "min": [
+              -0.863407552242279,
+              -1.5208314657211304,
+              0.006005451548844576
+            ],
+            "max": [
+              0.8634076118469238,
+              0.6536714434623718,
+              1.6754869222640991
+            ]
+          },
+          "maxVertexDisplacement": 1.658605551763803
+        },
+        {
+          "frame": 42,
+          "bounds": {
+            "min": [
+              -0.8634073138237,
+              -1.5248408317565918,
+              0.00600819755345583
+            ],
+            "max": [
+              0.8634074330329895,
+              0.6497887969017029,
+              1.6692081689834595
+            ]
+          },
+          "maxVertexDisplacement": 1.6684394726051546
+        }
+      ],
+      "maxFootTravel": 0.007980108770500628,
+      "loopError": 1.6684392828501777,
+      "maxTravel": 1.6684394726051546
+    },
+    {
+      "name": "hit",
+      "durationSeconds": 0.6,
+      "sampledFrameCount": 5,
+      "samples": [
+        {
+          "frame": 0,
+          "bounds": {
+            "min": [
+              -0.8634074330329895,
+              -0.6639999747276306,
+              0.006064127665013075
+            ],
+            "max": [
+              0.8634074926376343,
+              0.9832716584205627,
+              2.2489516735076904
+            ]
+          },
+          "maxVertexDisplacement": 3.2098083538618706e-07
+        },
+        {
+          "frame": 4,
+          "bounds": {
+            "min": [
+              -0.8634074926376343,
+              -0.5239084362983704,
+              -0.006062150001525879
+            ],
+            "max": [
+              0.8634074330329895,
+              0.9672532677650452,
+              2.223540782928467
+            ]
+          },
+          "maxVertexDisplacement": 0.3980097730944289
+        },
+        {
+          "frame": 14,
+          "bounds": {
+            "min": [
+              -0.8634074330329895,
+              -0.5968924164772034,
+              0.006111642345786095
+            ],
+            "max": [
+              0.8634074926376343,
+              0.9841470122337341,
+              2.2518744468688965
+            ]
+          },
+          "maxVertexDisplacement": 0.0832653381585213
+        },
+        {
+          "frame": 18,
+          "bounds": {
+            "min": [
+              -0.8634074330329895,
+              -0.6639999747276306,
+              0.006064127665013075
+            ],
+            "max": [
+              0.8634074926376343,
+              0.9832716584205627,
+              2.2489516735076904
+            ]
+          },
+          "maxVertexDisplacement": 3.2098083538618706e-07
+        }
+      ],
+      "maxFootTravel": 0.0032921894315014505,
+      "loopError": 0.0,
+      "maxTravel": 0.3980097730944289
+    },
+    {
+      "name": "idle",
+      "durationSeconds": 3.0,
+      "sampledFrameCount": 5,
+      "samples": [
+        {
+          "frame": 0,
+          "bounds": {
+            "min": [
+              -0.8634074330329895,
+              -0.6639999747276306,
+              0.006064127665013075
+            ],
+            "max": [
+              0.863407552242279,
+              0.9832716584205627,
+              2.2489516735076904
+            ]
+          },
+          "maxVertexDisplacement": 0.0
+        },
+        {
+          "frame": 22,
+          "bounds": {
+            "min": [
+              -0.856376051902771,
+              -0.6680201292037964,
+              0.006045314949005842
+            ],
+            "max": [
+              0.856376051902771,
+              1.030287504196167,
+              2.270531177520752
+            ]
+          },
+          "maxVertexDisplacement": 0.07483336133221649
+        },
+        {
+          "frame": 68,
+          "bounds": {
+            "min": [
+              -0.8696645498275757,
+              -0.6599173545837402,
+              0.00608293991535902
+            ],
+            "max": [
+              0.8809462785720825,
+              0.9344885349273682,
+              2.227372169494629
+            ]
+          },
+          "maxVertexDisplacement": 0.07444929705438451
+        },
+        {
+          "frame": 90,
+          "bounds": {
+            "min": [
+              -0.8634074330329895,
+              -0.6639999747276306,
+              0.006064127665013075
+            ],
+            "max": [
+              0.863407552242279,
+              0.9832716584205627,
+              2.2489516735076904
+            ]
+          },
+          "maxVertexDisplacement": 0.0
+        }
+      ],
+      "maxFootTravel": 0.00016291275978096061,
+      "loopError": 0.0,
+      "maxTravel": 0.07483336133221649
+    },
+    {
+      "name": "tailWhip",
+      "durationSeconds": 1.4,
+      "sampledFrameCount": 5,
+      "samples": [
+        {
+          "frame": 0,
+          "bounds": {
+            "min": [
+              -0.8634074926376343,
+              -0.6639999747276306,
+              0.006064127665013075
+            ],
+            "max": [
+              0.8634074926376343,
+              0.9832717776298523,
+              2.2489516735076904
+            ]
+          },
+          "maxVertexDisplacement": 3.2782554626464844e-07
+        },
+        {
+          "frame": 10,
+          "bounds": {
+            "min": [
+              -0.7689647674560547,
+              -0.9203612804412842,
+              0.006064128130674362
+            ],
+            "max": [
+              0.7264639139175415,
+              1.0853784084320068,
+              2.2489516735076904
+            ]
+          },
+          "maxVertexDisplacement": 1.464177118801375
+        },
+        {
+          "frame": 32,
+          "bounds": {
+            "min": [
+              -0.8179670572280884,
+              -0.9203612804412842,
+              0.006064128130674362
+            ],
+            "max": [
+              0.7264639139175415,
+              1.0613493919372559,
+              2.2489516735076904
+            ]
+          },
+          "maxVertexDisplacement": 1.546057602261896
+        },
+        {
+          "frame": 42,
+          "bounds": {
+            "min": [
+              -0.8634074926376343,
+              -0.6639999747276306,
+              0.006064127665013075
+            ],
+            "max": [
+              0.8634074926376343,
+              0.9832717776298523,
+              2.2489516735076904
+            ]
+          },
+          "maxVertexDisplacement": 3.2782554626464844e-07
+        }
+      ],
+      "maxFootTravel": 0.007583273276611958,
+      "loopError": 0.0,
+      "maxTravel": 1.546057602261896
+    }
+  ],
+  "evidence": [
+    {
+      "clip": "attack",
+      "frame": 13,
+      "file": "attack-013.png"
+    },
+    {
+      "clip": "faint",
+      "frame": 42,
+      "file": "faint-042.png"
+    },
+    {
+      "clip": "idle",
+      "frame": 0,
+      "file": "idle-000.png"
+    }
+  ],
+  "embeddedDependencies": true,
+  "status": "candidate pending visual review",
+  "verificationScope": "five source-frame samples per clip and peak/rest/faint/back images",
+  "visualReview": {
+    "status": "usable-stylized-prototype-candidate",
+    "photorealApproved": false,
+    "inspected": [
+      "squirtle-idle.png",
+      "squirtle-attack-peak.png",
+      "squirtle-back.png",
+      "squirtle-faint.png"
+    ],
+    "findings": [
+      "Connected skin retains its shape at peak Tackle; prior cheek and shoulder stretching is removed.",
+      "Blue turtle silhouette, ruby eyes, cream segmented belly, brown hexagonal shell and curled tail remain identifiable.",
+      "Back shell and smooth curl are visible from player-side camera direction.",
+      "Faint is an articulated bowed slump with source-owned placement, not a full-body collapse."
+    ],
+    "remaining": [
+      "Stylized proportions and smooth eye construction; not photoreal approved.",
+      "Shell rim has visible segment junctions in the rear view.",
+      "Action and material appearance still need actual in-game approval."
+    ],
+    "rejectedPriorSHA256": "f208a9a5727f81dc83417c3d5f9040c548cd7623658e7c686a33a4fc0545287a",
+    "rejectedReason": "Peak attack pulled connected cheek and shoulder surfaces into stretched strips; lower arm roots and anatomical head weights corrected this."
+  },
+  "sourceSprite": "outputs/pokemon-remake/environment/starter-battle/squirtle-source-front.png",
+  "sourceSpriteSHA256": "30d6413a70495a23d4af23a941bae57f5373f7b6fec1e05eb8ef78a0636898bc",
+  "authoring": "outputs/pokemon-remake/verification/starter-battle-models/author_squirtle.py"
+}

@@ -1,0 +1,1458 @@
+{
+  "ready": true,
+  "error": null,
+  "passed": true,
+  "checks": [
+    {
+      "name": "both actual species7 GLBs loaded with corrected hash",
+      "ok": true,
+      "detail": [
+        {
+          "species": 7,
+          "file": "squirtle-battle-v1.glb",
+          "status": "ready",
+          "model": {
+            "status": "candidate-loader-only-not-visual-acceptance",
+            "url": "http://127.0.0.1:5173/models/squirtle-battle-v1.glb",
+            "sha256": "6cc80b3cb84aeec0e4f077b907ba324be38f2dec8ddbdb83244572214522114b",
+            "bytes": 4932880,
+            "hierarchyPreserved": true,
+            "up": "+Y",
+            "front": "+Z (asset convention; visually verify)",
+            "bounds": {
+              "min": [
+                -0.8634075953845485,
+                0.006064164706832035,
+                -0.9832714714398221
+              ],
+              "max": [
+                0.8634075921682144,
+                2.2489514839382583,
+                0.6639999861921391
+              ],
+              "size": [
+                1.7268151875527629,
+                2.2428873192314263,
+                1.6472714576319611
+              ]
+            },
+            "height": 2.2428873192314263,
+            "groundOffset": -0.006064164706832035,
+            "meshCount": 35,
+            "nodeCount": 57,
+            "boneCount": 19,
+            "skinnedMeshes": [
+              {
+                "name": "Amber_hexagonal_shell_scute",
+                "bones": 19,
+                "vertices": 130,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute001",
+                "bones": 19,
+                "vertices": 130,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute002",
+                "bones": 19,
+                "vertices": 146,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute003",
+                "bones": 19,
+                "vertices": 146,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute004",
+                "bones": 19,
+                "vertices": 130,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute005",
+                "bones": 19,
+                "vertices": 146,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute006",
+                "bones": 19,
+                "vertices": 146,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute007",
+                "bones": 19,
+                "vertices": 146,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute008",
+                "bones": 19,
+                "vertices": 130,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute009",
+                "bones": 19,
+                "vertices": 146,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute010",
+                "bones": 19,
+                "vertices": 146,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute011",
+                "bones": 19,
+                "vertices": 130,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute012",
+                "bones": 19,
+                "vertices": 130,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Dark_shell_foundation",
+                "bones": 19,
+                "vertices": 1023,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Deep_oval_pupil",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Deep_oval_pupil001",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Eye_white",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Eye_white001",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Gentle_turtle_smile",
+                "bones": 19,
+                "vertices": 328,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Main_eye_reflection",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Main_eye_reflection001",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Nostril",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Nostril001",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Pale_continuous_shell_rim",
+                "bones": 19,
+                "vertices": 1164,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Plastron_growth_seam",
+                "bones": 19,
+                "vertices": 248,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Plastron_growth_seam001",
+                "bones": 19,
+                "vertices": 248,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Plastron_growth_seam002",
+                "bones": 19,
+                "vertices": 232,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Ruby_iris",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Ruby_iris001",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Sculpted_eyelid",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Sculpted_eyelid001",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Secondary_eye_reflection",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Secondary_eye_reflection001",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Segmented_cream_plastron",
+                "bones": 19,
+                "vertices": 1023,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Squirtle_continuous_organic_skin",
+                "bones": 19,
+                "vertices": 36082,
+                "bindMode": "attached"
+              }
+            ],
+            "clips": [
+              {
+                "name": "idle",
+                "duration": 3,
+                "tracks": 57
+              },
+              {
+                "name": "attack",
+                "duration": 1,
+                "tracks": 57
+              },
+              {
+                "name": "hit",
+                "duration": 0.6000000238418579,
+                "tracks": 57
+              },
+              {
+                "name": "faint",
+                "duration": 1.399999976158142,
+                "tracks": 57
+              },
+              {
+                "name": "tailWhip",
+                "duration": 1.399999976158142,
+                "tracks": 57
+              }
+            ],
+            "selectedClip": "tailWhip",
+            "animationReady": true,
+            "staticOnly": false,
+            "availableActions": {
+              "idle": {
+                "clip": "idle",
+                "duration": 3
+              },
+              "attack": {
+                "clip": "attack",
+                "duration": 1
+              },
+              "hit": {
+                "clip": "hit",
+                "duration": 0.6000000238418579
+              },
+              "faint": {
+                "clip": "faint",
+                "duration": 1.399999976158142
+              },
+              "tailWhip": {
+                "clip": "tailWhip",
+                "duration": 1.399999976158142
+              }
+            },
+            "sourceSeconds": 0.3850822485454774,
+            "disposed": false,
+            "event": {
+              "id": "30639:0:tailWhip",
+              "frame": 30639,
+              "battlerId": 0,
+              "species": 7,
+              "action": "tailWhip",
+              "moveId": 39,
+              "targetId": 1,
+              "signal": "native-move-script"
+            },
+            "nativeFrame": 30662
+          }
+        },
+        {
+          "species": 7,
+          "file": "squirtle-battle-v1.glb",
+          "status": "ready",
+          "model": {
+            "status": "candidate-loader-only-not-visual-acceptance",
+            "url": "http://127.0.0.1:5173/models/squirtle-battle-v1.glb",
+            "sha256": "6cc80b3cb84aeec0e4f077b907ba324be38f2dec8ddbdb83244572214522114b",
+            "bytes": 4932880,
+            "hierarchyPreserved": true,
+            "up": "+Y",
+            "front": "+Z (asset convention; visually verify)",
+            "bounds": {
+              "min": [
+                -0.8634075953845485,
+                0.006064164706832035,
+                -0.9832714714398221
+              ],
+              "max": [
+                0.8634075921682144,
+                2.2489514839382583,
+                0.6639999861921391
+              ],
+              "size": [
+                1.7268151875527629,
+                2.2428873192314263,
+                1.6472714576319611
+              ]
+            },
+            "height": 2.2428873192314263,
+            "groundOffset": -0.006064164706832035,
+            "meshCount": 35,
+            "nodeCount": 57,
+            "boneCount": 19,
+            "skinnedMeshes": [
+              {
+                "name": "Amber_hexagonal_shell_scute",
+                "bones": 19,
+                "vertices": 130,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute001",
+                "bones": 19,
+                "vertices": 130,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute002",
+                "bones": 19,
+                "vertices": 146,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute003",
+                "bones": 19,
+                "vertices": 146,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute004",
+                "bones": 19,
+                "vertices": 130,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute005",
+                "bones": 19,
+                "vertices": 146,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute006",
+                "bones": 19,
+                "vertices": 146,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute007",
+                "bones": 19,
+                "vertices": 146,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute008",
+                "bones": 19,
+                "vertices": 130,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute009",
+                "bones": 19,
+                "vertices": 146,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute010",
+                "bones": 19,
+                "vertices": 146,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute011",
+                "bones": 19,
+                "vertices": 130,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Amber_hexagonal_shell_scute012",
+                "bones": 19,
+                "vertices": 130,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Dark_shell_foundation",
+                "bones": 19,
+                "vertices": 1023,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Deep_oval_pupil",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Deep_oval_pupil001",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Eye_white",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Eye_white001",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Gentle_turtle_smile",
+                "bones": 19,
+                "vertices": 328,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Main_eye_reflection",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Main_eye_reflection001",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Nostril",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Nostril001",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Pale_continuous_shell_rim",
+                "bones": 19,
+                "vertices": 1164,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Plastron_growth_seam",
+                "bones": 19,
+                "vertices": 248,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Plastron_growth_seam001",
+                "bones": 19,
+                "vertices": 248,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Plastron_growth_seam002",
+                "bones": 19,
+                "vertices": 232,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Ruby_iris",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Ruby_iris001",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Sculpted_eyelid",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Sculpted_eyelid001",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Secondary_eye_reflection",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Secondary_eye_reflection001",
+                "bones": 19,
+                "vertices": 691,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Segmented_cream_plastron",
+                "bones": 19,
+                "vertices": 1023,
+                "bindMode": "attached"
+              },
+              {
+                "name": "Squirtle_continuous_organic_skin",
+                "bones": 19,
+                "vertices": 36082,
+                "bindMode": "attached"
+              }
+            ],
+            "clips": [
+              {
+                "name": "idle",
+                "duration": 3,
+                "tracks": 57
+              },
+              {
+                "name": "attack",
+                "duration": 1,
+                "tracks": 57
+              },
+              {
+                "name": "hit",
+                "duration": 0.6000000238418579,
+                "tracks": 57
+              },
+              {
+                "name": "faint",
+                "duration": 1.399999976158142,
+                "tracks": 57
+              },
+              {
+                "name": "tailWhip",
+                "duration": 1.399999976158142,
+                "tracks": 57
+              }
+            ],
+            "selectedClip": "idle",
+            "animationReady": true,
+            "staticOnly": false,
+            "availableActions": {
+              "idle": {
+                "clip": "idle",
+                "duration": 3
+              },
+              "attack": {
+                "clip": "attack",
+                "duration": 1
+              },
+              "hit": {
+                "clip": "hit",
+                "duration": 0.6000000238418579
+              },
+              "faint": {
+                "clip": "faint",
+                "duration": 1.399999976158142
+              },
+              "tailWhip": {
+                "clip": "tailWhip",
+                "duration": 1.399999976158142
+              }
+            },
+            "sourceSeconds": 513.3648654304968,
+            "disposed": false,
+            "event": null,
+            "nativeFrame": 30662
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tackle and Tail Whip clips exist in actual loaded GLB",
+      "ok": true
+    },
+    {
+      "name": "both visible source anchors use rigged Squirtle",
+      "ok": true,
+      "detail": [
+        {
+          "id": 0,
+          "species": 7,
+          "visible": true,
+          "position": [
+            -4,
+            -0.11752973447979032,
+            3.0267046863208167
+          ],
+          "presentation": "rigged-3d-candidate",
+          "clip": "idle",
+          "sourceOffsets": {
+            "x": 0,
+            "y": 1
+          },
+          "pixelHash": "7bbe736f"
+        },
+        {
+          "id": 1,
+          "species": 7,
+          "visible": true,
+          "position": [
+            4,
+            -0.04,
+            -3
+          ],
+          "presentation": "rigged-3d-candidate",
+          "clip": "idle",
+          "sourceOffsets": {
+            "x": 0,
+            "y": 0
+          },
+          "pixelHash": "666be7c1"
+        }
+      ]
+    },
+    {
+      "name": "normalized height is2.7 and actors face each other",
+      "ok": true,
+      "detail": [
+        {
+          "id": 0,
+          "height": 2.7,
+          "forward": [
+            0.8000000000000002,
+            0,
+            -0.5999999999999999
+          ]
+        },
+        {
+          "id": 1,
+          "height": 2.7,
+          "forward": [
+            -0.7999999999999999,
+            0,
+            0.6000000000000001
+          ]
+        }
+      ]
+    },
+    {
+      "name": "paused rendered skeleton remains identical",
+      "ok": true
+    },
+    {
+      "name": "species substitution preserves original serialized ROM bytes",
+      "ok": true
+    },
+    {
+      "name": "original Tackle signal selects actual Squirtle attack clip",
+      "ok": true,
+      "detail": {
+        "event": {
+          "id": "30611:0:attack",
+          "frame": 30611,
+          "battlerId": 0,
+          "species": 7,
+          "action": "attack",
+          "moveId": 33,
+          "targetId": 1,
+          "signal": "native-move-script"
+        },
+        "clip": "attack"
+      }
+    },
+    {
+      "name": "source Tackle event reached",
+      "ok": true
+    },
+    {
+      "name": "read-only Tail Whip fixture selects Tail Whip only",
+      "ok": true,
+      "detail": {
+        "clip": "tailWhip",
+        "event": {
+          "id": "30639:0:tailWhip",
+          "frame": 30639,
+          "battlerId": 0,
+          "species": 7,
+          "action": "tailWhip",
+          "moveId": 39,
+          "targetId": 1,
+          "signal": "native-move-script"
+        }
+      }
+    },
+    {
+      "name": "paused Tail Whip does not retrigger or change pose",
+      "ok": true
+    },
+    {
+      "name": "Tail Whip observer fixture never changes ROM bytes",
+      "ok": true
+    },
+    {
+      "name": "actual WebGL arena and creatures rendered",
+      "ok": true,
+      "detail": {
+        "calls": 184,
+        "triangles": 524008
+      }
+    }
+  ],
+  "actors": [
+    {
+      "id": 0,
+      "species": 7,
+      "visible": true,
+      "position": [
+        -4,
+        -0.04,
+        3
+      ],
+      "presentation": "rigged-3d-candidate",
+      "clip": "tailWhip",
+      "sourceOffsets": {
+        "x": 0,
+        "y": 0
+      },
+      "pixelHash": "7bbe736f"
+    },
+    {
+      "id": 1,
+      "species": 7,
+      "visible": true,
+      "position": [
+        4,
+        -0.04,
+        -3
+      ],
+      "presentation": "rigged-3d-candidate",
+      "clip": "idle",
+      "sourceOffsets": {
+        "x": 0,
+        "y": 0
+      },
+      "pixelHash": "666be7c1"
+    }
+  ],
+  "models": [
+    {
+      "species": 7,
+      "file": "squirtle-battle-v1.glb",
+      "status": "ready",
+      "model": {
+        "status": "candidate-loader-only-not-visual-acceptance",
+        "url": "http://127.0.0.1:5173/models/squirtle-battle-v1.glb",
+        "sha256": "6cc80b3cb84aeec0e4f077b907ba324be38f2dec8ddbdb83244572214522114b",
+        "bytes": 4932880,
+        "hierarchyPreserved": true,
+        "up": "+Y",
+        "front": "+Z (asset convention; visually verify)",
+        "bounds": {
+          "min": [
+            -0.8634075953845485,
+            0.006064164706832035,
+            -0.9832714714398221
+          ],
+          "max": [
+            0.8634075921682144,
+            2.2489514839382583,
+            0.6639999861921391
+          ],
+          "size": [
+            1.7268151875527629,
+            2.2428873192314263,
+            1.6472714576319611
+          ]
+        },
+        "height": 2.2428873192314263,
+        "groundOffset": -0.006064164706832035,
+        "meshCount": 35,
+        "nodeCount": 57,
+        "boneCount": 19,
+        "skinnedMeshes": [
+          {
+            "name": "Amber_hexagonal_shell_scute",
+            "bones": 19,
+            "vertices": 130,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute001",
+            "bones": 19,
+            "vertices": 130,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute002",
+            "bones": 19,
+            "vertices": 146,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute003",
+            "bones": 19,
+            "vertices": 146,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute004",
+            "bones": 19,
+            "vertices": 130,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute005",
+            "bones": 19,
+            "vertices": 146,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute006",
+            "bones": 19,
+            "vertices": 146,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute007",
+            "bones": 19,
+            "vertices": 146,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute008",
+            "bones": 19,
+            "vertices": 130,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute009",
+            "bones": 19,
+            "vertices": 146,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute010",
+            "bones": 19,
+            "vertices": 146,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute011",
+            "bones": 19,
+            "vertices": 130,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute012",
+            "bones": 19,
+            "vertices": 130,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Dark_shell_foundation",
+            "bones": 19,
+            "vertices": 1023,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Deep_oval_pupil",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Deep_oval_pupil001",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Eye_white",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Eye_white001",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Gentle_turtle_smile",
+            "bones": 19,
+            "vertices": 328,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Main_eye_reflection",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Main_eye_reflection001",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Nostril",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Nostril001",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Pale_continuous_shell_rim",
+            "bones": 19,
+            "vertices": 1164,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Plastron_growth_seam",
+            "bones": 19,
+            "vertices": 248,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Plastron_growth_seam001",
+            "bones": 19,
+            "vertices": 248,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Plastron_growth_seam002",
+            "bones": 19,
+            "vertices": 232,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Ruby_iris",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Ruby_iris001",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Sculpted_eyelid",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Sculpted_eyelid001",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Secondary_eye_reflection",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Secondary_eye_reflection001",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Segmented_cream_plastron",
+            "bones": 19,
+            "vertices": 1023,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Squirtle_continuous_organic_skin",
+            "bones": 19,
+            "vertices": 36082,
+            "bindMode": "attached"
+          }
+        ],
+        "clips": [
+          {
+            "name": "idle",
+            "duration": 3,
+            "tracks": 57
+          },
+          {
+            "name": "attack",
+            "duration": 1,
+            "tracks": 57
+          },
+          {
+            "name": "hit",
+            "duration": 0.6000000238418579,
+            "tracks": 57
+          },
+          {
+            "name": "faint",
+            "duration": 1.399999976158142,
+            "tracks": 57
+          },
+          {
+            "name": "tailWhip",
+            "duration": 1.399999976158142,
+            "tracks": 57
+          }
+        ],
+        "selectedClip": "tailWhip",
+        "animationReady": true,
+        "staticOnly": false,
+        "availableActions": {
+          "idle": {
+            "clip": "idle",
+            "duration": 3
+          },
+          "attack": {
+            "clip": "attack",
+            "duration": 1
+          },
+          "hit": {
+            "clip": "hit",
+            "duration": 0.6000000238418579
+          },
+          "faint": {
+            "clip": "faint",
+            "duration": 1.399999976158142
+          },
+          "tailWhip": {
+            "clip": "tailWhip",
+            "duration": 1.399999976158142
+          }
+        },
+        "sourceSeconds": 0.3850822485454774,
+        "disposed": false,
+        "event": {
+          "id": "30639:0:tailWhip",
+          "frame": 30639,
+          "battlerId": 0,
+          "species": 7,
+          "action": "tailWhip",
+          "moveId": 39,
+          "targetId": 1,
+          "signal": "native-move-script"
+        },
+        "nativeFrame": 30662
+      }
+    },
+    {
+      "species": 7,
+      "file": "squirtle-battle-v1.glb",
+      "status": "ready",
+      "model": {
+        "status": "candidate-loader-only-not-visual-acceptance",
+        "url": "http://127.0.0.1:5173/models/squirtle-battle-v1.glb",
+        "sha256": "6cc80b3cb84aeec0e4f077b907ba324be38f2dec8ddbdb83244572214522114b",
+        "bytes": 4932880,
+        "hierarchyPreserved": true,
+        "up": "+Y",
+        "front": "+Z (asset convention; visually verify)",
+        "bounds": {
+          "min": [
+            -0.8634075953845485,
+            0.006064164706832035,
+            -0.9832714714398221
+          ],
+          "max": [
+            0.8634075921682144,
+            2.2489514839382583,
+            0.6639999861921391
+          ],
+          "size": [
+            1.7268151875527629,
+            2.2428873192314263,
+            1.6472714576319611
+          ]
+        },
+        "height": 2.2428873192314263,
+        "groundOffset": -0.006064164706832035,
+        "meshCount": 35,
+        "nodeCount": 57,
+        "boneCount": 19,
+        "skinnedMeshes": [
+          {
+            "name": "Amber_hexagonal_shell_scute",
+            "bones": 19,
+            "vertices": 130,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute001",
+            "bones": 19,
+            "vertices": 130,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute002",
+            "bones": 19,
+            "vertices": 146,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute003",
+            "bones": 19,
+            "vertices": 146,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute004",
+            "bones": 19,
+            "vertices": 130,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute005",
+            "bones": 19,
+            "vertices": 146,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute006",
+            "bones": 19,
+            "vertices": 146,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute007",
+            "bones": 19,
+            "vertices": 146,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute008",
+            "bones": 19,
+            "vertices": 130,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute009",
+            "bones": 19,
+            "vertices": 146,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute010",
+            "bones": 19,
+            "vertices": 146,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute011",
+            "bones": 19,
+            "vertices": 130,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Amber_hexagonal_shell_scute012",
+            "bones": 19,
+            "vertices": 130,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Dark_shell_foundation",
+            "bones": 19,
+            "vertices": 1023,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Deep_oval_pupil",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Deep_oval_pupil001",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Eye_white",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Eye_white001",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Gentle_turtle_smile",
+            "bones": 19,
+            "vertices": 328,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Main_eye_reflection",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Main_eye_reflection001",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Nostril",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Nostril001",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Pale_continuous_shell_rim",
+            "bones": 19,
+            "vertices": 1164,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Plastron_growth_seam",
+            "bones": 19,
+            "vertices": 248,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Plastron_growth_seam001",
+            "bones": 19,
+            "vertices": 248,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Plastron_growth_seam002",
+            "bones": 19,
+            "vertices": 232,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Ruby_iris",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Ruby_iris001",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Sculpted_eyelid",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Sculpted_eyelid001",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Secondary_eye_reflection",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Secondary_eye_reflection001",
+            "bones": 19,
+            "vertices": 691,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Segmented_cream_plastron",
+            "bones": 19,
+            "vertices": 1023,
+            "bindMode": "attached"
+          },
+          {
+            "name": "Squirtle_continuous_organic_skin",
+            "bones": 19,
+            "vertices": 36082,
+            "bindMode": "attached"
+          }
+        ],
+        "clips": [
+          {
+            "name": "idle",
+            "duration": 3,
+            "tracks": 57
+          },
+          {
+            "name": "attack",
+            "duration": 1,
+            "tracks": 57
+          },
+          {
+            "name": "hit",
+            "duration": 0.6000000238418579,
+            "tracks": 57
+          },
+          {
+            "name": "faint",
+            "duration": 1.399999976158142,
+            "tracks": 57
+          },
+          {
+            "name": "tailWhip",
+            "duration": 1.399999976158142,
+            "tracks": 57
+          }
+        ],
+        "selectedClip": "idle",
+        "animationReady": true,
+        "staticOnly": false,
+        "availableActions": {
+          "idle": {
+            "clip": "idle",
+            "duration": 3
+          },
+          "attack": {
+            "clip": "attack",
+            "duration": 1
+          },
+          "hit": {
+            "clip": "hit",
+            "duration": 0.6000000238418579
+          },
+          "faint": {
+            "clip": "faint",
+            "duration": 1.399999976158142
+          },
+          "tailWhip": {
+            "clip": "tailWhip",
+            "duration": 1.399999976158142
+          }
+        },
+        "sourceSeconds": 513.3648654304968,
+        "disposed": false,
+        "event": null,
+        "nativeFrame": 30662
+      }
+    }
+  ],
+  "dimensions": [
+    {
+      "id": 0,
+      "height": 2.7,
+      "forward": [
+        0.8000000000000002,
+        0,
+        -0.5999999999999999
+      ]
+    },
+    {
+      "id": 1,
+      "height": 2.7,
+      "forward": [
+        -0.7999999999999999,
+        0,
+        0.6000000000000001
+      ]
+    }
+  ],
+  "render": {
+    "calls": 184,
+    "triangles": 524008
+  },
+  "limitations": [
+    "Both displayed species are substituted in a read-only observation fixture. Original ROM still contains Bulbasaur versus Charmander.",
+    "Tackle is driven by real original-ROM first-turn inputs; Tail Whip is an explicit read-only animation-signal fixture, not a Squirtle ROM playthrough.",
+    "No live app, shared manifest, source RAM or user save is modified."
+  ],
+  "messages": [
+    {
+      "level": "debug",
+      "message": "[vite] connecting..."
+    },
+    {
+      "level": "debug",
+      "message": "[vite] connected."
+    },
+    {
+      "level": "warning",
+      "message": "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security\n  Policy set or a policy with \"unsafe-eval\" enabled. This exposes users of\n  this app to unnecessary security risks.\n\nFor more information and help, consult\nhttps://electronjs.org/docs/tutorial/security.\nThis warning will not show up\nonce the app is packaged."
+    }
+  ]
+}

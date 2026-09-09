@@ -1,0 +1,74 @@
+{
+  "asset": "bulbasaur-battle-v1.glb",
+  "sha256": "699d26aa7633c51487187c084ded7af6c0d7a92d455a123a6b063d29514ca7c7",
+  "status": "usable-prototype-candidate-changes-required-for-production",
+  "method": "Direct source-based Blender modeling from the original Bulbasaur sprite. Generated reference unavailable. Tailored continuous skin, custom quadruped deform rig, geometric bulb lobes, embedded skin normal and roughness textures, vertex-color source patches.",
+  "visualReview": "Inspected actual GLB reimport front, back, Tackle anticipation/strike, hit, Growl and faint poses. Recognizable source-inspired silhouette and coherent connected anatomy. Faint no longer intersects the floor. No detached or exploded geometry visible in inspected frames.",
+  "technical": {
+    "skinBones": 17,
+    "triangles": 63880,
+    "height": 1.3958409279584885,
+    "groundOffset": 4.470348358154297e-08,
+    "embeddedDependencies": true
+  },
+  "clips": [
+    {
+      "name": "attack",
+      "durationSeconds": 1.1,
+      "maxFootTravel": 0.05307070450414499,
+      "loopError": 0.0,
+      "maxTravel": 0.3192884616967557
+    },
+    {
+      "name": "faint",
+      "durationSeconds": 1.4,
+      "maxFootTravel": 0.04076055348800082,
+      "loopError": 0.3001456705781293,
+      "maxTravel": 0.30014574970211755
+    },
+    {
+      "name": "growl",
+      "durationSeconds": 1.2,
+      "maxFootTravel": 0.02038486665857911,
+      "loopError": 0.0,
+      "maxTravel": 0.21307234649596657
+    },
+    {
+      "name": "hit",
+      "durationSeconds": 0.6,
+      "maxFootTravel": 0.06109729941150673,
+      "loopError": 0.0,
+      "maxTravel": 0.2439113704044953
+    },
+    {
+      "name": "idle",
+      "durationSeconds": 3.0,
+      "maxFootTravel": 0.004415058911947873,
+      "loopError": 0.0,
+      "maxTravel": 0.018957296190985008
+    }
+  ],
+  "evidence": {
+    "idle-000.png": "fc752802a30eeb5000b54d643a413aae5e96b1133bfd566f2d6a21feeb64d3c7",
+    "hit-007.png": "7482cbab2a6a50e84101aeac13728fe8e289364fe83f09cccc65e41b8cac73f0",
+    "attack-008.png": "c0ab1bcc71ba818bb65daf5ce4eff79ea64651038135d34f69df3f115c0b58d9",
+    "attack-023.png": "9c8a3c154f72776863e43ef29e9aee4effdb043e1780a0258acdd6420e340f42",
+    "faint-042.png": "0ffcfb6e6a5a3b6d3f401a9517fc693a0a7f4bbb80a9fe6cbb69f23ce35e20f8",
+    "attack-033.png": "e72e45b385e17da530030958a02777741b50c66b2c4dd745d0c5be7fec39fd10",
+    "attack-014.png": "e738f246a7cfa8bfa7ea0d1da1670b26716dc2f18dbc386c1475afaade7b608e",
+    "attack-000.png": "deb6528e4fed5f3304c80e9899c7a6c9fc526701c2df9dc446fee2dfb6290485",
+    "idle-045.png": "28529bb6d1ae641c25cb203ee6383758eb0176534c085ed268e4013b4f684c3c",
+    "growl-014.png": "e0a8042ddd76bc3d6b19301d3c6f91feae7424a8fcdf52a6d77d89bb49d3fac0",
+    "back.png": "d6d4d7e089de366c39566fbde5e7a33d26f2bddb9317e8e3776a8ab877a59b38"
+  },
+  "limitations": [
+    "Visual style remains stylized PBR, not hyperreal.",
+    "Residual inner-foot surface motion peaks at 0.0611 model units (4.4 percent of height); claw contact is more stable. v1 remains usable for prototype demonstration but contact is not production accepted.",
+    "Growl uses head, neck and body motion without a jaw-open morph.",
+    "Faint is a lowered exhausted pose, not a full collapse.",
+    "These asset renders do not certify the runtime camera or source-event timing."
+  ],
+  "independentRuntimeReview": "Integration owner verifies actual battle playback separately.",
+  "sourceSprite": "outputs/pokemon-remake/environment/starter-battle/bulbasaur-source-front.png",
+  "sourceSpriteSHA256": "523c5d50a673c3a46a68a96bd32a63fcfae9192637fb6407198a43746c38f7e3"
+}

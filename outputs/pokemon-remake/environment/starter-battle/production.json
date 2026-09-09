@@ -1,6 +1,6 @@
 {
   "scope": "FireRed first rival battle in Oak's lab, all three starter choices",
-  "status": "Lab, Bulbasaur, Charmander and native-event combat integrated as art candidates; Squirtle in final review",
+  "status": "All three starter candidates registered and renderer-tested; native Bulbasaur versus Charmander fight recorded",
   "romSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
   "sourceCommit": "ef8839d",
   "ownership": {
@@ -129,6 +129,29 @@
     "clipLoaderChecks": 12,
     "appBuild": "passed",
     "fullAppSmoke": "passed 34 integration + 11 control/save checks with lab and Charmander",
-    "isolatedBattleWebGL": "passed 12 checks including native attack replay and paused model loading"
+    "isolatedBattleWebGL": "passed 12 checks including native attack replay and paused model loading",
+    "squirtleWebGL": "Passed 12 checks: exact GLB on both anchors, height/facing, native Tackle signal, read-only Tail Whip fixture, pause and unchanged ROM bytes. Species substitution is an observation fixture, not a native Squirtle playthrough."
+  },
+  "assets": {
+    "4": {
+      "file": "charmander-battle-v3.glb",
+      "sha256": "67c110390c1965d430434b2fcc8544b51c575667ff315a6df09fd7d0bbe75627"
+    },
+    "1": {
+      "file": "bulbasaur-battle-v1.glb",
+      "sha256": "699d26aa7633c51487187c084ded7af6c0d7a92d455a123a6b063d29514ca7c7"
+    },
+    "7": {
+      "file": "squirtle-battle-v1.glb",
+      "sha256": "6cc80b3cb84aeec0e4f077b907ba324be38f2dec8ddbdb83244572214522114b"
+    }
+  },
+  "fightRecording": {
+    "file": "verification/starter-battle-runtime/fight-preview.mp4",
+    "sha256": "046089e5d1d074b46021f3420fffaa9ea894fd8cb678dfe01509f30ccaa85be0",
+    "seconds": 20,
+    "fps": 20,
+    "audio": false,
+    "scope": "Actual native first-turn Bulbasaur versus Charmander input replay with 3D presentation; Tackle and Scratch, final HP 11 and 14"
   }
 }
