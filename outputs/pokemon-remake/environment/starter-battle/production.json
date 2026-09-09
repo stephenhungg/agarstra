@@ -1,0 +1,133 @@
+{
+  "scope": "FireRed first rival battle in Oak's lab, all three starter choices",
+  "status": "Blender authoring and runtime integration in progress",
+  "romSHA1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+  "sourceCommit": "ef8839d",
+  "ownership": {
+    "arena": "game_audit",
+    "creatures": "pokemon_model_cleanup",
+    "runtime": "pokemon_runtime_fix",
+    "generationAndIntegration": "root"
+  },
+  "requests": [
+    {
+      "index": 0,
+      "params": {
+        "model": "gpt_image_2",
+        "quality": "high",
+        "resolution": "2k",
+        "count": 1,
+        "aspect_ratio": "16:9",
+        "prompt": "Create a hyper-realistic physically based 3D game environment concept image of Professor Oak's Pokemon research laboratory converted into a small starter Pokemon battle space. No creatures, no people. Seen from a slightly elevated combat camera looking over a broad clear cream and muted sage tiled floor towards a furnished rear wall. The center 70 percent floor is unobstructed, with two very subtle circular battle-position floor inlays diagonally opposite each other. Rear and side perimeters have warm oak scientific workbenches, a few glass specimen tanks with plants, neatly organized books and a restrained retro laboratory computer, cabinet drawers and botanical research tools. High rectangular windows admit soft warm afternoon daylight. White plaster, sage trim, honest worn wood, brushed steel and clear glass. Cozy believable Kanto lab scale, polished high budget videogame realism with detailed surface textures, gentle contact shadows, cinematic lighting but no heavy bloom. The floor fills the entire foreground and extends beyond every image edge; no floating island or open void. Composition keeps two 3D Pokemon readable in the center. No text, no labels, no logos, no watermarks. This image is a visual target for a real Blender environment reconstruction, make coherent buildable geometry."
+      }
+    },
+    {
+      "index": 1,
+      "params": {
+        "model": "gpt_image_2",
+        "quality": "high",
+        "resolution": "2k",
+        "count": 1,
+        "aspect_ratio": "1:1",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://raw.githubusercontent.com/pret/pokefirered/master/graphics/pokemon/bulbasaur/front.png"
+          }
+        ],
+        "prompt": "Use the supplied original FireRed Bulbasaur sprite strictly as the character identity reference. Generate one complete full-body Bulbasaur as a hyper-realistic physically based 3D creature, suitable as an image-to-3D modeling reference. Preserve its unmistakable squat quadruped frog/dinosaur silhouette, broad friendly face, red eyes, short pointed ears, blue-green skin with distinct dark green patches, three pale claws on each foot, and a large closed green plant bulb centered on its back with overlapping botanical leaf seams. Realistic finely pebbled amphibian skin and fleshy plant material, lifelike subsurface light and roughness, not plastic or plush. Cute and recognizable, no horror or monster redesign. Neutral grounded natural four-leg stance with all four limbs distinctly separated and all feet contacting a common ground plane. Show the entire body and bulb from a gentle front three-quarter angle, camera around body height, near orthographic lens. Mouth closed, no vines or attack effects. One creature only, plain light gray studio background, soft even lighting, very faint contact shadow, generous margin around entire silhouette. No pedestal, no text or diagrams, no crop, no additional views."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "gpt_image_2",
+        "quality": "high",
+        "resolution": "2k",
+        "count": 1,
+        "aspect_ratio": "1:1",
+        "medias": [
+          {
+            "role": "image",
+            "value": "https://raw.githubusercontent.com/pret/pokefirered/master/graphics/pokemon/squirtle/front.png"
+          }
+        ],
+        "prompt": "Use the supplied original FireRed Squirtle sprite strictly as the character identity reference. Generate one complete full-body Squirtle as a hyper-realistic physically based 3D creature, suitable as an image-to-3D modeling reference. Preserve its unmistakable friendly blue biped turtle identity, large round head and large dark warm-brown eyes, smooth light blue skin with subtle fine reptile microtexture, cream segmented belly shell, rich brown domed back shell with pale cream rim and hexagonal scutes, short arms and chunky two feet with small toes, and its signature thick curled blue tail visible beside the body. Realistic organic skin and keratin shell material with detailed roughness, not toy plastic or plush. Cute and recognizable, no horror redesign. Neutral rig-friendly relaxed A-pose standing upright, arms separated from torso by about 30 degrees, two feet apart contacting the same ground plane, fingers gently open. Show full body from a gentle front three-quarter angle, camera at chest height, near orthographic lens. Mouth closed, no water or attack effects. One creature only, plain light gray studio background, soft even lighting, very faint contact shadow, generous margin around silhouette. No pedestal, no text or diagrams, no crop, no additional views."
+      }
+    }
+  ],
+  "imageJobs": [
+    {
+      "index": 0,
+      "job_id": "08e8185c-4820-4843-b681-9ec31be4b55a",
+      "status": "completed"
+    },
+    {
+      "index": 1,
+      "job_id": "c55ba6de-804e-4f3b-b33f-afedc52a5d43",
+      "status": "nsfw"
+    },
+    {
+      "index": 2,
+      "job_id": "32c4eaed-081e-40bb-a546-205841f9e297",
+      "status": "nsfw"
+    }
+  ],
+  "coverage": {
+    "species": [
+      {
+        "id": 1,
+        "name": "Bulbasaur"
+      },
+      {
+        "id": 4,
+        "name": "Charmander"
+      },
+      {
+        "id": 7,
+        "name": "Squirtle"
+      }
+    ],
+    "moves": [
+      "Tackle",
+      "Scratch",
+      "Growl",
+      "Tail Whip"
+    ],
+    "scenes": [
+      "PalletTown_ProfessorOaksLab"
+    ]
+  },
+  "visualAcceptance": "pending actual Blender renders and runtime review",
+  "priorWork": "Camera/player changes set aside on Vault; friend owns replacement",
+  "sourceReferences": [
+    {
+      "species": "bulbasaur",
+      "path": "bulbasaur-source-front.png",
+      "sourceURL": "https://raw.githubusercontent.com/pret/pokefirered/master/graphics/pokemon/bulbasaur/front.png",
+      "sha256": "523c5d50a673c3a46a68a96bd32a63fcfae9192637fb6407198a43746c38f7e3",
+      "role": "original FireRed species appearance reference"
+    },
+    {
+      "species": "squirtle",
+      "path": "squirtle-source-front.png",
+      "sourceURL": "https://raw.githubusercontent.com/pret/pokefirered/master/graphics/pokemon/squirtle/front.png",
+      "sha256": "30d6413a70495a23d4af23a941bae57f5373f7b6fec1e05eb8ef78a0636898bc",
+      "role": "original FireRed species appearance reference"
+    }
+  ],
+  "arenaTarget": {
+    "file": "oak-lab-gpt-image-2.png",
+    "sha256": "ad2028fa62d349b6d591d6a42e202c3ca5653f648a842a17390e9db56a3c1dc3",
+    "model": "gpt_image_2",
+    "review": "Clear battle area and coherent laboratory composition reviewed"
+  },
+  "creatureMethod": "Original FireRed sprite to authored Blender mesh and rig. Requested generated creature references were rejected; no generated image is claimed.",
+  "validation": {
+    "battleSourceChecks": 13,
+    "sourceEventChecks": 10,
+    "clipLoaderChecks": 12,
+    "appBuild": "passed",
+    "fullAppSmoke": "in progress"
+  }
+}

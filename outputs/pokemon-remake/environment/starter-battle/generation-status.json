@@ -1,0 +1,95 @@
+{
+  "initial": {
+    "jobs": [
+      {
+        "index": 0,
+        "job_id": "08e8185c-4820-4843-b681-9ec31be4b55a",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3DHsPC6OCpyUmzAQPLHPaZStjet/hf_20260908_235923_08e8185c-4820-4843-b681-9ec31be4b55a.png"
+      },
+      {
+        "index": 1,
+        "job_id": "c55ba6de-804e-4f3b-b33f-afedc52a5d43",
+        "status": "nsfw",
+        "type": "image",
+        "model": "gpt_image_2"
+      },
+      {
+        "index": 2,
+        "job_id": "32c4eaed-081e-40bb-a546-205841f9e297",
+        "status": "nsfw",
+        "type": "image",
+        "model": "gpt_image_2"
+      }
+    ],
+    "summary": {
+      "total": 3,
+      "completed": 1,
+      "failed": 2,
+      "active": 0,
+      "errors": 0
+    },
+    "all_terminal": true
+  },
+  "retryRequests": [
+    {
+      "index": 1,
+      "params": {
+        "model": "gpt_image_2",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "prompt": "A single Bulbasaur from Pokemon FireRed rendered as a highly realistic, beautifully detailed 3D game character. Preserve the original design exactly: blue-green quadruped with dark teal patches, broad smiling face, red eyes, small pointed ears, short legs with pale claws, and a large green plant bulb on its back. Natural fine amphibian surface detail, realistic leaf veins on the bulb, physically based materials, appealing friendly expression. Full body, neutral standing pose on all four feet with separated legs, front three-quarter camera, near orthographic lens. One complete character centered on a plain pale gray background. Soft even studio lighting. Clean modeling reference, no attack effects, no additional characters, no text, no cropping."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "gpt_image_2",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "1:1",
+        "count": 1,
+        "prompt": "A single Squirtle from Pokemon FireRed rendered as a highly realistic, beautifully detailed 3D game character. Preserve the original design exactly: friendly small blue turtle standing on two feet, large round head, warm brown eyes, cream segmented belly shell, brown domed back shell with cream rim and hexagonal plates, short blue arms and legs, thick curled blue tail clearly visible beside the body. Natural fine reptile surface detail, realistic shell material, physically based rendering, appealing friendly expression. Full body, neutral standing A pose, arms spaced from the torso, both feet on the ground, front three-quarter camera, near orthographic lens. One complete character centered on a plain pale gray background. Soft even studio lighting. Clean modeling reference, no attack effects, no additional characters, no text, no cropping."
+      }
+    }
+  ],
+  "retrySubmission": {
+    "jobs": [
+      {
+        "index": 1,
+        "job_id": "f18247ba-b2a1-49d3-87d4-48520819ee41",
+        "status": "pending"
+      },
+      {
+        "index": 2,
+        "job_id": "d064bf82-ce45-45ca-be35-fbd7180a91a7",
+        "status": "pending"
+      }
+    ],
+    "submitted_count": 2,
+    "failed_count": 0
+  },
+  "retryResult": {
+    "status": "nsfw",
+    "species": [
+      "Bulbasaur",
+      "Squirtle"
+    ],
+    "model": "gpt_image_2"
+  },
+  "userAuthorizedFallback": "built-in image generator",
+  "builtinResult": {
+    "status": "moderation_blocked",
+    "stage": "output",
+    "categories": [
+      "other"
+    ],
+    "requestId": "6d489457-cb7e-4a4e-a8eb-e2c7b734e58b",
+    "usableReferenceReturned": false
+  },
+  "currentCreatureMethod": "Source-sprite-referenced direct Blender mesh authoring, no successful generated creature image"
+}
